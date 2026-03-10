@@ -2,11 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Loader / 4 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col justify-center items-center gap-[80px] bg-[rgba(0,0,0,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[400px] h-[40px] flex flex-col gap-[12px]">
+        <div class="w-[400px] h-[4px] flex flex-col bg-[rgba(68,68,68,1.000)]">
+          <div class="w-[100px] h-[4px] bg-[rgba(255,255,255,1.000)]"></div>
+        </div>
+        <div class="w-[400px] h-[24px] flex flex-row justify-between gap-[149px]">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Loading...</p>
+          <div class="w-[30px] h-[24px] flex flex-row justify-end items-center">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">20</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">%</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

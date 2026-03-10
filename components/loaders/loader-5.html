@@ -2,11 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Loader / 5 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center gap-[80px] bg-[rgba(0,0,0,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1440px] h-[48px] flex flex-col gap-[80px] border border-[rgba(255,255,255,1.000)]">
+        <div class="w-[288px] h-[48px] flex flex-col bg-[rgba(255,255,255,1.000)]"></div>
+      </div>
+      <div class="w-[258px] h-[170px] flex flex-row justify-end">
+        <h1 class="text-[128px] font-[700] leading-[154px] text-[rgba(255,255,255,1.000)] text-center">20</h1>
+        <h1 class="text-[128px] font-[700] leading-[154px] text-[rgba(255,255,255,1.000)] text-center">%</h1>
+      </div>
+    </section>
   </body>
 </html>
