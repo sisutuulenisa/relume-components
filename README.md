@@ -5,6 +5,10 @@ Automatisch gegenereerd via de Figma API. Elke component is een standalone HTML 
 
 **Totaal: 1754 componenten in 58 categorieën**
 
+Laatste extractierun: **10 maart 2026**  
+Figma pagina's ontdekt: **74**  
+API CSS-fetch in deze omgeving: **niet beschikbaar** (DNS-resolutie faalt), daarom is fallback gebruikt op component-metadata.
+
 ## Gebruik als AI-referentie
 
 - `index.json` — manifest met naam, categorie, bestandspad, beschrijving en tags

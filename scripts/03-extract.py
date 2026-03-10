@@ -1,766 +1,635 @@
 #!/usr/bin/env python3
-"""
-03-extract.py — Genereer HTML + Tailwind componenten vanuit components-raw.json
-"""
+import argparse
+import html
 import json
 import os
 import re
+import subprocess
 import sys
+import unicodedata
+from datetime import datetime, timezone
 from pathlib import Path
-
-COMPONENTS_RAW = Path(__file__).resolve().parent / "components-raw.json"
-OUT_DIR = Path(__file__).resolve().parent.parent / "components"
-INDEX_PATH = Path(__file__).resolve().parent.parent / "index.json"
-REPO_ROOT = Path(__file__).resolve().parent.parent
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
 
-def slugify(name: str) -> str:
-    name = name.lower()
-    name = re.sub(r"[✨🆕]+", "", name)
-    name = re.sub(r"[^a-z0-9\s\-]", "", name)
-    name = name.strip()
-    name = re.sub(r"[\s\-]+", "-", name)
-    return name
+FILE_KEY = "csPgPVhduXpcjSAKHqsygR"
+API_BASE = "https://api.figma.com/v1"
+ROOT_DIR = Path(__file__).resolve().parent.parent
+SCRIPT_DIR = Path(__file__).resolve().parent
+ENV_PATH = ROOT_DIR / ".env"
+DEFAULT_COMPONENTS_RAW = SCRIPT_DIR / "components-raw.json"
+DEFAULT_OUTPUT_DIR = ROOT_DIR / "components"
+DEFAULT_INDEX_PATH = ROOT_DIR / "index.json"
+
+IMAGE_LIKE_TYPES = {"RECTANGLE", "ELLIPSE", "VECTOR", "STAR", "POLYGON"}
 
 
-def page_to_category(page_name: str) -> str:
-    cleaned = re.sub(r"^\s*↳\s*", "", page_name).strip()
-    return slugify(cleaned)
+def load_env(path: Path) -> None:
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip("'").strip('"')
+        if key and key not in os.environ:
+            os.environ[key] = value
 
 
-def describe_component(name: str, category: str) -> str:
-    """Geef een korte beschrijving op basis van naam + categorie."""
-    n = name.lower()
-    if "split" in n:
-        return f"{category.replace('-', ' ').title()} with split layout"
-    if "centered" in n or "centre" in n:
-        return f"Centered {category.replace('-', ' ')} layout"
-    if "image" in n or "img" in n:
-        return f"{category.replace('-', ' ').title()} with image"
-    if "video" in n:
-        return f"{category.replace('-', ' ').title()} with video"
-    if "grid" in n:
-        return f"{category.replace('-', ' ').title()} in grid layout"
-    if "minimal" in n:
-        return f"Minimal {category.replace('-', ' ')} variant"
-    return f"{category.replace('-', ' ').title()} component: {name}"
+def slugify(text: str, fallback: str = "item") -> str:
+    text = unicodedata.normalize("NFKD", text or "")
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+    return text or fallback
 
 
-def tags_for(name: str, category: str) -> list:
-    tags = [category]
-    name_lower = name.lower()
-    for kw in ["split", "centered", "grid", "image", "video", "minimal", "dark", "light",
-               "form", "modal", "sidebar", "table", "card", "banner", "hero", "cta",
-               "navbar", "footer", "blog", "pricing", "team", "faq", "gallery",
-               "stats", "timeline", "contact", "features", "logo"]:
-        if kw in name_lower:
-            tags.append(kw)
-    return list(dict.fromkeys(tags))  # dedup
+def clean_page_name(name: str) -> str:
+    cleaned = re.sub(r"^[\s↳]+", "", name or "").strip()
+    return re.sub(r"\s+", " ", cleaned)
 
 
-# --- HTML template builders per category ---
+def rgba(fill_color: dict | None, opacity: float | None = None) -> str:
+    if not fill_color:
+        return "rgba(0,0,0,1)"
+    r = int(round(float(fill_color.get("r", 0)) * 255))
+    g = int(round(float(fill_color.get("g", 0)) * 255))
+    b = int(round(float(fill_color.get("b", 0)) * 255))
+    a = float(fill_color.get("a", 1))
+    if opacity is not None:
+        a *= float(opacity)
+    a = max(0.0, min(1.0, a))
+    return f"rgba({r},{g},{b},{a:.3f})"
 
-HTML_HEAD = """<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title}</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white font-sans antialiased">
-<!-- Relume: {name} | Category: {category} | ID: {node_id} -->
-"""
 
-HTML_FOOT = """
-</body>
+def fmt_px(value) -> str | None:
+    if value is None:
+        return None
+    try:
+        v = float(value)
+    except (TypeError, ValueError):
+        return None
+    if v <= 0:
+        return None
+    return f"{int(round(v))}px"
+
+
+def class_px(prefix: str, value) -> str | None:
+    px = fmt_px(value)
+    if not px:
+        return None
+    return f"{prefix}-[{px}]"
+
+
+def dedupe_classes(classes: list[str]) -> list[str]:
+    seen = set()
+    result = []
+    for cls in classes:
+        if not cls or cls in seen:
+            continue
+        seen.add(cls)
+        result.append(cls)
+    return result
+
+
+def first_visible_fill(node: dict) -> dict | None:
+    for fill in node.get("fills", []) or []:
+        if fill.get("visible", True):
+            return fill
+    return None
+
+
+def first_visible_stroke(node: dict) -> dict | None:
+    for stroke in node.get("strokes", []) or []:
+        if stroke.get("visible", True):
+            return stroke
+    return None
+
+
+def padding_classes(node: dict) -> list[str]:
+    pt = node.get("paddingTop")
+    pr = node.get("paddingRight")
+    pb = node.get("paddingBottom")
+    pl = node.get("paddingLeft")
+    if any(v is None for v in (pt, pr, pb, pl)):
+        return []
+
+    classes = []
+    if pt == pr == pb == pl:
+        c = class_px("p", pt)
+        if c:
+            classes.append(c)
+        return classes
+
+    if pl == pr:
+        c = class_px("px", pl)
+        if c:
+            classes.append(c)
+    else:
+        for prefix, value in (("pl", pl), ("pr", pr)):
+            c = class_px(prefix, value)
+            if c:
+                classes.append(c)
+
+    if pt == pb:
+        c = class_px("py", pt)
+        if c:
+            classes.append(c)
+    else:
+        for prefix, value in (("pt", pt), ("pb", pb)):
+            c = class_px(prefix, value)
+            if c:
+                classes.append(c)
+
+    return classes
+
+
+def border_radius_classes(node: dict) -> list[str]:
+    classes = []
+    corner_radius = node.get("cornerRadius")
+    if corner_radius is not None:
+        c = class_px("rounded", corner_radius)
+        if c:
+            classes.append(c)
+        return classes
+
+    radii = node.get("rectangleCornerRadii")
+    if isinstance(radii, list) and len(radii) == 4:
+        if radii[0] == radii[1] == radii[2] == radii[3]:
+            c = class_px("rounded", radii[0])
+            if c:
+                classes.append(c)
+        else:
+            mapping = [
+                ("rounded-tl", radii[0]),
+                ("rounded-tr", radii[1]),
+                ("rounded-br", radii[2]),
+                ("rounded-bl", radii[3]),
+            ]
+            for prefix, value in mapping:
+                c = class_px(prefix, value)
+                if c:
+                    classes.append(c)
+    return classes
+
+
+def map_layout_classes(node: dict) -> list[str]:
+    classes = []
+    layout_mode = node.get("layoutMode")
+    if layout_mode == "HORIZONTAL":
+        classes.extend(["flex", "flex-row"])
+    elif layout_mode == "VERTICAL":
+        classes.extend(["flex", "flex-col"])
+
+    if node.get("layoutWrap") == "WRAP":
+        classes.append("flex-wrap")
+
+    align_primary = node.get("primaryAxisAlignItems")
+    if align_primary == "MIN":
+        classes.append("justify-start")
+    elif align_primary == "CENTER":
+        classes.append("justify-center")
+    elif align_primary == "MAX":
+        classes.append("justify-end")
+    elif align_primary == "SPACE_BETWEEN":
+        classes.append("justify-between")
+
+    align_cross = node.get("counterAxisAlignItems")
+    if align_cross == "MIN":
+        classes.append("items-start")
+    elif align_cross == "CENTER":
+        classes.append("items-center")
+    elif align_cross == "MAX":
+        classes.append("items-end")
+    elif align_cross == "BASELINE":
+        classes.append("items-baseline")
+
+    gap = class_px("gap", node.get("itemSpacing"))
+    if gap:
+        classes.append(gap)
+    return classes
+
+
+def map_size_classes(node: dict, is_root: bool = False) -> list[str]:
+    if is_root:
+        return ["w-full"]
+
+    box = node.get("absoluteBoundingBox") or {}
+    classes = []
+    w = class_px("w", box.get("width"))
+    h = class_px("h", box.get("height"))
+    if w:
+        classes.append(w)
+    if h:
+        classes.append(h)
+    return classes
+
+
+def map_fill_stroke_classes(node: dict) -> list[str]:
+    classes = []
+    fill = first_visible_fill(node)
+    if fill and fill.get("type") == "SOLID":
+        classes.append(f"bg-[{rgba(fill.get('color'), fill.get('opacity'))}]")
+
+    stroke = first_visible_stroke(node)
+    if stroke and stroke.get("type") == "SOLID":
+        classes.append("border")
+        classes.append(f"border-[{rgba(stroke.get('color'), stroke.get('opacity'))}]")
+    return classes
+
+
+def map_effect_classes(node: dict) -> list[str]:
+    for effect in node.get("effects", []) or []:
+        if effect.get("visible", True) and effect.get("type") == "DROP_SHADOW":
+            return ["shadow-md"]
+    return []
+
+
+def map_text_classes(node: dict) -> list[str]:
+    classes = []
+    style = node.get("style", {}) or {}
+
+    font_size = style.get("fontSize")
+    if font_size:
+        classes.append(f"text-[{int(round(float(font_size)))}px]")
+
+    font_weight = style.get("fontWeight")
+    if font_weight:
+        classes.append(f"font-[{int(round(float(font_weight)))}]")
+
+    line_height = style.get("lineHeightPx")
+    if line_height:
+        classes.append(f"leading-[{int(round(float(line_height)))}px]")
+
+    letter_spacing = style.get("letterSpacing")
+    if letter_spacing and float(letter_spacing) != 0:
+        classes.append(f"tracking-[{float(letter_spacing):g}px]")
+
+    fill = first_visible_fill(node)
+    if fill and fill.get("type") == "SOLID":
+        classes.append(f"text-[{rgba(fill.get('color'), fill.get('opacity'))}]")
+    else:
+        classes.append("text-gray-900")
+
+    text_align = style.get("textAlignHorizontal")
+    if text_align == "LEFT":
+        classes.append("text-left")
+    elif text_align == "CENTER":
+        classes.append("text-center")
+    elif text_align == "RIGHT":
+        classes.append("text-right")
+    elif text_align == "JUSTIFIED":
+        classes.append("text-justify")
+
+    text_case = style.get("textCase")
+    if text_case == "UPPER":
+        classes.append("uppercase")
+    elif text_case == "LOWER":
+        classes.append("lowercase")
+
+    decoration = style.get("textDecoration")
+    if decoration == "UNDERLINE":
+        classes.append("underline")
+    elif decoration == "STRIKETHROUGH":
+        classes.append("line-through")
+
+    return classes
+
+
+def is_image_placeholder(node: dict) -> bool:
+    node_type = node.get("type")
+    node_name = (node.get("name") or "").lower()
+    fill = first_visible_fill(node)
+    if fill and fill.get("type") == "IMAGE":
+        return True
+    if node_type in IMAGE_LIKE_TYPES and any(word in node_name for word in ("image", "img", "photo", "picture")):
+        return True
+    return False
+
+
+def semantic_root_tag(category: str) -> str:
+    c = (category or "").lower()
+    if "nav" in c or "menu" in c:
+        return "nav"
+    if "hero" in c or "header" in c:
+        return "header"
+    if "blog" in c or "article" in c or "post" in c:
+        return "article"
+    return "section"
+
+
+def semantic_text_tag(node: dict) -> str:
+    style = node.get("style", {}) or {}
+    size = float(style.get("fontSize") or 0)
+    if size >= 36:
+        return "h1"
+    if size >= 30:
+        return "h2"
+    if size >= 24:
+        return "h3"
+    if size >= 20:
+        return "h4"
+    return "p"
+
+
+def build_layout_classes(node: dict, is_root: bool = False) -> list[str]:
+    classes = []
+    classes.extend(map_size_classes(node, is_root=is_root))
+    classes.extend(map_layout_classes(node))
+    classes.extend(padding_classes(node))
+    classes.extend(border_radius_classes(node))
+    classes.extend(map_fill_stroke_classes(node))
+    classes.extend(map_effect_classes(node))
+    if node.get("clipsContent"):
+        classes.append("overflow-hidden")
+    return dedupe_classes(classes)
+
+
+def render_node(node: dict, category: str, is_root: bool = False, indent: int = 2) -> str:
+    if node.get("visible") is False:
+        return ""
+
+    node_type = node.get("type")
+    pad = " " * indent
+
+    if node_type == "TEXT":
+        tag = semantic_text_tag(node)
+        text = (node.get("characters") or "").strip() or node.get("name") or "Placeholder text"
+        classes = dedupe_classes(map_text_classes(node))
+        return f'{pad}<{tag} class="{" ".join(classes)}">{html.escape(text)}</{tag}>'
+
+    if is_image_placeholder(node):
+        classes = build_layout_classes(node, is_root=False)
+        classes.append("bg-gray-200")
+        if not any(c.startswith("h-[") for c in classes):
+            classes.append("h-[240px]")
+        if not any(c.startswith("w-[") for c in classes):
+            classes.append("w-full")
+        return f'{pad}<div class="{" ".join(dedupe_classes(classes))}" role="img" aria-label="Image placeholder"></div>'
+
+    children = [c for c in node.get("children", []) or [] if c.get("visible", True)]
+    if is_root:
+        tag = semantic_root_tag(category)
+    elif node_type == "INSTANCE" and "button" in (node.get("name") or "").lower():
+        tag = "button"
+    else:
+        tag = "div"
+
+    classes = build_layout_classes(node, is_root=is_root)
+    if is_root:
+        classes.extend(["mx-auto", "max-w-[1440px]"])
+
+    opening = f'{pad}<{tag} class="{" ".join(dedupe_classes(classes))}">'
+    closing = f"{pad}</{tag}>"
+
+    if not children:
+        if tag == "button":
+            label = node.get("name") or "Button"
+            base = dedupe_classes(classes + ["px-[16px]", "py-[10px]", "rounded-[8px]", "bg-gray-900", "text-white"])
+            return f'{pad}<button class="{" ".join(base)}">{html.escape(label)}</button>'
+        return f"{opening}{closing[len(pad):]}"
+
+    rendered_children = []
+    for child in children:
+        chunk = render_node(child, category=category, is_root=False, indent=indent + 2)
+        if chunk:
+            rendered_children.append(chunk)
+
+    if not rendered_children:
+        return f"{opening}{closing[len(pad):]}"
+
+    return "\n".join([opening, *rendered_children, closing])
+
+
+def api_get(path: str) -> dict:
+    token = os.environ.get("FIGMA_PERSONAL_ACCESS_TOKEN")
+    if not token:
+        raise RuntimeError("FIGMA_PERSONAL_ACCESS_TOKEN ontbreekt in omgeving/.env")
+
+    request = Request(
+        f"{API_BASE}{path}",
+        headers={
+            "X-Figma-Token": token,
+            "Accept": "application/json",
+        },
+    )
+    with urlopen(request, timeout=90) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def chunked(items: list[str], size: int) -> list[list[str]]:
+    out = []
+    for i in range(0, len(items), size):
+        out.append(items[i : i + size])
+    return out
+
+
+def fetch_nodes_with_fallback(components: list[dict], fetch_batch_size: int) -> tuple[dict, bool]:
+    by_id = {c["id"]: c.get("node") for c in components if c.get("id")}
+    component_ids = [c["id"] for c in components if c.get("id")]
+    if not component_ids:
+        return by_id, False
+
+    used_api = False
+    for id_batch in chunked(component_ids, fetch_batch_size):
+        query = urlencode({"ids": ",".join(id_batch)})
+        path = f"/files/{FILE_KEY}/nodes?{query}"
+        try:
+            payload = api_get(path)
+        except (HTTPError, URLError, RuntimeError) as exc:
+            print(f"[WARN] Kon component-batch niet ophalen via API ({id_batch[0]}..): {exc}", file=sys.stderr)
+            continue
+        except Exception as exc:
+            print(f"[WARN] Onverwachte fout bij API-fetch ({id_batch[0]}..): {exc}", file=sys.stderr)
+            continue
+
+        used_api = True
+        nodes = payload.get("nodes", {})
+        for cid in id_batch:
+            doc = nodes.get(cid, {}).get("document")
+            if doc:
+                by_id[cid] = doc
+    return by_id, used_api
+
+
+def read_components(path: Path) -> list[dict]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    components: list[dict] = []
+
+    if isinstance(data.get("kept_pages"), list):
+        for page in data.get("kept_pages", []):
+            category = clean_page_name(page.get("name") or "uncategorized")
+            for comp in page.get("components", []):
+                components.append(
+                    {
+                        "id": comp.get("id"),
+                        "name": comp.get("name") or "component",
+                        "type": comp.get("type"),
+                        "page_id": page.get("id"),
+                        "page_name": category,
+                        "node": comp.get("node"),
+                    }
+                )
+        return components
+
+    if isinstance(data.get("components"), list):
+        for comp in data.get("components", []):
+            components.append(
+                {
+                    "id": comp.get("id"),
+                    "name": comp.get("name") or "component",
+                    "type": comp.get("type"),
+                    "page_id": comp.get("page_id"),
+                    "page_name": clean_page_name(comp.get("page_name") or "uncategorized"),
+                    "node": comp.get("node"),
+                }
+            )
+        return components
+
+    return components
+
+
+def build_html_document(title: str, body: str) -> str:
+    safe_title = html.escape(title)
+    return f"""<!doctype html>
+<html lang=\"en\">
+  <head>
+    <meta charset=\"UTF-8\" />
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
+    <title>{safe_title}</title>
+    <script src=\"https://cdn.tailwindcss.com\"></script>
+  </head>
+  <body class=\"bg-white text-gray-900 antialiased\">
+{body}
+  </body>
 </html>
 """
 
 
-def make_placeholder_image(classes="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center"):
-    return f'<div class="{classes}"><span class="text-gray-400 text-sm">Image placeholder</span></div>'
-
-
-def make_button(label="Get started", variant="primary"):
-    if variant == "primary":
-        return f'<a href="#" class="inline-flex items-center justify-center px-6 py-3 bg-black text-white text-sm font-semibold rounded-md hover:bg-gray-800 transition-colors">{label}</a>'
-    return f'<a href="#" class="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-sm font-semibold rounded-md hover:bg-gray-50 transition-colors">{label}</a>'
-
-
-LOREM = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
-LOREM_SHORT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-
-BUILDERS: dict = {}
-
-
-def register(cats):
-    def decorator(fn):
-        for c in cats:
-            BUILDERS[c] = fn
-        return fn
-    return decorator
-
-
-@register(["navbars", "navbar"])
-def build_navbar(name, category, node_id):
-    is_centered = "centered" in name.lower()
-    is_dark = "dark" in name.lower()
-    bg = "bg-black" if is_dark else "bg-white"
-    text = "text-white" if is_dark else "text-gray-900"
-    border = "" if is_dark else "border-b border-gray-200"
-    logo_text = "text-white" if is_dark else "text-black"
-    links_color = "text-gray-300 hover:text-white" if is_dark else "text-gray-600 hover:text-gray-900"
-
-    center_class = "justify-center" if is_centered else "justify-between"
-    return f"""
-<nav class="{bg} {border} sticky top-0 z-50 w-full">
-  <div class="container mx-auto px-6 py-4 flex items-center {center_class} gap-8">
-    <a href="#" class="font-bold text-xl {logo_text}">Brand</a>
-    {"" if is_centered else ""}
-    <ul class="hidden md:flex items-center gap-6">
-      <li><a href="#" class="text-sm {links_color} transition-colors">Home</a></li>
-      <li><a href="#" class="text-sm {links_color} transition-colors">About</a></li>
-      <li><a href="#" class="text-sm {links_color} transition-colors">Services</a></li>
-      <li><a href="#" class="text-sm {links_color} transition-colors">Blog</a></li>
-      <li><a href="#" class="text-sm {links_color} transition-colors">Contact</a></li>
-    </ul>
-    <div class="flex items-center gap-3">
-      {make_button("Log in", "secondary")}
-      {make_button("Sign up")}
-    </div>
-    <button class="md:hidden p-2">
-      <svg class="w-6 h-6 {logo_text}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-    </button>
-  </div>
-</nav>
-"""
-
-
-@register(["footers", "footer"])
-def build_footer(name, category, node_id):
-    is_dark = "dark" in name.lower()
-    bg = "bg-black" if is_dark else "bg-gray-50"
-    text = "text-gray-400" if is_dark else "text-gray-600"
-    heading = "text-white" if is_dark else "text-gray-900"
-    return f"""
-<footer class="{bg} border-t border-gray-200 py-16">
-  <div class="container mx-auto px-6">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-      <div>
-        <h3 class="font-bold text-sm {heading} mb-4">Company</h3>
-        <ul class="space-y-2">
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">About</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Careers</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Press</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-bold text-sm {heading} mb-4">Product</h3>
-        <ul class="space-y-2">
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Features</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Pricing</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Security</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-bold text-sm {heading} mb-4">Resources</h3>
-        <ul class="space-y-2">
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Blog</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Documentation</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Support</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-bold text-sm {heading} mb-4">Legal</h3>
-        <ul class="space-y-2">
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Privacy</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Terms</a></li>
-          <li><a href="#" class="text-sm {text} hover:text-gray-900">Cookies</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-      <p class="text-sm {text}">© 2025 Brand. All rights reserved.</p>
-      <div class="flex items-center gap-4">
-        <a href="#" class="text-sm {text} hover:text-gray-900">Twitter</a>
-        <a href="#" class="text-sm {text} hover:text-gray-900">LinkedIn</a>
-        <a href="#" class="text-sm {text} hover:text-gray-900">GitHub</a>
-      </div>
-    </div>
-  </div>
-</footer>
-"""
-
-
-@register(["hero-headers", "headers", "hero-headers-new", "cta-new"])
-def build_hero(name, category, node_id):
-    is_split = "split" in name.lower()
-    is_centered = "centered" in name.lower() or ("split" not in name.lower() and "video" not in name.lower())
-    is_dark = "dark" in name.lower()
-    has_video = "video" in name.lower()
-    bg = "bg-black" if is_dark else "bg-white"
-    text = "text-white" if is_dark else "text-gray-900"
-    sub = "text-gray-400" if is_dark else "text-gray-600"
-
-    if is_split:
-        return f"""
-<section class="{bg} py-20 md:py-28">
-  <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-    <div>
-      <p class="text-sm font-semibold {sub} uppercase tracking-wider mb-4">Tagline</p>
-      <h1 class="text-4xl md:text-5xl font-bold {text} mb-6 leading-tight">Medium length hero heading goes here</h1>
-      <p class="text-lg {sub} mb-8">{LOREM_SHORT}</p>
-      <div class="flex items-center gap-4 flex-wrap">
-        {make_button("Get started")}
-        {make_button("Learn more", "secondary")}
-      </div>
-    </div>
-    <div>
-      {make_placeholder_image("w-full h-80 bg-gray-200 rounded-xl flex items-center justify-center")}
-    </div>
-  </div>
-</section>
-"""
-    elif has_video:
-        return f"""
-<section class="{bg} py-20 md:py-32">
-  <div class="container mx-auto px-6 text-center max-w-4xl">
-    <p class="text-sm font-semibold {sub} uppercase tracking-wider mb-4">Tagline</p>
-    <h1 class="text-4xl md:text-6xl font-bold {text} mb-6">Medium length hero heading goes here</h1>
-    <p class="text-lg {sub} mb-8 max-w-2xl mx-auto">{LOREM_SHORT}</p>
-    <div class="flex items-center justify-center gap-4 mb-12 flex-wrap">
-      {make_button("Get started")}
-      {make_button("Learn more", "secondary")}
-    </div>
-    <div class="w-full aspect-video bg-gray-200 rounded-xl flex items-center justify-center">
-      <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
-        <svg class="w-6 h-6 text-gray-900 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-  </div>
-</section>
-"""
-    else:
-        return f"""
-<section class="{bg} py-20 md:py-32">
-  <div class="container mx-auto px-6 text-center max-w-3xl">
-    <p class="text-sm font-semibold {sub} uppercase tracking-wider mb-4">Tagline</p>
-    <h1 class="text-4xl md:text-6xl font-bold {text} mb-6">Medium length hero heading goes here</h1>
-    <p class="text-lg {sub} mb-8 max-w-xl mx-auto">{LOREM_SHORT}</p>
-    <div class="flex items-center justify-center gap-4 flex-wrap">
-      {make_button("Get started")}
-      {make_button("Learn more", "secondary")}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["features"])
-def build_features(name, category, node_id):
-    is_centered = "centered" in name.lower()
-    cols = "grid-cols-1 md:grid-cols-3" if "3" in name else "grid-cols-1 md:grid-cols-2"
-    align = "text-center" if is_centered else "text-left"
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6">
-    <div class="{align} max-w-2xl {"mx-auto" if is_centered else ""} mb-12">
-      <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Tagline</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Short heading here</h2>
-      <p class="text-lg text-gray-600">{LOREM_SHORT}</p>
-    </div>
-    <div class="grid {cols} gap-8">
-      {"".join([f'''
-      <div class="{align}">
-        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4 {"mx-auto" if is_centered else ""}">
-          <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-          </svg>
-        </div>
-        <h3 class="text-lg font-bold text-gray-900 mb-2">Feature {i+1}</h3>
-        <p class="text-gray-600 text-sm">{LOREM_SHORT}</p>
-      </div>''' for i in range(3)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["pricing", "pricing-pages"])
-def build_pricing(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6">
-    <div class="text-center max-w-2xl mx-auto mb-12">
-      <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Pricing</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Simple, transparent pricing</h2>
-      <p class="text-lg text-gray-600">{LOREM_SHORT}</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-      <div class="border border-gray-200 rounded-xl p-8">
-        <h3 class="font-bold text-gray-900 mb-1">Starter</h3>
-        <p class="text-gray-500 text-sm mb-6">For individuals</p>
-        <p class="text-4xl font-bold text-gray-900 mb-6">€9<span class="text-lg font-normal text-gray-500">/mo</span></p>
-        {make_button("Get started")}
-        <ul class="mt-6 space-y-3">
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> 5 projects</li>
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> Basic analytics</li>
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> Email support</li>
-        </ul>
-      </div>
-      <div class="border-2 border-black rounded-xl p-8 relative">
-        <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-black text-white text-xs px-3 py-1 rounded-full">Popular</span>
-        <h3 class="font-bold text-gray-900 mb-1">Pro</h3>
-        <p class="text-gray-500 text-sm mb-6">For teams</p>
-        <p class="text-4xl font-bold text-gray-900 mb-6">€29<span class="text-lg font-normal text-gray-500">/mo</span></p>
-        {make_button("Get started")}
-        <ul class="mt-6 space-y-3">
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> Unlimited projects</li>
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> Advanced analytics</li>
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> Priority support</li>
-        </ul>
-      </div>
-      <div class="border border-gray-200 rounded-xl p-8">
-        <h3 class="font-bold text-gray-900 mb-1">Enterprise</h3>
-        <p class="text-gray-500 text-sm mb-6">For large orgs</p>
-        <p class="text-4xl font-bold text-gray-900 mb-6">€99<span class="text-lg font-normal text-gray-500">/mo</span></p>
-        {make_button("Get started")}
-        <ul class="mt-6 space-y-3">
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> Custom limits</li>
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> SSO & SAML</li>
-          <li class="text-sm text-gray-600 flex items-center gap-2"><span class="text-green-500">✓</span> Dedicated support</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["faq"])
-def build_faq(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6 max-w-3xl">
-    <div class="text-center mb-12">
-      <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">FAQ</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently asked questions</h2>
-    </div>
-    <div class="space-y-4">
-      {"".join([f'''
-      <details class="border border-gray-200 rounded-lg">
-        <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
-          Question {i+1}: Lorem ipsum dolor sit amet?
-          <span class="text-gray-400">+</span>
-        </summary>
-        <div class="px-6 pb-4 text-gray-600 text-sm leading-relaxed">{LOREM}</div>
-      </details>''' for i in range(5)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["team"])
-def build_team(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6">
-    <div class="text-center max-w-2xl mx-auto mb-12">
-      <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Our Team</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet our team</h2>
-      <p class="text-lg text-gray-600">{LOREM_SHORT}</p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-      {"".join([f'''
-      <div class="text-center">
-        <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-          <span class="text-gray-400 text-2xl">👤</span>
-        </div>
-        <h3 class="font-bold text-gray-900">Name Surname</h3>
-        <p class="text-sm text-gray-500">Job title</p>
-      </div>''' for i in range(4)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["contact", "contact-pages"])
-def build_contact(name, category, node_id):
-    is_split = "split" in name.lower()
-    if is_split:
-        return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12">
-    <div>
-      <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Contact</p>
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Get in touch</h2>
-      <p class="text-gray-600 mb-8">{LOREM_SHORT}</p>
-      <div class="space-y-4">
-        <p class="flex items-center gap-3 text-gray-600"><span class="text-gray-900 font-medium">📧</span> hello@example.com</p>
-        <p class="flex items-center gap-3 text-gray-600"><span class="text-gray-900 font-medium">📍</span> 123 Street, City, Country</p>
-        <p class="flex items-center gap-3 text-gray-600"><span class="text-gray-900 font-medium">📞</span> +1 234 567 890</p>
-      </div>
-    </div>
-    <form class="space-y-4">
-      <div class="grid grid-cols-2 gap-4">
-        <div><label class="block text-sm font-medium text-gray-700 mb-1">First name</label><input type="text" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-        <div><label class="block text-sm font-medium text-gray-700 mb-1">Last name</label><input type="text" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      </div>
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Email</label><input type="email" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Message</label><textarea rows="4" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></textarea></div>
-      {make_button("Send message")}
-    </form>
-  </div>
-</section>
-"""
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6 max-w-xl text-center">
-    <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Contact</p>
-    <h2 class="text-3xl font-bold text-gray-900 mb-4">Get in touch</h2>
-    <p class="text-gray-600 mb-8">{LOREM_SHORT}</p>
-    <form class="space-y-4 text-left">
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Email</label><input type="email" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Message</label><textarea rows="4" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></textarea></div>
-      <div class="text-center">{make_button("Send message")}</div>
-    </form>
-  </div>
-</section>
-"""
-
-
-@register(["cta", "banners"])
-def build_cta(name, category, node_id):
-    is_dark = "dark" in name.lower()
-    bg = "bg-black" if is_dark else "bg-gray-50"
-    text = "text-white" if is_dark else "text-gray-900"
-    sub = "text-gray-400" if is_dark else "text-gray-600"
-    return f"""
-<section class="{bg} py-16 md:py-24">
-  <div class="container mx-auto px-6 text-center max-w-2xl">
-    <h2 class="text-3xl md:text-4xl font-bold {text} mb-4">Short heading here</h2>
-    <p class="text-lg {sub} mb-8">{LOREM_SHORT}</p>
-    <div class="flex items-center justify-center gap-4 flex-wrap">
-      {make_button("Get started")}
-      {make_button("Learn more", "secondary")}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["gallery"])
-def build_gallery(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Gallery</h2>
-      <p class="text-gray-600">{LOREM_SHORT}</p>
-    </div>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-      {"".join([f'<div class="aspect-square bg-gray-200 rounded-lg flex items-center justify-center"><span class="text-gray-400 text-sm">Image {i+1}</span></div>' for i in range(6)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["blog-sections", "blog-headers", "blog-pages", "blog-post-headers", "blog-post-pages"])
-def build_blog(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6">
-    <div class="text-center mb-12">
-      <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Blog</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Latest articles</h2>
-      <p class="text-gray-600 max-w-xl mx-auto">{LOREM_SHORT}</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {"".join([f'''
-      <article class="group">
-        <div class="aspect-video bg-gray-200 rounded-lg mb-4 flex items-center justify-center"><span class="text-gray-400 text-sm">Image {i+1}</span></div>
-        <p class="text-xs text-gray-500 mb-2">Category · 5 min read</p>
-        <h3 class="font-bold text-gray-900 mb-2 group-hover:text-gray-600 transition-colors">Blog post title heading goes here</h3>
-        <p class="text-sm text-gray-600 mb-4">{LOREM_SHORT}</p>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
-          <div><p class="text-sm font-medium text-gray-900">Author Name</p><p class="text-xs text-gray-500">Jan 1, 2025</p></div>
-        </div>
-      </article>''' for i in range(3)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["stats-sections", "stat-cards"])
-def build_stats(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-      {"".join([f'''
-      <div class="text-center">
-        <p class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">{num}%</p>
-        <p class="text-gray-500 text-sm">Metric label goes here</p>
-      </div>''' for num in ["80", "65", "95", "40"]])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["testimonials", "logos"])
-def build_logos(name, category, node_id):
-    return f"""
-<section class="bg-gray-50 py-12">
-  <div class="container mx-auto px-6">
-    <p class="text-center text-sm text-gray-400 uppercase tracking-widest mb-8">Trusted by leading companies</p>
-    <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16">
-      {"".join([f'<div class="h-8 w-24 bg-gray-200 rounded flex items-center justify-center"><span class="text-gray-400 text-xs">Logo {i+1}</span></div>' for i in range(6)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["timelines"])
-def build_timeline(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6 max-w-3xl">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Our journey</h2>
-    </div>
-    <div class="relative border-l border-gray-200 ml-4 space-y-10">
-      {"".join([f'''
-      <div class="relative pl-8">
-        <div class="absolute -left-2.5 top-1 w-5 h-5 bg-black rounded-full border-4 border-white"></div>
-        <p class="text-sm font-semibold text-gray-500 mb-1">202{i}</p>
-        <h3 class="font-bold text-gray-900 mb-2">Milestone {i+1}</h3>
-        <p class="text-gray-600 text-sm">{LOREM_SHORT}</p>
-      </div>''' for i in range(4)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["forms", "multi-step-forms", "onboarding-forms"])
-def build_form(name, category, node_id):
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6 max-w-lg">
-    <div class="text-center mb-8">
-      <h2 class="text-3xl font-bold text-gray-900 mb-3">Short heading here</h2>
-      <p class="text-gray-600">{LOREM_SHORT}</p>
-    </div>
-    <form class="space-y-4 bg-white border border-gray-200 rounded-xl p-8">
-      <div class="grid grid-cols-2 gap-4">
-        <div><label class="block text-sm font-medium text-gray-700 mb-1">First name</label><input type="text" placeholder="John" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-        <div><label class="block text-sm font-medium text-gray-700 mb-1">Last name</label><input type="text" placeholder="Doe" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      </div>
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Email</label><input type="email" placeholder="hello@example.com" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Company</label><input type="text" placeholder="Acme Inc." class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Message</label><textarea rows="3" placeholder="How can we help?" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></textarea></div>
-      <div class="flex items-start gap-2">
-        <input type="checkbox" id="consent" class="mt-1">
-        <label for="consent" class="text-xs text-gray-500">I agree to the <a href="#" class="underline">privacy policy</a> and <a href="#" class="underline">terms</a>.</label>
-      </div>
-      <div>{make_button("Submit")}</div>
-    </form>
-  </div>
-</section>
-"""
-
-
-@register(["sign-up-and-log-in-pages", "sign-up-and-log-in-modals"])
-def build_auth(name, category, node_id):
-    is_signup = "sign up" in name.lower() or "signup" in name.lower() or "register" in name.lower()
-    title = "Create an account" if is_signup else "Log in to your account"
-    return f"""
-<section class="bg-gray-50 min-h-screen flex items-center justify-center py-12 px-4">
-  <div class="w-full max-w-md bg-white border border-gray-200 rounded-xl p-8">
-    <div class="text-center mb-8">
-      <div class="text-2xl font-bold text-gray-900 mb-1">Brand</div>
-      <h1 class="text-xl font-bold text-gray-900">{title}</h1>
-      <p class="text-sm text-gray-500 mt-1">{"Already have an account? <a href='#' class='underline'>Log in</a>" if is_signup else "Don't have an account? <a href='#' class='underline'>Sign up</a>"}</p>
-    </div>
-    <form class="space-y-4">
-      {"<div><label class='block text-sm font-medium text-gray-700 mb-1'>Name</label><input type='text' class='w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black'></div>" if is_signup else ""}
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Email</label><input type="email" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      <div><label class="block text-sm font-medium text-gray-700 mb-1">Password</label><input type="password" class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"></div>
-      <div>{make_button("Continue")}</div>
-    </form>
-    <div class="mt-6 relative">
-      <div class="absolute inset-0 flex items-center"><div class="w-full border-t border-gray-200"></div></div>
-      <div class="relative flex justify-center text-xs text-gray-400"><span class="bg-white px-2">or continue with</span></div>
-    </div>
-    <div class="mt-4 grid grid-cols-2 gap-3">
-      {make_button("Google", "secondary")}
-      {make_button("GitHub", "secondary")}
-    </div>
-  </div>
-</section>
-"""
-
-
-@register(["tables"])
-def build_table(name, category, node_id):
-    return f"""
-<section class="bg-white py-16">
-  <div class="container mx-auto px-6">
-    <div class="mb-6 flex items-center justify-between">
-      <h2 class="text-xl font-bold text-gray-900">Data table</h2>
-      {make_button("Add item")}
-    </div>
-    <div class="overflow-x-auto border border-gray-200 rounded-xl">
-      <table class="w-full text-sm">
-        <thead class="bg-gray-50 border-b border-gray-200">
-          <tr>
-            <th class="px-4 py-3 text-left font-semibold text-gray-700">Name</th>
-            <th class="px-4 py-3 text-left font-semibold text-gray-700">Status</th>
-            <th class="px-4 py-3 text-left font-semibold text-gray-700">Date</th>
-            <th class="px-4 py-3 text-left font-semibold text-gray-700">Amount</th>
-            <th class="px-4 py-3 text-right font-semibold text-gray-700">Actions</th>
-          </tr>
-        </thead>
-        <tbody class="divide-y divide-gray-100">
-          {"".join([f'''
-          <tr class="hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900">Item {i+1}</td>
-            <td class="px-4 py-3"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-700">Active</span></td>
-            <td class="px-4 py-3 text-gray-500">Jan {i+1}, 2025</td>
-            <td class="px-4 py-3 text-gray-900">€{(i+1)*25}.00</td>
-            <td class="px-4 py-3 text-right"><button class="text-sm text-gray-500 hover:text-gray-900">Edit</button></td>
-          </tr>''' for i in range(5)])}
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-"""
-
-
-def build_generic(name, category, node_id):
-    """Fallback voor categorieën zonder specifieke builder."""
-    return f"""
-<section class="bg-white py-16 md:py-24">
-  <div class="container mx-auto px-6">
-    <div class="max-w-2xl mx-auto text-center mb-12">
-      <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Section</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Short heading here</h2>
-      <p class="text-lg text-gray-600">{LOREM_SHORT}</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {"".join([f'''
-      <div class="bg-gray-50 rounded-xl p-6">
-        <div class="w-10 h-10 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-          <span class="text-gray-500 text-sm">{i+1}</span>
-        </div>
-        <h3 class="font-bold text-gray-900 mb-2">Item {i+1}</h3>
-        <p class="text-gray-600 text-sm">{LOREM_SHORT}</p>
-      </div>''' for i in range(3)])}
-    </div>
-  </div>
-</section>
-"""
-
-
-def get_builder(category: str):
-    return BUILDERS.get(category, build_generic)
-
-
-def generate_html(component: dict) -> str:
-    name = component["name"]
-    page_name = component["page_name"]
-    node_id = component["id"]
-    category = page_to_category(page_name)
-
-    builder = get_builder(category)
-    body_html = builder(name, category, node_id)
-
-    return (
-        HTML_HEAD.format(
-            title=f"{name} — {category}",
-            name=name,
-            category=category,
-            node_id=node_id,
-        )
-        + body_html
-        + HTML_FOOT
+def run_git_commit(message: str, push: bool) -> None:
+    subprocess.run(["git", "add", "-A"], cwd=ROOT_DIR, check=True)
+    commit = subprocess.run(
+        ["git", "commit", "-m", message],
+        cwd=ROOT_DIR,
+        text=True,
+        capture_output=True,
     )
+    if commit.returncode != 0:
+        text = (commit.stdout or "") + "\n" + (commit.stderr or "")
+        if "nothing to commit" in text.lower():
+            return
+        raise RuntimeError(text.strip())
+    if push:
+        subprocess.run(["git", "push"], cwd=ROOT_DIR, check=True)
 
 
-def main():
-    with open(COMPONENTS_RAW, encoding="utf-8") as f:
-        data = json.load(f)
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Extract Relume components to HTML + Tailwind")
+    parser.add_argument("--components-raw", type=Path, default=DEFAULT_COMPONENTS_RAW)
+    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--index-path", type=Path, default=DEFAULT_INDEX_PATH)
+    parser.add_argument("--fetch-batch-size", type=int, default=20)
+    parser.add_argument("--git-batch-size", type=int, default=0, help="Commit iedere N componenten (0 = uit)")
+    parser.add_argument("--push", action="store_true", help="Push na iedere batch commit")
+    args = parser.parse_args()
 
-    components = data["components"]
-    print(f"Genereren van {len(components)} componenten...")
+    load_env(ENV_PATH)
 
-    index = []
-    written = 0
-    skipped = 0
+    if not args.components_raw.exists():
+        print(f"components-raw niet gevonden: {args.components_raw}", file=sys.stderr)
+        return 1
 
-    # Count per category for naming collisions
-    cat_name_counts: dict = {}
+    components = read_components(args.components_raw)
+    if not components:
+        print("Geen componenten gevonden in components-raw.json", file=sys.stderr)
+        return 1
 
-    for comp in components:
-        name = comp["name"]
-        page_name = comp["page_name"]
-        node_id = comp["id"]
-        category = page_to_category(page_name)
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    nodes_by_id, used_api = fetch_nodes_with_fallback(components, max(1, args.fetch_batch_size))
 
-        slug = slugify(name)
-        if not slug:
-            slug = f"component-{node_id.replace(':', '-')}"
+    manifest = []
+    per_category_counter = {}
+    pending_commit_count = 0
+    pending_categories = set()
+    total = len(components)
 
-        # Handle duplicates within category
-        key = (category, slug)
-        cat_name_counts[key] = cat_name_counts.get(key, 0) + 1
-        count = cat_name_counts[key]
-        if count > 1:
-            final_slug = f"{slug}-{count}"
-        else:
-            final_slug = slug
+    for idx, component in enumerate(components, start=1):
+        category_name = component.get("page_name") or "uncategorized"
+        category_slug = slugify(category_name, fallback="uncategorized")
+        category_dir = args.output_dir / category_slug
+        category_dir.mkdir(parents=True, exist_ok=True)
 
-        out_path = OUT_DIR / category / f"{final_slug}.html"
-        out_path.parent.mkdir(parents=True, exist_ok=True)
+        name_slug = slugify(component.get("name") or "component", fallback="component")
+        count = per_category_counter.get((category_slug, name_slug), 0) + 1
+        per_category_counter[(category_slug, name_slug)] = count
+        filename = f"{name_slug}.html" if count == 1 else f"{name_slug}-{count}.html"
 
-        try:
-            html = generate_html(comp)
-            out_path.write_text(html, encoding="utf-8")
-            written += 1
-        except Exception as e:
-            print(f"  ⚠ Fout bij {name}: {e}", file=sys.stderr)
-            skipped += 1
-            continue
+        node = nodes_by_id.get(component["id"]) or component.get("node") or {}
+        component_markup = render_node(node, category=category_name, is_root=True, indent=4)
+        if not component_markup:
+            component_markup = (
+                "    <section class=\"w-full mx-auto max-w-[1440px] p-[24px]\">"
+                "<p class=\"text-[16px] text-gray-700\">Placeholder</p></section>"
+            )
 
-        index.append({
-            "id": node_id,
-            "name": name,
-            "category": category,
-            "file": f"components/{category}/{final_slug}.html",
-            "description": describe_component(name, category),
-            "tags": tags_for(name, category),
-        })
+        html_doc = build_html_document(component.get("name") or "Component", component_markup)
+        out_path = category_dir / filename
+        out_path.write_text(html_doc, encoding="utf-8")
 
-    INDEX_PATH.write_text(
-        json.dumps(index, indent=2, ensure_ascii=False) + "\n",
+        rel_path = out_path.relative_to(ROOT_DIR).as_posix()
+        manifest.append(
+            {
+                "id": component.get("id"),
+                "name": component.get("name"),
+                "category": category_name,
+                "category_slug": category_slug,
+                "type": component.get("type"),
+                "path": rel_path,
+                "source_page_id": component.get("page_id"),
+                "source_node_id": component.get("id"),
+            }
+        )
+
+        pending_commit_count += 1
+        pending_categories.add(category_slug)
+        print(f"[{idx}/{total}] {rel_path}")
+
+        if args.git_batch_size > 0 and pending_commit_count >= args.git_batch_size:
+            category_label = next(iter(pending_categories)) if len(pending_categories) == 1 else "mixed"
+            message = f"feat: add {category_label} components"
+            run_git_commit(message, push=args.push)
+            pending_commit_count = 0
+            pending_categories = set()
+            print(f"[git] {message}")
+
+    if args.git_batch_size > 0 and pending_commit_count > 0:
+        category_label = next(iter(pending_categories)) if len(pending_categories) == 1 else "mixed"
+        message = f"feat: add {category_label} components"
+        run_git_commit(message, push=args.push)
+        print(f"[git] {message}")
+
+    args.index_path.write_text(
+        json.dumps(
+            {
+                "file_key": FILE_KEY,
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "component_count": len(manifest),
+                "used_api_for_component_css": used_api,
+                "components": manifest,
+            },
+            indent=2,
+            ensure_ascii=False,
+        )
+        + "\n",
         encoding="utf-8",
     )
 
-    print(f"\n✅ Geschreven: {written} componenten")
-    print(f"⚠  Overgeslagen: {skipped}")
-    print(f"📁 Output: {OUT_DIR}")
-    print(f"📋 Index: {INDEX_PATH}")
+    print(f"Totaal componenten: {len(manifest)}")
+    print(f"Manifest: {args.index_path}")
     return 0
 
 
