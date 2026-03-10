@@ -6,6 +6,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
@@ -462,7 +463,7 @@ def render_node(node: dict, category: str, is_root: bool = False, indent: int = 
     return "\n".join([opening, *rendered_children, closing])
 
 
-def api_get(path: str) -> dict:
+def api_get(path: str, max_retries: int = 6, base_delay: float = 2.0) -> dict:
     token = os.environ.get("FIGMA_PERSONAL_ACCESS_TOKEN")
     if not token:
         raise RuntimeError("FIGMA_PERSONAL_ACCESS_TOKEN ontbreekt in omgeving/.env")
@@ -474,8 +475,23 @@ def api_get(path: str) -> dict:
             "Accept": "application/json",
         },
     )
-    with urlopen(request, timeout=90) as response:
-        return json.loads(response.read().decode("utf-8"))
+
+    for attempt in range(max_retries):
+        try:
+            with urlopen(request, timeout=90) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except HTTPError as e:
+            if e.code == 429:
+                retry_after = int(e.headers.get("Retry-After", base_delay * (2 ** attempt)))
+                print(
+                    f"[RATE LIMIT] 429 — wacht {retry_after}s (poging {attempt + 1}/{max_retries})",
+                    file=sys.stderr,
+                )
+                time.sleep(retry_after)
+            else:
+                raise
+
+    raise RuntimeError(f"API call mislukt na {max_retries} pogingen: {path}")
 
 
 def chunked(items: list[str], size: int) -> list[list[str]]:
@@ -497,19 +513,18 @@ def fetch_nodes_with_fallback(components: list[dict], fetch_batch_size: int) -> 
         path = f"/files/{FILE_KEY}/nodes?{query}"
         try:
             payload = api_get(path)
+            used_api = True
+            nodes = payload.get("nodes", {})
+            for cid in id_batch:
+                doc = nodes.get(cid, {}).get("document")
+                if doc:
+                    by_id[cid] = doc
         except (HTTPError, URLError, RuntimeError) as exc:
             print(f"[WARN] Kon component-batch niet ophalen via API ({id_batch[0]}..): {exc}", file=sys.stderr)
-            continue
         except Exception as exc:
             print(f"[WARN] Onverwachte fout bij API-fetch ({id_batch[0]}..): {exc}", file=sys.stderr)
-            continue
-
-        used_api = True
-        nodes = payload.get("nodes", {})
-        for cid in id_batch:
-            doc = nodes.get(cid, {}).get("document")
-            if doc:
-                by_id[cid] = doc
+        finally:
+            time.sleep(1.5)  # 1.5s tussen batches
     return by_id, used_api
 
 
