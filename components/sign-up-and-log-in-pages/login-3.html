@@ -2,11 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Login / 3 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[72px] flex flex-col justify-center items-center overflow-hidden">
+        <div class="w-[84px] h-[36px] overflow-hidden">
+          <div class="w-[70px] h-[36px] overflow-hidden">
+            <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[19px] h-[25px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[22px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[15px] h-[9px] bg-[rgba(0,0,0,1.000)]"></div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1280px] h-[756px] flex flex-row justify-center items-center">
+        <div class="w-[480px] h-[605px] flex flex-col items-center gap-[32px] p-[48px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[384px] h-[109px] flex flex-col items-center gap-[24px]">
+            <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Log In</h1>
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet adipiscing elit.</p>
+          </div>
+          <div class="w-[384px] h-[368px] flex flex-col justify-center items-center gap-[24px]">
+            <div class="w-[384px] h-[80px] flex flex-col gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email*</p>
+              <div class="w-[384px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+            </div>
+            <div class="w-[384px] h-[80px] flex flex-col gap-[8px]">
+              <div class="w-[384px] h-[24px] flex flex-row justify-between">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Password*</p>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center underline">Forgot your password?</p>
+              </div>
+              <div class="w-[384px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+            </div>
+            <div class="w-[384px] h-[160px] flex flex-col items-center gap-[24px]">
+              <div class="w-[384px] h-[112px] flex flex-col gap-[16px]">
+                <button class="w-[384px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Log in</p>
+                </button>
+                <button class="w-[384px] h-[48px] flex flex-row justify-center items-center gap-[12px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[18px] h-[18px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Log in with Google</p>
+                </button>
+              </div>
+              <div class="w-[224px] h-[24px] flex flex-row items-center gap-[5px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Don&#x27;t have an account?</p>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center underline">Sign Up</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1280px] h-[72px] flex flex-row justify-center items-center gap-[5px]">
+        <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-center">© 2022 Relume</p>
+      </div>
+    </section>
   </body>
 </html>
