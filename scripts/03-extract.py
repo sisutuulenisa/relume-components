@@ -1245,10 +1245,7 @@ def build_html_document(title: str, body: str) -> str:
     <meta charset=\"UTF-8\" />
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
     <title>{safe_title}</title>
-    <script src=\"https://cdn.tailwindcss.com\"></script>
-    <style>
-      html, body {{ margin: 0; padding: 0; }}
-    </style>
+    <link rel=\"stylesheet\" href=\"../../dist/tailwind.css\">
   </head>
   <body class=\"bg-white text-gray-900 antialiased font-sans\">
 {body}
