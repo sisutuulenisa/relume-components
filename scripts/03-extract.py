@@ -26,41 +26,69 @@ DEFAULT_INDEX_PATH = ROOT_DIR / "index.json"
 
 IMAGE_LIKE_TYPES = {"RECTANGLE", "ELLIPSE", "VECTOR", "STAR", "POLYGON"}
 
-# Desktop breakpoint detection
+# Breakpoint detection
 DESKTOP_MIN_WIDTH = 1200
 DESKTOP_MAX_WIDTH = 1700
+MOBILE_MAX_WIDTH = 600
+
+
+def normalized_name(node: dict) -> str:
+    raw = (node.get("name") or "")
+    return raw.lower().replace(" ", "").replace("_", "").replace("-", "")
+
+
+def get_visible_children(node: dict) -> list[dict]:
+    return [c for c in node.get("children", []) or [] if c.get("visible", True)]
 
 
 def get_desktop_child(node: dict) -> dict | None:
     """
     For a COMPONENT_SET (or any node with desktop+mobile variants),
     return the desktop breakpoint child.
-
-    Relume's Figma kit consistently uses:
-      - Breakpoint = Desktop  (width ~1440px)
-      - Breakpoint = Mobile   (width ~375px)
     """
     if not node:
         return None
-    children = [c for c in node.get("children", []) or [] if c.get("visible", True)]
+    children = get_visible_children(node)
     if not children:
         return None
 
-    # 1. Match by name — most reliable
     for child in children:
-        raw = (child.get("name") or "")
-        normalized = raw.lower().replace(" ", "").replace("_", "").replace("-", "")
-        if "desktop" in normalized:
+        if "desktop" in normalized_name(child):
             return child
 
-    # 2. Fallback: child with desktop-like bounding width
     for child in children:
         box = child.get("absoluteBoundingBox") or {}
         w = float(box.get("width") or 0)
         if DESKTOP_MIN_WIDTH <= w <= DESKTOP_MAX_WIDTH:
             return child
 
-    return None
+    return max(children, key=lambda c: float((c.get("absoluteBoundingBox") or {}).get("width") or 0), default=None)
+
+
+def get_mobile_child(node: dict) -> dict | None:
+    if not node:
+        return None
+    children = get_visible_children(node)
+    if not children:
+        return None
+
+    for child in children:
+        norm = normalized_name(child)
+        if "mobile" in norm or "phone" in norm:
+            return child
+
+    for child in children:
+        variants = child.get("variantProperties") or {}
+        if any("mobile" in str(v).lower() for v in variants.values()):
+            return child
+
+    for child in children:
+        box = child.get("absoluteBoundingBox") or {}
+        w = float(box.get("width") or 0)
+        if 0 < w <= MOBILE_MAX_WIDTH:
+            return child
+
+    return min(children, key=lambda c: float((c.get("absoluteBoundingBox") or {}).get("width") or 10**9), default=None)
 
 
 def load_env(path: Path) -> None:
@@ -132,6 +160,40 @@ def dedupe_classes(classes: list[str]) -> list[str]:
         seen.add(cls)
         result.append(cls)
     return result
+
+
+def node_box(node: dict) -> dict:
+    return node.get("absoluteBoundingBox") or {}
+
+
+def node_width(node: dict) -> float:
+    return float(node_box(node).get("width") or 0)
+
+
+def node_height(node: dict) -> float:
+    return float(node_box(node).get("height") or 0)
+
+
+def infer_layout_mode(node: dict) -> str | None:
+    layout_mode = node.get("layoutMode")
+    if layout_mode in {"HORIZONTAL", "VERTICAL"}:
+        return layout_mode
+
+    children = get_visible_children(node)
+    if len(children) < 2:
+        return None
+
+    xs = [float(node_box(c).get("x") or 0) for c in children]
+    ys = [float(node_box(c).get("y") or 0) for c in children]
+    if (max(xs) - min(xs)) > 12 and (max(ys) - min(ys)) < 24:
+        return "HORIZONTAL"
+    if (max(ys) - min(ys)) > 12:
+        return "VERTICAL"
+    return None
+
+
+def is_row_layout(node: dict) -> bool:
+    return infer_layout_mode(node) == "HORIZONTAL"
 
 
 def first_visible_fill(node: dict) -> dict | None:
@@ -215,11 +277,14 @@ def border_radius_classes(node: dict) -> list[str]:
     return classes
 
 
-def map_layout_classes(node: dict) -> list[str]:
+def map_layout_classes(node: dict, responsive: bool = False) -> list[str]:
     classes = []
-    layout_mode = node.get("layoutMode")
+    layout_mode = infer_layout_mode(node)
     if layout_mode == "HORIZONTAL":
-        classes.extend(["flex", "flex-row"])
+        if responsive:
+            classes.extend(["flex", "flex-col", "md:flex-row"])
+        else:
+            classes.extend(["flex", "flex-row"])
     elif layout_mode == "VERTICAL":
         classes.extend(["flex", "flex-col"])
 
@@ -252,18 +317,36 @@ def map_layout_classes(node: dict) -> list[str]:
     return classes
 
 
-def map_size_classes(node: dict, is_root: bool = False) -> list[str]:
+def map_size_classes(node: dict, is_root: bool = False, parent: dict | None = None) -> list[str]:
     if is_root:
         return ["w-full"]
 
-    box = node.get("absoluteBoundingBox") or {}
+    box = node_box(node)
     classes = []
-    w = class_px("w", box.get("width"))
-    h = class_px("h", box.get("height"))
-    if w:
-        classes.append(w)
-    if h:
-        classes.append(h)
+
+    w_val = float(box.get("width") or 0)
+    h_val = float(box.get("height") or 0)
+    parent_w = node_width(parent) if parent else 0
+
+    if parent_w > 0 and 0 < w_val < parent_w:
+        width_pct = int(round((w_val / parent_w) * 100))
+        if 0 < width_pct < 100:
+            classes.append(f"w-[{width_pct}%]")
+        else:
+            w = class_px("w", w_val)
+            if w:
+                classes.append(w)
+    else:
+        w = class_px("w", w_val)
+        if w:
+            classes.append(w)
+
+    has_children = bool(get_visible_children(node))
+    keep_height = not has_children or node.get("type") in IMAGE_LIKE_TYPES
+    if keep_height:
+        h = class_px("h", h_val)
+        if h:
+            classes.append(h)
     return classes
 
 
@@ -401,10 +484,69 @@ def semantic_text_tag(node: dict) -> str:
     return "p"
 
 
-def build_layout_classes(node: dict, is_root: bool = False) -> list[str]:
+def extract_text(node: dict) -> str:
+    if node.get("type") == "TEXT":
+        return (node.get("characters") or "").strip()
+    for child in get_visible_children(node):
+        value = extract_text(child)
+        if value:
+            return value
+    return ""
+
+
+def has_icon_descendant(node: dict) -> bool:
+    name = (node.get("name") or "").lower()
+    if "icon" in name or "arrow" in name or "chevron" in name:
+        return True
+    return any(has_icon_descendant(child) for child in get_visible_children(node))
+
+
+def is_tab_container(node: dict) -> bool:
+    children = get_visible_children(node)
+    if len(children) < 3 or not is_row_layout(node):
+        return False
+    labels = [extract_text(child) for child in children]
+    return sum(1 for l in labels if l) >= 3
+
+
+def is_button_node(node: dict) -> bool:
+    return node.get("type") == "INSTANCE" and "button" in (node.get("name") or "").lower()
+
+
+def is_button_group(node: dict) -> bool:
+    children = get_visible_children(node)
+    if len(children) < 2 or not is_row_layout(node):
+        return False
+    return sum(1 for c in children if is_button_node(c)) >= 2
+
+
+def dedupe_tab_panels(children: list[dict]) -> list[dict]:
+    if len(children) < 3:
+        return children
+    first = children[0]
+    if not get_visible_children(first):
+        return children
+    first_inner = get_visible_children(first)[0]
+    if not is_tab_container(first_inner):
+        return children
+
+    kept = [first]
+    panel_name = (children[1].get("name") or "").strip().lower() if len(children) > 1 else ""
+    for idx, child in enumerate(children[1:], start=1):
+        name = (child.get("name") or "").strip().lower()
+        if idx == 1:
+            kept.append(child)
+            continue
+        if panel_name and name == panel_name:
+            continue
+        kept.append(child)
+    return kept
+
+
+def build_layout_classes(node: dict, is_root: bool = False, parent: dict | None = None, responsive: bool = False) -> list[str]:
     classes = []
-    classes.extend(map_size_classes(node, is_root=is_root))
-    classes.extend(map_layout_classes(node))
+    classes.extend(map_size_classes(node, is_root=is_root, parent=parent))
+    classes.extend(map_layout_classes(node, responsive=responsive))
     classes.extend(padding_classes(node))
     classes.extend(border_radius_classes(node))
     classes.extend(map_fill_stroke_classes(node))
@@ -414,37 +556,59 @@ def build_layout_classes(node: dict, is_root: bool = False) -> list[str]:
     return dedupe_classes(classes)
 
 
-def build_image_placeholder_classes(node: dict) -> list[str]:
-    # For image-like primitives we intentionally skip fill/stroke/effect classes
-    # because Figma exports many of these as opaque black shapes.
+def build_image_placeholder_classes(node: dict, parent: dict | None = None, responsive: bool = False) -> list[str]:
     classes = []
-    classes.extend(map_size_classes(node, is_root=False))
-    classes.extend(map_layout_classes(node))
+    classes.extend(map_size_classes(node, is_root=False, parent=parent))
+
+    parent_w = node_width(parent) if parent else 0
+    node_w = node_width(node)
+    if parent_w > 0 and node_w > 0:
+        width_pct = int(round((node_w / parent_w) * 100))
+        width_pct = max(1, min(100, width_pct))
+        if responsive and width_pct <= 60:
+            classes.append("w-full")
+            classes.append(f"md:w-[{width_pct}%]")
+        elif width_pct < 100:
+            classes.append(f"w-[{width_pct}%]")
+    elif is_row_layout(parent or {}):
+        classes.append("max-w-[50%]")
+
+    if responsive and is_row_layout(parent or {}):
+        classes.append("w-full")
+        if not any(c.startswith("md:w-") for c in classes):
+            classes.append("md:w-1/2")
+
+    classes.extend(map_layout_classes(node, responsive=False))
     classes.extend(padding_classes(node))
     classes.extend(border_radius_classes(node))
     if node.get("clipsContent"):
         classes.append("overflow-hidden")
-    classes.append("bg-gray-200")
+
+    classes.extend(["bg-gray-100", "rounded-lg", "flex", "items-center", "justify-center"])
     if not any(c.startswith("h-[") for c in classes):
         classes.append("h-[240px]")
-    if not any(c.startswith("w-[") for c in classes):
+    if not any(c.startswith("w-[") for c in classes) and not any(c == "w-full" for c in classes):
         classes.append("w-full")
     return dedupe_classes(classes)
 
 
-def render_node(node: dict, category: str, is_root: bool = False, indent: int = 2) -> str:
+def render_node(
+    node: dict,
+    category: str,
+    is_root: bool = False,
+    indent: int = 2,
+    parent: dict | None = None,
+    responsive: bool = False,
+) -> str:
     if node.get("visible") is False:
         return ""
 
-    # ── COMPONENT_SET unwrapping ───────────────────────────────────────────────
-    # Relume components are COMPONENT_SETs containing Desktop + Mobile children.
-    # We only want the Desktop breakpoint for the HTML viewer.
     if is_root and node.get("type") == "COMPONENT_SET":
         desktop = get_desktop_child(node)
-        if desktop:
-            node = desktop
+        mobile = get_mobile_child(node)
+        node = desktop or mobile or node
+        responsive = bool(desktop and mobile)
 
-    # Unwrap nested COMPONENT_SETs naar desktop-child
     if not is_root and node.get("type") == "COMPONENT_SET":
         desktop = get_desktop_child(node)
         if desktop:
@@ -460,44 +624,93 @@ def render_node(node: dict, category: str, is_root: bool = False, indent: int = 
         return f'{pad}<{tag} class="{" ".join(classes)}">{html.escape(text)}</{tag}>'
 
     if is_small_icon(node):
-        box = node.get("absoluteBoundingBox") or {}
-        w_val = int(round(float(box.get("width") or 24)))
-        h_val = int(round(float(box.get("height") or 24)))
+        w_val = int(round(node_width(node) or 24))
+        h_val = int(round(node_height(node) or 24))
         return f'{pad}<div class="w-[{w_val}px] h-[{h_val}px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>'
 
     if node_type in IMAGE_LIKE_TYPES or is_image_placeholder(node):
-        classes = build_image_placeholder_classes(node)
-        return f'{pad}<div class="{" ".join(classes)}" role="img" aria-label="Image placeholder"></div>'
+        classes = build_image_placeholder_classes(node, parent=parent, responsive=responsive)
+        svg = (
+            '<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" '
+            'viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">'
+            '<rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/>'
+            '<circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/>'
+            '<polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/>'
+            "</svg>"
+        )
+        return f'{pad}<div class="{" ".join(classes)}" role="img" aria-label="Image placeholder">{svg}</div>'
 
-    children = [c for c in node.get("children", []) or [] if c.get("visible", True)]
+    children = get_visible_children(node)
+    if is_root:
+        children = dedupe_tab_panels(children)
+
+    if is_tab_container(node):
+        tab_classes = ["hidden", "md:flex", "flex-row", "border-b", "border-gray-200"]
+        rows = [f'{pad}<div class="{" ".join(tab_classes)}">']
+        for idx, child in enumerate(children):
+            label = extract_text(child) or f"Tab {idx + 1}"
+            cls = "border border-gray-900 px-4 py-2 text-sm" if idx == 0 else "px-4 py-2 text-sm text-gray-500"
+            rows.append(f'{pad}  <button class="{cls}">{html.escape(label)}</button>')
+        rows.append(f"{pad}</div>")
+        return "\n".join(rows)
+
+    if is_button_group(node):
+        group_rows = [f'{pad}<div class="flex flex-row items-center gap-[24px]">']
+        button_nodes = [c for c in children if is_button_node(c)]
+        for idx, btn in enumerate(button_nodes[:2]):
+            label = extract_text(btn) or "Button"
+            if idx == 0:
+                cls = "bg-gray-900 text-white px-4 py-2.5 rounded"
+            else:
+                cls = "border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent"
+                if has_icon_descendant(btn):
+                    label = f"{label} →"
+            group_rows.append(f'{pad}  <button class="{cls}">{html.escape(label)}</button>')
+        group_rows.append(f"{pad}</div>")
+        return "\n".join(group_rows)
+
     if is_root:
         tag = semantic_root_tag(category)
-    elif node_type == "INSTANCE" and "button" in (node.get("name") or "").lower():
+    elif is_button_node(node):
         tag = "button"
     else:
         tag = "div"
 
-    classes = build_layout_classes(node, is_root=is_root)
+    classes = build_layout_classes(node, is_root=is_root, parent=parent, responsive=responsive)
+
+    if responsive and parent and is_row_layout(parent):
+        classes.append("w-full")
+        if not any(c.startswith("md:w-") for c in classes):
+            classes.append("md:w-1/2")
+
     if tag == "button":
         if not any(c.startswith("bg-") for c in classes):
             classes.extend(["bg-gray-900", "text-white", "px-[16px]", "py-[10px]", "rounded-[8px]"])
         classes.append("cursor-pointer")
+
     if is_root:
-        classes.extend(["mx-auto", "max-w-[1440px]"])
+        classes.extend(["mx-auto", "max-w-[1440px]", "px-[20px]", "md:px-[80px]"])
 
     opening = f'{pad}<{tag} class="{" ".join(dedupe_classes(classes))}">'
     closing = f"{pad}</{tag}>"
 
     if not children:
         if tag == "button":
-            label = node.get("name") or "Button"
+            label = extract_text(node) or node.get("name") or "Button"
             base = dedupe_classes(classes + ["px-[16px]", "py-[10px]", "rounded-[8px]", "bg-gray-900", "text-white"])
             return f'{pad}<button class="{" ".join(base)}">{html.escape(label)}</button>'
         return f"{opening}{closing[len(pad):]}"
 
     rendered_children = []
     for child in children:
-        chunk = render_node(child, category=category, is_root=False, indent=indent + 2)
+        chunk = render_node(
+            child,
+            category=category,
+            is_root=False,
+            indent=indent + 2,
+            parent=node,
+            responsive=responsive,
+        )
         if chunk:
             rendered_children.append(chunk)
 
@@ -615,11 +828,11 @@ def build_html_document(title: str, body: str) -> str:
 <html lang=\"en\">
   <head>
     <meta charset=\"UTF-8\" />
-    <meta name=\"viewport\" content=\"width=1440\" />
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
     <title>{safe_title}</title>
     <script src=\"https://cdn.tailwindcss.com\"></script>
     <style>
-      html, body {{ min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }}
+      html, body {{ margin: 0; padding: 0; }}
     </style>
   </head>
   <body class=\"bg-white text-gray-900 antialiased font-sans\">
