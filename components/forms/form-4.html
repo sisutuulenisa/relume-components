@@ -2,11 +2,106 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Form / 4 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-row gap-[48px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px]">
+      <div class="w-[436px] h-[90px] flex flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)]">
+        <div class="w-[436px] h-[90px] flex flex-col gap-[8px]">
+          <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Account</h3>
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        </div>
+      </div>
+      <div class="w-[580px] h-[1113px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+        <div class="w-[516px] h-[961px] flex flex-col gap-[24px]">
+          <div class="w-[516px] h-[112px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Photo</p>
+            <div class="w-[240px] h-[80px] flex flex-row items-center gap-[24px]">
+              <div class="w-[80px] h-[80px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <button class="w-[136px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Upload photo</p>
+              </button>
+            </div>
+          </div>
+          <div class="w-[516px] h-[80px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Username</p>
+            <div class="w-[516px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+          </div>
+          <div class="w-[516px] h-[80px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Website</p>
+            <div class="w-[516px] h-[48px] flex flex-row border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[68px] h-[48px] flex flex-row items-center gap-[8px] px-[12px] py-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">http://</p>
+              </div>
+              <div class="w-[0px] h-[48px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[448px] h-[48px] flex flex-row items-center gap-[8px] px-[12px] py-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">www.relume.io</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[516px] h-[80px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email address</p>
+            <div class="w-[516px] h-[48px] flex flex-row items-center gap-[12px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[20px] h-[16px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">email@example.com</p>
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[516px] h-[241px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">About</p>
+            <div class="w-[516px] h-[180px] flex flex-row p-[12px] border border-[rgba(0,0,0,1.000)]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Type your message...</p>
+              <div class="w-[2px] h-[2px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[6px] h-[6px] border border-[rgba(0,0,0,1.000)]"></div>
+            </div>
+            <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">263 characters left</p>
+          </div>
+          <div class="w-[516px] h-[144px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Password</p>
+            <div class="w-[516px] h-[112px] flex flex-col gap-[16px]">
+              <div class="w-[516px] h-[48px] flex flex-row items-center gap-[8px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Current password</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+              <div class="w-[516px] h-[48px] flex flex-row items-center gap-[8px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">New password</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[516px] h-[80px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Language</p>
+            <div class="w-[516px] h-[48px] flex flex-row items-center gap-[16px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Select one...</p>
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[12px] h-[7px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[516px] h-[64px] flex flex-row justify-end gap-[16px]">
+          <button class="w-[89px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Cancel</p>
+          </button>
+          <button class="w-[75px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Save</p>
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

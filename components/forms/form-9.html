@@ -2,11 +2,156 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Form / 9 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col gap-[24px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px]">
+      <div class="w-[1064px] h-[1254px] flex flex-col">
+        <div class="w-[1064px] h-[90px] flex flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)]">
+          <div class="w-[1064px] h-[66px] flex flex-col gap-[8px]">
+            <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Payment method</h3>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          </div>
+        </div>
+        <div class="w-[1064px] h-[1164px] flex flex-col gap-[32px]">
+          <div class="w-[560px] h-[704px] flex flex-col gap-[24px]">
+            <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name on invoice</p>
+              <div class="w-[560px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+            </div>
+            <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Card number</p>
+              <div class="w-[560px] h-[48px] flex flex-row items-center gap-[12px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[16px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Placeholder</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[560px] h-[80px] flex flex-row gap-[16px]">
+              <div class="w-[272px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Expiry</p>
+                <div class="w-[272px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[272px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">CVV</p>
+                <div class="w-[272px] h-[48px] flex flex-row items-center gap-[8px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Placeholder</p>
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email address</p>
+              <div class="w-[560px] h-[48px] flex flex-row items-center gap-[12px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[16px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">email@example.com</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Country</p>
+              <div class="w-[560px] h-[48px] flex flex-row items-center gap-[16px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Select one...</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[12px] h-[7px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Street address</p>
+              <div class="w-[560px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+            </div>
+            <div class="w-[560px] h-[80px] flex flex-row gap-[16px]">
+              <div class="w-[176px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">City</p>
+                <div class="w-[176px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[176px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">State / Province</p>
+                <div class="w-[176px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[176px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">ZIP / Postal code</p>
+                <div class="w-[176px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[1064px] h-[428px] flex flex-col gap-[24px]">
+            <div class="w-[1064px] h-[60px] flex flex-col gap-[8px]">
+              <h4 class="text-[20px] font-[700] leading-[28px] text-[rgba(0,0,0,1.000)] text-left">Choose your plan</h4>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            </div>
+            <div class="w-[1064px] h-[344px] flex flex-col gap-[16px]">
+              <div class="w-[1064px] h-[104px] flex flex-row items-center gap-[16px] p-[24px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[1016px] h-[56px] flex flex-row justify-center gap-[16px]">
+                  <div class="w-[56px] h-[56px] flex flex-row p-[12px] bg-[rgba(255,255,255,1.000)]">
+                    <div class="w-[32px] h-[32px] overflow-hidden">
+                      <div class="w-[24px] h-[27px] bg-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </div>
+                  <div class="w-[910px] h-[55px] flex flex-col gap-[4px]">
+                    <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Basic plan $19/month</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="w-[18px] h-[18px] rounded-[100px] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                </div>
+              </div>
+              <div class="w-[1064px] h-[104px] flex flex-row items-center gap-[16px] p-[24px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[1016px] h-[56px] flex flex-row justify-center gap-[16px]">
+                  <div class="w-[56px] h-[56px] flex flex-row p-[12px] bg-[rgba(255,255,255,1.000)]">
+                    <div class="w-[32px] h-[32px] overflow-hidden">
+                      <div class="w-[24px] h-[27px] bg-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </div>
+                  <div class="w-[910px] h-[55px] flex flex-col gap-[4px]">
+                    <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Business plan $29/month</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="w-[18px] h-[18px] rounded-[100px] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                </div>
+              </div>
+              <div class="w-[1064px] h-[104px] flex flex-row items-center gap-[16px] p-[24px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[1016px] h-[56px] flex flex-row justify-center gap-[16px]">
+                  <div class="w-[56px] h-[56px] flex flex-row p-[12px] bg-[rgba(255,255,255,1.000)]">
+                    <div class="w-[32px] h-[32px] overflow-hidden">
+                      <div class="w-[24px] h-[27px] bg-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </div>
+                  <div class="w-[910px] h-[55px] flex flex-col gap-[4px]">
+                    <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Enterprise plan $49/month</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="w-[18px] h-[18px] rounded-[100px] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1064px] h-[64px] flex flex-row justify-end gap-[16px]">
+        <button class="w-[89px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Cancel</p>
+        </button>
+        <button class="w-[75px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Save</p>
+        </button>
+      </div>
+    </section>
   </body>
 </html>
