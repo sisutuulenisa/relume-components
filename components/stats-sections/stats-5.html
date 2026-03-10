@@ -2,11 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Stats / 5 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(68,68,68,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[435px] flex flex-col gap-[80px]">
+        <div class="w-[1280px] h-[215px] flex flex-row gap-[80px]">
+          <div class="w-[600px] h-[156px] flex flex-col gap-[16px] overflow-hidden">
+            <div class="w-[53px] h-[24px] flex flex-row items-center">
+              <p class="text-[16px] font-[600] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Tagline</p>
+            </div>
+            <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(255,255,255,1.000)] text-left">Medium length section heading goes here</h1>
+          </div>
+          <div class="w-[600px] h-[215px] flex flex-col gap-[32px]">
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(255,255,255,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+            <div class="w-[200px] h-[48px] flex flex-row items-center gap-[24px]">
+              <button class="w-[96px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(255,255,255,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
+              </button>
+              <button class="w-[80px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1280px] h-[140px] flex flex-row gap-[48px]">
+          <div class="w-[395px] h-[140px] flex flex-col gap-[8px] border border-[rgba(255,255,255,1.000)]">
+            <h1 class="text-[80px] font-[700] leading-[104px] text-[rgba(255,255,255,1.000)] text-left">30%</h1>
+            <h4 class="text-[20px] font-[700] leading-[28px] text-[rgba(255,255,255,1.000)] text-left">Short heading goes here</h4>
+          </div>
+          <div class="w-[395px] h-[140px] flex flex-col gap-[8px] border border-[rgba(255,255,255,1.000)]">
+            <h1 class="text-[80px] font-[700] leading-[104px] text-[rgba(255,255,255,1.000)] text-left">30%</h1>
+            <h4 class="text-[20px] font-[700] leading-[28px] text-[rgba(255,255,255,1.000)] text-left">Short heading goes here</h4>
+          </div>
+          <div class="w-[395px] h-[140px] flex flex-col gap-[8px] border border-[rgba(255,255,255,1.000)]">
+            <h1 class="text-[80px] font-[700] leading-[104px] text-[rgba(255,255,255,1.000)] text-left">30%</h1>
+            <h4 class="text-[20px] font-[700] leading-[28px] text-[rgba(255,255,255,1.000)] text-left">Short heading goes here</h4>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
