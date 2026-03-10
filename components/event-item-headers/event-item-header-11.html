@@ -2,11 +2,93 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Event Item Header / 11 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <header class="w-full mx-auto max-w-[1440px]"></header>
+    <header class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[485px] flex flex-col gap-[80px]">
+        <div class="w-[1280px] h-[485px] flex flex-row items-center gap-[80px]">
+          <div class="w-[600px] h-[240px] flex flex-col gap-[32px]">
+            <div class="w-[600px] h-[24px] flex flex-row items-center gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Events</p>
+              <div class="w-[16px] h-[16px] overflow-hidden">
+                <div class="w-[4px] h-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Event title</p>
+            </div>
+            <div class="w-[600px] h-[184px] flex flex-col gap-[24px]">
+              <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h1>
+              <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <div class="w-[600px] h-[24px] flex flex-row flex-wrap items-center gap-[16px]">
+                <div class="w-[134px] h-[24px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <div class="w-[102px] h-[21px] flex flex-row items-center gap-[8px]">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Sat 10 Feb 2024</p>
+                  </div>
+                </div>
+                <div class="w-[87px] h-[24px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[20px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Location</p>
+                </div>
+                <div class="w-[90px] h-[24px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[16px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Speakers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[600px] h-[485px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+            <div class="w-[536px] h-[80px] flex flex-row gap-[24px]">
+              <div class="w-[256px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">First name</p>
+                <div class="w-[256px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[256px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Last name</p>
+                <div class="w-[256px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+            <div class="w-[536px] h-[80px] flex flex-row gap-[24px]">
+              <div class="w-[256px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email</p>
+                <div class="w-[256px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[256px] h-[80px] flex flex-col gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Phone number</p>
+                <div class="w-[256px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+            <div class="w-[536px] h-[80px] flex flex-col gap-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Choose a topic</p>
+              <div class="w-[536px] h-[48px] flex flex-row items-center gap-[16px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(102,102,102,1.000)] text-left">Select one...</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[12px] h-[7px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[536px] h-[37px] flex flex-row items-center gap-[8px]">
+              <div class="w-[18px] h-[18px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+              <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">I accept the Terms</p>
+            </div>
+            <button class="w-[144px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Save my spot</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
