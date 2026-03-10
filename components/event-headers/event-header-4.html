@@ -2,11 +2,143 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Event Header / 4 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <header class="w-full mx-auto max-w-[1440px]"></header>
+    <header class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[924px] flex flex-col gap-[80px]">
+        <div class="w-[768px] h-[176px] flex flex-col gap-[16px]">
+          <div class="w-[53px] h-[24px] flex flex-row items-center">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Tagline</p>
+          </div>
+          <div class="w-[768px] h-[136px] flex flex-col items-center gap-[24px]">
+            <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Events</h1>
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="w-[1280px] h-[668px] flex flex-row gap-[32px]">
+          <div class="w-[624px] h-[668px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+            <div class="w-[624px] h-[416px] flex flex-col gap-[10px]">
+              <div class="w-[624px] h-[416px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[112px] h-[108px] flex flex-col justify-center items-center px-[4px] py-[12px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Wed</p>
+                <h2 class="text-[32px] font-[700] leading-[42px] text-[rgba(0,0,0,1.000)] text-center">07</h2>
+                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Feb 2024</p>
+              </div>
+            </div>
+            <div class="w-[624px] h-[252px] flex flex-col gap-[16px] p-[24px]">
+              <div class="w-[576px] h-[156px] flex flex-col gap-[16px]">
+                <div class="w-[576px] h-[29px] flex flex-row flex-wrap items-center gap-[16px]">
+                  <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                    <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                  </div>
+                </div>
+                <div class="w-[576px] h-[111px] flex flex-col gap-[8px]">
+                  <div class="w-[576px] h-[55px] flex flex-col">
+                    <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Location</p>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                </div>
+              </div>
+              <div class="w-[576px] h-[32px] flex flex-col gap-[8px]">
+                <button class="w-[110px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View event</p>
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[624px] h-[637px] flex flex-col gap-[32px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+            <div class="w-[624px] h-[191px] flex flex-row items-center gap-[24px] p-[16px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[96px] h-[90px] flex flex-col justify-center items-center overflow-hidden">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Fri</p>
+                <h2 class="text-[32px] font-[700] leading-[42px] text-[rgba(0,0,0,1.000)] text-center">09</h2>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Feb 2024</p>
+              </div>
+              <div class="w-[0px] h-[159px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[448px] h-[159px] flex flex-col gap-[8px]">
+                <div class="w-[448px] h-[55px] flex flex-col">
+                  <div class="w-[448px] h-[34px] flex flex-row flex-wrap items-center gap-[16px]">
+                    <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
+                    <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                    </div>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Location</p>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <div class="w-[448px] h-[40px] flex flex-col gap-[8px]">
+                  <button class="w-[110px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View event</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-[624px] h-[191px] flex flex-row items-center gap-[24px] p-[16px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[96px] h-[90px] flex flex-col justify-center items-center overflow-hidden">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Sat</p>
+                <h2 class="text-[32px] font-[700] leading-[42px] text-[rgba(0,0,0,1.000)] text-center">10</h2>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Feb 2024</p>
+              </div>
+              <div class="w-[0px] h-[159px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[448px] h-[159px] flex flex-col gap-[8px]">
+                <div class="w-[448px] h-[55px] flex flex-col">
+                  <div class="w-[448px] h-[34px] flex flex-row items-center gap-[16px]">
+                    <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Location</p>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <div class="w-[448px] h-[40px] flex flex-col gap-[8px]">
+                  <button class="w-[110px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View event</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-[624px] h-[191px] flex flex-row items-center gap-[24px] p-[16px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[96px] h-[90px] flex flex-col justify-center items-center overflow-hidden">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Sun</p>
+                <h2 class="text-[32px] font-[700] leading-[42px] text-[rgba(0,0,0,1.000)] text-center">11</h2>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Feb 2024</p>
+              </div>
+              <div class="w-[0px] h-[159px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[448px] h-[159px] flex flex-col gap-[8px]">
+                <div class="w-[448px] h-[55px] flex flex-col">
+                  <div class="w-[448px] h-[34px] flex flex-row items-center gap-[16px]">
+                    <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Location</p>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <div class="w-[448px] h-[40px] flex flex-col gap-[8px]">
+                  <button class="w-[110px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View event</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
