@@ -2,11 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Contact Modal / 5 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center gap-[48px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[768px] h-[101px] flex flex-col items-center gap-[16px]">
+        <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Contact us</h1>
+        <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="w-[560px] h-[553px] flex flex-col items-center gap-[24px]">
+        <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name</p>
+          <div class="w-[560px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+        </div>
+        <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email</p>
+          <div class="w-[560px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+        </div>
+        <div class="w-[560px] h-[212px] flex flex-col gap-[8px]">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Message</p>
+          <div class="w-[560px] h-[180px] flex flex-row p-[12px] border border-[rgba(0,0,0,1.000)]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Type your message...</p>
+            <div class="w-[2px] h-[2px] border border-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[6px] h-[6px] border border-[rgba(0,0,0,1.000)]"></div>
+          </div>
+        </div>
+        <div class="w-[560px] h-[37px] flex flex-row items-center gap-[8px]">
+          <div class="w-[18px] h-[18px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+          <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">I accept the Terms</p>
+        </div>
+        <button class="w-[99px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Submit</p>
+        </button>
+      </div>
+      <div class="w-[32px] h-[32px] overflow-hidden">
+        <div class="w-[24px] h-[24px] overflow-hidden">
+          <div class="w-[13px] h-[13px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
