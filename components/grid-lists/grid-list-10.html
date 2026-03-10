@@ -11,24 +11,24 @@
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
     <section class="w-full flex flex-col bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
-      <div class="w-[1064px] flex flex-col md:flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)]">
-        <div class="w-[74%] flex flex-col gap-[8px] w-full md:w-1/2">
+      <div class="w-[1064px] flex flex-col md:flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[74%] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
           <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">All Courses</h3>
           <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
         </div>
-        <div class="w-[23%] flex flex-col md:flex-row justify-end items-center gap-[16px] w-full md:w-1/2">
+        <div class="w-[23%] flex flex-col md:flex-row justify-end items-center gap-[16px] overflow-hidden min-w-0 w-full md:w-1/2">
           <div class="flex flex-row items-center gap-[24px]">
             <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
-            <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Button</button>
+            <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
           </div>
-          <button class="w-[16%] flex flex-col md:flex-row justify-center items-center gap-[12px] p-[8px] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-            <div class="w-[60%] overflow-hidden w-full md:w-1/2">
-              <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
+          <button class="w-[16%] flex flex-col md:flex-row justify-center items-center gap-[12px] p-[8px] overflow-hidden min-w-0 w-full md:w-1/2 bg-gray-900 text-white px-4 py-2.5 rounded px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+            <div class="w-[60%] overflow-hidden min-w-0 w-full md:w-1/2">
+              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
             </div>
           </button>
         </div>
       </div>
-      <div class="w-[1064px] flex flex-col gap-[24px]">
+      <div class="w-[1064px] min-h-[832px] flex flex-col gap-[24px]">
         <div class="hidden md:flex flex-row border-b border-gray-200">
           <button class="border border-gray-900 px-4 py-2 text-sm">Course title</button>
           <button class="px-4 py-2 text-sm text-gray-500">Course title</button>

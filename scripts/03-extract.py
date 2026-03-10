@@ -25,6 +25,31 @@ DEFAULT_OUTPUT_DIR = ROOT_DIR / "components"
 DEFAULT_INDEX_PATH = ROOT_DIR / "index.json"
 
 IMAGE_LIKE_TYPES = {"RECTANGLE", "ELLIPSE", "VECTOR", "STAR", "POLYGON"}
+ICON_NODE_TYPES = {"VECTOR", "INSTANCE", "ELLIPSE", "STAR", "POLYGON", "RECTANGLE"}
+ICON_KEYWORDS = {
+    "check",
+    "arrow",
+    "chevron",
+    "star",
+    "plus",
+    "minus",
+    "close",
+    "x",
+    "menu",
+    "search",
+    "play",
+}
+FONT_WEIGHT_MAP = {
+    100: "font-thin",
+    200: "font-extralight",
+    300: "font-light",
+    400: "font-normal",
+    500: "font-medium",
+    600: "font-semibold",
+    700: "font-bold",
+    800: "font-extrabold",
+    900: "font-black",
+}
 
 # Breakpoint detection
 DESKTOP_MIN_WIDTH = 1200
@@ -210,6 +235,56 @@ def first_visible_stroke(node: dict) -> dict | None:
     return None
 
 
+def collect_visible_solid_fills(node: dict, max_depth: int = 2) -> list[dict]:
+    fills = []
+    for fill in node.get("fills", []) or []:
+        if fill.get("visible", True) and fill.get("type") == "SOLID" and fill.get("color"):
+            fills.append(fill)
+
+    if max_depth <= 0:
+        return fills
+
+    for child in get_visible_children(node):
+        fills.extend(collect_visible_solid_fills(child, max_depth=max_depth - 1))
+    return fills
+
+
+def color_luminance(color: dict) -> float:
+    r = float(color.get("r", 0))
+    g = float(color.get("g", 0))
+    b = float(color.get("b", 0))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def is_dark_fill(fill: dict) -> bool:
+    color = fill.get("color") or {}
+    opacity = float(fill.get("opacity", 1) or 1)
+    return opacity > 0.05 and color_luminance(color) < 0.5
+
+
+def has_dark_fill(node: dict) -> bool:
+    return any(is_dark_fill(fill) for fill in collect_visible_solid_fills(node))
+
+
+def is_white_or_near_white(fill: dict) -> bool:
+    color = fill.get("color") or {}
+    opacity = float(fill.get("opacity", 1) or 1)
+    return opacity <= 0.05 or color_luminance(color) >= 0.94
+
+
+def has_no_or_white_fill(node: dict) -> bool:
+    fills = collect_visible_solid_fills(node)
+    if not fills:
+        return True
+    return all(is_white_or_near_white(fill) for fill in fills)
+
+
+def has_button_descendant(node: dict) -> bool:
+    if is_button_node(node):
+        return True
+    return any(has_button_descendant(child) for child in get_visible_children(node))
+
+
 def padding_classes(node: dict) -> list[str]:
     pt = node.get("paddingTop")
     pr = node.get("paddingRight")
@@ -347,6 +422,10 @@ def map_size_classes(node: dict, is_root: bool = False, parent: dict | None = No
         h = class_px("h", h_val)
         if h:
             classes.append(h)
+    elif infer_layout_mode(node) == "VERTICAL" and has_button_descendant(node):
+        min_h = class_px("min-h", h_val)
+        if min_h:
+            classes.append(min_h)
     return classes
 
 
@@ -379,23 +458,17 @@ def map_text_classes(node: dict) -> list[str]:
         classes.append(f"text-[{int(round(float(font_size)))}px]")
 
     font_weight = style.get("fontWeight")
-    if font_weight:
+    if font_weight is None:
+        font_weight = node.get("fontWeight")
+
+    if font_weight is not None:
         fw = int(round(float(font_weight)))
-        weight_map = {
-            100: "font-thin",
-            200: "font-extralight",
-            300: "font-light",
-            400: "font-normal",
-            500: "font-medium",
-            600: "font-semibold",
-            700: "font-bold",
-            800: "font-extrabold",
-            900: "font-black",
-        }
-        closest = min(weight_map.keys(), key=lambda k: abs(k - fw))
-        classes.append(weight_map[closest])
+        closest = min(FONT_WEIGHT_MAP.keys(), key=lambda k: abs(k - fw))
+        classes.append(FONT_WEIGHT_MAP[closest])
         if closest != fw:
             classes.append(f"font-[{fw}]")
+    elif font_size and float(font_size) >= 32:
+        classes.append("font-bold")
 
     line_height = style.get("lineHeightPx")
     if line_height:
@@ -459,6 +532,39 @@ def is_small_icon(node: dict) -> bool:
     return w < 64 and h < 64
 
 
+def is_icon_node(node: dict) -> bool:
+    node_type = node.get("type")
+    if node_type not in ICON_NODE_TYPES:
+        return False
+
+    name = (node.get("name") or "").lower()
+    if "icon" in name:
+        return True
+    if any(keyword in name for keyword in ICON_KEYWORDS):
+        return True
+
+    return is_small_icon(node)
+
+
+def render_icon(node: dict) -> str | None:
+    if not is_icon_node(node):
+        return None
+
+    name = (node.get("name") or "").lower()
+    cls = "w-5 h-5 flex-shrink-0"
+
+    if "check" in name:
+        return f'<svg class="{cls}" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>'
+    if "chevron" in name or "arrow" in name:
+        return f'<svg class="{cls}" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>'
+    if "star" in name:
+        return f'<svg class="{cls}" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81H7.03a1 1 0 00.95-.69l1.07-3.292z"/></svg>'
+    if "plus" in name:
+        return f'<svg class="{cls}" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 4a1 1 0 011 1v4h4a1 1 0 110 2h-4v4a1 1 0 11-2 0v-4H5a1 1 0 110-2h4V5a1 1 0 011-1z" clip-rule="evenodd"/></svg>'
+
+    return f'<svg class="{cls}" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>'
+
+
 def semantic_root_tag(category: str) -> str:
     c = (category or "").lower()
     if "nav" in c or "menu" in c:
@@ -510,7 +616,11 @@ def is_tab_container(node: dict) -> bool:
 
 
 def is_button_node(node: dict) -> bool:
-    return node.get("type") == "INSTANCE" and "button" in (node.get("name") or "").lower()
+    name = (node.get("name") or "").lower()
+    if "button" not in name:
+        return False
+    node_type = node.get("type")
+    return node_type in {"INSTANCE", "FRAME", "COMPONENT", "GROUP", "RECTANGLE"}
 
 
 def is_button_group(node: dict) -> bool:
@@ -518,6 +628,16 @@ def is_button_group(node: dict) -> bool:
     if len(children) < 2 or not is_row_layout(node):
         return False
     return sum(1 for c in children if is_button_node(c)) >= 2
+
+
+def button_classes(node: dict, fallback_primary: bool = True) -> str:
+    if has_dark_fill(node):
+        return "bg-gray-900 text-white px-4 py-2.5 rounded"
+    if has_no_or_white_fill(node):
+        return "border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent"
+    if fallback_primary:
+        return "bg-gray-900 text-white px-4 py-2.5 rounded"
+    return "border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent"
 
 
 def dedupe_tab_panels(children: list[dict]) -> list[dict]:
@@ -551,43 +671,43 @@ def build_layout_classes(node: dict, is_root: bool = False, parent: dict | None 
     classes.extend(border_radius_classes(node))
     classes.extend(map_fill_stroke_classes(node))
     classes.extend(map_effect_classes(node))
-    if node.get("clipsContent"):
+    if node.get("clipsContent") or infer_layout_mode(node) == "HORIZONTAL":
         classes.append("overflow-hidden")
     return dedupe_classes(classes)
 
 
 def build_image_placeholder_classes(node: dict, parent: dict | None = None, responsive: bool = False) -> list[str]:
     classes = []
-    classes.extend(map_size_classes(node, is_root=False, parent=parent))
+    parent_is_row = is_row_layout(parent or {})
 
-    parent_w = node_width(parent) if parent else 0
-    node_w = node_width(node)
-    if parent_w > 0 and node_w > 0:
-        width_pct = int(round((node_w / parent_w) * 100))
-        width_pct = max(1, min(100, width_pct))
-        if responsive and width_pct <= 60:
-            classes.append("w-full")
-            classes.append(f"md:w-[{width_pct}%]")
-        elif width_pct < 100:
-            classes.append(f"w-[{width_pct}%]")
-    elif is_row_layout(parent or {}):
-        classes.append("max-w-[50%]")
-
-    if responsive and is_row_layout(parent or {}):
+    if parent_is_row:
         classes.append("w-full")
-        if not any(c.startswith("md:w-") for c in classes):
+        if responsive:
             classes.append("md:w-1/2")
+    else:
+        classes.extend(map_size_classes(node, is_root=False, parent=parent))
+
+        parent_w = node_width(parent) if parent else 0
+        node_w = node_width(node)
+        if parent_w > 0 and node_w > 0:
+            width_pct = int(round((node_w / parent_w) * 100))
+            width_pct = max(1, min(100, width_pct))
+            if responsive and width_pct <= 60:
+                classes.append("w-full")
+                classes.append(f"md:w-[{width_pct}%]")
+            elif width_pct < 100:
+                classes.append(f"w-[{width_pct}%]")
 
     classes.extend(map_layout_classes(node, responsive=False))
     classes.extend(padding_classes(node))
     classes.extend(border_radius_classes(node))
-    if node.get("clipsContent"):
+    if node.get("clipsContent") or parent_is_row:
         classes.append("overflow-hidden")
 
     classes.extend(["bg-gray-100", "rounded-lg", "flex", "items-center", "justify-center"])
     if not any(c.startswith("h-[") for c in classes):
         classes.append("h-[240px]")
-    if not any(c.startswith("w-[") for c in classes) and not any(c == "w-full" for c in classes):
+    if not any(c.startswith("w-[") for c in classes) and "w-full" not in classes:
         classes.append("w-full")
     return dedupe_classes(classes)
 
@@ -623,10 +743,9 @@ def render_node(
         classes = dedupe_classes(map_text_classes(node))
         return f'{pad}<{tag} class="{" ".join(classes)}">{html.escape(text)}</{tag}>'
 
-    if is_small_icon(node):
-        w_val = int(round(node_width(node) or 24))
-        h_val = int(round(node_height(node) or 24))
-        return f'{pad}<div class="w-[{w_val}px] h-[{h_val}px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>'
+    icon = render_icon(node)
+    if icon:
+        return f"{pad}{icon}"
 
     if node_type in IMAGE_LIKE_TYPES or is_image_placeholder(node):
         classes = build_image_placeholder_classes(node, parent=parent, responsive=responsive)
@@ -659,12 +778,9 @@ def render_node(
         button_nodes = [c for c in children if is_button_node(c)]
         for idx, btn in enumerate(button_nodes[:2]):
             label = extract_text(btn) or "Button"
-            if idx == 0:
-                cls = "bg-gray-900 text-white px-4 py-2.5 rounded"
-            else:
-                cls = "border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent"
-                if has_icon_descendant(btn):
-                    label = f"{label} →"
+            cls = button_classes(btn, fallback_primary=(idx == 0))
+            if "bg-transparent" in cls and has_icon_descendant(btn):
+                label = f"{label} →"
             group_rows.append(f'{pad}  <button class="{cls}">{html.escape(label)}</button>')
         group_rows.append(f"{pad}</div>")
         return "\n".join(group_rows)
@@ -678,14 +794,18 @@ def render_node(
 
     classes = build_layout_classes(node, is_root=is_root, parent=parent, responsive=responsive)
 
-    if responsive and parent and is_row_layout(parent):
-        classes.append("w-full")
-        if not any(c.startswith("md:w-") for c in classes):
-            classes.append("md:w-1/2")
+    if parent and is_row_layout(parent):
+        classes.append("min-w-0")
+        if responsive:
+            classes.append("w-full")
+            if not any(c.startswith("md:w-") for c in classes):
+                classes.append("md:w-1/2")
 
     if tag == "button":
-        if not any(c.startswith("bg-") for c in classes):
-            classes.extend(["bg-gray-900", "text-white", "px-[16px]", "py-[10px]", "rounded-[8px]"])
+        classes.extend(button_classes(node, fallback_primary=True).split())
+        classes.extend(["px-[16px]", "py-[10px]", "rounded-[8px]"])
+        if parent and infer_layout_mode(parent) == "VERTICAL":
+            classes.append("mt-auto")
         classes.append("cursor-pointer")
 
     if is_root:
@@ -697,7 +817,7 @@ def render_node(
     if not children:
         if tag == "button":
             label = extract_text(node) or node.get("name") or "Button"
-            base = dedupe_classes(classes + ["px-[16px]", "py-[10px]", "rounded-[8px]", "bg-gray-900", "text-white"])
+            base = dedupe_classes(classes + ["px-[16px]", "py-[10px]", "rounded-[8px]"])
             return f'{pad}<button class="{" ".join(base)}">{html.escape(label)}</button>'
         return f"{opening}{closing[len(pad):]}"
 

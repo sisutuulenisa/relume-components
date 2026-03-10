@@ -11,9 +11,9 @@
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
     <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
-      <div class="w-[89%] flex flex-col items-center gap-[80px]">
+      <div class="w-[89%] min-h-[920px] flex flex-col items-center gap-[80px]">
         <div class="w-[60%] flex flex-col items-center gap-[16px]">
-          <div class="w-[7%] flex flex-col md:flex-row items-center">
+          <div class="w-[7%] flex flex-col md:flex-row items-center overflow-hidden">
             <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Tagline</p>
           </div>
           <div class="w-[768px] flex flex-col items-center gap-[24px]">
@@ -21,60 +21,46 @@
             <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="w-[44%] flex flex-col items-center gap-[48px]">
-          <div class="w-[37%] flex flex-col md:flex-row p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-            <div class="w-[51%] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Monthly</p>
-            </div>
-            <div class="w-[45%] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[8px] w-full md:w-1/2">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Yearly</p>
-            </div>
+        <div class="w-[44%] min-h-[691px] flex flex-col items-center gap-[48px]">
+          <div class="flex flex-row items-center gap-[24px]">
+            <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Monthly</button>
+            <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Yearly</button>
           </div>
-          <div class="w-[560px] flex flex-col gap-[48px]">
-            <div class="w-[560px] flex flex-col gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[560px] min-h-[595px] flex flex-col gap-[48px]">
+            <div class="w-[560px] min-h-[595px] flex flex-col gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
               <div class="w-[89%] flex flex-col gap-[4px]">
                 <h4 class="text-[20px] font-bold leading-[28px] text-[rgba(0,0,0,1.000)] text-center">Basic plan</h4>
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet</p>
               </div>
               <div class="w-[89%] border border-[rgba(0,0,0,1.000)]"></div>
-              <div class="w-[89%] flex flex-col gap-[32px]">
+              <div class="w-[89%] min-h-[147px] flex flex-col gap-[32px]">
                 <h1 class="text-[56px] font-bold leading-[67px] text-[rgba(0,0,0,1.000)] text-left">$19/mo</h1>
-                <div class="w-[496px] flex flex-col gap-[16px]">
-                  <button class="w-[496px] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
+                <div class="w-[496px] min-h-[48px] flex flex-col gap-[16px]">
+                  <button class="w-[496px] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden bg-gray-900 text-white px-4 py-2.5 rounded px-[16px] py-[10px] rounded-[8px] mt-auto cursor-pointer">
                     <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Get started</p>
                   </button>
                 </div>
               </div>
               <div class="w-[89%] border border-[rgba(0,0,0,1.000)]"></div>
               <div class="w-[89%] flex flex-col gap-[16px]">
-                <div class="w-[496px] flex flex-col md:flex-row gap-[16px]">
-                  <div class="w-[5%] overflow-hidden w-full md:w-1/2">
-                    <div class="w-[16px] h-[11px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
+                <div class="w-[496px] flex flex-col md:flex-row gap-[16px] overflow-hidden">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
                 </div>
-                <div class="w-[496px] flex flex-col md:flex-row gap-[16px]">
-                  <div class="w-[5%] overflow-hidden w-full md:w-1/2">
-                    <div class="w-[16px] h-[11px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
+                <div class="w-[496px] flex flex-col md:flex-row gap-[16px] overflow-hidden">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
                 </div>
-                <div class="w-[496px] flex flex-col md:flex-row gap-[16px]">
-                  <div class="w-[5%] overflow-hidden w-full md:w-1/2">
-                    <div class="w-[16px] h-[11px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
+                <div class="w-[496px] flex flex-col md:flex-row gap-[16px] overflow-hidden">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
                 </div>
-                <div class="w-[496px] flex flex-col md:flex-row gap-[16px]">
-                  <div class="w-[5%] overflow-hidden w-full md:w-1/2">
-                    <div class="w-[16px] h-[11px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
+                <div class="w-[496px] flex flex-col md:flex-row gap-[16px] overflow-hidden">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
                 </div>
-                <div class="w-[496px] flex flex-col md:flex-row gap-[16px]">
-                  <div class="w-[5%] overflow-hidden w-full md:w-1/2">
-                    <div class="w-[16px] h-[11px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
+                <div class="w-[496px] flex flex-col md:flex-row gap-[16px] overflow-hidden">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
                 </div>
               </div>

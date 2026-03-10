@@ -11,9 +11,9 @@
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
     <header class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
-      <div class="w-[89%] flex flex-col items-center gap-[80px]">
+      <div class="w-[89%] min-h-[1468px] flex flex-col items-center gap-[80px]">
         <div class="w-[60%] flex flex-col items-center gap-[16px]">
-          <div class="w-[4%] flex flex-col md:flex-row items-center">
+          <div class="w-[4%] flex flex-col md:flex-row items-center overflow-hidden">
             <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Blog</p>
           </div>
           <div class="w-[768px] flex flex-col items-center gap-[24px]">
@@ -21,7 +21,7 @@
             <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="w-[1280px] flex flex-col items-center gap-[64px]">
+        <div class="w-[1280px] min-h-[1230px] flex flex-col items-center gap-[64px]">
           <div class="hidden md:flex flex-row border-b border-gray-200">
             <button class="border border-gray-900 px-4 py-2 text-sm">View all</button>
             <button class="px-4 py-2 text-sm text-gray-500">Category one</button>
@@ -29,14 +29,14 @@
             <button class="px-4 py-2 text-sm text-gray-500">Category three</button>
             <button class="px-4 py-2 text-sm text-gray-500">Category four</button>
           </div>
-          <div class="w-[1280px] flex flex-col items-center gap-[64px]">
-            <div class="w-[1280px] flex flex-col md:flex-row gap-[48px]">
-              <div class="w-[48%] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden w-full md:w-1/2">
+          <div class="w-[1280px] min-h-[1126px] flex flex-col items-center gap-[64px]">
+            <div class="w-[1280px] flex flex-col md:flex-row gap-[48px] overflow-hidden">
+              <div class="w-[48%] min-h-[531px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                 <div class="w-[616px] h-[300px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
-                <div class="w-[616px] flex flex-col gap-[24px] p-[24px]">
+                <div class="w-[616px] min-h-[231px] flex flex-col gap-[24px] p-[24px]">
                   <div class="w-[92%] flex flex-col gap-[16px]">
-                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px]">
-                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] w-full md:w-1/2">
+                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px] overflow-hidden">
+                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                         <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
                       </div>
                       <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
@@ -46,20 +46,18 @@
                       <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                     </div>
                   </div>
-                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] overflow-hidden bg-gray-900 text-white px-4 py-2.5 rounded px-[16px] py-[10px] rounded-[8px] mt-auto cursor-pointer">
                     <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
-                    <div class="w-[22%] overflow-hidden w-full md:w-1/2">
-                      <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    </div>
+                    <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
                   </button>
                 </div>
               </div>
-              <div class="w-[48%] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden w-full md:w-1/2">
+              <div class="w-[48%] min-h-[531px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                 <div class="w-[616px] h-[300px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
-                <div class="w-[616px] flex flex-col gap-[24px] p-[24px]">
+                <div class="w-[616px] min-h-[231px] flex flex-col gap-[24px] p-[24px]">
                   <div class="w-[92%] flex flex-col gap-[16px]">
-                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px]">
-                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] w-full md:w-1/2">
+                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px] overflow-hidden">
+                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                         <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
                       </div>
                       <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
@@ -69,22 +67,20 @@
                       <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                     </div>
                   </div>
-                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] overflow-hidden bg-gray-900 text-white px-4 py-2.5 rounded px-[16px] py-[10px] rounded-[8px] mt-auto cursor-pointer">
                     <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
-                    <div class="w-[22%] overflow-hidden w-full md:w-1/2">
-                      <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    </div>
+                    <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
                   </button>
                 </div>
               </div>
             </div>
-            <div class="w-[1280px] flex flex-col md:flex-row gap-[48px]">
-              <div class="w-[48%] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden w-full md:w-1/2">
+            <div class="w-[1280px] flex flex-col md:flex-row gap-[48px] overflow-hidden">
+              <div class="w-[48%] min-h-[531px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                 <div class="w-[616px] h-[300px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
-                <div class="w-[616px] flex flex-col gap-[24px] p-[24px]">
+                <div class="w-[616px] min-h-[231px] flex flex-col gap-[24px] p-[24px]">
                   <div class="w-[92%] flex flex-col gap-[16px]">
-                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px]">
-                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] w-full md:w-1/2">
+                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px] overflow-hidden">
+                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                         <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
                       </div>
                       <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
@@ -94,20 +90,18 @@
                       <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                     </div>
                   </div>
-                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] overflow-hidden bg-gray-900 text-white px-4 py-2.5 rounded px-[16px] py-[10px] rounded-[8px] mt-auto cursor-pointer">
                     <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
-                    <div class="w-[22%] overflow-hidden w-full md:w-1/2">
-                      <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    </div>
+                    <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
                   </button>
                 </div>
               </div>
-              <div class="w-[48%] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden w-full md:w-1/2">
+              <div class="w-[48%] min-h-[531px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                 <div class="w-[616px] h-[300px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
-                <div class="w-[616px] flex flex-col gap-[24px] p-[24px]">
+                <div class="w-[616px] min-h-[231px] flex flex-col gap-[24px] p-[24px]">
                   <div class="w-[92%] flex flex-col gap-[16px]">
-                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px]">
-                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] w-full md:w-1/2">
+                    <div class="w-[27%] flex flex-col md:flex-row items-center gap-[16px] overflow-hidden">
+                      <div class="w-[47%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
                         <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
                       </div>
                       <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
@@ -117,11 +111,9 @@
                       <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                     </div>
                   </div>
-                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+                  <button class="w-[18%] flex flex-col md:flex-row justify-center items-center gap-[8px] overflow-hidden bg-gray-900 text-white px-4 py-2.5 rounded px-[16px] py-[10px] rounded-[8px] mt-auto cursor-pointer">
                     <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
-                    <div class="w-[22%] overflow-hidden w-full md:w-1/2">
-                      <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    </div>
+                    <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
                   </button>
                 </div>
               </div>
