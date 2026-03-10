@@ -1,0 +1,29 @@
+{
+  "name": "relume",
+  "version": "1.0.0",
+  "description": "HTML + Tailwind CSS componenten geëxtraheerd uit de Relume Figma Kit v3.7. Automatisch gegenereerd via de Figma API. Elke component is een standalone HTML bestand met Tailwind CDN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i src/input.css -o dist/tailwind.css --content \"components/**/*.html\"",
+    "watch:css": "tailwindcss -i src/input.css -o dist/tailwind.css --content \"components/**/*.html\" --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisutuulenisa/relume-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sisutuulenisa/relume-components/issues"
+  },
+  "homepage": "https://github.com/sisutuulenisa/relume-components#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.19",
+    "tailwindcss": "^4.2.1"
+  }
+}
