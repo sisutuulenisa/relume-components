@@ -2,11 +2,159 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Application Shell / 3 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-row bg-[rgba(238,238,238,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[312px] h-[900px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+        <div class="w-[312px] h-[64px] flex flex-col gap-[10px] px-[24px] py-[16px]">
+          <div class="w-[264px] h-[32px] flex flex-col justify-center gap-[4px]">
+            <div class="w-[84px] h-[36px] overflow-hidden">
+              <div class="w-[70px] h-[36px] overflow-hidden">
+                <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[19px] h-[25px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[22px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[15px] h-[9px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[312px] h-[724px] flex flex-col px-[16px] pt-[8px] pb-[24px]">
+          <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] p-[8px] bg-[rgba(238,238,238,1.000)]">
+            <div class="w-[264px] h-[24px] flex flex-row gap-[12px]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Home</p>
+            </div>
+          </div>
+          <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] p-[8px]">
+            <div class="w-[224px] h-[24px] flex flex-row gap-[12px]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Saved</p>
+            </div>
+            <div class="w-[32px] h-[21px] flex flex-row gap-[12px] rounded-[50px] border border-[rgba(0,0,0,1.000)]">
+              <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">24</p>
+            </div>
+          </div>
+          <div class="w-[280px] h-[160px] flex flex-col">
+            <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] p-[8px]">
+              <div class="w-[236px] h-[24px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Dashboard</p>
+              </div>
+              <div class="w-[20px] h-[20px] overflow-hidden">
+                <div class="w-[10px] h-[6px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+            <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] pl-[44px] pr-[8px] py-[8px]">
+              <div class="w-[228px] h-[24px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[12px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Trends</p>
+              </div>
+            </div>
+            <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] pl-[44px] pr-[8px] py-[8px]">
+              <div class="w-[228px] h-[24px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Analytics</p>
+              </div>
+            </div>
+            <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] pl-[44px] pr-[8px] py-[8px]">
+              <div class="w-[228px] h-[24px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Historical</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] p-[8px]">
+            <div class="w-[264px] h-[24px] flex flex-row gap-[12px]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Projects</p>
+            </div>
+          </div>
+          <div class="w-[280px] h-[40px] flex flex-row items-center gap-[8px] p-[8px]">
+            <div class="w-[264px] h-[24px] flex flex-row gap-[12px]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[16px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Documents</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[312px] h-[104px] flex flex-col gap-[32px]">
+          <div class="w-[280px] h-[80px] flex flex-col">
+            <div class="w-[280px] h-[40px] flex flex-row items-center gap-[12px] p-[8px]">
+              <div class="w-[264px] h-[24px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Support</p>
+              </div>
+            </div>
+            <div class="w-[280px] h-[40px] flex flex-row items-center gap-[12px] p-[8px]">
+              <div class="w-[264px] h-[24px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[19px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Settings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1128px] h-[900px] flex flex-col">
+        <div class="w-[1128px] h-[72px] flex flex-col items-center bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+          <div class="w-[1128px] h-[72px] flex flex-row justify-between items-center gap-[24px] overflow-hidden">
+            <div class="w-[540px] h-[40px] flex flex-row items-center gap-[12px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[18px] h-[18px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Search</p>
+            </div>
+            <div class="w-[247px] h-[40px] flex flex-row justify-center items-center gap-[16px]">
+              <div class="w-[40px] h-[40px] flex flex-row items-center gap-[4px] p-[8px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+              <div class="w-[191px] h-[40px] flex flex-row items-center gap-[8px]">
+                <div class="w-[40px] h-[40px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[13px] h-[7px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1128px] h-[72px] flex flex-col justify-center items-center border border-[rgba(204,204,204,1.000)] overflow-hidden">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.500)] text-center">Click and paste Page Header</p>
+        </div>
+        <div class="w-[1128px] h-[756px] flex flex-col gap-[48px] px-[32px] py-[48px] overflow-hidden">
+          <div class="w-[1064px] h-[660px] flex flex-col items-center gap-[48px] border border-[rgba(204,204,204,1.000)]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.500)] text-center">Click and paste Main Content</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
