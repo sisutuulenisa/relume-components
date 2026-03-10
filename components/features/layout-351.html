@@ -2,11 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Layout / 351 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[1007px] flex flex-col gap-[80px]">
+        <div class="w-[768px] h-[207px] flex flex-col gap-[16px]">
+          <div class="w-[53px] h-[24px] flex flex-row items-center">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Tagline</p>
+          </div>
+          <div class="w-[768px] h-[167px] flex flex-col gap-[24px]">
+            <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Medium length section heading goes here</h1>
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="w-[1280px] h-[720px] flex flex-col border border-[rgba(0,0,0,1.000)] overflow-hidden">
+          <div class="w-[1280px] h-[720px] flex flex-row">
+            <div class="w-[1034px] h-[720px] flex flex-row bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[82px] h-[720px] flex flex-col justify-between items-center gap-[10px] px-[24px] py-[32px] overflow-hidden">
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-center">01</h3>
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Feature one</h3>
+              </div>
+              <div class="w-[640px] h-[720px] flex flex-col gap-[48px] px-[48px] py-[64px]">
+                <div class="w-[544px] h-[144px] flex flex-col gap-[24px]">
+                  <h1 class="text-[40px] font-[700] leading-[48px] text-[rgba(0,0,0,1.000)] text-left">Short heading goes here</h1>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                </div>
+                <div class="w-[544px] h-[400px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              </div>
+            </div>
+            <div class="w-[82px] h-[720px] flex flex-row bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[82px] h-[720px] flex flex-col justify-between items-center gap-[10px] px-[24px] py-[32px] overflow-hidden">
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-center">02</h3>
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Feature two</h3>
+              </div>
+            </div>
+            <div class="w-[82px] h-[720px] flex flex-row bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[82px] h-[720px] flex flex-col justify-between items-center gap-[10px] px-[24px] py-[32px] overflow-hidden">
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-center">03</h3>
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Feature three</h3>
+              </div>
+            </div>
+            <div class="w-[82px] h-[720px] flex flex-row bg-[rgba(255,255,255,1.000)]">
+              <div class="w-[82px] h-[720px] flex flex-col justify-between items-center gap-[10px] px-[24px] py-[32px] overflow-hidden">
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-center">04</h3>
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Feature four</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

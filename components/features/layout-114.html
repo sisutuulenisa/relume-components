@@ -2,11 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Layout / 114 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[986px] flex flex-col gap-[80px]">
+        <div class="w-[1280px] h-[168px] flex flex-row gap-[80px]">
+          <div class="w-[600px] h-[168px] flex flex-col gap-[24px] overflow-hidden">
+            <div class="w-[48px] h-[48px] overflow-hidden">
+              <div class="w-[36px] h-[40px] bg-[rgba(0,0,0,1.000)]"></div>
+            </div>
+            <h1 class="text-[40px] font-[700] leading-[48px] text-[rgba(0,0,0,1.000)] text-left">Long heading is what you see here in this feature section</h1>
+          </div>
+          <div class="w-[600px] h-[135px] flex flex-col gap-[24px] overflow-hidden">
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+          </div>
+        </div>
+        <div class="w-[1280px] h-[738px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+      </div>
+    </section>
   </body>
 </html>
