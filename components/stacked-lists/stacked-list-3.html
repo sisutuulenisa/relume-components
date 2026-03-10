@@ -6,7 +6,6 @@
     <title>Stacked List / 3 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* Components are designed for 1440px desktop — render at that width */
       html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
     </style>
   </head>
@@ -14,21 +13,21 @@
     <section class="w-full flex flex-col mx-auto max-w-[1440px]">
       <div class="w-[1064px] h-[90px] flex flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)]">
         <div class="w-[792px] h-[66px] flex flex-col gap-[8px]">
-          <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Recent Projects</h3>
-          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Recent Projects</h3>
+          <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
         </div>
         <div class="w-[248px] h-[40px] flex flex-row justify-end items-center gap-[16px]">
           <div class="w-[192px] h-[40px] flex flex-row gap-[16px]">
-            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
             </button>
-            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
             </button>
           </div>
-          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px]">
+          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
             <div class="w-[24px] h-[24px] overflow-hidden">
-              <div class="w-[16px] h-[4px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
           </button>
         </div>
@@ -38,15 +37,15 @@
           <div class="w-[848px] h-[51px] flex flex-row items-center gap-[12px]">
             <div class="w-[48px] h-[48px] flex flex-row p-[8px] bg-[rgba(255,255,255,1.000)]">
               <div class="w-[32px] h-[32px] overflow-hidden">
-                <div class="w-[24px] h-[27px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[24px] h-[27px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
             <div class="w-[788px] h-[51px] flex flex-col">
-              <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
               <div class="w-[788px] h-[27px] flex flex-row items-center gap-[8px]">
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
-                <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
+                <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
               </div>
             </div>
           </div>
@@ -59,7 +58,7 @@
             </div>
             <div class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px]">
               <div class="w-[24px] h-[24px] overflow-hidden">
-                <div class="w-[7px] h-[12px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
           </div>
@@ -68,15 +67,15 @@
           <div class="w-[848px] h-[51px] flex flex-row items-center gap-[12px]">
             <div class="w-[48px] h-[48px] flex flex-row p-[8px] bg-[rgba(255,255,255,1.000)]">
               <div class="w-[32px] h-[32px] overflow-hidden">
-                <div class="w-[24px] h-[27px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[24px] h-[27px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
             <div class="w-[788px] h-[51px] flex flex-col">
-              <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
               <div class="w-[788px] h-[27px] flex flex-row items-center gap-[8px]">
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
-                <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
+                <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
               </div>
             </div>
           </div>
@@ -89,7 +88,7 @@
             </div>
             <div class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px]">
               <div class="w-[24px] h-[24px] overflow-hidden">
-                <div class="w-[7px] h-[12px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
           </div>
@@ -98,15 +97,15 @@
           <div class="w-[848px] h-[51px] flex flex-row items-center gap-[12px]">
             <div class="w-[48px] h-[48px] flex flex-row p-[8px] bg-[rgba(255,255,255,1.000)]">
               <div class="w-[32px] h-[32px] overflow-hidden">
-                <div class="w-[24px] h-[27px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[24px] h-[27px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
             <div class="w-[788px] h-[51px] flex flex-col">
-              <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
               <div class="w-[788px] h-[27px] flex flex-row items-center gap-[8px]">
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
-                <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
+                <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
               </div>
             </div>
           </div>
@@ -119,7 +118,7 @@
             </div>
             <div class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px]">
               <div class="w-[24px] h-[24px] overflow-hidden">
-                <div class="w-[7px] h-[12px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
           </div>
@@ -128,15 +127,15 @@
           <div class="w-[848px] h-[51px] flex flex-row items-center gap-[12px]">
             <div class="w-[48px] h-[48px] flex flex-row p-[8px] bg-[rgba(255,255,255,1.000)]">
               <div class="w-[32px] h-[32px] overflow-hidden">
-                <div class="w-[24px] h-[27px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[24px] h-[27px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
             <div class="w-[788px] h-[51px] flex flex-col">
-              <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
               <div class="w-[788px] h-[27px] flex flex-row items-center gap-[8px]">
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
-                <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
-                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
+                <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
+                <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
               </div>
             </div>
           </div>
@@ -149,7 +148,7 @@
             </div>
             <div class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px]">
               <div class="w-[24px] h-[24px] overflow-hidden">
-                <div class="w-[7px] h-[12px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
           </div>

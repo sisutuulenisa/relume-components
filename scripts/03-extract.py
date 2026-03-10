@@ -110,9 +110,10 @@ def fmt_px(value) -> str | None:
         v = float(value)
     except (TypeError, ValueError):
         return None
-    if v <= 0:
+    rounded = int(round(v))
+    if rounded <= 0:
         return None
-    return f"{int(round(v))}px"
+    return f"{rounded}px"
 
 
 def class_px(prefix: str, value) -> str | None:
@@ -296,7 +297,22 @@ def map_text_classes(node: dict) -> list[str]:
 
     font_weight = style.get("fontWeight")
     if font_weight:
-        classes.append(f"font-[{int(round(float(font_weight)))}]")
+        fw = int(round(float(font_weight)))
+        weight_map = {
+            100: "font-thin",
+            200: "font-extralight",
+            300: "font-light",
+            400: "font-normal",
+            500: "font-medium",
+            600: "font-semibold",
+            700: "font-bold",
+            800: "font-extrabold",
+            900: "font-black",
+        }
+        closest = min(weight_map.keys(), key=lambda k: abs(k - fw))
+        classes.append(weight_map[closest])
+        if closest != fw:
+            classes.append(f"font-[{fw}]")
 
     line_height = style.get("lineHeightPx")
     if line_height:
@@ -346,6 +362,18 @@ def is_image_placeholder(node: dict) -> bool:
     if node_type in IMAGE_LIKE_TYPES and any(word in node_name for word in ("image", "img", "photo", "picture")):
         return True
     return False
+
+
+def is_small_icon(node: dict) -> bool:
+    if node.get("type") not in IMAGE_LIKE_TYPES:
+        return False
+    fill = first_visible_fill(node)
+    if fill and fill.get("type") == "IMAGE":
+        return False
+    box = node.get("absoluteBoundingBox") or {}
+    w = float(box.get("width") or 0)
+    h = float(box.get("height") or 0)
+    return w < 64 and h < 64
 
 
 def semantic_root_tag(category: str) -> str:
@@ -416,6 +444,12 @@ def render_node(node: dict, category: str, is_root: bool = False, indent: int = 
         if desktop:
             node = desktop
 
+    # Unwrap nested COMPONENT_SETs naar desktop-child
+    if not is_root and node.get("type") == "COMPONENT_SET":
+        desktop = get_desktop_child(node)
+        if desktop:
+            node = desktop
+
     node_type = node.get("type")
     pad = " " * indent
 
@@ -424,6 +458,12 @@ def render_node(node: dict, category: str, is_root: bool = False, indent: int = 
         text = (node.get("characters") or "").strip() or node.get("name") or "Placeholder text"
         classes = dedupe_classes(map_text_classes(node))
         return f'{pad}<{tag} class="{" ".join(classes)}">{html.escape(text)}</{tag}>'
+
+    if is_small_icon(node):
+        box = node.get("absoluteBoundingBox") or {}
+        w_val = int(round(float(box.get("width") or 24)))
+        h_val = int(round(float(box.get("height") or 24)))
+        return f'{pad}<div class="w-[{w_val}px] h-[{h_val}px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>'
 
     if node_type in IMAGE_LIKE_TYPES or is_image_placeholder(node):
         classes = build_image_placeholder_classes(node)
@@ -438,6 +478,10 @@ def render_node(node: dict, category: str, is_root: bool = False, indent: int = 
         tag = "div"
 
     classes = build_layout_classes(node, is_root=is_root)
+    if tag == "button":
+        if not any(c.startswith("bg-") for c in classes):
+            classes.extend(["bg-gray-900", "text-white", "px-[16px]", "py-[10px]", "rounded-[8px]"])
+        classes.append("cursor-pointer")
     if is_root:
         classes.extend(["mx-auto", "max-w-[1440px]"])
 
@@ -575,11 +619,10 @@ def build_html_document(title: str, body: str) -> str:
     <title>{safe_title}</title>
     <script src=\"https://cdn.tailwindcss.com\"></script>
     <style>
-      /* Components are designed for 1440px desktop — render at that width */
-      html, body {{ min-width: 1440px; overflow-x: auto; }}
+      html, body {{ min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }}
     </style>
   </head>
-  <body class=\"bg-white text-gray-900 antialiased\">
+  <body class=\"bg-white text-gray-900 antialiased font-sans\">
 {body}
   </body>
 </html>

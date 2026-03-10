@@ -6,42 +6,41 @@
     <title>Navbar / 30 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* Components are designed for 1440px desktop — render at that width */
       html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <nav class="w-full mx-auto max-w-[1440px] flex flex-col items-center bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+    <nav class="w-full flex flex-col items-center bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden mx-auto max-w-[1440px]">
       <div class="w-[1440px] h-[72px] flex flex-row justify-between items-center overflow-hidden">
         <div class="w-[1312px] h-[40px] flex flex-row justify-between items-center gap-[622px]">
           <div class="w-[498px] h-[36px] flex flex-row items-center gap-[24px]">
             <div class="w-[84px] h-[36px] overflow-hidden">
               <div class="w-[70px] h-[36px] overflow-hidden">
-                <div class="w-[19px] h-[16px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[19px] h-[25px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[19px] h-[16px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[22px] h-[16px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[15px] h-[9px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
+                <div class="w-[19px] h-[25px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
+                <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
+                <div class="w-[22px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
+                <div class="w-[15px] h-[9px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
             <div class="w-[390px] h-[24px] flex flex-row items-center gap-[32px] overflow-hidden">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
               <div class="w-[94px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
-                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
+                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
                 <div class="w-[24px] h-[24px] overflow-hidden">
-                  <div class="w-[13px] h-[7px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[13px] h-[7px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>
             </div>
           </div>
           <div class="w-[192px] h-[40px] flex flex-row justify-center items-center gap-[16px]">
-            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
             </button>
-            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
             </button>
           </div>
         </div>
@@ -49,44 +48,44 @@
       <div class="w-[1440px] h-[348px] flex flex-row items-center gap-[48px] px-[64px] py-[32px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
         <div class="w-[507px] h-[284px] flex flex-row justify-end gap-[48px]">
           <div class="w-[137px] h-[232px] flex flex-col gap-[24px]">
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
             <div class="w-[137px] h-[184px] flex flex-col gap-[16px]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category One</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Two</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Three</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Four</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Five</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category One</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Two</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Three</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Four</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Five</p>
             </div>
           </div>
           <div class="w-[137px] h-[232px] flex flex-col gap-[24px]">
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
             <div class="w-[137px] h-[184px] flex flex-col gap-[16px]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Six</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Seven</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Eight</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Nine</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Ten</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Six</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Seven</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Eight</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Nine</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Ten</p>
             </div>
           </div>
           <div class="w-[137px] h-[232px] flex flex-col gap-[24px]">
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
             <div class="w-[137px] h-[184px] flex flex-col gap-[16px]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Eleven</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Twelve</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Thirteen</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Fourteen</p>
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Fifteen</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Eleven</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Twelve</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Thirteen</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Fourteen</p>
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Fifteen</p>
             </div>
           </div>
         </div>
         <div class="w-[757px] h-[284px] flex flex-row justify-end gap-[24px]">
           <div class="w-[366px] h-[284px] flex flex-col gap-[16px]">
             <div class="w-[366px] h-[244px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
           </div>
           <div class="w-[366px] h-[284px] flex flex-col gap-[16px]">
             <div class="w-[366px] h-[244px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Product categories</p>
           </div>
         </div>
       </div>

@@ -6,7 +6,6 @@
     <title>Stacked List / 4 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* Components are designed for 1440px desktop — render at that width */
       html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
     </style>
   </head>
@@ -14,21 +13,21 @@
     <section class="w-full flex flex-col mx-auto max-w-[1440px]">
       <div class="w-[1064px] h-[90px] flex flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)]">
         <div class="w-[792px] h-[66px] flex flex-col gap-[8px]">
-          <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Project Progress</h3>
-          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Project Progress</h3>
+          <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
         </div>
         <div class="w-[248px] h-[40px] flex flex-row justify-end items-center gap-[16px]">
           <div class="w-[192px] h-[40px] flex flex-row gap-[16px]">
-            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
             </button>
-            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
+              <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
             </button>
           </div>
-          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px]">
+          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
             <div class="w-[24px] h-[24px] overflow-hidden">
-              <div class="w-[16px] h-[4px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
           </button>
         </div>
@@ -36,8 +35,8 @@
       <div class="w-[1064px] h-[304px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
         <div class="w-[1064px] h-[76px] flex flex-col justify-center gap-[16px] border border-[rgba(0,0,0,1.000)]">
           <div class="w-[1064px] h-[24px] flex flex-row items-center gap-[16px]">
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
-            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
           </div>
           <div class="w-[1064px] h-[4px] flex flex-col bg-[rgba(255,255,255,1.000)] overflow-hidden">
             <div class="w-[638px] h-[4px] flex flex-row gap-[10px] p-[10px] bg-[rgba(0,0,0,1.000)]"></div>
@@ -45,8 +44,8 @@
         </div>
         <div class="w-[1064px] h-[76px] flex flex-col justify-center gap-[16px] border border-[rgba(0,0,0,1.000)]">
           <div class="w-[1064px] h-[24px] flex flex-row items-center gap-[16px]">
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
-            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
           </div>
           <div class="w-[1064px] h-[4px] flex flex-col bg-[rgba(255,255,255,1.000)] overflow-hidden">
             <div class="w-[638px] h-[4px] flex flex-row gap-[10px] p-[10px] bg-[rgba(0,0,0,1.000)]"></div>
@@ -54,8 +53,8 @@
         </div>
         <div class="w-[1064px] h-[76px] flex flex-col justify-center gap-[16px] border border-[rgba(0,0,0,1.000)]">
           <div class="w-[1064px] h-[24px] flex flex-row items-center gap-[16px]">
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
-            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
           </div>
           <div class="w-[1064px] h-[4px] flex flex-col bg-[rgba(255,255,255,1.000)] overflow-hidden">
             <div class="w-[638px] h-[4px] flex flex-row gap-[10px] p-[10px] bg-[rgba(0,0,0,1.000)]"></div>
@@ -63,8 +62,8 @@
         </div>
         <div class="w-[1064px] h-[76px] flex flex-col justify-center gap-[16px] border border-[rgba(0,0,0,1.000)]">
           <div class="w-[1064px] h-[24px] flex flex-row items-center gap-[16px]">
-            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
-            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
+            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Project name</p>
+            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">60%</p>
           </div>
           <div class="w-[1064px] h-[4px] flex flex-col bg-[rgba(255,255,255,1.000)] overflow-hidden">
             <div class="w-[638px] h-[4px] flex flex-row gap-[10px] p-[10px] bg-[rgba(0,0,0,1.000)]"></div>
