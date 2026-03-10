@@ -2,11 +2,238 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Navbar / 7 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <nav class="w-full mx-auto max-w-[1440px]"></nav>
+    <nav class="w-full flex flex-col items-center bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1440px] h-[72px] flex flex-row justify-between items-center overflow-hidden">
+        <div class="w-[1312px] h-[40px] flex flex-row justify-between items-center gap-[622px]">
+          <div class="w-[498px] h-[36px] flex flex-row items-center gap-[24px]">
+            <div class="w-[84px] h-[36px] overflow-hidden">
+              <div class="w-[70px] h-[36px] overflow-hidden">
+                <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[19px] h-[25px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[22px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[15px] h-[9px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+            <div class="w-[390px] h-[24px] flex flex-row items-center gap-[32px] overflow-hidden">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
+              <div class="w-[94px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[13px] h-[7px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[192px] h-[40px] flex flex-row justify-center items-center gap-[16px]">
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+            </button>
+            <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[449px] flex flex-col items-center overflow-hidden">
+        <div class="w-[1440px] h-[393px] flex flex-row justify-center gap-[32px] px-[64px] py-[32px]">
+          <div class="w-[304px] h-[329px] flex flex-col gap-[16px]">
+            <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Page group one</p>
+            <div class="w-[312px] h-[292px] flex flex-col gap-[16px]">
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page One</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Two</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Three</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Four</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[304px] h-[329px] flex flex-col gap-[16px]">
+            <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Page group two</p>
+            <div class="w-[312px] h-[292px] flex flex-col gap-[16px]">
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Five</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Six</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Seven</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Eight</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[304px] h-[329px] flex flex-col gap-[16px]">
+            <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Page group three</p>
+            <div class="w-[312px] h-[292px] flex flex-col gap-[16px]">
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Nine</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Ten</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Eleven</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Twelve</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[304px] h-[329px] flex flex-col gap-[16px]">
+            <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Page group four</p>
+            <div class="w-[312px] h-[292px] flex flex-col gap-[16px]">
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Thirteen</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Fourteen</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Fifteen</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+              <div class="w-[312px] h-[61px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[276px] h-[45px] flex flex-col">
+                  <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Page Sixteen</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet consectetur elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1440px] h-[56px] flex flex-row justify-between gap-[16px] px-[64px] py-[16px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[268px] h-[24px] flex flex-row gap-[8px]">
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Ready to get started?</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left underline">Sign up for free</p>
+          </div>
+          <div class="w-[184px] h-[24px] flex flex-row gap-[24px]">
+            <div class="w-[80px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+            </div>
+            <div class="w-[80px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+              <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[18px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
