@@ -385,6 +385,24 @@ def build_layout_classes(node: dict, is_root: bool = False) -> list[str]:
     return dedupe_classes(classes)
 
 
+def build_image_placeholder_classes(node: dict) -> list[str]:
+    # For image-like primitives we intentionally skip fill/stroke/effect classes
+    # because Figma exports many of these as opaque black shapes.
+    classes = []
+    classes.extend(map_size_classes(node, is_root=False))
+    classes.extend(map_layout_classes(node))
+    classes.extend(padding_classes(node))
+    classes.extend(border_radius_classes(node))
+    if node.get("clipsContent"):
+        classes.append("overflow-hidden")
+    classes.append("bg-gray-200")
+    if not any(c.startswith("h-[") for c in classes):
+        classes.append("h-[240px]")
+    if not any(c.startswith("w-[") for c in classes):
+        classes.append("w-full")
+    return dedupe_classes(classes)
+
+
 def render_node(node: dict, category: str, is_root: bool = False, indent: int = 2) -> str:
     if node.get("visible") is False:
         return ""
@@ -406,14 +424,9 @@ def render_node(node: dict, category: str, is_root: bool = False, indent: int = 
         classes = dedupe_classes(map_text_classes(node))
         return f'{pad}<{tag} class="{" ".join(classes)}">{html.escape(text)}</{tag}>'
 
-    if is_image_placeholder(node):
-        classes = build_layout_classes(node, is_root=False)
-        classes.append("bg-gray-200")
-        if not any(c.startswith("h-[") for c in classes):
-            classes.append("h-[240px]")
-        if not any(c.startswith("w-[") for c in classes):
-            classes.append("w-full")
-        return f'{pad}<div class="{" ".join(dedupe_classes(classes))}" role="img" aria-label="Image placeholder"></div>'
+    if node_type in IMAGE_LIKE_TYPES or is_image_placeholder(node):
+        classes = build_image_placeholder_classes(node)
+        return f'{pad}<div class="{" ".join(classes)}" role="img" aria-label="Image placeholder"></div>'
 
     children = [c for c in node.get("children", []) or [] if c.get("visible", True)]
     if is_root:
