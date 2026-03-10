@@ -2,11 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Description List / 1 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px]">
+      <div class="w-[1064px] h-[90px] flex flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)]">
+        <div class="w-[1064px] h-[66px] flex flex-col gap-[8px]">
+          <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Account</h3>
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        </div>
+      </div>
+      <div class="w-[1064px] h-[464px] flex flex-col">
+        <div class="w-[1064px] h-[104px] flex flex-row gap-[24px]">
+          <div class="w-[520px] h-[56px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+          </div>
+          <div class="w-[520px] h-[56px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Website</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">www.relume.io</p>
+          </div>
+        </div>
+        <div class="w-[1064px] h-[152px] flex flex-row gap-[24px]">
+          <div class="w-[768px] h-[104px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">About</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+          </div>
+        </div>
+        <div class="w-[1064px] h-[104px] flex flex-row gap-[24px]">
+          <div class="w-[520px] h-[56px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email address</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">email@example.com</p>
+          </div>
+          <div class="w-[520px] h-[56px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Password</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">*******</p>
+          </div>
+        </div>
+        <div class="w-[1064px] h-[104px] flex flex-row gap-[24px]">
+          <div class="w-[1064px] h-[56px] flex flex-col gap-[8px]">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Language</p>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">English</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
