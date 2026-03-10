@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import json
 import os
+import re
 import sys
-import time
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote
@@ -11,21 +12,13 @@ from urllib.request import Request, urlopen
 
 FILE_KEY = "csPgPVhduXpcjSAKHqsygR"
 API_BASE = "https://api.figma.com/v1"
-PAGES_PATH = Path(__file__).resolve().parent / "pages.json"
-OUTPUT_PATH = Path(__file__).resolve().parent / "components-raw.json"
-SUBCATEGORY_PREFIX = "    ↳"
-SKIP_PAGE_NAMES = {
-    "Welcome",
-    "Changelog",
-    "---",
-    "WORKSPACE",
-    "MARKETING COMPONENTS",
-    "ECOMMERCE COMPONENTS",
-    "APPLICATION COMPONENTS",
-    "PAGE TEMPLATES",
-}
-BATCH_SIZE = 10
-SLEEP_SECONDS = 1
+SCRIPT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = SCRIPT_DIR.parent
+ENV_PATH = ROOT_DIR / ".env"
+PAGES_PATH = SCRIPT_DIR / "pages.json"
+OUTPUT_PATH = SCRIPT_DIR / "components-raw.json"
+
+ALLOWED_COMPONENT_TYPES = {"FRAME", "COMPONENT", "COMPONENT_SET", "INSTANCE"}
 
 
 def load_env(path: Path) -> None:
@@ -42,138 +35,187 @@ def load_env(path: Path) -> None:
             os.environ[key] = value
 
 
-def is_separator(name: str) -> bool:
-    stripped = name.strip()
-    if not stripped:
-        return False
-    return all(ch in {"-", "–", "—"} for ch in stripped)
-
-
-def should_skip_page(name: str) -> bool:
-    normalized = " ".join(name.strip().split())
-    if not normalized:
-        return True
-
-    if is_separator(normalized):
-        return True
-
-    for skip_name in SKIP_PAGE_NAMES:
-        if normalized == skip_name or normalized.startswith(f"{skip_name} "):
-            return True
-
-    return False
-
-
-def load_pages(path: Path) -> list[dict]:
-    payload = json.loads(path.read_text(encoding="utf-8"))
-    pages = payload.get("pages", [])
-    if not isinstance(pages, list):
-        raise RuntimeError("Ongeldig pages.json formaat: 'pages' moet een lijst zijn")
-    return pages
-
-
-def filter_pages(pages: list[dict]) -> list[dict]:
-    filtered = []
-    for page in pages:
-        name = page.get("name", "")
-        page_id = page.get("id")
-        if not isinstance(name, str) or not isinstance(page_id, str):
-            continue
-        if should_skip_page(name):
-            continue
-        if not name.startswith(SUBCATEGORY_PREFIX):
-            continue
-        filtered.append({"id": page_id, "name": name})
-    return filtered
-
-
-def fetch_nodes(page_ids: list[str]) -> dict:
+def api_get(path: str) -> dict:
     token = os.environ.get("FIGMA_PERSONAL_ACCESS_TOKEN")
     if not token:
         raise RuntimeError("FIGMA_PERSONAL_ACCESS_TOKEN ontbreekt in omgeving/.env")
 
-    ids_param = quote(",".join(page_ids), safe=",:")
-    url = f"{API_BASE}/files/{FILE_KEY}/nodes?ids={ids_param}"
     request = Request(
-        url,
+        f"{API_BASE}{path}",
         headers={
             "X-Figma-Token": token,
             "Accept": "application/json",
         },
     )
-    with urlopen(request, timeout=60) as response:
+    with urlopen(request, timeout=90) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
-def discover_components(pages: list[dict]) -> list[dict]:
-    components = []
-    total_batches = (len(pages) + BATCH_SIZE - 1) // BATCH_SIZE
+def clean_page_name(name: str) -> str:
+    cleaned = re.sub(r"^[\s↳]+", "", name or "").strip()
+    return re.sub(r"\s+", " ", cleaned)
 
-    for batch_index, start in enumerate(range(0, len(pages), BATCH_SIZE), start=1):
-        batch = pages[start : start + BATCH_SIZE]
-        batch_ids = [page["id"] for page in batch]
-        payload = fetch_nodes(batch_ids)
-        nodes = payload.get("nodes", {})
 
-        for page in batch:
-            page_id = page["id"]
-            page_name = page["name"]
-            page_document = (nodes.get(page_id) or {}).get("document") or {}
-            for child in page_document.get("children", []):
-                child_id = child.get("id")
-                child_name = child.get("name")
-                if isinstance(child_id, str) and isinstance(child_name, str):
-                    components.append(
-                        {
-                            "id": child_id,
-                            "name": child_name,
-                            "page_name": page_name,
-                            "page_id": page_id,
-                        }
-                    )
+def is_overlay_page(name: str) -> bool:
+    normalized = clean_page_name(name).lower()
+    if not normalized:
+        return True
+    if all(ch in {"-", "–", "—"} for ch in normalized):
+        return True
 
-        print(f"Batch {batch_index}/{total_batches} verwerkt ({len(batch_ids)} pagina's)")
-        if batch_index < total_batches:
-            time.sleep(SLEEP_SECONDS)
+    if normalized.startswith("welcome"):
+        return True
+    if normalized.startswith("changelog"):
+        return True
+    if normalized.startswith("workspace"):
+        return True
 
-    return components
+    if normalized in {"sitemap", "wireframe", "style guide", "design"}:
+        return True
+
+    if normalized.endswith("components"):
+        return True
+
+    if "deprecated" in normalized and "components" in normalized:
+        return True
+
+    return False
+
+
+def build_component_meta(node: dict, page_id: str, page_name: str, path: list[str], top_level: bool) -> dict:
+    return {
+        "id": node.get("id"),
+        "name": node.get("name"),
+        "type": node.get("type"),
+        "page_id": page_id,
+        "page_name": page_name,
+        "top_level": top_level,
+        "path": " / ".join(path + [node.get("name", "")]).strip(" /"),
+        "node": node,
+    }
+
+
+def walk_components(node: dict, page_id: str, page_name: str, path: list[str], results: list[dict], top_level: bool) -> None:
+    node_type = node.get("type")
+    current_path = path + [node.get("name", "")]
+
+    if node_type in ALLOWED_COMPONENT_TYPES:
+        results.append(build_component_meta(node, page_id, page_name, path, top_level))
+
+    for child in node.get("children", []) or []:
+        walk_components(
+            child,
+            page_id=page_id,
+            page_name=page_name,
+            path=current_path,
+            results=results,
+            top_level=False,
+        )
+
+
+def load_pages() -> list[dict]:
+    if not PAGES_PATH.exists():
+        raise RuntimeError("scripts/pages.json niet gevonden. Run eerst scripts/01-explore.py")
+    data = json.loads(PAGES_PATH.read_text(encoding="utf-8"))
+    return data.get("pages", [])
 
 
 def main() -> int:
-    load_env(Path.cwd() / ".env")
-
-    if not PAGES_PATH.exists():
-        print(f"Bestand niet gevonden: {PAGES_PATH}", file=sys.stderr)
-        return 1
+    load_env(ENV_PATH)
 
     try:
-        pages = load_pages(PAGES_PATH)
-        filtered_pages = filter_pages(pages)
-        components = discover_components(filtered_pages)
-    except HTTPError as exc:
-        print(f"HTTP fout: {exc.code} {exc.reason}", file=sys.stderr)
-        try:
-            body = exc.read().decode("utf-8")
-            if body:
-                print(body, file=sys.stderr)
-        except Exception:
-            pass
-        return 1
-    except URLError as exc:
-        print(f"Netwerkfout: {exc.reason}", file=sys.stderr)
-        return 1
+        pages = load_pages()
     except Exception as exc:
-        print(f"Onverwachte fout: {exc}", file=sys.stderr)
+        print(f"Fout bij laden van pages.json: {exc}", file=sys.stderr)
         return 1
+
+    kept_pages = []
+    skipped_pages = []
+    total_components = 0
+
+    for page in pages:
+        page_id = page.get("id")
+        page_name_raw = page.get("name", "")
+        page_name = clean_page_name(page_name_raw)
+        if not page_id:
+            continue
+
+        if is_overlay_page(page_name_raw):
+            skipped_pages.append(
+                {
+                    "id": page_id,
+                    "name": page_name_raw,
+                    "reason": "overlay/workspace/separator",
+                }
+            )
+            continue
+
+        path = f"/files/{FILE_KEY}/nodes?ids={quote(page_id, safe='')}"
+        try:
+            node_payload = api_get(path)
+        except HTTPError as exc:
+            print(f"HTTP fout voor pagina {page_name} ({page_id}): {exc.code} {exc.reason}", file=sys.stderr)
+            try:
+                body = exc.read().decode("utf-8")
+                if body:
+                    print(body, file=sys.stderr)
+            except Exception:
+                pass
+            return 1
+        except URLError as exc:
+            print(f"Netwerkfout voor pagina {page_name} ({page_id}): {exc.reason}", file=sys.stderr)
+            return 1
+        except Exception as exc:
+            print(f"Onverwachte fout voor pagina {page_name} ({page_id}): {exc}", file=sys.stderr)
+            return 1
+
+        page_document = node_payload.get("nodes", {}).get(page_id, {}).get("document")
+        if not page_document:
+            print(f"Waarschuwing: geen document voor pagina {page_name} ({page_id})", file=sys.stderr)
+            continue
+
+        top_level_components = []
+        recursive_components = []
+        for child in page_document.get("children", []) or []:
+            if child.get("type") in ALLOWED_COMPONENT_TYPES:
+                top_level_components.append(build_component_meta(child, page_id, page_name, [page_name], top_level=True))
+            walk_components(
+                child,
+                page_id=page_id,
+                page_name=page_name,
+                path=[page_name],
+                results=recursive_components,
+                top_level=False,
+            )
+
+        kept_pages.append(
+            {
+                "id": page_id,
+                "name": page_name,
+                "raw_name": page_name_raw,
+                "top_level_component_count": len(top_level_components),
+                "recursive_component_count": len(recursive_components),
+                "components": top_level_components,
+                "recursive_components": recursive_components,
+            }
+        )
+        total_components += len(top_level_components)
+        print(
+            f"[OK] {page_name}: top-level={len(top_level_components)}, recursive={len(recursive_components)}"
+        )
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(
         json.dumps(
             {
                 "file_key": FILE_KEY,
-                "filtered_page_count": len(filtered_pages),
-                "component_count": len(components),
-                "components": components,
+                "api_base": API_BASE,
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "kept_page_count": len(kept_pages),
+                "skipped_page_count": len(skipped_pages),
+                "total_top_level_components": total_components,
+                "kept_pages": kept_pages,
+                "skipped_pages": skipped_pages,
             },
             indent=2,
             ensure_ascii=False,
@@ -182,8 +224,9 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    print(f"Geselecteerde pagina's: {len(filtered_pages)}")
-    print(f"Gevonden componenten: {len(components)}")
+    print(f"\nBewaarde pagina's: {len(kept_pages)}")
+    print(f"Overgeslagen pagina's: {len(skipped_pages)}")
+    print(f"Totaal top-level componenten: {total_components}")
     print(f"Opgeslagen naar: {OUTPUT_PATH}")
     return 0
 
