@@ -5,88 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Form / 14 /</title>
     <link rel="stylesheet" href="../../dist/tailwind.css">
-</head>
+  </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
-      <div class="w-[1064px] flex flex-col md:flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[81%] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
-          <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Notifications</h3>
-          <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+    <article class="w-full flex flex-col bg-white mx-auto max-w-screen-xl px-5 md:px-20">
+      <div class="w-full max-w-screen-lg flex flex-col md:flex-row items-end gap-6 bg-white overflow-hidden">
+        <div class="w-full max-w-screen-md flex flex-col gap-2 min-w-0 md:w-1/2">
+          <h3 class="text-2xl font-bold leading-snug text-black text-left">Notifications</h3>
+          <p class="text-base font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
         </div>
-        <div class="w-[17%] flex flex-col md:flex-row justify-end items-center gap-[16px] overflow-hidden min-w-0 w-full md:w-1/2">
-          <div class="flex flex-row items-center gap-[24px]">
+        <div class="w-1/6 flex flex-col md:flex-row justify-end items-center gap-4 overflow-hidden min-w-0 w-full md:w-1/2">
+          <div class="flex flex-row items-center gap-6">
             <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Cancel</button>
-            <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Save</button>
+            <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Save</button>
           </div>
         </div>
       </div>
-      <div class="w-[1064px] min-h-[544px] flex flex-col gap-[24px]">
-        <div class="w-[1064px] flex flex-col border border-[rgba(0,0,0,1.000)]">
-          <div class="w-[1064px] flex flex-col md:flex-row gap-[48px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-            <div class="w-[41%] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
-              <h4 class="text-[20px] font-bold leading-[28px] text-[rgba(0,0,0,1.000)] text-left">Choose where you get notified</h4>
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-            </div>
-            <div class="w-[55%] flex flex-col gap-[16px] min-w-0 w-full md:w-1/2">
-              <div class="w-[580px] flex flex-col md:flex-row items-center gap-[8px] overflow-hidden">
-                <div class="w-[7%] flex flex-col justify-center items-end p-[4px] rounded-[500px] bg-[rgba(0,0,0,1.000)] min-w-0 w-full md:w-1/2">
-                  <div class="w-[40%] h-[16px] rounded-[50px] bg-[rgba(255,255,255,1.000)] overflow-hidden"></div>
-                </div>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email notification</p>
+      <div class="w-full max-w-screen-lg min-h-96 flex flex-col gap-6">
+        <ul class="w-full max-w-screen-lg flex flex-col border border-[rgba(0,0,0,1.000)]">
+          <li class="list-none">
+            <section class="w-full max-w-screen-lg flex flex-col md:flex-row gap-12 border border-[rgba(0,0,0,1.000)] overflow-hidden">
+              <div class="w-2/5 flex flex-col gap-2 min-w-0 w-full md:w-1/2">
+                <h4 class="text-xl font-bold leading-snug text-black text-left">Choose where you get notified</h4>
+                <p class="text-base font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
               </div>
-              <div class="w-[580px] flex flex-col md:flex-row items-center gap-[8px] overflow-hidden">
-                <div class="w-[7%] flex flex-col justify-center p-[4px] rounded-[500px] bg-[rgba(204,204,204,1.000)] min-w-0 w-full md:w-1/2">
-                  <div class="w-[40%] h-[16px] rounded-[50px] bg-[rgba(255,255,255,1.000)] overflow-hidden"></div>
-                </div>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Desktop notification</p>
+              <ul class="w-[55%] flex flex-col gap-4 min-w-0 w-full md:w-1/2">
+                <li class="list-none">
+                  <section class="w-96 flex flex-col md:flex-row items-center gap-2 overflow-hidden">
+                    <section class="w-[7%] flex flex-col justify-center items-end p-1 rounded-3xl bg-black min-w-0 w-full md:w-1/2">
+                      <section class="w-2/5 h-4 rounded-3xl bg-white overflow-hidden"></section>
+                    </section>
+                    <p class="text-base font-normal leading-normal text-black text-left">Email notification</p>
+                  </section>
+                </li>
+                <li class="list-none">
+                  <section class="w-96 flex flex-col md:flex-row items-center gap-2 overflow-hidden">
+                    <section class="w-[7%] flex flex-col justify-center p-1 rounded-3xl bg-[rgba(204,204,204,1.000)] min-w-0 w-full md:w-1/2">
+                      <section class="w-2/5 h-4 rounded-3xl bg-white overflow-hidden"></section>
+                    </section>
+                    <p class="text-base font-normal leading-normal text-black text-left">Desktop notification</p>
+                  </section>
+                </li>
+                <li class="list-none">
+                  <section class="w-96 flex flex-col md:flex-row items-center gap-2 overflow-hidden">
+                    <section class="w-[7%] flex flex-col justify-center p-1 rounded-3xl bg-[rgba(204,204,204,1.000)] min-w-0 w-full md:w-1/2">
+                      <section class="w-2/5 h-4 rounded-3xl bg-white overflow-hidden"></section>
+                    </section>
+                    <p class="text-base font-normal leading-normal text-black text-left">Mobile push notifications</p>
+                  </section>
+                </li>
+              </ul>
+            </section>
+          </li>
+          <li class="list-none">
+            <section class="w-full max-w-screen-lg flex flex-col md:flex-row gap-12 border border-[rgba(0,0,0,1.000)] overflow-hidden">
+              <div class="w-2/5 flex flex-col gap-2 min-w-0 w-full md:w-1/2">
+                <h4 class="text-xl font-bold leading-snug text-black text-left">By Email</h4>
+                <p class="text-base font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
               </div>
-              <div class="w-[580px] flex flex-col md:flex-row items-center gap-[8px] overflow-hidden">
-                <div class="w-[7%] flex flex-col justify-center p-[4px] rounded-[500px] bg-[rgba(204,204,204,1.000)] min-w-0 w-full md:w-1/2">
-                  <div class="w-[40%] h-[16px] rounded-[50px] bg-[rgba(255,255,255,1.000)] overflow-hidden"></div>
-                </div>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Mobile push notifications</p>
+              <ul class="w-[55%] flex flex-col gap-4 min-w-0 w-full md:w-1/2">
+                <li class="list-none">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                </li>
+                <li class="list-none">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                </li>
+                <li class="list-none">
+                  <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                </li>
+              </ul>
+            </section>
+          </li>
+          <li class="list-none">
+            <section class="w-full max-w-screen-lg flex flex-col md:flex-row gap-12 border border-[rgba(0,0,0,1.000)] overflow-hidden">
+              <div class="w-2/5 flex flex-col gap-2 min-w-0 w-full md:w-1/2">
+                <h4 class="text-xl font-bold leading-snug text-black text-left">Choose frequency</h4>
+                <p class="text-base font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
               </div>
-            </div>
-          </div>
-          <div class="w-[1064px] flex flex-col md:flex-row gap-[48px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-            <div class="w-[41%] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
-              <h4 class="text-[20px] font-bold leading-[28px] text-[rgba(0,0,0,1.000)] text-left">By Email</h4>
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-            </div>
-            <div class="w-[55%] flex flex-col gap-[16px] min-w-0 w-full md:w-1/2">
-              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-            </div>
-          </div>
-          <div class="w-[1064px] flex flex-col md:flex-row gap-[48px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-            <div class="w-[41%] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
-              <h4 class="text-[20px] font-bold leading-[28px] text-[rgba(0,0,0,1.000)] text-left">Choose frequency</h4>
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-            </div>
-            <div class="w-[55%] flex flex-col gap-[16px] min-w-0 w-full md:w-1/2">
-              <div class="w-[580px] flex flex-col md:flex-row items-center gap-[12px] overflow-hidden">
-                <div class="w-[3%] rounded-[100px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
-                  <div class="w-[44%] h-[8px] rounded-[16px] bg-[rgba(255,255,255,1.000)] overflow-hidden"></div>
-                </div>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Daily</p>
-              </div>
-              <div class="w-[580px] flex flex-col md:flex-row items-center gap-[12px] overflow-hidden">
-                <div class="w-[3%] h-[18px] rounded-[100px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2"></div>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Weekly</p>
-              </div>
-              <div class="w-[580px] flex flex-col md:flex-row items-center gap-[12px] overflow-hidden">
-                <div class="w-[3%] h-[18px] rounded-[100px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2"></div>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Monthly</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-row items-center gap-[24px]">
+              <ul class="w-[55%] flex flex-col gap-4 min-w-0 w-full md:w-1/2">
+                <li class="list-none">
+                  <section class="w-96 flex flex-col md:flex-row items-center gap-3 overflow-hidden">
+                    <section class="w-[3%] rounded-3xl bg-black border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2">
+                      <section class="w-[44%] h-2 rounded-2xl bg-white overflow-hidden"></section>
+                    </section>
+                    <p class="text-base font-normal leading-normal text-black text-left">Daily</p>
+                  </section>
+                </li>
+                <li class="list-none">
+                  <section class="w-96 flex flex-col md:flex-row items-center gap-3 overflow-hidden">
+                    <section class="w-[3%] h-4 rounded-3xl bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2"></section>
+                    <p class="text-base font-normal leading-normal text-black text-left">Weekly</p>
+                  </section>
+                </li>
+                <li class="list-none">
+                  <section class="w-96 flex flex-col md:flex-row items-center gap-3 overflow-hidden">
+                    <section class="w-[3%] h-4 rounded-3xl bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0 w-full md:w-1/2"></section>
+                    <p class="text-base font-normal leading-normal text-black text-left">Monthly</p>
+                  </section>
+                </li>
+              </ul>
+            </section>
+          </li>
+        </ul>
+        <div class="flex flex-row items-center gap-6">
           <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Cancel</button>
-          <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Save</button>
+          <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Save</button>
         </div>
       </div>
-    </section>
+    </article>
   </body>
 </html>

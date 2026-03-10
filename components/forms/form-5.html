@@ -5,53 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Form / 5 /</title>
     <link rel="stylesheet" href="../../dist/tailwind.css">
-</head>
+  </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col gap-[24px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
-      <div class="w-[1064px] flex flex-col">
-        <div class="w-[1064px] flex flex-col md:flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-          <div class="w-[1064px] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
-            <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Personal information</h3>
-            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+    <article class="w-full flex flex-col gap-6 bg-white mx-auto max-w-screen-xl px-5 md:px-20">
+      <section class="w-full max-w-screen-lg flex flex-col">
+        <div class="w-full max-w-screen-lg flex flex-col md:flex-row items-end gap-6 bg-white overflow-hidden">
+          <div class="w-full max-w-screen-lg flex flex-col gap-2 min-w-0 md:w-1/2">
+            <h3 class="text-2xl font-bold leading-snug text-black text-left">Personal information</h3>
+            <p class="text-base font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
           </div>
         </div>
-        <div class="w-[53%] flex flex-col gap-[24px]">
-          <div class="w-[560px] flex flex-col md:flex-row gap-[16px] overflow-hidden">
-            <div class="w-[49%] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">First name</p>
+        <ul class="w-[53%] flex flex-col gap-6">
+          <li class="list-none">
+            <section class="w-96 flex flex-col md:flex-row gap-4 overflow-hidden">
+              <section class="w-[49%] flex flex-col gap-2 min-w-0 w-full md:w-1/2">
+                <p class="text-base font-normal leading-normal text-black text-left">First name</p>
+                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
+              </section>
+              <section class="w-[49%] flex flex-col gap-2 min-w-0 w-full md:w-1/2">
+                <p class="text-base font-normal leading-normal text-black text-left">Last name</p>
+                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
+              </section>
+            </section>
+          </li>
+          <li class="list-none">
+            <section class="w-96 flex flex-col gap-2">
+              <p class="text-base font-normal leading-normal text-black text-left">Email address</p>
               <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-            </div>
-            <div class="w-[49%] flex flex-col gap-[8px] min-w-0 w-full md:w-1/2">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Last name</p>
+            </section>
+          </li>
+          <li class="list-none">
+            <section class="w-96 flex flex-col gap-2">
+              <p class="text-base font-normal leading-normal text-black text-left">Country</p>
+              <section class="w-96 flex flex-col md:flex-row items-center gap-4 p-3 border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <p class="text-base font-normal leading-normal text-black text-left">Select one...</p>
+                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+              </section>
+            </section>
+          </li>
+          <li class="list-none">
+            <section class="w-96 flex flex-col gap-2">
+              <p class="text-base font-normal leading-normal text-black text-left">Street address</p>
               <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
+            </section>
+          </li>
+          <li class="list-none">
+            <div class="hidden md:flex flex-row border-b border-gray-200">
+              <button class="border border-gray-900 px-4 py-2 text-sm">City</button>
+              <button class="px-4 py-2 text-sm text-gray-500">State / Province</button>
+              <button class="px-4 py-2 text-sm text-gray-500">ZIP / Postal code</button>
             </div>
-          </div>
-          <div class="w-[560px] flex flex-col gap-[8px]">
-            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email address</p>
-            <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-          </div>
-          <div class="w-[560px] flex flex-col gap-[8px]">
-            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Country</p>
-            <div class="w-[560px] flex flex-col md:flex-row items-center gap-[16px] p-[12px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Select one...</p>
-              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
-            </div>
-          </div>
-          <div class="w-[560px] flex flex-col gap-[8px]">
-            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Street address</p>
-            <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-          </div>
-          <div class="hidden md:flex flex-row border-b border-gray-200">
-            <button class="border border-gray-900 px-4 py-2 text-sm">City</button>
-            <button class="px-4 py-2 text-sm text-gray-500">State / Province</button>
-            <button class="px-4 py-2 text-sm text-gray-500">ZIP / Postal code</button>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-row items-center gap-[24px]">
+          </li>
+        </ul>
+      </section>
+      <div class="flex flex-row items-center gap-6">
         <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Cancel</button>
-        <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Save</button>
+        <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Save</button>
       </div>
-    </section>
+    </article>
   </body>
 </html>

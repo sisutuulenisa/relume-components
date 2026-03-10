@@ -5,56 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Layout / 505 /</title>
     <link rel="stylesheet" href="../../dist/tailwind.css">
-</head>
+  </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
-      <div class="w-[89%] min-h-[731px] flex flex-col items-center gap-[80px]">
-        <div class="w-[60%] flex flex-col items-center gap-[16px]">
+    <article class="w-full flex flex-col items-center gap-20 px-16 py-28 bg-white overflow-hidden mx-auto max-w-screen-xl px-5 md:px-20">
+      <div class="w-full max-w-screen-xl min-h-96 flex flex-col items-center gap-20">
+        <section class="w-full max-w-screen-md flex flex-col items-center gap-4">
           <div class="w-[7%] flex flex-col md:flex-row items-center overflow-hidden">
-            <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Tagline</p>
+            <p class="text-base font-semibold leading-normal text-black text-center">Tagline</p>
           </div>
-          <div class="w-[768px] flex flex-col items-center gap-[24px]">
-            <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Short heading goes here</h1>
-            <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
-          </div>
-        </div>
-        <div class="w-[1280px] flex flex-col md:flex-row bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-          <div class="w-[38%] flex flex-col border border-[rgba(0,0,0,1.000)] min-w-0 w-full md:w-1/2">
-            <div class="w-[480px] flex flex-col justify-center gap-[16px] px-[32px] py-[24px] border border-[rgba(0,0,0,1.000)]">
-              <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Tab one</h3>
-            </div>
-            <div class="w-[480px] flex flex-col justify-center gap-[16px] px-[32px] py-[24px] border border-[rgba(0,0,0,1.000)]">
-              <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Tab two</h3>
-            </div>
-            <div class="w-[480px] flex flex-col justify-center gap-[16px] px-[32px] py-[24px] border border-[rgba(0,0,0,1.000)]">
-              <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Tab three</h3>
-            </div>
-            <div class="w-[480px] flex flex-col justify-center gap-[16px] px-[32px] py-[24px] border border-[rgba(0,0,0,1.000)]">
-              <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Tab four</h3>
-            </div>
-            <div class="w-[480px] flex flex-col justify-center gap-[16px] px-[32px] py-[24px] border border-[rgba(0,0,0,1.000)]">
-              <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Tab five</h3>
-            </div>
-          </div>
-          <div class="w-[62%] min-h-[448px] flex flex-col min-w-0 w-full md:w-1/2">
-            <div class="w-[800px] min-h-[448px] flex flex-col justify-center gap-[32px] p-[64px]">
-              <div class="w-[84%] flex flex-col gap-[24px]">
-                <div class="w-[7%] overflow-hidden">
+          <section class="w-full max-w-screen-md flex flex-col items-center gap-6">
+            <h2 class="text-5xl font-bold leading-tight text-black text-center">Short heading goes here</h2>
+            <p class="text-lg font-normal leading-normal text-black text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+          </section>
+        </section>
+        <section class="w-full max-w-screen-xl flex flex-col md:flex-row bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden">
+          <ul class="w-[38%] flex flex-col border border-[rgba(0,0,0,1.000)] min-w-0 w-full md:w-1/2">
+            <li class="list-none">
+              <section class="w-96 flex flex-col justify-center gap-4 px-8 py-6 border border-[rgba(0,0,0,1.000)]">
+                <h3 class="text-2xl font-bold leading-snug text-black text-left">Tab one</h3>
+              </section>
+            </li>
+            <li class="list-none">
+              <section class="w-96 flex flex-col justify-center gap-4 px-8 py-6 border border-[rgba(0,0,0,1.000)]">
+                <h3 class="text-2xl font-bold leading-snug text-black text-left">Tab two</h3>
+              </section>
+            </li>
+            <li class="list-none">
+              <section class="w-96 flex flex-col justify-center gap-4 px-8 py-6 border border-[rgba(0,0,0,1.000)]">
+                <h3 class="text-2xl font-bold leading-snug text-black text-left">Tab three</h3>
+              </section>
+            </li>
+            <li class="list-none">
+              <section class="w-96 flex flex-col justify-center gap-4 px-8 py-6 border border-[rgba(0,0,0,1.000)]">
+                <h3 class="text-2xl font-bold leading-snug text-black text-left">Tab four</h3>
+              </section>
+            </li>
+            <li class="list-none">
+              <section class="w-96 flex flex-col justify-center gap-4 px-8 py-6 border border-[rgba(0,0,0,1.000)]">
+                <h3 class="text-2xl font-bold leading-snug text-black text-left">Tab five</h3>
+              </section>
+            </li>
+          </ul>
+          <section class="w-full max-w-screen-md min-h-96 flex flex-col min-w-0 md:w-1/2">
+            <section class="w-full max-w-screen-md min-h-96 flex flex-col justify-center gap-8 p-16">
+              <section class="w-full max-w-screen-sm flex flex-col gap-6">
+                <section class="w-[7%] overflow-hidden">
                   <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-                </div>
-                <div class="w-[672px] flex flex-col gap-[24px]">
-                  <h1 class="text-[40px] font-bold leading-[48px] text-[rgba(0,0,0,1.000)] text-left">Medium length section heading goes here</h1>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-                </div>
-              </div>
-              <div class="flex flex-row items-center gap-[24px]">
+                </section>
+                <section class="w-full max-w-screen-sm flex flex-col gap-6">
+                  <h2 class="text-4xl font-bold leading-tight text-black text-left">Medium length section heading goes here</h2>
+                  <p class="text-base font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </section>
+              </section>
+              <div class="flex flex-row items-center gap-6">
                 <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
-                <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
+                <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Button →</button>
               </div>
-            </div>
-          </div>
-        </div>
+            </section>
+          </section>
+        </section>
       </div>
-    </section>
+    </article>
   </body>
 </html>

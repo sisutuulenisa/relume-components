@@ -5,60 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Radius</title>
     <link rel="stylesheet" href="../../dist/tailwind.css">
-</head>
+  </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col gap-[64px] p-[64px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
-      <div class="w-[91%] flex flex-row items-center overflow-hidden">
-        <div class="w-[9%] overflow-hidden min-w-0">
-          <div class="w-[83%] flex flex-row overflow-hidden">
+    <article class="w-full flex flex-col gap-16 p-16 bg-white mx-auto max-w-screen-xl px-5 md:px-20">
+      <div class="w-full max-w-screen-xl flex flex-row items-center overflow-hidden">
+        <section class="w-1/12 overflow-hidden min-w-0">
+          <section class="w-5/6 flex flex-row overflow-hidden">
             <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
             <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
             <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
             <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
             <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-          </div>
-        </div>
+          </section>
+        </section>
       </div>
-      <div class="w-[71%] flex flex-col gap-[24px]">
-        <h1 class="text-[56px] font-bold leading-[67px] text-[rgba(0,0,0,1.000)] text-left">Radius</h1>
-      </div>
-      <div class="w-[91%] flex flex-col gap-[80px]">
-        <div class="w-[1312px] flex flex-col gap-[40px]">
-          <div class="w-[1312px] flex flex-col gap-[8px]">
-            <h2 class="text-[32px] font-bold leading-[42px] text-[rgba(0,0,0,1.000)] text-left">Large</h2>
-            <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Large radius is applied to elements which are 1 or 2 columns in width.</p>
-          </div>
-          <div class="w-[1312px] flex flex-row gap-[32px] overflow-hidden">
-            <div class="w-[49%] h-[640px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[49%] h-[640px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-          </div>
+      <section class="w-full max-w-screen-lg flex flex-col gap-6">
+        <h2 class="text-6xl font-bold leading-tight text-black text-left">Radius</h2>
+      </section>
+      <section class="w-full max-w-screen-xl flex flex-col gap-20">
+        <div class="w-full max-w-screen-xl flex flex-col gap-10">
+          <section class="w-full max-w-screen-xl flex flex-col gap-2">
+            <h2 class="text-3xl font-bold leading-snug text-black text-left">Large</h2>
+            <p class="text-lg font-normal leading-normal text-black text-left">Large radius is applied to elements which are 1 or 2 columns in width.</p>
+          </section>
+          <section class="w-full max-w-screen-xl flex flex-row gap-8 overflow-hidden">
+            <div class="w-[49%] h-96 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            <div class="w-[49%] h-96 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+          </section>
         </div>
-        <div class="w-[1312px] flex flex-col gap-[40px]">
-          <div class="w-[1312px] flex flex-col gap-[8px]">
-            <h2 class="text-[32px] font-bold leading-[42px] text-[rgba(0,0,0,1.000)] text-left">Medium</h2>
-            <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Medium radius is applied to elements which are between 2 and 3 columns in width.</p>
-          </div>
-          <div class="w-[1312px] flex flex-row gap-[32px] overflow-hidden">
-            <div class="w-[32%] h-[416px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[32%] h-[416px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[32%] h-[416px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-          </div>
+        <div class="w-full max-w-screen-xl flex flex-col gap-10">
+          <section class="w-full max-w-screen-xl flex flex-col gap-2">
+            <h2 class="text-3xl font-bold leading-snug text-black text-left">Medium</h2>
+            <p class="text-lg font-normal leading-normal text-black text-left">Medium radius is applied to elements which are between 2 and 3 columns in width.</p>
+          </section>
+          <ul class="w-full max-w-screen-xl flex flex-row gap-8 overflow-hidden">
+            <li class="list-none">
+              <div class="w-[32%] h-96 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+            <li class="list-none">
+              <div class="w-[32%] h-96 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+            <li class="list-none">
+              <div class="w-[32%] h-96 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+          </ul>
         </div>
-        <div class="w-[1312px] flex flex-col gap-[40px]">
-          <div class="w-[1312px] flex flex-col gap-[8px]">
-            <h2 class="text-[32px] font-bold leading-[42px] text-[rgba(0,0,0,1.000)] text-left">Small</h2>
-            <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Small radius is applied to elements which are smaller than 4 columns in width.</p>
-          </div>
-          <div class="w-[1312px] flex flex-row gap-[32px] overflow-hidden">
-            <div class="w-[15%] h-[192px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[15%] h-[192px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[15%] h-[192px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[15%] h-[192px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[15%] h-[192px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-            <div class="w-[15%] h-[192px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
-          </div>
+        <div class="w-full max-w-screen-xl flex flex-col gap-10">
+          <section class="w-full max-w-screen-xl flex flex-col gap-2">
+            <h2 class="text-3xl font-bold leading-snug text-black text-left">Small</h2>
+            <p class="text-lg font-normal leading-normal text-black text-left">Small radius is applied to elements which are smaller than 4 columns in width.</p>
+          </section>
+          <ul class="w-full max-w-screen-xl flex flex-row gap-8 overflow-hidden">
+            <li class="list-none">
+              <div class="w-[15%] h-48 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+            <li class="list-none">
+              <div class="w-[15%] h-48 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+            <li class="list-none">
+              <div class="w-[15%] h-48 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+            <li class="list-none">
+              <div class="w-[15%] h-48 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+            <li class="list-none">
+              <div class="w-[15%] h-48 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+            <li class="list-none">
+              <div class="w-[15%] h-48 bg-white border border-[rgba(0,0,0,1.000)] overflow-hidden min-w-0"></div>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
+      </section>
+    </article>
   </body>
 </html>
