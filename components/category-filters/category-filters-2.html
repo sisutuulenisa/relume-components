@@ -2,11 +2,280 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Category Filters / 2 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[2281px] flex flex-col gap-[80px]">
+        <div class="w-[768px] h-[109px] flex flex-col gap-[24px]">
+          <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Collection</h1>
+          <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="w-[1280px] h-[2092px] flex flex-row gap-[64px]">
+          <div class="w-[288px] h-[2092px] flex flex-col gap-[24px]">
+            <div class="w-[288px] h-[34px] flex flex-row justify-between items-center">
+              <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Filters</h3>
+              <button class="w-[58px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear all</p>
+              </button>
+            </div>
+            <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Showing 0 of 100</p>
+            <div class="w-[288px] h-[160px] flex flex-col">
+              <div class="w-[288px] h-[40px] flex flex-col gap-[10px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">All</p>
+              </div>
+              <div class="w-[288px] h-[40px] flex flex-col gap-[10px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category One</p>
+              </div>
+              <div class="w-[288px] h-[40px] flex flex-col gap-[10px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Two</p>
+              </div>
+              <div class="w-[288px] h-[40px] flex flex-col gap-[10px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Three</p>
+              </div>
+            </div>
+            <div class="w-[288px] h-[1805px] flex flex-col gap-[20px]">
+              <div class="w-[288px] h-[267px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter One</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[106px] h-[24px] flex flex-row items-center gap-[8px]">
+                    <div class="w-[18px] h-[18px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option One</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[107px] h-[24px] flex flex-row items-center gap-[8px]">
+                    <div class="w-[18px] h-[18px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Two</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[118px] h-[24px] flex flex-row items-center gap-[8px]">
+                    <div class="w-[18px] h-[18px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Three</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[110px] h-[24px] flex flex-row items-center gap-[8px]">
+                    <div class="w-[18px] h-[18px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Four</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[106px] h-[24px] flex flex-row items-center gap-[8px]">
+                    <div class="w-[18px] h-[18px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Five</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[288px] h-[307px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Two</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[49px] h-[24px] flex flex-row items-center gap-[12px]">
+                    <div class="w-[18px] h-[18px] rounded-[100px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                      <div class="w-[8px] h-[8px] rounded-[16px] bg-[rgba(255,255,255,1.000)] overflow-hidden"></div>
+                    </div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">All</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[110px] h-[24px] flex flex-row items-center gap-[12px]">
+                    <div class="w-[18px] h-[18px] rounded-[100px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option One</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[111px] h-[24px] flex flex-row items-center gap-[12px]">
+                    <div class="w-[18px] h-[18px] rounded-[100px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Two</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[122px] h-[24px] flex flex-row items-center gap-[12px]">
+                    <div class="w-[18px] h-[18px] rounded-[100px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Three</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[114px] h-[24px] flex flex-row items-center gap-[12px]">
+                    <div class="w-[18px] h-[18px] rounded-[100px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Four</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[40px] flex flex-row items-center gap-[12px]">
+                  <div class="w-[110px] h-[24px] flex flex-row items-center gap-[12px]">
+                    <div class="w-[18px] h-[18px] rounded-[100px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Five</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[288px] h-[211px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Three</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[110px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Option one</p>
+                  </div>
+                  <div class="w-[113px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Two</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[124px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Three</p>
+                  </div>
+                  <div class="w-[116px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Four</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[112px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Five</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[288px] h-[211px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Four</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[110px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Option one</p>
+                  </div>
+                  <div class="w-[113px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Two</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[124px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Three</p>
+                  </div>
+                  <div class="w-[116px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Four</p>
+                  </div>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[112px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Option Five</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[288px] h-[115px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Five</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[12px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[18px] h-[18px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Keyword</p>
+                </div>
+              </div>
+              <div class="w-[288px] h-[115px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Six</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[48px] flex flex-row items-center gap-[16px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Select</p>
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[12px] h-[7px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[288px] h-[154px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Seven</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[87px] flex flex-col gap-[24px] px-[12px] py-[16px]">
+                  <div class="w-[264px] h-[4px] flex flex-col bg-[rgba(238,238,238,1.000)]">
+                    <div class="w-[80px] h-[4px] flex flex-row gap-[10px] p-[10px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[20px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden"></div>
+                  </div>
+                  <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">0</p>
+                </div>
+              </div>
+              <div class="w-[288px] h-[154px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Eight</p>
+                  <button class="w-[37px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Clear</p>
+                  </button>
+                </div>
+                <div class="w-[288px] h-[87px] flex flex-col gap-[24px] px-[12px] py-[16px]">
+                  <div class="w-[264px] h-[4px] flex flex-col bg-[rgba(238,238,238,1.000)]">
+                    <div class="w-[80px] h-[4px] flex flex-row gap-[10px] p-[10px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[20px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden"></div>
+                  </div>
+                  <div class="w-[264px] h-[27px] flex flex-row justify-between gap-[10px]">
+                    <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">0</p>
+                    <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">100</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[288px] h-[91px] flex flex-col">
+                <div class="w-[288px] h-[67px] flex flex-row items-center border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[18px] font-[600] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Filter Nine</p>
+                </div>
+                <div class="w-[40px] h-[24px] flex flex-row items-center gap-[8px]">
+                  <div class="w-[40px] h-[24px] flex flex-col justify-center p-[4px] rounded-[500px] bg-[rgba(204,204,204,1.000)]">
+                    <div class="w-[16px] h-[16px] rounded-[50px] bg-[rgba(255,255,255,1.000)] overflow-hidden"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[288px] border border-[rgba(0,0,0,1.000)]"></div>
+            </div>
+          </div>
+          <div class="w-[928px] h-[2000px] flex flex-col gap-[24px]">
+            <div class="w-[928px] h-[40px] flex flex-row justify-between items-center gap-[24px]">
+              <div class="w-[82px] h-[40px] flex flex-row justify-center items-center gap-[8px] pl-[16px] pr-[12px] py-[8px] bg-[rgba(238,238,238,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Tag</p>
+                <div class="w-[19px] h-[19px] flex flex-row justify-center items-center gap-[10px] p-[4px]">
+                  <div class="w-[11px] h-[11px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+              <button class="w-[83px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Sort by</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[12px] h-[7px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </button>
+            </div>
+            <div class="w-[928px] h-[1936px] border border-[rgba(0,0,0,0.150)] overflow-hidden"></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
