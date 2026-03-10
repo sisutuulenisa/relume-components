@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relume Component Library</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .component-card { transition: all .15s ease; }
+    .component-card:hover { box-shadow: 0 4px 24px rgba(0,0,0,.12); transform: translateY(-1px); }
+    iframe { border: none; }
+    #category-list::-webkit-scrollbar { width: 4px; }
+    #category-list::-webkit-scrollbar-thumb { background: #ddd; border-radius: 2px; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-screen-xl mx-auto px-6 py-3 flex items-center gap-4">
+      <div class="shrink-0">
+        <h1 class="text-lg font-bold">Relume Components</h1>
+        <p class="text-xs text-gray-400">v3.7 — 1754 components</p>
+      </div>
+      <input id="search" type="search" placeholder="Search components…"
+        class="flex-1 max-w-sm border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black" />
+      <span id="count" class="ml-auto text-sm text-gray-400 shrink-0"></span>
+    </div>
+    <!-- Group tabs -->
+    <div class="max-w-screen-xl mx-auto px-6 flex gap-2 pb-3 overflow-x-auto">
+      <button onclick="filterGroup('all')" data-group="all"
+        class="group-tab px-4 py-1.5 rounded-full text-sm font-medium bg-black text-white shrink-0">All</button>
+      <button onclick="filterGroup('pages')" data-group="pages"
+        class="group-tab px-4 py-1.5 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">Pages</button>
+      <button onclick="filterGroup('application')" data-group="application"
+        class="group-tab px-4 py-1.5 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">Application</button>
+      <button onclick="filterGroup('ecommerce')" data-group="ecommerce"
+        class="group-tab px-4 py-1.5 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">Ecommerce</button>
+      <button onclick="filterGroup('templates')" data-group="templates"
+        class="group-tab px-4 py-1.5 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">Templates</button>
+      <button onclick="filterGroup('style-guide')" data-group="style-guide"
+        class="group-tab px-4 py-1.5 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">Style Guide</button>
+    </div>
+  </header>
+
+  <div class="max-w-screen-xl mx-auto px-6 py-6 flex gap-6">
+    <!-- Sidebar -->
+    <aside class="w-52 shrink-0">
+      <div id="category-list" class="sticky top-32 flex flex-col gap-0.5 max-h-[calc(100vh-10rem)] overflow-y-auto pr-1"></div>
+    </aside>
+
+    <!-- Grid -->
+    <main class="flex-1 min-w-0">
+      <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      <p id="empty" class="hidden text-center py-20 text-gray-400 text-sm">No components found</p>
+    </main>
+  </div>
+
+  <!-- Preview modal -->
+  <div id="modal" class="hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-3"
+       onclick="closeModal(event)">
+    <div style="width:98vw;height:96vh" class="bg-white rounded-2xl flex flex-col overflow-hidden shadow-2xl">
+      <div class="flex items-center justify-between px-6 py-3 border-b border-gray-100 shrink-0">
+        <div>
+          <h2 id="modal-title" class="font-semibold text-gray-900"></h2>
+          <p id="modal-meta" class="text-xs text-gray-400 mt-0.5"></p>
+        </div>
+        <div class="flex items-center gap-3">
+          <a id="modal-link" href="#" target="_blank"
+             class="text-xs border border-gray-200 rounded-lg px-3 py-1.5 text-gray-500 hover:bg-gray-50">Open in tab ↗</a>
+          <button onclick="closeModalBtn()" class="text-gray-400 hover:text-gray-700 text-xl leading-none">✕</button>
+        </div>
+      </div>
+      <iframe id="modal-frame" class="w-full bg-white" style="flex:1;min-height:0;height:100%" src="about:blank"></iframe>
+    </div>
+  </div>
+
+<script>
+// Group mapping (category_slug → group)
+const GROUP_MAP = {
+  'style-guide':'style-guide',
+  'application-shells':'application','card-headers':'application','description-lists':'application',
+  'forms':'application','grid-lists':'application','onboarding-forms':'application',
+  'page-headers':'application','section-headers':'application','sidebars':'application',
+  'sign-up-and-log-in-modals':'application','sign-up-and-log-in-pages':'application',
+  'stacked-lists':'application','tables':'application','topbars':'application',
+  'product-headers':'ecommerce','product-list-sections':'ecommerce','category-filters':'ecommerce',
+  'home-pages':'templates','pricing-pages':'templates','about-pages':'templates',
+  'legal-pages':'templates','contact-pages':'templates',
+};
+function getGroup(slug) { return GROUP_MAP[slug] || 'pages'; }
+
+let allComponents = [];
+let activeGroup = 'all';
+let activeCategory = 'all';
+let searchQuery = '';
+
+fetch('index.json')
+  .then(r => r.json())
+  .then(data => {
+    // Handle both array and {components:[...]} formats
+    const raw = Array.isArray(data) ? data : (data.components || []);
+    allComponents = raw.map(c => ({
+      id: c.id,
+      name: c.name || c.id,
+      category: c.category_slug || c.category || '',
+      categoryLabel: c.category || c.category_slug || '',
+      group: c.group || getGroup(c.category_slug || ''),
+      file: c.file || c.path || '',
+    }));
+    render();
+  })
+  .catch(err => {
+    document.getElementById('count').textContent = 'Error loading index.json';
+    console.error(err);
+  });
+
+function render() {
+  let items = allComponents;
+  if (activeGroup !== 'all') items = items.filter(c => c.group === activeGroup);
+  if (activeCategory !== 'all') items = items.filter(c => c.category === activeCategory);
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    items = items.filter(c =>
+      c.name.toLowerCase().includes(q) ||
+      c.category.toLowerCase().includes(q)
+    );
+  }
+
+  document.getElementById('count').textContent = items.length + ' components';
+
+  // Build sidebar from current group filter
+  const base = activeGroup === 'all' ? allComponents : allComponents.filter(c => c.group === activeGroup);
+  const catCounts = {};
+  base.forEach(c => { catCounts[c.category] = (catCounts[c.category] || 0) + 1; });
+  const sidebar = document.getElementById('category-list');
+  sidebar.innerHTML = btn('all', 'All categories', Object.values(catCounts).reduce((a,b)=>a+b,0));
+  Object.entries(catCounts).sort(([a],[b])=>a.localeCompare(b)).forEach(([cat, cnt]) => {
+    sidebar.innerHTML += btn(cat, cat, cnt);
+  });
+
+  // Grid
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  if (!items.length) { grid.innerHTML = ''; empty.classList.remove('hidden'); return; }
+  empty.classList.add('hidden');
+
+  grid.innerHTML = items.map(c => `
+    <div class="component-card bg-white rounded-xl border border-gray-200 overflow-hidden cursor-pointer"
+         onclick="openModal('${esc(c.file)}','${esc(c.name)}','${esc(c.categoryLabel)}','${esc(c.group)}')">
+      <div class="relative bg-gray-50 overflow-hidden" style="aspect-ratio:1/1">
+        <iframe src="${esc(c.file)}" loading="lazy" tabindex="-1"
+          style="width:250%;height:250%;transform:scale(0.4);transform-origin:top left;pointer-events:none"></iframe>
+        <div class="absolute inset-0"></div>
+      </div>
+      <div class="px-4 py-3 border-t border-gray-100">
+        <p class="text-sm font-medium truncate">${esc(c.name)}</p>
+        <p class="text-xs text-gray-400 mt-0.5">${esc(c.categoryLabel)} · <span class="capitalize">${esc(c.group)}</span></p>
+      </div>
+    </div>`).join('');
+}
+
+function btn(cat, label, cnt) {
+  const active = activeCategory === cat;
+  return `<button onclick="filterCategory('${cat}')" 
+    class="text-left px-3 py-1.5 rounded-lg text-sm w-full ${active
+      ? 'bg-black text-white font-medium'
+      : 'text-gray-600 hover:bg-gray-100'}">
+    ${label} <span class="${active ? 'opacity-60' : 'opacity-40'} text-xs">${cnt}</span>
+  </button>`;
+}
+
+function esc(s) { return String(s||'').replace(/'/g,"&#39;").replace(/"/g,'&quot;'); }
+
+function syncURL() {
+  const p = new URLSearchParams();
+  if (activeGroup !== 'all') p.set('group', activeGroup);
+  if (activeCategory !== 'all') p.set('category', activeCategory);
+  if (searchQuery) p.set('q', searchQuery);
+  const qs = p.toString();
+  history.replaceState(null, '', qs ? '?' + qs : location.pathname);
+}
+
+function applyGroupTab(g) {
+  document.querySelectorAll('.group-tab').forEach(b => {
+    const on = b.dataset.group === g;
+    b.className = `group-tab px-4 py-1.5 rounded-full text-sm font-medium shrink-0 ${on
+      ? 'bg-black text-white'
+      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`;
+  });
+}
+
+function filterGroup(g) {
+  activeGroup = g; activeCategory = 'all';
+  applyGroupTab(g);
+  syncURL(); render();
+}
+
+function filterCategory(cat) { activeCategory = cat; syncURL(); render(); }
+
+document.getElementById('search').addEventListener('input', e => {
+  searchQuery = e.target.value; syncURL(); render();
+});
+
+// Restore state from URL on load
+(function() {
+  const p = new URLSearchParams(location.search);
+  if (p.get('group')) activeGroup = p.get('group');
+  if (p.get('category')) activeCategory = p.get('category');
+  if (p.get('q')) { searchQuery = p.get('q'); document.getElementById('search').value = searchQuery; }
+  applyGroupTab(activeGroup);
+})();
+
+function openModal(file, name, category, group) {
+  document.getElementById('modal-title').textContent = name;
+  document.getElementById('modal-meta').textContent = group + ' / ' + category;
+  document.getElementById('modal-frame').src = file;
+  document.getElementById('modal-link').href = file;
+  document.getElementById('modal').classList.remove('hidden');
+}
+function closeModal(e) { if (e.target === document.getElementById('modal')) closeModalBtn(); }
+function closeModalBtn() {
+  document.getElementById('modal').classList.add('hidden');
+  document.getElementById('modal-frame').src = 'about:blank';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalBtn(); });
+</script>
+</body>
+</html>
