@@ -156,24 +156,89 @@ def rgba(fill_color: dict | None, opacity: float | None = None) -> str:
     return f"rgba({r},{g},{b},{a:.3f})"
 
 
-def fmt_px(value) -> str | None:
-    if value is None:
-        return None
-    try:
-        v = float(value)
-    except (TypeError, ValueError):
-        return None
-    rounded = int(round(v))
-    if rounded <= 0:
-        return None
-    return f"{rounded}px"
+def px_to_tailwind_spacing(px) -> str:
+    # Tailwind spacing scale: 1 unit = 4px
+    # Round to nearest Tailwind value
+    val = round(float(px) / 4)
+    return str(max(0, int(val)))
+
+
+def px_to_tailwind_max_w(px) -> str:
+    p = float(px)
+    if p >= 1536:
+        return "screen-2xl"
+    if p >= 1280:
+        return "screen-xl"
+    if p >= 1024:
+        return "screen-lg"
+    if p >= 768:
+        return "screen-md"
+    if p >= 640:
+        return "screen-sm"
+    return px_to_tailwind_spacing(p)
+
+
+def px_to_tailwind_rounded(px) -> str:
+    p = float(px)
+    options = [
+        (2, "rounded-sm"),
+        (4, "rounded"),
+        (6, "rounded-md"),
+        (8, "rounded-lg"),
+        (12, "rounded-xl"),
+        (16, "rounded-2xl"),
+        (24, "rounded-3xl"),
+    ]
+    nearest = min(options, key=lambda t: abs(t[0] - p))
+    return nearest[1]
+
+
+def px_to_tailwind_text_size(px) -> str:
+    p = float(px)
+    mapping = [
+        (12, "text-xs"),
+        (14, "text-sm"),
+        (16, "text-base"),
+        (18, "text-lg"),
+        (20, "text-xl"),
+        (24, "text-2xl"),
+        (30, "text-3xl"),
+        (36, "text-4xl"),
+        (48, "text-5xl"),
+        (60, "text-6xl"),
+    ]
+    return min(mapping, key=lambda t: abs(t[0] - p))[1]
 
 
 def class_px(prefix: str, value) -> str | None:
-    px = fmt_px(value)
-    if not px:
+    if value is None:
         return None
-    return f"{prefix}-[{px}]"
+    try:
+        px = float(value)
+    except (TypeError, ValueError):
+        return None
+    if px <= 0:
+        return None
+
+    spacing_prefixes = {"p", "px", "py", "pt", "pr", "pb", "pl", "m", "mx", "my", "mt", "mr", "mb", "ml", "gap"}
+    if prefix in spacing_prefixes:
+        return f"{prefix}-{px_to_tailwind_spacing(px)}"
+
+    if prefix == "max-w":
+        return f"max-w-{px_to_tailwind_max_w(px)}"
+
+    if prefix in {"w", "h", "min-h"}:
+        size_val = min(96, max(1, int(round(px / 4))))
+        return f"{prefix}-{size_val}"
+
+    if prefix.startswith("rounded"):
+        rounded = px_to_tailwind_rounded(px)
+        if prefix == "rounded":
+            return rounded
+        suffix = rounded.removeprefix("rounded")
+        return f"{prefix}{suffix}"
+
+    return f"{prefix}-{px_to_tailwind_spacing(px)}"
 
 
 def dedupe_classes(classes: list[str]) -> list[str]:
@@ -402,6 +467,8 @@ def map_size_classes(node: dict, is_root: bool = False, parent: dict | None = No
     w_val = float(box.get("width") or 0)
     h_val = float(box.get("height") or 0)
     parent_w = node_width(parent) if parent else 0
+    has_children = bool(get_visible_children(node))
+    is_container_like = has_children and node.get("type") not in IMAGE_LIKE_TYPES
 
     if parent_w > 0 and 0 < w_val < parent_w:
         width_pct = int(round((w_val / parent_w) * 100))
@@ -416,7 +483,12 @@ def map_size_classes(node: dict, is_root: bool = False, parent: dict | None = No
         if w:
             classes.append(w)
 
-    has_children = bool(get_visible_children(node))
+    # Avoid rigid wrapper widths that can overflow with section padding.
+    # For container/wrapper nodes, prefer fluid width with max constraint.
+    if is_container_like and w_val >= 640:
+        classes = [c for c in classes if not c.startswith("w-")]
+        classes.extend(["w-full", f"max-w-{px_to_tailwind_max_w(w_val)}"])
+
     keep_height = not has_children or node.get("type") in IMAGE_LIKE_TYPES
     if keep_height:
         h = class_px("h", h_val)
@@ -455,7 +527,7 @@ def map_text_classes(node: dict) -> list[str]:
 
     font_size = style.get("fontSize")
     if font_size:
-        classes.append(f"text-[{int(round(float(font_size)))}px]")
+        classes.append(px_to_tailwind_text_size(font_size))
 
     font_weight = style.get("fontWeight")
     if font_weight is None:
@@ -465,18 +537,36 @@ def map_text_classes(node: dict) -> list[str]:
         fw = int(round(float(font_weight)))
         closest = min(FONT_WEIGHT_MAP.keys(), key=lambda k: abs(k - fw))
         classes.append(FONT_WEIGHT_MAP[closest])
-        if closest != fw:
-            classes.append(f"font-[{fw}]")
     elif font_size and float(font_size) >= 32:
         classes.append("font-bold")
 
     line_height = style.get("lineHeightPx")
-    if line_height:
-        classes.append(f"leading-[{int(round(float(line_height)))}px]")
+    if line_height and font_size:
+        ratio = float(line_height) / max(float(font_size), 1)
+        if ratio <= 1.1:
+            classes.append("leading-none")
+        elif ratio <= 1.25:
+            classes.append("leading-tight")
+        elif ratio <= 1.4:
+            classes.append("leading-snug")
+        elif ratio <= 1.6:
+            classes.append("leading-normal")
+        elif ratio <= 1.8:
+            classes.append("leading-relaxed")
+        else:
+            classes.append("leading-loose")
 
     letter_spacing = style.get("letterSpacing")
-    if letter_spacing and float(letter_spacing) != 0:
-        classes.append(f"tracking-[{float(letter_spacing):g}px]")
+    if letter_spacing:
+        ls = float(letter_spacing)
+        if ls <= -0.25:
+            classes.append("tracking-tight")
+        elif ls >= 1.0:
+            classes.append("tracking-wider")
+        elif ls >= 0.5:
+            classes.append("tracking-wide")
+        else:
+            classes.append("tracking-normal")
 
     fill = first_visible_fill(node)
     if fill and fill.get("type") == "SOLID":
@@ -569,9 +659,19 @@ def semantic_root_tag(category: str) -> str:
     c = (category or "").lower()
     if "nav" in c or "menu" in c:
         return "nav"
-    if "hero" in c or "header" in c:
+    # Hard rule: Relume component roots are standalone blocks.
+    return "article"
+
+
+def semantic_container_tag(node: dict) -> str:
+    name = (node.get("name") or "").lower()
+    if "nav" in name or "menu" in name:
+        return "nav"
+    if "header" in name or "hero" in name:
         return "header"
-    if "blog" in c or "article" in c or "post" in c:
+    if "footer" in name:
+        return "footer"
+    if any(k in name for k in ("article", "post", "card", "content")):
         return "article"
     return "section"
 
@@ -579,13 +679,20 @@ def semantic_root_tag(category: str) -> str:
 def semantic_text_tag(node: dict) -> str:
     style = node.get("style", {}) or {}
     size = float(style.get("fontSize") or 0)
+    weight = style.get("fontWeight")
+    if weight is None:
+        weight = node.get("fontWeight")
+    weight_val = float(weight or 400)
+
+    if size >= 24 and weight_val >= 600:
+        return "h2" if size >= 32 else "h3"
     if size >= 36:
         return "h1"
     if size >= 30:
         return "h2"
     if size >= 24:
         return "h3"
-    if size >= 20:
+    if size >= 20 and weight_val >= 600:
         return "h4"
     return "p"
 
@@ -628,6 +735,26 @@ def is_button_group(node: dict) -> bool:
     if len(children) < 2 or not is_row_layout(node):
         return False
     return sum(1 for c in children if is_button_node(c)) >= 2
+
+
+def is_list_container(node: dict) -> bool:
+    children = get_visible_children(node)
+    if len(children) < 3:
+        return False
+    if infer_layout_mode(node) not in {"HORIZONTAL", "VERTICAL"}:
+        return False
+    child_types = {c.get("type") for c in children}
+    if len(child_types) > 2:
+        return False
+
+    # Simple repeated-item heuristic (cards/list items)
+    widths = [node_width(c) for c in children if node_width(c) > 0]
+    heights = [node_height(c) for c in children if node_height(c) > 0]
+    if not widths or not heights:
+        return False
+    width_var = (max(widths) - min(widths)) / max(widths)
+    height_var = (max(heights) - min(heights)) / max(heights)
+    return width_var <= 0.25 and height_var <= 0.25
 
 
 def button_classes(node: dict, fallback_primary: bool = True) -> str:
@@ -705,9 +832,9 @@ def build_image_placeholder_classes(node: dict, parent: dict | None = None, resp
         classes.append("overflow-hidden")
 
     classes.extend(["bg-gray-100", "rounded-lg", "flex", "items-center", "justify-center"])
-    if not any(c.startswith("h-[") for c in classes):
-        classes.append("h-[240px]")
-    if not any(c.startswith("w-[") for c in classes) and "w-full" not in classes:
+    if not any(c.startswith("h-") for c in classes):
+        classes.append("h-60")
+    if not any(c.startswith("w-") for c in classes) and "w-full" not in classes:
         classes.append("w-full")
     return dedupe_classes(classes)
 
@@ -757,7 +884,7 @@ def render_node(
             '<polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/>'
             "</svg>"
         )
-        return f'{pad}<div class="{" ".join(classes)}" role="img" aria-label="Image placeholder">{svg}</div>'
+        return f'{pad}<figure class="{" ".join(classes)}" role="img" aria-label="Image placeholder">{svg}</figure>'
 
     children = get_visible_children(node)
     if is_root:
@@ -774,23 +901,30 @@ def render_node(
         return "\n".join(rows)
 
     if is_button_group(node):
-        group_rows = [f'{pad}<div class="flex flex-row items-center gap-[24px]">']
+        group_rows = [f'{pad}<div class="flex flex-row items-center gap-6">']
         button_nodes = [c for c in children if is_button_node(c)]
-        for idx, btn in enumerate(button_nodes[:2]):
+        for idx, btn in enumerate(button_nodes):
             label = extract_text(btn) or "Button"
-            cls = button_classes(btn, fallback_primary=(idx == 0))
-            if "bg-transparent" in cls and has_icon_descendant(btn):
-                label = f"{label} →"
+            if idx == 0:
+                cls = "bg-gray-900 text-white px-4 py-2.5 rounded"
+            else:
+                cls = "border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent"
+                if has_icon_descendant(btn):
+                    label = f"{label} →"
             group_rows.append(f'{pad}  <button class="{cls}">{html.escape(label)}</button>')
         group_rows.append(f"{pad}</div>")
         return "\n".join(group_rows)
+
+    list_container = (not is_root) and is_list_container(node)
 
     if is_root:
         tag = semantic_root_tag(category)
     elif is_button_node(node):
         tag = "button"
+    elif list_container:
+        tag = "ul"
     else:
-        tag = "div"
+        tag = semantic_container_tag(node)
 
     classes = build_layout_classes(node, is_root=is_root, parent=parent, responsive=responsive)
 
@@ -803,13 +937,13 @@ def render_node(
 
     if tag == "button":
         classes.extend(button_classes(node, fallback_primary=True).split())
-        classes.extend(["px-[16px]", "py-[10px]", "rounded-[8px]"])
+        classes.extend(["px-4", "py-2.5", "rounded-lg"])
         if parent and infer_layout_mode(parent) == "VERTICAL":
             classes.append("mt-auto")
         classes.append("cursor-pointer")
 
     if is_root:
-        classes.extend(["mx-auto", "max-w-[1440px]", "px-[20px]", "md:px-[80px]"])
+        classes.extend(["mx-auto", "max-w-screen-xl", "px-5", "md:px-20"])
 
     opening = f'{pad}<{tag} class="{" ".join(dedupe_classes(classes))}">'
     closing = f"{pad}</{tag}>"
@@ -817,22 +951,35 @@ def render_node(
     if not children:
         if tag == "button":
             label = extract_text(node) or node.get("name") or "Button"
-            base = dedupe_classes(classes + ["px-[16px]", "py-[10px]", "rounded-[8px]"])
+            base = dedupe_classes(classes + ["px-4", "py-2.5", "rounded-lg"])
             return f'{pad}<button class="{" ".join(base)}">{html.escape(label)}</button>'
         return f"{opening}{closing[len(pad):]}"
 
     rendered_children = []
-    for child in children:
-        chunk = render_node(
-            child,
-            category=category,
-            is_root=False,
-            indent=indent + 2,
-            parent=node,
-            responsive=responsive,
-        )
-        if chunk:
-            rendered_children.append(chunk)
+    if list_container:
+        for child in children:
+            chunk = render_node(
+                child,
+                category=category,
+                is_root=False,
+                indent=indent + 4,
+                parent=node,
+                responsive=responsive,
+            )
+            if chunk:
+                rendered_children.append(f'{pad}  <li class="list-none">\n{chunk}\n{pad}  </li>')
+    else:
+        for child in children:
+            chunk = render_node(
+                child,
+                category=category,
+                is_root=False,
+                indent=indent + 2,
+                parent=node,
+                responsive=responsive,
+            )
+            if chunk:
+                rendered_children.append(chunk)
 
     if not rendered_children:
         return f"{opening}{closing[len(pad):]}"
@@ -987,6 +1134,12 @@ def main() -> int:
     parser.add_argument("--fetch-batch-size", type=int, default=20)
     parser.add_argument("--git-batch-size", type=int, default=0, help="Commit iedere N componenten (0 = uit)")
     parser.add_argument("--push", action="store_true", help="Push na iedere batch commit")
+    parser.add_argument(
+        "--components",
+        type=str,
+        default="",
+        help="Comma-separated filter: category-slug/component-slug",
+    )
     args = parser.parse_args()
 
     load_env(ENV_PATH)
@@ -996,6 +1149,17 @@ def main() -> int:
         return 1
 
     components = read_components(args.components_raw)
+    if args.components:
+        wanted = {c.strip().lower() for c in args.components.split(",") if c.strip()}
+        filtered = []
+        for comp in components:
+            category_slug = slugify(comp.get("page_name") or "uncategorized", fallback="uncategorized")
+            name_slug = slugify(comp.get("name") or "component", fallback="component")
+            key = f"{category_slug}/{name_slug}".lower()
+            if key in wanted or str(comp.get("id") or "").lower() in wanted:
+                filtered.append(comp)
+        components = filtered
+
     if not components:
         print("Geen componenten gevonden in components-raw.json", file=sys.stderr)
         return 1
@@ -1032,8 +1196,8 @@ def main() -> int:
         component_markup = render_node(node, category=category_name, is_root=True, indent=4)
         if not component_markup:
             component_markup = (
-                "    <section class=\"w-full mx-auto max-w-[1440px] p-[24px]\">"
-                "<p class=\"text-[16px] text-gray-700\">Placeholder</p></section>"
+                "    <article class=\"w-full mx-auto max-w-screen-xl p-6\">"
+                "<p class=\"text-base text-gray-700\">Placeholder</p></article>"
             )
 
         html_doc = build_html_document(component.get("name") or "Component", component_markup)
