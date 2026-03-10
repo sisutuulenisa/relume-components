@@ -1,57 +1,57 @@
 {
   "components/features/layout-1.html": {
     "status": "ok",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Desktop: content zichtbaar met typografie/buttons; mobiel: tekst loopt deels af op mobile."
+    "note": "Desktop ok; mobile tekst afgekapt/overflow."
   },
   "components/features/layout-15.html": {
     "status": "warn",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Geen gebroken pagina; wel minimalistische structuur met beperkte interactie en geen opvallende knop-styling."
+    "note": "Desktop broken icons; mobiel heading/text overflow en broken images."
   },
   "components/features/layout-50.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Alleen grijze image-placeholder zonder inhoud (desktop en mobiel)."
+    "note": "Vrijwel leeg: alleen placeholder zonder bruikbare content."
   },
   "components/hero-headers-new/header-1.html": {
-    "status": "warn",
-    "mobileStatus": "warn",
-    "checkedAt": "2026-03-10",
-    "note": "Hero content aanwezig, maar op mobile overlap/truncatie van heading; desktop toont lange tekst met beperkte marges."
-  },
-  "components/hero-headers-new/header-5.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Alleen placeholder-figure, geen headline/cta zichtbaar op desktop of mobiel."
+    "note": "Layout-break met overlappende/afgekorte tekst op beide viewports."
+  },
+  "components/hero-headers-new/header-5.html": {
+    "status": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop leeg met placeholder; mobiel vrijwel leeg met veel witruimte."
   },
   "components/cta-new/cta-1.html": {
     "status": "ok",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "CTA sectie met tekst+gestilede buttons; mobiel op 390px knalt tekst deels in.)"
+    "note": "Desktop goed; mobiel tekst rechts afgekapt."
   },
   "components/cta-new/cta-5.html": {
-    "status": "warn",
+    "status": "ok",
     "mobileStatus": "ok",
     "checkedAt": "2026-03-10",
-    "note": "Structuur aanwezig, dark card met heading/tekst/buttons; desktop visueel relatief donker maar functioneel."
+    "note": "Leesbare dark CTA met gestijlde knoppen op desktop en mobiel."
   },
   "components/banners/banner-1.html": {
     "status": "ok",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Banner met tekst en icon/cta aanwezig; mobiele weergave is compact maar leesbaar."
+    "note": "Desktop ok; mobiel veel lege ruimte en placeholder-iconen."
   },
   "components/banners/banner-8.html": {
     "status": "ok",
-    "mobileStatus": "warn",
+    "mobileStatus": "ok",
     "checkedAt": "2026-03-10",
-    "note": "Vergelijkbaar met banner-1; geen zwarte content-blind spots, alleen compacte mobile layout."
+    "note": "Compacte banner met correcte typografie en knoppen."
   },
   "components/testimonials/testimonial-1.html": {
     "status": "fail",
@@ -90,22 +90,22 @@
     "note": "Map/pad bestaat niet (404), dus geen componentcontent zichtbaar."
   },
   "components/footers/footer-1.html": {
-    "status": "ok",
-    "mobileStatus": "ok",
-    "checkedAt": "2026-03-10",
-    "note": "Footer content/typografie en CTA renderen correct op beide viewports."
-  },
-  "components/footers/footer-6.html": {
-    "status": "ok",
-    "mobileStatus": "ok",
-    "checkedAt": "2026-03-10",
-    "note": "Footer met nieuwsbriefsectie en links renderd; geen structureel layoutfalen."
-  },
-  "components/navbars/navbar-1.html": {
     "status": "warn",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Navbar content zichtbaar met iconen, tekst en knoppen; mobiel is compact met beperkte spacing."
+    "note": "Footer aanwezig, maar meerdere icon/input placeholders tonen als lege cirkels."
+  },
+  "components/footers/footer-6.html": {
+    "status": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop goed; mobiel placeholders i.p.v. icon/input."
+  },
+  "components/navbars/navbar-1.html": {
+    "status": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop netjes; mobiel minimale inhoud met lege cirkel-placeholders."
   },
   "components/contact-new/contact-1.html": {
     "status": "fail",
@@ -126,10 +126,10 @@
     "note": "Pad bestaat niet op server (404)."
   },
   "components/gallery/gallery-1.html": {
-    "status": "ok",
+    "status": "fail",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Gallery met titel/tekst aanwezig; mobile weergave erg minimalistisch met placeholder."
+    "note": "Desktop gallery-content ontbreekt (broken placeholder); mobiel beperkt placeholderbeeld."
   },
   "components/stats/stats-1.html": {
     "status": "fail",
@@ -138,16 +138,16 @@
     "note": "Pad bestaat niet op server (404)."
   },
   "components/logos/logo-1.html": {
-    "status": "warn",
-    "mobileStatus": "warn",
+    "status": "fail",
+    "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Typografie en logo-grid aanwezig met placeholder-logos; inhoud is wel placeholder-heavy."
+    "note": "Logo-afbeeldingen niet geladen; op mobiel ook gestapelde layout-break."
   },
   "components/timelines/timeline-1.html": {
-    "status": "warn",
-    "mobileStatus": "warn",
+    "status": "fail",
+    "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Structuur zichtbaar met veel tekst; mobiele versie heeft compacte/drukke kolommen."
+    "note": "Tekstafkapping/overflow in timeline op desktop en mobiel."
   },
   "components/portfolio-new/portfolio-1.html": {
     "status": "fail",
@@ -165,18 +165,96 @@
     "status": "ok",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Event header/intro zichtbaar; mobiel wat compact maar bruikbaar."
+    "note": "Desktop goed; mobiel met afgekapt label en veel lege ruimte onderaan."
   },
   "components/long-form-content-sections/long-form-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Pad bestaat niet op server (404)."
+    "note": "Bestand geeft 404/kapotte pagina in beide viewports."
   },
   "components/404/404-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
     "note": "Doelpad is geen standaard componentbestand; server returned 404."
+  },
+  "components/blog-sections/blog-33.html": {
+    "status": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Blog-sectie rendert correct; tabs/CTA zichtbaar."
+  },
+  "components/blog-sections/blog-37.html": {
+    "status": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop CTA afgekapt/gebroken; mobiel nog leesbaar maar rand-issue."
+  },
+  "components/contact/contact-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Contactformulier zichtbaar, maar meerdere velden renderen als icon placeholders."
+  },
+  "components/team/team-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Structuur aanwezig maar veel placeholder/afgekapt label en lege ruimte."
+  },
+  "components/faq/faq-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "FAQ zichtbaar; accordions/open state en tekstuitlijning suboptimaal."
+  },
+  "components/stats-sections/stats-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Content zichtbaar maar labels afgekapt en visuele afwerking matig."
+  },
+  "components/portfolio-sections/portfolio-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Slechts beperkte card-content zichtbaar met placeholder image."
+  },
+  "components/careers/career-1.html": {
+    "status": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop ok; mobiel afgekapt label en accordion-tekst buiten container."
+  },
+  "components/pricing/pricing-1.html": {
+    "status": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop pricingkaart goed; mobiel krappe kolombreedte/tekst tegen rand."
+  },
+  "components/pricing/pricing-5.html": {
+    "status": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop onderzijde deels afgesneden; mobiel acceptabel."
+  },
+  "components/stat-cards/stat-card-1.html": {
+    "status": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop grotendeels leeg/vastgelopen state; mobiel beperkt content."
+  },
+  "components/headers/header-44.html": {
+    "status": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop veel lege ruimte; mobiel leesbaar."
+  },
+  "components/testimonials": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Geen testimonials-map gevonden via ls components/ | grep -i test; niet renderbaar in deze repo."
   }
 }
