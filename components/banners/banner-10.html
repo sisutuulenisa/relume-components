@@ -2,11 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Banner / 10 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[48px] flex flex-row items-center gap-[16px]">
+        <div class="w-[1232px] h-[24px] flex flex-row justify-center">
+          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Medium length banner heading with link goes here</p>
+        </div>
+        <div class="w-[32px] h-[32px] overflow-hidden">
+          <div class="w-[14px] h-[14px] bg-[rgba(0,0,0,1.000)]"></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
