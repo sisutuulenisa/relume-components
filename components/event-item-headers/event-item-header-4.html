@@ -2,65 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Event Item Header / 4 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <header class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
-      <div class="w-[1280px] h-[306px] flex flex-col gap-[80px]">
-        <div class="w-[1280px] h-[306px] flex flex-row items-center gap-[80px]">
-          <div class="w-[600px] h-[306px] flex flex-col gap-[32px]">
-            <button class="w-[102px] h-[24px] flex flex-row justify-center items-center gap-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-              <div class="w-[24px] h-[24px] overflow-hidden">
+    <header class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[89%] flex flex-col gap-[80px]">
+        <div class="w-[1280px] flex flex-col md:flex-row items-center gap-[80px]">
+          <div class="w-[47%] flex flex-col gap-[32px] w-full md:w-1/2">
+            <button class="w-[17%] flex flex-col md:flex-row justify-center items-center gap-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+              <div class="w-[24%] overflow-hidden w-full md:w-1/2">
                 <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
               <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">All events</p>
             </button>
-            <div class="w-[600px] h-[136px] flex flex-col gap-[24px]">
+            <div class="w-[600px] flex flex-col gap-[24px]">
               <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h1>
               <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
             </div>
-            <div class="w-[480px] h-[82px] flex flex-col gap-[16px]">
-              <div class="w-[480px] h-[48px] flex flex-row gap-[16px]">
-                <div class="w-[320px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+            <div class="w-[80%] flex flex-col gap-[16px]">
+              <div class="w-[480px] flex flex-col md:flex-row gap-[16px]">
+                <div class="w-[67%] flex flex-col md:flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(102,102,102,1.000)] text-left">Enter your email</p>
                 </div>
-                <button class="w-[144px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
+                <button class="w-[30%] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2 cursor-pointer">
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Save my spot</p>
                 </button>
               </div>
               <p class="text-[12px] font-normal leading-[18px] text-[rgba(0,0,0,1.000)] text-left">By clicking Save my spot you&#x27;re confirming that you agree with our Terms and Conditions.</p>
             </div>
           </div>
-          <div class="w-[600px] h-[215px] flex flex-col items-center gap-[24px]">
+          <div class="w-[47%] flex flex-col items-center gap-[24px] w-full md:w-1/2">
             <h2 class="text-[32px] font-bold leading-[42px] text-[rgba(0,0,0,1.000)] text-center">Sat 10 Feb</h2>
-            <div class="w-[400px] h-[149px] flex flex-col items-center gap-[16px]">
-              <div class="w-[400px] h-[104px] flex flex-row items-center gap-[16px] px-[24px] py-[16px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-                <div class="w-[64px] h-[72px] flex flex-col justify-center items-center">
-                  <h1 class="text-[40px] font-bold leading-[48px] text-[rgba(0,0,0,1.000)] text-left">45</h1>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Days</p>
-                </div>
-                <div class="h-[72px] border border-[rgba(0,0,0,1.000)]"></div>
-                <div class="w-[64px] h-[72px] flex flex-col justify-center items-center">
-                  <h1 class="text-[40px] font-bold leading-[48px] text-[rgba(0,0,0,1.000)] text-left">12</h1>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Hours</p>
-                </div>
-                <div class="h-[72px] border border-[rgba(0,0,0,1.000)]"></div>
-                <div class="w-[64px] h-[72px] flex flex-col justify-center items-center">
-                  <h1 class="text-[40px] font-bold leading-[48px] text-[rgba(0,0,0,1.000)] text-left">44</h1>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Min</p>
-                </div>
-                <div class="h-[72px] border border-[rgba(0,0,0,1.000)]"></div>
-                <div class="w-[64px] h-[72px] flex flex-col justify-center items-center">
-                  <h1 class="text-[40px] font-bold leading-[48px] text-[rgba(0,0,0,1.000)] text-left">29</h1>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Secs</p>
-                </div>
+            <div class="w-[67%] flex flex-col items-center gap-[16px]">
+              <div class="hidden md:flex flex-row border-b border-gray-200">
+                <button class="border border-gray-900 px-4 py-2 text-sm">45</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Tab 2</button>
+                <button class="px-4 py-2 text-sm text-gray-500">12</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Tab 4</button>
+                <button class="px-4 py-2 text-sm text-gray-500">44</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Tab 6</button>
+                <button class="px-4 py-2 text-sm text-gray-500">29</button>
               </div>
-              <div class="w-[100px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+              <div class="w-[25%] flex flex-col md:flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
                 <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">10 Spots left!</p>
               </div>
             </div>

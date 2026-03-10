@@ -2,43 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home / 2 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col mx-auto max-w-[1440px]">
-      <div class="w-[1440px] h-[72px] flex flex-col justify-center items-center bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-        <div class="w-[1312px] h-[40px] flex flex-row justify-center items-center gap-[32px]">
-          <div class="w-[582px] h-[24px] flex flex-col">
-            <div class="w-[292px] h-[24px] flex flex-row items-center gap-[32px]">
-              <div class="w-[62px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
-              </div>
-              <div class="w-[64px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
-              </div>
-              <div class="w-[102px] h-[24px] flex flex-col gap-[8px]">
-                <div class="w-[102px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
-                  <div class="w-[24px] h-[24px] overflow-hidden">
-                    <div class="w-[13px] h-[7px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
-                </div>
-                <div class="w-[114px] h-[152px] flex flex-col gap-[16px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Five</p>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Six</p>
-                </div>
-              </div>
+    <section class="w-full flex flex-col mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[1440px] flex flex-col justify-center items-center bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+        <div class="w-[91%] flex flex-col md:flex-row justify-center items-center gap-[32px]">
+          <div class="w-[44%] flex flex-col w-full md:w-1/2">
+            <div class="hidden md:flex flex-row border-b border-gray-200">
+              <button class="border border-gray-900 px-4 py-2 text-sm">Link One</button>
+              <button class="px-4 py-2 text-sm text-gray-500">Link Two</button>
+              <button class="px-4 py-2 text-sm text-gray-500">Link Three</button>
             </div>
           </div>
-          <div class="w-[84px] h-[36px] flex flex-row">
-            <div class="w-[84px] h-[36px] overflow-hidden">
-              <div class="w-[70px] h-[36px] overflow-hidden">
+          <div class="w-[6%] flex flex-col md:flex-row w-full md:w-1/2">
+            <div class="w-[84px] overflow-hidden w-full md:w-1/2">
+              <div class="w-[83%] flex flex-col md:flex-row overflow-hidden">
                 <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 <div class="w-[19px] h-[25px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
@@ -47,119 +31,115 @@
               </div>
             </div>
           </div>
-          <div class="w-[582px] h-[40px] flex flex-col justify-center items-end">
-            <button class="w-[120px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
+          <div class="w-[44%] flex flex-col justify-center items-end w-full md:w-1/2">
+            <button class="w-[21%] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
               <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Get started</p>
             </button>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[1316px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[1092px] flex flex-col items-center gap-[80px]">
-          <div class="w-[768px] h-[292px] flex flex-col items-center gap-[32px]">
-            <div class="w-[768px] h-[212px] flex flex-col items-center gap-[24px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col items-center gap-[80px]">
+          <div class="w-[60%] flex flex-col items-center gap-[32px]">
+            <div class="w-[768px] flex flex-col items-center gap-[24px]">
               <h1 class="text-[56px] font-bold leading-[67px] text-[rgba(0,0,0,1.000)] text-center">Headline that highlights the Value Proposition</h1>
               <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Describe exactly what your product or service does and how it makes your customer&#x27;s lives better. Avoid using verbose words or phrases.</p>
             </div>
-            <div class="w-[273px] h-[48px] flex flex-row gap-[16px]">
-              <button class="w-[128px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Get started</p>
-              </button>
-              <button class="w-[129px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Learn more</p>
-              </button>
+            <div class="flex flex-row items-center gap-[24px]">
+              <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Get started</button>
+              <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Learn more</button>
             </div>
           </div>
-          <div class="w-[1280px] h-[720px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+          <div class="w-[1280px] h-[720px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
         </div>
       </div>
-      <div class="w-[1440px] h-[318px] flex flex-col items-center gap-[48px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1440px] h-[54px] flex flex-row justify-center items-center gap-[8px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[48px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1440px] flex flex-col md:flex-row justify-center items-center gap-[8px]">
           <p class="text-[18px] font-bold leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Trusted by the world&#x27;s best companies [social proof to build credibility]</p>
         </div>
-        <div class="w-[1440px] h-[56px] flex flex-col items-center">
-          <div class="w-[1544px] h-[56px] flex flex-row justify-center items-center gap-[24px]">
-            <div class="w-[200px] h-[56px] overflow-hidden">
-              <div class="w-[135px] h-[22px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+        <div class="w-[1440px] flex flex-col items-center">
+          <div class="w-[1544px] flex flex-col md:flex-row justify-center items-center gap-[24px]">
+            <div class="w-[13%] overflow-hidden w-full md:w-1/2">
+              <div class="w-[67%] h-[22px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
             </div>
-            <div class="w-[200px] h-[56px] overflow-hidden">
-              <div class="w-[133px] h-[36px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[13%] overflow-hidden w-full md:w-1/2">
+              <div class="w-[66%] h-[36px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
             </div>
-            <div class="w-[200px] h-[56px] overflow-hidden">
-              <div class="w-[135px] h-[22px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[13%] overflow-hidden w-full md:w-1/2">
+              <div class="w-[67%] h-[22px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
             </div>
-            <div class="w-[200px] h-[56px] overflow-hidden">
-              <div class="w-[133px] h-[36px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[13%] overflow-hidden w-full md:w-1/2">
+              <div class="w-[66%] h-[36px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
             </div>
-            <div class="w-[200px] h-[56px] overflow-hidden">
-              <div class="w-[135px] h-[22px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[13%] overflow-hidden w-full md:w-1/2">
+              <div class="w-[67%] h-[22px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
             </div>
-            <div class="w-[200px] h-[56px] overflow-hidden">
-              <div class="w-[133px] h-[36px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[13%] overflow-hidden w-full md:w-1/2">
+              <div class="w-[66%] h-[36px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
             </div>
-            <div class="w-[200px] h-[56px] overflow-hidden">
-              <div class="w-[135px] h-[22px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[13%] overflow-hidden w-full md:w-1/2">
+              <div class="w-[67%] h-[22px] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[864px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[640px] flex flex-col gap-[80px]">
-          <div class="w-[1280px] h-[640px] flex flex-row items-center gap-[80px]">
-            <div class="w-[600px] h-[315px] flex flex-col gap-[32px]">
-              <div class="w-[600px] h-[163px] flex flex-col gap-[24px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col gap-[80px]">
+          <div class="w-[1280px] flex flex-col md:flex-row items-center gap-[80px]">
+            <div class="w-[47%] flex flex-col gap-[32px] w-full md:w-1/2">
+              <div class="w-[600px] flex flex-col gap-[24px]">
                 <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Describe feature one</h1>
                 <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
               </div>
-              <div class="w-[600px] h-[120px] flex flex-col gap-[16px]">
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[16px] h-[16px] overflow-hidden">
+              <div class="w-[600px] flex flex-col gap-[16px]">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[12px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit one of this feature</p>
                 </div>
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[16px] h-[16px] overflow-hidden">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[12px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit two of this feature</p>
                 </div>
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[16px] h-[16px] overflow-hidden">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[12px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit three of this feature</p>
                 </div>
               </div>
             </div>
-            <div class="w-[600px] h-[640px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[47%] h-[640px] w-full md:w-[47%] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[864px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[640px] flex flex-col gap-[80px]">
-          <div class="w-[1280px] h-[640px] flex flex-row items-center gap-[80px]">
-            <div class="w-[600px] h-[640px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-            <div class="w-[600px] h-[299px] flex flex-col gap-[32px]">
-              <div class="w-[600px] h-[163px] flex flex-col gap-[24px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col gap-[80px]">
+          <div class="w-[1280px] flex flex-col md:flex-row items-center gap-[80px]">
+            <div class="w-[47%] h-[640px] w-full md:w-[47%] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
+            <div class="w-[47%] flex flex-col gap-[32px] w-full md:w-1/2">
+              <div class="w-[600px] flex flex-col gap-[24px]">
                 <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Describe feature two</h1>
                 <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
               </div>
-              <div class="w-[600px] h-[104px] flex flex-col gap-[16px]">
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[24px] h-[24px] overflow-hidden">
+              <div class="w-[600px] flex flex-col gap-[16px]">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[4%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[18px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit one of this feature</p>
                 </div>
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[4%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[18px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit two of this feature</p>
                 </div>
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[4%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[18px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit three of this feature</p>
@@ -169,145 +149,67 @@
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[864px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[640px] flex flex-col gap-[80px]">
-          <div class="w-[1280px] h-[640px] flex flex-row items-center gap-[80px]">
-            <div class="w-[600px] h-[315px] flex flex-col gap-[32px]">
-              <div class="w-[600px] h-[163px] flex flex-col gap-[24px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col gap-[80px]">
+          <div class="w-[1280px] flex flex-col md:flex-row items-center gap-[80px]">
+            <div class="w-[47%] flex flex-col gap-[32px] w-full md:w-1/2">
+              <div class="w-[600px] flex flex-col gap-[24px]">
                 <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Describe feature three</h1>
                 <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
               </div>
-              <div class="w-[600px] h-[120px] flex flex-col gap-[16px]">
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[16px] h-[16px] overflow-hidden">
+              <div class="w-[600px] flex flex-col gap-[16px]">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[12px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit one of this feature</p>
                 </div>
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[16px] h-[16px] overflow-hidden">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[12px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit two of this feature</p>
                 </div>
-                <div class="w-[600px] h-[24px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[16px] h-[16px] overflow-hidden">
+                <div class="w-[600px] flex flex-col md:flex-row items-center gap-[16px]">
+                  <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                     <div class="w-[12px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                   </div>
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Benefit three of this feature</p>
                 </div>
               </div>
             </div>
-            <div class="w-[600px] h-[640px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+            <div class="w-[47%] h-[640px] w-full md:w-[47%] bg-gray-100 rounded-lg flex items-center justify-center" role="img" aria-label="Image placeholder"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" fill="none"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><polyline points="21 15 16 10 5 21" stroke="currentColor" fill="none"/></svg></div>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[878px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[654px] flex flex-col items-center gap-[80px]">
-          <div class="w-[768px] h-[156px] flex flex-col items-center gap-[16px]">
-            <div class="w-[79px] h-[24px] flex flex-row items-center">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col items-center gap-[80px]">
+          <div class="w-[60%] flex flex-col items-center gap-[16px]">
+            <div class="w-[10%] flex flex-col md:flex-row items-center">
               <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Customers</p>
             </div>
             <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Short headline about who the product or service is for</h1>
           </div>
-          <div class="w-[1280px] h-[418px] flex flex-row justify-center gap-[48px]">
-            <div class="w-[395px] h-[418px] flex flex-col gap-[32px] overflow-hidden">
-              <div class="w-[395px] h-[240px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-              <div class="w-[395px] h-[146px] flex flex-col items-center gap-[24px]">
-                <div class="w-[395px] h-[146px] flex flex-col gap-[16px]">
-                  <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-center">Customer group one</h3>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-                </div>
-              </div>
-            </div>
-            <div class="w-[395px] h-[418px] flex flex-col gap-[32px] overflow-hidden">
-              <div class="w-[395px] h-[240px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-              <div class="w-[395px] h-[146px] flex flex-col items-center gap-[24px]">
-                <div class="w-[395px] h-[146px] flex flex-col gap-[16px]">
-                  <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-center">Customer group two</h3>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-                </div>
-              </div>
-            </div>
-            <div class="w-[395px] h-[418px] flex flex-col gap-[32px] overflow-hidden">
-              <div class="w-[395px] h-[240px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-              <div class="w-[395px] h-[146px] flex flex-col items-center gap-[24px]">
-                <div class="w-[395px] h-[146px] flex flex-col gap-[16px]">
-                  <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-center">Customer group three</h3>
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-                </div>
-              </div>
-            </div>
+          <div class="hidden md:flex flex-row border-b border-gray-200">
+            <button class="border border-gray-900 px-4 py-2 text-sm">Customer group one</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Customer group two</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Customer group three</button>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[861px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[637px] flex flex-col items-center gap-[80px]">
-          <div class="w-[768px] h-[167px] flex flex-col items-center gap-[24px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col items-center gap-[80px]">
+          <div class="w-[60%] flex flex-col items-center gap-[24px]">
             <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Customer testimonials [more social proof]</h1>
             <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-          <div class="w-[1280px] h-[390px] flex flex-col items-center gap-[48px]">
-            <div class="w-[1280px] h-[314px] flex flex-row gap-[32px] overflow-hidden">
-              <div class="w-[405px] h-[314px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                <div class="w-[341px] h-[178px] flex flex-col gap-[24px]">
-                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
-                  <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.&quot;</p>
-                </div>
-                <div class="w-[341px] h-[48px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                  <div class="w-[277px] h-[48px] flex flex-col">
-                    <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Customer Name</p>
-                    <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-[405px] h-[314px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                <div class="w-[341px] h-[178px] flex flex-col gap-[24px]">
-                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
-                  <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.&quot;</p>
-                </div>
-                <div class="w-[341px] h-[48px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                  <div class="w-[277px] h-[48px] flex flex-col">
-                    <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Customer Name</p>
-                    <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-[405px] h-[314px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                <div class="w-[341px] h-[178px] flex flex-col gap-[24px]">
-                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    <div class="w-[20px] h-[19px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  </div>
-                  <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.&quot;</p>
-                </div>
-                <div class="w-[341px] h-[48px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                  <div class="w-[277px] h-[48px] flex flex-col">
-                    <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Customer Name</p>
-                    <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
-                  </div>
-                </div>
-              </div>
+          <div class="w-[1280px] flex flex-col items-center gap-[48px]">
+            <div class="hidden md:flex flex-row border-b border-gray-200">
+              <button class="border border-gray-900 px-4 py-2 text-sm">&quot;A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.&quot;</button>
+              <button class="px-4 py-2 text-sm text-gray-500">&quot;A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.&quot;</button>
+              <button class="px-4 py-2 text-sm text-gray-500">&quot;A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.&quot;</button>
             </div>
-            <div class="w-[1280px] h-[28px] flex flex-row justify-center gap-[9px] p-[10px]">
+            <div class="w-[1280px] flex flex-col md:flex-row justify-center gap-[9px] p-[10px]">
               <div class="w-[8px] h-[8px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               <div class="w-[8px] h-[8px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               <div class="w-[8px] h-[8px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
@@ -315,364 +217,189 @@
               <div class="w-[8px] h-[8px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               <div class="w-[8px] h-[8px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
-            <div class="w-[48px] h-[48px] flex flex-row justify-center items-center gap-[8px] p-[12px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[24px] h-[24px] overflow-hidden">
+            <div class="w-[4%] flex flex-col md:flex-row justify-center items-center gap-[8px] p-[12px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[50%] overflow-hidden w-full md:w-1/2">
                 <div class="w-[16px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
-            <div class="w-[48px] h-[48px] flex flex-row justify-center items-center gap-[8px] p-[12px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[24px] h-[24px] overflow-hidden">
+            <div class="w-[4%] flex flex-col md:flex-row justify-center items-center gap-[8px] p-[12px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[50%] overflow-hidden w-full md:w-1/2">
                 <div class="w-[16px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[498px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[274px] flex flex-col items-center gap-[80px]">
-          <div class="w-[768px] h-[274px] flex flex-col items-center gap-[32px]">
-            <div class="w-[768px] h-[194px] flex flex-col items-center gap-[24px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col items-center gap-[80px]">
+          <div class="w-[60%] flex flex-col items-center gap-[32px]">
+            <div class="w-[768px] flex flex-col items-center gap-[24px]">
               <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Call to action that excites the visitor to try your product</h1>
               <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
             </div>
-            <div class="w-[285px] h-[48px] flex flex-row gap-[16px]">
-              <button class="w-[128px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Get started</p>
-              </button>
-              <button class="w-[141px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Chat to sales</p>
-              </button>
+            <div class="flex flex-row items-center gap-[24px]">
+              <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Get started</button>
+              <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Chat to sales</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[1676px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[1452px] flex flex-col items-center gap-[80px]">
-          <div class="w-[768px] h-[136px] flex flex-col items-center gap-[24px]">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col items-center gap-[80px]">
+          <div class="w-[60%] flex flex-col items-center gap-[24px]">
             <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Frequently asked questions</h1>
             <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
           </div>
-          <div class="w-[768px] h-[999px] flex flex-col gap-[16px]">
-            <div class="w-[768px] h-[187px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[768px] h-[67px] flex flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
+          <div class="w-[60%] flex flex-col gap-[16px]">
+            <div class="w-[768px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[768px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
                 <p class="text-[18px] font-bold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Question text goes here</p>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[13px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>
-              <div class="w-[768px] h-[120px] flex flex-row gap-[16px]">
+              <div class="w-[768px] flex flex-col md:flex-row gap-[16px]">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
               </div>
             </div>
-            <div class="w-[768px] h-[187px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[768px] h-[67px] flex flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
+            <div class="w-[768px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[768px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
                 <p class="text-[18px] font-bold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Question text goes here</p>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[13px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>
-              <div class="w-[768px] h-[120px] flex flex-row gap-[16px]">
+              <div class="w-[768px] flex flex-col md:flex-row gap-[16px]">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
               </div>
             </div>
-            <div class="w-[768px] h-[187px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[768px] h-[67px] flex flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
+            <div class="w-[768px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[768px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
                 <p class="text-[18px] font-bold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Question text goes here</p>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[13px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>
-              <div class="w-[768px] h-[120px] flex flex-row gap-[16px]">
+              <div class="w-[768px] flex flex-col md:flex-row gap-[16px]">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
               </div>
             </div>
-            <div class="w-[768px] h-[187px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[768px] h-[67px] flex flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
+            <div class="w-[768px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[768px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
                 <p class="text-[18px] font-bold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Question text goes here</p>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[13px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>
-              <div class="w-[768px] h-[120px] flex flex-row gap-[16px]">
+              <div class="w-[768px] flex flex-col md:flex-row gap-[16px]">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
               </div>
             </div>
-            <div class="w-[768px] h-[187px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[768px] h-[67px] flex flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
+            <div class="w-[768px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[768px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[20px] overflow-hidden">
                 <p class="text-[18px] font-bold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Question text goes here</p>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[3%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[13px] h-[13px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>
-              <div class="w-[768px] h-[120px] flex flex-row gap-[16px]">
+              <div class="w-[768px] flex flex-col md:flex-row gap-[16px]">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
               </div>
             </div>
           </div>
-          <div class="w-[560px] h-[157px] flex flex-col items-center gap-[24px]">
-            <div class="w-[560px] h-[85px] flex flex-col items-center gap-[16px]">
+          <div class="w-[44%] flex flex-col items-center gap-[24px]">
+            <div class="w-[560px] flex flex-col items-center gap-[16px]">
               <h2 class="text-[32px] font-bold leading-[42px] text-[rgba(0,0,0,1.000)] text-center">Still have questions?</h2>
               <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Support details to capture customers that might be on the fence.</p>
             </div>
-            <div class="w-[104px] h-[48px] flex flex-row items-center gap-[24px]">
-              <button class="w-[104px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+            <div class="w-[19%] flex flex-col md:flex-row items-center gap-[24px]">
+              <button class="w-[104px] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Contact</p>
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[1163px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[939px] flex flex-col items-center gap-[80px]">
-          <div class="w-[768px] h-[207px] flex flex-col items-center gap-[16px]">
-            <div class="w-[94px] h-[24px] flex flex-row items-center">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col items-center gap-[80px]">
+          <div class="w-[60%] flex flex-col items-center gap-[16px]">
+            <div class="w-[12%] flex flex-col md:flex-row items-center">
               <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Case Studies</p>
             </div>
-            <div class="w-[768px] h-[167px] flex flex-col items-center gap-[24px]">
+            <div class="w-[768px] flex flex-col items-center gap-[24px]">
               <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-center">Short headline introducing case studies</h1>
               <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-          <div class="w-[1280px] h-[652px] flex flex-col items-center gap-[64px]">
-            <div class="w-[1280px] h-[540px] flex flex-row gap-[32px]">
-              <div class="w-[405px] h-[539px] flex flex-col border border-[rgba(0,0,0,1.000)]">
-                <div class="w-[405px] h-[300px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[405px] h-[239px] flex flex-col gap-[24px] p-[24px]">
-                  <div class="w-[357px] h-[119px] flex flex-col gap-[8px]">
-                    <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
-                    <div class="w-[368px] h-[90px] flex flex-col gap-[8px]">
-                      <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Company name: Use case</h3>
-                      <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-                    </div>
-                  </div>
-                  <div class="w-[357px] h-[48px] flex flex-row items-center gap-[16px]">
-                    <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                    <div class="w-[293px] h-[48px] flex flex-col">
-                      <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Customer name</p>
-                      <div class="w-[293px] h-[27px] flex flex-row items-center gap-[8px]">
-                        <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
-                        <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
-                        <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-[405px] h-[539px] flex flex-col border border-[rgba(0,0,0,1.000)]">
-                <div class="w-[405px] h-[300px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[405px] h-[239px] flex flex-col gap-[24px] p-[24px]">
-                  <div class="w-[357px] h-[119px] flex flex-col gap-[8px]">
-                    <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
-                    <div class="w-[368px] h-[90px] flex flex-col gap-[8px]">
-                      <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Company name: Use case</h3>
-                      <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-                    </div>
-                  </div>
-                  <div class="w-[357px] h-[48px] flex flex-row items-center gap-[16px]">
-                    <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                    <div class="w-[293px] h-[48px] flex flex-col">
-                      <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Customer name</p>
-                      <div class="w-[293px] h-[27px] flex flex-row items-center gap-[8px]">
-                        <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
-                        <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
-                        <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-[405px] h-[540px] flex flex-col border border-[rgba(0,0,0,1.000)]">
-                <div class="w-[405px] h-[300px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[405px] h-[240px] flex flex-col gap-[24px] p-[24px]">
-                  <div class="w-[357px] h-[120px] flex flex-col gap-[9px]">
-                    <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
-                    <div class="w-[368px] h-[90px] flex flex-col gap-[8px]">
-                      <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Company name: Use case</h3>
-                      <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-                    </div>
-                  </div>
-                  <div class="w-[357px] h-[48px] flex flex-row items-center gap-[16px]">
-                    <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                    <div class="w-[293px] h-[48px] flex flex-col">
-                      <p class="text-[14px] font-semibold leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Customer name</p>
-                      <div class="w-[293px] h-[27px] flex flex-row items-center gap-[8px]">
-                        <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">11 Jan 2022</p>
-                        <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">•</p>
-                        <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="w-[1280px] flex flex-col items-center gap-[64px]">
+            <div class="hidden md:flex flex-row border-b border-gray-200">
+              <button class="border border-gray-900 px-4 py-2 text-sm">Category</button>
+              <button class="px-4 py-2 text-sm text-gray-500">Category</button>
+              <button class="px-4 py-2 text-sm text-gray-500">Category</button>
             </div>
-            <div class="w-[104px] h-[48px] flex flex-col gap-[24px]">
-              <button class="w-[104px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+            <div class="w-[8%] flex flex-col gap-[24px]">
+              <button class="w-[104px] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View all</p>
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-[1440px] h-[679px] flex flex-col items-center gap-[80px] px-[64px] py-[80px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
-        <div class="w-[1280px] h-[519px] flex flex-col gap-[80px]">
-          <div class="w-[1280px] h-[78px] flex flex-row justify-between gap-[24px]">
-            <div class="w-[560px] h-[51px] flex flex-col">
+      <div class="w-[1440px] flex flex-col items-center gap-[80px] px-[64px] py-[80px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[89%] flex flex-col gap-[80px]">
+          <div class="w-[1280px] flex flex-col md:flex-row justify-between gap-[24px]">
+            <div class="w-[44%] flex flex-col w-full md:w-1/2">
               <p class="text-[18px] font-semibold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Join our newsletter</p>
               <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div class="w-[400px] h-[78px] flex flex-col gap-[12px]">
-              <div class="w-[400px] h-[48px] flex flex-row gap-[16px]">
-                <div class="w-[265px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+            <div class="w-[31%] flex flex-col gap-[12px] w-full md:w-1/2">
+              <div class="w-[400px] flex flex-col md:flex-row gap-[16px]">
+                <div class="w-[66%] flex flex-col md:flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Enter your email</p>
                 </div>
-                <button class="w-[119px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+                <button class="w-[30%] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
                   <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Subscribe</p>
                 </button>
               </div>
-              <div class="w-[400px] h-[18px] flex flex-row gap-[4px]">
+              <div class="w-[400px] flex flex-col md:flex-row gap-[4px]">
                 <p class="text-[12px] font-normal leading-[18px] text-[rgba(0,0,0,1.000)] text-left">By subscribing you agree to with our</p>
                 <p class="text-[12px] font-normal leading-[18px] text-[rgba(0,0,0,1.000)] text-left">Privacy Policy</p>
               </div>
             </div>
           </div>
-          <div class="w-[1280px] h-[225px] flex flex-row gap-[40px]">
-            <div class="w-[180px] h-[36px] flex flex-col overflow-hidden">
-              <div class="w-[84px] h-[36px] overflow-hidden">
-                <div class="w-[70px] h-[36px] overflow-hidden">
-                  <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  <div class="w-[19px] h-[25px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  <div class="w-[22px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                  <div class="w-[15px] h-[9px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                </div>
-              </div>
-            </div>
-            <div class="w-[180px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column One</p>
-              <div class="w-[180px] h-[185px] flex flex-col">
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Five</p>
-                </div>
-              </div>
-            </div>
-            <div class="w-[180px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column Two</p>
-              <div class="w-[180px] h-[185px] flex flex-col">
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Six</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Seven</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Eight</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Nine</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Ten</p>
-                </div>
-              </div>
-            </div>
-            <div class="w-[180px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column Three</p>
-              <div class="w-[180px] h-[185px] flex flex-col">
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Eleven</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twelve</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Thirteen</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Fourteen</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Fifteen</p>
-                </div>
-              </div>
-            </div>
-            <div class="w-[180px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column Four</p>
-              <div class="w-[180px] h-[185px] flex flex-col">
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Sixteen</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Seventeen</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Eighteen</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Nineteen</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twenty</p>
-                </div>
-              </div>
-            </div>
-            <div class="w-[180px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column Five</p>
-              <div class="w-[180px] h-[185px] flex flex-col">
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twenty One</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twenty Two</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twenty Three</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twenty Four</p>
-                </div>
-                <div class="w-[180px] h-[37px] flex flex-row">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twenty Five</p>
-                </div>
-              </div>
-            </div>
+          <div class="hidden md:flex flex-row border-b border-gray-200">
+            <button class="border border-gray-900 px-4 py-2 text-sm">Tab 1</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Column One</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Column Two</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Column Three</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Column Four</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Column Five</button>
           </div>
-          <div class="w-[1280px] h-[56px] flex flex-col gap-[32px]">
+          <div class="w-[1280px] flex flex-col gap-[32px]">
             <div class="w-[1280px] border border-[rgba(0,0,0,1.000)]"></div>
-            <div class="w-[1280px] h-[24px] flex flex-row justify-between gap-[64px]">
-              <div class="w-[589px] h-[21px] flex flex-row items-center gap-[24px]">
+            <div class="w-[1280px] flex flex-col md:flex-row justify-between gap-[64px]">
+              <div class="w-[46%] flex flex-col md:flex-row items-center gap-[24px] w-full md:w-1/2">
                 <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">© 2024 Relume. All rights reserved.</p>
-                <div class="w-[345px] h-[21px] flex flex-row gap-[24px]">
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Privacy Policy</p>
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Terms of Service</p>
-                  <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Cookies Settings</p>
+                <div class="hidden md:flex flex-row border-b border-gray-200">
+                  <button class="border border-gray-900 px-4 py-2 text-sm">Privacy Policy</button>
+                  <button class="px-4 py-2 text-sm text-gray-500">Terms of Service</button>
+                  <button class="px-4 py-2 text-sm text-gray-500">Cookies Settings</button>
                 </div>
               </div>
-              <div class="w-[168px] h-[24px] flex flex-row gap-[12px]">
-                <div class="w-[24px] h-[24px] overflow-hidden">
+              <div class="w-[13%] flex flex-col md:flex-row gap-[12px] w-full md:w-1/2">
+                <div class="w-[14%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[20px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[14%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[18px] h-[18px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[14%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[18px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[14%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[18px] h-[18px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
-                <div class="w-[24px] h-[24px] overflow-hidden">
+                <div class="w-[14%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[20px] h-[14px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>

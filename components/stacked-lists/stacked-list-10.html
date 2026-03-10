@@ -2,100 +2,100 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stacked List / 10 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col mx-auto max-w-[1440px]">
-      <div class="w-[1064px] h-[134px] flex flex-row items-end gap-[24px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-        <div class="w-[600px] h-[86px] flex flex-col gap-[4px]">
+    <section class="w-full flex flex-col mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[1064px] flex flex-col md:flex-row items-end gap-[24px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+        <div class="w-[56%] flex flex-col gap-[4px] w-full md:w-1/2">
           <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Upcoming Events</h3>
           <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
         </div>
-        <div class="w-[392px] h-[40px] flex flex-row justify-end items-center gap-[16px]">
-          <div class="w-[248px] h-[40px] flex flex-row items-center gap-[12px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
-            <div class="w-[24px] h-[24px] overflow-hidden">
+        <div class="w-[37%] flex flex-col md:flex-row justify-end items-center gap-[16px] w-full md:w-1/2">
+          <div class="w-[63%] flex flex-col md:flex-row items-center gap-[12px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
+            <div class="w-[10%] overflow-hidden w-full md:w-1/2">
               <div class="w-[18px] h-[18px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
             <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Search</p>
           </div>
-          <div class="w-[128px] h-[40px] flex flex-row items-center gap-[16px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[33%] flex flex-col md:flex-row items-center gap-[16px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
             <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Sort by</p>
-            <div class="w-[24px] h-[24px] overflow-hidden">
+            <div class="w-[19%] overflow-hidden w-full md:w-1/2">
               <div class="w-[12px] h-[7px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-[1064px] h-[352px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-        <div class="w-[1064px] h-[88px] flex flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
-          <div class="w-[952px] h-[56px] flex flex-row items-center gap-[12px]">
-            <div class="w-[56px] h-[56px] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+      <div class="w-[1064px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+        <div class="w-[1064px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[89%] flex flex-col md:flex-row items-center gap-[12px] w-full md:w-1/2">
+            <div class="w-[6%] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
               <p class="text-[18px] font-semibold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">3</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">JUL</p>
             </div>
-            <div class="w-[884px] h-[45px] flex flex-col">
+            <div class="w-[93%] flex flex-col w-full md:w-1/2">
               <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Event name</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">15:20 - 16:20</p>
             </div>
           </div>
-          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-            <div class="w-[24px] h-[24px] overflow-hidden">
+          <button class="w-[4%] flex flex-col md:flex-row justify-center items-center gap-[12px] p-[8px] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+            <div class="w-[60%] overflow-hidden w-full md:w-1/2">
               <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
           </button>
         </div>
-        <div class="w-[1064px] h-[88px] flex flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
-          <div class="w-[952px] h-[56px] flex flex-row items-center gap-[12px]">
-            <div class="w-[56px] h-[56px] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+        <div class="w-[1064px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[89%] flex flex-col md:flex-row items-center gap-[12px] w-full md:w-1/2">
+            <div class="w-[6%] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
               <p class="text-[18px] font-semibold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">3</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">JUL</p>
             </div>
-            <div class="w-[884px] h-[45px] flex flex-col">
+            <div class="w-[93%] flex flex-col w-full md:w-1/2">
               <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Event name</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">15:20 - 16:20</p>
             </div>
           </div>
-          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-            <div class="w-[24px] h-[24px] overflow-hidden">
+          <button class="w-[4%] flex flex-col md:flex-row justify-center items-center gap-[12px] p-[8px] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+            <div class="w-[60%] overflow-hidden w-full md:w-1/2">
               <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
           </button>
         </div>
-        <div class="w-[1064px] h-[88px] flex flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
-          <div class="w-[952px] h-[56px] flex flex-row items-center gap-[12px]">
-            <div class="w-[56px] h-[56px] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+        <div class="w-[1064px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[89%] flex flex-col md:flex-row items-center gap-[12px] w-full md:w-1/2">
+            <div class="w-[6%] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
               <p class="text-[18px] font-semibold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">3</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">JUL</p>
             </div>
-            <div class="w-[884px] h-[45px] flex flex-col">
+            <div class="w-[93%] flex flex-col w-full md:w-1/2">
               <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Event name</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">15:20 - 16:20</p>
             </div>
           </div>
-          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-            <div class="w-[24px] h-[24px] overflow-hidden">
+          <button class="w-[4%] flex flex-col md:flex-row justify-center items-center gap-[12px] p-[8px] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+            <div class="w-[60%] overflow-hidden w-full md:w-1/2">
               <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
           </button>
         </div>
-        <div class="w-[1064px] h-[88px] flex flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
-          <div class="w-[952px] h-[56px] flex flex-row items-center gap-[12px]">
-            <div class="w-[56px] h-[56px] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+        <div class="w-[1064px] flex flex-col md:flex-row items-center gap-[24px] px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[89%] flex flex-col md:flex-row items-center gap-[12px] w-full md:w-1/2">
+            <div class="w-[6%] flex flex-col items-center p-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
               <p class="text-[18px] font-semibold leading-[27px] text-[rgba(0,0,0,1.000)] text-left">3</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">JUL</p>
             </div>
-            <div class="w-[884px] h-[45px] flex flex-col">
+            <div class="w-[93%] flex flex-col w-full md:w-1/2">
               <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Event name</p>
               <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-left">15:20 - 16:20</p>
             </div>
           </div>
-          <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-            <div class="w-[24px] h-[24px] overflow-hidden">
+          <button class="w-[4%] flex flex-col md:flex-row justify-center items-center gap-[12px] p-[8px] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+            <div class="w-[60%] overflow-hidden w-full md:w-1/2">
               <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
             </div>
           </button>

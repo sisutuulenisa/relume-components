@@ -2,48 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Table / 4 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
-      <div class="w-[1312px] h-[858px] flex flex-col">
-        <div class="w-[1312px] h-[110px] flex flex-row items-end gap-[24px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-          <div class="w-[992px] h-[62px] flex flex-col gap-[4px]">
+    <section class="w-full flex flex-col gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[91%] flex flex-col">
+        <div class="w-[1312px] flex flex-col md:flex-row items-end gap-[24px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[76%] flex flex-col gap-[4px] w-full md:w-1/2">
             <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Heading goes here</h3>
             <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
           </div>
-          <div class="w-[248px] h-[40px] flex flex-row justify-end items-center gap-[16px]">
-            <div class="w-[192px] h-[40px] flex flex-row gap-[16px]">
-              <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
-              </button>
-              <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
-              </button>
+          <div class="w-[19%] flex flex-col md:flex-row justify-end items-center gap-[16px] w-full md:w-1/2">
+            <div class="flex flex-row items-center gap-[24px]">
+              <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
+              <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Button</button>
             </div>
-            <button class="w-[40px] h-[40px] flex flex-row justify-center items-center gap-[12px] p-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-              <div class="w-[24px] h-[24px] overflow-hidden">
+            <button class="w-[16%] flex flex-col md:flex-row justify-center items-center gap-[12px] p-[8px] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+              <div class="w-[60%] overflow-hidden w-full md:w-1/2">
                 <div class="w-[16px] h-[4px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </button>
           </div>
         </div>
-        <div class="w-[1312px] h-[140px] flex flex-col items-center gap-[12px] p-[24px] border border-[rgba(0,0,0,1.000)]">
-          <div class="w-[1264px] h-[40px] flex flex-row items-center gap-[12px]">
-            <div class="w-[429px] h-[40px] flex flex-row items-center gap-[12px]">
-              <div class="w-[296px] h-[40px] flex flex-row items-center gap-[12px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)]">
-                <div class="w-[24px] h-[24px] overflow-hidden">
+        <div class="w-[1312px] flex flex-col items-center gap-[12px] p-[24px] border border-[rgba(0,0,0,1.000)]">
+          <div class="w-[96%] flex flex-col md:flex-row items-center gap-[12px]">
+            <div class="w-[34%] flex flex-col md:flex-row items-center gap-[12px] w-full md:w-1/2">
+              <div class="w-[69%] flex flex-col md:flex-row items-center gap-[12px] px-[12px] py-[8px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2">
+                <div class="w-[8%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[18px] h-[18px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Search</p>
               </div>
-              <button class="w-[121px] h-[40px] flex flex-row justify-center items-center gap-[12px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-                <div class="w-[24px] h-[24px] overflow-hidden">
+              <button class="w-[28%] flex flex-col md:flex-row justify-center items-center gap-[12px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] w-full md:w-1/2 bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
+                <div class="w-[20%] overflow-hidden w-full md:w-1/2">
                   <div class="w-[16px] h-[10px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Filters</p>
@@ -51,192 +47,30 @@
             </div>
             <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-right">Showing 1-50 of 500</p>
           </div>
-          <div class="w-[1264px] h-[40px] flex flex-row items-center gap-[12px]">
-            <div class="w-[82px] h-[40px] flex flex-row flex-wrap items-center gap-[16px]">
-              <div class="w-[82px] h-[40px] flex flex-row justify-center items-center gap-[8px] pl-[16px] pr-[12px] py-[8px] bg-[rgba(255,255,255,1.000)]">
+          <div class="w-[96%] flex flex-col md:flex-row items-center gap-[12px]">
+            <div class="w-[6%] flex flex-col md:flex-row flex-wrap items-center gap-[16px] w-full md:w-1/2">
+              <div class="w-[82px] flex flex-col md:flex-row justify-center items-center gap-[8px] pl-[16px] pr-[12px] py-[8px] bg-[rgba(255,255,255,1.000)] w-full md:w-1/2">
                 <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Tag</p>
-                <div class="w-[19px] h-[19px] flex flex-row justify-center items-center gap-[10px] p-[4px]">
+                <div class="w-[23%] flex flex-col md:flex-row justify-center items-center gap-[10px] p-[4px] w-full md:w-1/2">
                   <div class="w-[11px] h-[11px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="w-[1312px] h-[536px] flex flex-row border border-[rgba(0,0,0,1.000)] overflow-hidden">
-          <div class="w-[397px] h-[536px] flex flex-col">
-            <div class="w-[397px] h-[56px] flex flex-row items-center px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name</p>
-            </div>
-            <div class="w-[397px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-medium leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
-            </div>
-            <div class="w-[397px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-medium leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
-            </div>
-            <div class="w-[397px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-medium leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
-            </div>
-            <div class="w-[397px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-medium leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
-            </div>
-            <div class="w-[397px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-medium leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
-            </div>
-            <div class="w-[397px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-medium leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
-            </div>
-          </div>
-          <div class="w-[256px] h-[536px] flex flex-col">
-            <div class="w-[256px] h-[56px] flex flex-row items-center px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Company</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Company name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Company name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Company name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Company name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Company name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Company name</p>
-            </div>
-          </div>
-          <div class="w-[128px] h-[536px] flex flex-col">
-            <div class="w-[128px] h-[56px] flex flex-row items-center px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Number</p>
-            </div>
-            <div class="w-[128px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">14</p>
-            </div>
-            <div class="w-[128px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">14</p>
-            </div>
-            <div class="w-[128px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">14</p>
-            </div>
-            <div class="w-[128px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">14</p>
-            </div>
-            <div class="w-[128px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">14</p>
-            </div>
-            <div class="w-[128px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">14</p>
-            </div>
-          </div>
-          <div class="w-[256px] h-[536px] flex flex-col">
-            <div class="w-[256px] h-[56px] flex flex-row items-center px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Team</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Team name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Team name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Team name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Team name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Team name</p>
-            </div>
-            <div class="w-[256px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Team name</p>
-            </div>
-          </div>
-          <div class="w-[192px] h-[536px] flex flex-col">
-            <div class="w-[192px] h-[56px] flex flex-row items-center px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Date</p>
-              <div class="w-[24px] h-[24px]">
-                <div class="w-[12px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-              </div>
-            </div>
-            <div class="w-[192px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Jan 11, 2050</p>
-            </div>
-            <div class="w-[192px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Jan 11, 2050</p>
-            </div>
-            <div class="w-[192px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Jan 11, 2050</p>
-            </div>
-            <div class="w-[192px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Jan 11, 2050</p>
-            </div>
-            <div class="w-[192px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Jan 11, 2050</p>
-            </div>
-            <div class="w-[192px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Jan 11, 2050</p>
-            </div>
-          </div>
-          <div class="w-[83px] h-[536px] flex flex-col">
-            <div class="w-[83px] h-[56px] flex flex-row items-center px-[24px] py-[16px] border border-[rgba(0,0,0,1.000)] overflow-hidden"></div>
-            <div class="w-[83px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View</p>
-            </div>
-            <div class="w-[83px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View</p>
-            </div>
-            <div class="w-[83px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View</p>
-            </div>
-            <div class="w-[83px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View</p>
-            </div>
-            <div class="w-[83px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View</p>
-            </div>
-            <div class="w-[83px] h-[80px] flex flex-col justify-center gap-[4px] px-[24px] py-[28px] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View</p>
-            </div>
-          </div>
+        <div class="hidden md:flex flex-row border-b border-gray-200">
+          <button class="border border-gray-900 px-4 py-2 text-sm">Name</button>
+          <button class="px-4 py-2 text-sm text-gray-500">Company</button>
+          <button class="px-4 py-2 text-sm text-gray-500">Number</button>
+          <button class="px-4 py-2 text-sm text-gray-500">Team</button>
+          <button class="px-4 py-2 text-sm text-gray-500">Date</button>
+          <button class="px-4 py-2 text-sm text-gray-500">View</button>
         </div>
-        <div class="w-[1312px] h-[72px] flex flex-col bg-[rgba(255,255,255,1.000)]">
-          <div class="w-[1312px] h-[40px] flex flex-row justify-between items-center gap-[11px]">
-            <button class="w-[108px] h-[40px] flex flex-row justify-center items-center gap-[12px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-              <div class="w-[24px] h-[24px] overflow-hidden">
-                <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-              </div>
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Prev</p>
-            </button>
-            <div class="w-[166px] h-[40px] flex flex-row gap-[2px]">
-              <div class="w-[40px] h-[40px] flex flex-row justify-center items-center p-[12px] border border-[rgba(0,0,0,1.000)]">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">1</p>
-              </div>
-              <div class="w-[40px] h-[40px] rounded-[8px] overflow-hidden">
-                <div class="w-[40px] h-[40px] flex flex-row justify-center items-center p-[12px] rounded-[8px]">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">2</p>
-                </div>
-              </div>
-              <div class="w-[40px] h-[40px] rounded-[8px] overflow-hidden">
-                <div class="w-[40px] h-[40px] flex flex-row justify-center items-center p-[12px] rounded-[8px]">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">3</p>
-                </div>
-              </div>
-              <div class="w-[40px] h-[40px] rounded-[8px] overflow-hidden">
-                <div class="w-[40px] h-[40px] flex flex-row justify-center items-center p-[12px] rounded-[8px]">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-center">4</p>
-                </div>
-              </div>
-            </div>
-            <button class="w-[110px] h-[40px] flex flex-row justify-center items-center gap-[12px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Next</p>
-              <div class="w-[24px] h-[24px] overflow-hidden">
-                <div class="w-[7px] h-[12px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-              </div>
-            </button>
+        <div class="w-[1312px] flex flex-col bg-[rgba(255,255,255,1.000)]">
+          <div class="hidden md:flex flex-row border-b border-gray-200">
+            <button class="border border-gray-900 px-4 py-2 text-sm">Prev</button>
+            <button class="px-4 py-2 text-sm text-gray-500">1</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Next</button>
           </div>
         </div>
       </div>

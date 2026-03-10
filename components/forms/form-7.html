@@ -2,80 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Form / 7 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-row gap-[48px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px]">
-      <div class="w-[436px] h-[90px] flex flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)]">
-        <div class="w-[436px] h-[90px] flex flex-col gap-[8px]">
+    <section class="w-full flex flex-col md:flex-row gap-[48px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[41%] flex flex-col md:flex-row items-end gap-[24px] bg-[rgba(255,255,255,1.000)] w-full md:w-1/2">
+        <div class="w-[436px] flex flex-col gap-[8px] w-full md:w-1/2">
           <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Personal information</h3>
           <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
         </div>
       </div>
-      <div class="w-[580px] h-[584px] flex flex-col gap-[48px]">
-        <div class="w-[560px] h-[496px] flex flex-col gap-[24px]">
-          <div class="w-[560px] h-[80px] flex flex-row gap-[16px]">
-            <div class="w-[272px] h-[80px] flex flex-col gap-[8px]">
+      <div class="w-[55%] flex flex-col gap-[48px] w-full md:w-1/2">
+        <div class="w-[97%] flex flex-col gap-[24px]">
+          <div class="w-[560px] flex flex-col md:flex-row gap-[16px]">
+            <div class="w-[49%] flex flex-col gap-[8px] w-full md:w-1/2">
               <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">First name</p>
-              <div class="w-[272px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[272px] h-[48px] flex flex-col md:flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
             </div>
-            <div class="w-[272px] h-[80px] flex flex-col gap-[8px]">
+            <div class="w-[49%] flex flex-col gap-[8px] w-full md:w-1/2">
               <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Last name</p>
-              <div class="w-[272px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[272px] h-[48px] flex flex-col md:flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
             </div>
           </div>
-          <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+          <div class="w-[560px] flex flex-col gap-[8px]">
             <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Email address</p>
-            <div class="w-[560px] h-[48px] flex flex-row items-center gap-[12px] p-[12px] border border-[rgba(0,0,0,1.000)]">
-              <div class="w-[24px] h-[24px] overflow-hidden">
+            <div class="w-[560px] flex flex-col md:flex-row items-center gap-[12px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[4%] overflow-hidden w-full md:w-1/2">
                 <div class="w-[20px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
               <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,0.600)] text-left">email@example.com</p>
-              <div class="w-[24px] h-[24px] overflow-hidden">
+              <div class="w-[4%] overflow-hidden w-full md:w-1/2">
                 <div class="w-[20px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
           </div>
-          <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+          <div class="w-[560px] flex flex-col gap-[8px]">
             <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Country</p>
-            <div class="w-[560px] h-[48px] flex flex-row items-center gap-[16px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+            <div class="w-[560px] flex flex-col md:flex-row items-center gap-[16px] p-[12px] border border-[rgba(0,0,0,1.000)]">
               <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Select one...</p>
-              <div class="w-[24px] h-[24px] overflow-hidden">
+              <div class="w-[4%] overflow-hidden w-full md:w-1/2">
                 <div class="w-[12px] h-[7px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               </div>
             </div>
           </div>
-          <div class="w-[560px] h-[80px] flex flex-col gap-[8px]">
+          <div class="w-[560px] flex flex-col gap-[8px]">
             <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Street address</p>
-            <div class="w-[560px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[560px] h-[48px] flex flex-col md:flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
           </div>
-          <div class="w-[560px] h-[80px] flex flex-row gap-[16px]">
-            <div class="w-[176px] h-[80px] flex flex-col gap-[8px]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">City</p>
-              <div class="w-[176px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
-            </div>
-            <div class="w-[176px] h-[80px] flex flex-col gap-[8px]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">State / Province</p>
-              <div class="w-[176px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
-            </div>
-            <div class="w-[176px] h-[80px] flex flex-col gap-[8px]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">ZIP / Postal code</p>
-              <div class="w-[176px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]"></div>
-            </div>
+          <div class="hidden md:flex flex-row border-b border-gray-200">
+            <button class="border border-gray-900 px-4 py-2 text-sm">City</button>
+            <button class="px-4 py-2 text-sm text-gray-500">State / Province</button>
+            <button class="px-4 py-2 text-sm text-gray-500">ZIP / Postal code</button>
           </div>
         </div>
-        <div class="w-[580px] h-[40px] flex flex-row justify-end gap-[16px]">
-          <button class="w-[89px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-            <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Cancel</p>
-          </button>
-          <button class="w-[75px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
-            <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Save</p>
-          </button>
+        <div class="flex flex-row items-center gap-[24px]">
+          <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Cancel</button>
+          <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Save</button>
         </div>
       </div>
     </section>

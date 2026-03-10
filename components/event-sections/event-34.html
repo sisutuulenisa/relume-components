@@ -2,95 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Event / 34 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
-      <div class="w-[1280px] h-[1032px] flex flex-col gap-[80px]">
-        <div class="w-[768px] h-[176px] flex flex-col gap-[16px]">
-          <div class="w-[53px] h-[24px] flex flex-row items-center">
+    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[89%] flex flex-col gap-[80px]">
+        <div class="w-[60%] flex flex-col gap-[16px]">
+          <div class="w-[7%] flex flex-col md:flex-row items-center">
             <p class="text-[16px] font-semibold leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Tagline</p>
           </div>
-          <div class="w-[768px] h-[136px] flex flex-col items-center gap-[24px]">
+          <div class="w-[768px] flex flex-col items-center gap-[24px]">
             <h1 class="text-[48px] font-bold leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Schedule</h1>
             <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
           </div>
         </div>
-        <div class="w-[1280px] h-[776px] flex flex-col gap-[48px]">
-          <div class="w-[323px] h-[40px] flex flex-row items-center">
-            <div class="w-[103px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Fri 09 Feb</p>
-            </div>
-            <div class="w-[108px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Sat 10 Feb</p>
-            </div>
-            <div class="w-[112px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Sun 11 Feb</p>
-            </div>
+        <div class="w-[1280px] flex flex-col gap-[48px]">
+          <div class="hidden md:flex flex-row border-b border-gray-200">
+            <button class="border border-gray-900 px-4 py-2 text-sm">Fri 09 Feb</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Sat 10 Feb</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Sun 11 Feb</button>
           </div>
-          <div class="w-[1280px] h-[688px] flex flex-col gap-[48px]">
-            <div class="w-[1280px] h-[688px] flex flex-col gap-[32px]">
-              <div class="w-[1280px] h-[208px] flex flex-row items-center gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                <h4 class="text-[20px] font-normal leading-[30px] text-[rgba(0,0,0,1.000)] text-left">8:00 am</h4>
-                <div class="w-[144px] h-[144px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[753px] h-[58px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[579px] h-[58px] flex flex-col justify-center">
-                    <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
-                    <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Speaker</p>
-                  </div>
-                  <div class="w-[158px] h-[24px] flex flex-row items-center gap-[8px]">
-                    <div class="w-[24px] h-[24px] overflow-hidden">
-                      <div class="w-[16px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    </div>
-                    <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Location</p>
-                  </div>
-                </div>
-                <button class="w-[127px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View details</p>
-                </button>
+          <div class="w-[1280px] flex flex-col gap-[48px]">
+            <div class="w-[1280px] flex flex-col gap-[32px]">
+              <div class="hidden md:flex flex-row border-b border-gray-200">
+                <button class="border border-gray-900 px-4 py-2 text-sm">8:00 am</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Tab 2</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Event title heading</button>
+                <button class="px-4 py-2 text-sm text-gray-500">View details</button>
               </div>
-              <div class="w-[1280px] h-[208px] flex flex-row items-center gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                <h4 class="text-[20px] font-normal leading-[30px] text-[rgba(0,0,0,1.000)] text-left">9:00 am</h4>
-                <div class="w-[144px] h-[144px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[753px] h-[58px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[579px] h-[58px] flex flex-col justify-center">
-                    <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
-                    <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Speaker</p>
-                  </div>
-                  <div class="w-[158px] h-[24px] flex flex-row items-center gap-[8px]">
-                    <div class="w-[24px] h-[24px] overflow-hidden">
-                      <div class="w-[16px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    </div>
-                    <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Location</p>
-                  </div>
-                </div>
-                <button class="w-[127px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View details</p>
-                </button>
+              <div class="hidden md:flex flex-row border-b border-gray-200">
+                <button class="border border-gray-900 px-4 py-2 text-sm">9:00 am</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Tab 2</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Event title heading</button>
+                <button class="px-4 py-2 text-sm text-gray-500">View details</button>
               </div>
-              <div class="w-[1280px] h-[208px] flex flex-row items-center gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                <h4 class="text-[20px] font-normal leading-[30px] text-[rgba(0,0,0,1.000)] text-left">10:00 am</h4>
-                <div class="w-[144px] h-[144px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-                <div class="w-[753px] h-[58px] flex flex-row items-center gap-[16px]">
-                  <div class="w-[579px] h-[58px] flex flex-col justify-center">
-                    <h3 class="text-[24px] font-bold leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
-                    <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Speaker</p>
-                  </div>
-                  <div class="w-[158px] h-[24px] flex flex-row items-center gap-[8px]">
-                    <div class="w-[24px] h-[24px] overflow-hidden">
-                      <div class="w-[16px] h-[20px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                    </div>
-                    <p class="text-[14px] font-normal leading-[21px] text-[rgba(0,0,0,1.000)] text-center">Location</p>
-                  </div>
-                </div>
-                <button class="w-[127px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-                  <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View details</p>
-                </button>
+              <div class="hidden md:flex flex-row border-b border-gray-200">
+                <button class="border border-gray-900 px-4 py-2 text-sm">10:00 am</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Tab 2</button>
+                <button class="px-4 py-2 text-sm text-gray-500">Event title heading</button>
+                <button class="px-4 py-2 text-sm text-gray-500">View details</button>
               </div>
             </div>
           </div>

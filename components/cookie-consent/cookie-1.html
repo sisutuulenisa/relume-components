@@ -2,30 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Cookie / 1 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col justify-end items-center gap-[80px] p-[32px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
-      <div class="w-[1376px] h-[136px] flex flex-row justify-end items-end gap-[24px]">
-        <div class="w-[1024px] h-[136px] flex flex-row items-center gap-[32px] pl-[48px] pr-[32px] py-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+    <section class="w-full flex flex-col justify-end items-center gap-[80px] p-[32px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[96%] flex flex-col md:flex-row justify-end items-end gap-[24px]">
+        <div class="w-[74%] flex flex-col md:flex-row items-center gap-[32px] pl-[48px] pr-[32px] py-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden w-full md:w-1/2">
           <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">By clicking “Accept”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. View our Privacy Policy for more information.</p>
-          <div class="w-[317px] h-[48px] flex flex-row items-center gap-[16px]">
-            <button class="w-[86px] h-[24px] flex flex-row justify-center items-center gap-[8px] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Preferences</p>
-            </button>
-            <button class="w-[101px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)] bg-gray-900 text-white px-[16px] py-[10px] rounded-[8px] cursor-pointer">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Decline</p>
-            </button>
-            <button class="w-[98px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Accept</p>
-            </button>
+          <div class="hidden md:flex flex-row border-b border-gray-200">
+            <button class="border border-gray-900 px-4 py-2 text-sm">Preferences</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Decline</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Accept</button>
           </div>
-          <div class="w-[32px] h-[32px] overflow-hidden">
+          <div class="w-[3%] overflow-hidden w-full md:w-1/2">
             <div class="w-[14px] h-[14px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
           </div>
         </div>

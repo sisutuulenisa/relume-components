@@ -2,42 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Navbar / 3 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <nav class="w-full flex flex-col justify-center items-center bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px]">
-      <div class="w-[1312px] h-[40px] flex flex-row justify-center items-center gap-[32px]">
-        <div class="w-[582px] h-[24px] flex flex-col">
-          <div class="w-[292px] h-[24px] flex flex-row items-center gap-[32px]">
-            <div class="w-[62px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
-            </div>
-            <div class="w-[64px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
-              <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
-            </div>
-            <div class="w-[102px] h-[24px] flex flex-col gap-[8px]">
-              <div class="w-[102px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
-                <div class="w-[24px] h-[24px] overflow-hidden">
-                  <div class="w-[13px] h-[7px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
-                </div>
-              </div>
-              <div class="w-[114px] h-[152px] flex flex-col gap-[16px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Five</p>
-                <p class="text-[16px] font-normal leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Six</p>
-              </div>
-            </div>
+    <nav class="w-full flex flex-col justify-center items-center bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[91%] flex flex-col md:flex-row justify-center items-center gap-[32px]">
+        <div class="w-[44%] flex flex-col w-full md:w-1/2">
+          <div class="hidden md:flex flex-row border-b border-gray-200">
+            <button class="border border-gray-900 px-4 py-2 text-sm">Link One</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Link Two</button>
+            <button class="px-4 py-2 text-sm text-gray-500">Link Three</button>
           </div>
         </div>
-        <div class="w-[84px] h-[36px] flex flex-row">
-          <div class="w-[84px] h-[36px] overflow-hidden">
-            <div class="w-[70px] h-[36px] overflow-hidden">
+        <div class="w-[6%] flex flex-col md:flex-row w-full md:w-1/2">
+          <div class="w-[84px] overflow-hidden w-full md:w-1/2">
+            <div class="w-[83%] flex flex-col md:flex-row overflow-hidden">
               <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               <div class="w-[19px] h-[25px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
               <div class="w-[19px] h-[16px] bg-gray-400 rounded-sm flex-shrink-0" role="img" aria-label="Icon placeholder"></div>
@@ -46,8 +30,8 @@
             </div>
           </div>
         </div>
-        <div class="w-[582px] h-[40px] flex flex-col justify-center items-end">
-          <button class="w-[88px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
+        <div class="w-[44%] flex flex-col justify-center items-end w-full md:w-1/2">
+          <button class="w-[15%] flex flex-col md:flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)] cursor-pointer">
             <p class="text-[16px] font-normal leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Button</p>
           </button>
         </div>

@@ -2,43 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stats / 54 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      html, body { min-width: 1440px; overflow-x: auto; margin: 0; padding: 0; }
+      html, body { margin: 0; padding: 0; }
     </style>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
-      <div class="w-[1280px] h-[720px] flex flex-col gap-[80px]">
-        <div class="w-[1280px] h-[135px] flex flex-row gap-[80px]">
-          <div class="w-[600px] h-[96px] flex flex-col gap-[24px]">
+    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px] px-[20px] md:px-[80px]">
+      <div class="w-[89%] flex flex-col gap-[80px]">
+        <div class="w-[1280px] flex flex-col md:flex-row gap-[80px]">
+          <div class="w-[47%] flex flex-col gap-[24px] w-full md:w-1/2">
             <h1 class="text-[40px] font-bold leading-[48px] text-[rgba(0,0,0,1.000)] text-left">Long heading is what you see here in this feature section</h1>
           </div>
-          <div class="w-[600px] h-[135px] flex flex-col gap-[24px]">
+          <div class="w-[47%] flex flex-col gap-[24px] w-full md:w-1/2">
             <p class="text-[18px] font-normal leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
           </div>
         </div>
-        <div class="w-[1280px] h-[505px] flex flex-row gap-[32px]">
-          <div class="w-[405px] h-[505px] flex flex-col justify-center items-center gap-[8px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-            <h1 class="text-[80px] font-bold leading-[96px] text-[rgba(0,0,0,1.000)] text-center">30%</h1>
-            <h4 class="text-[20px] font-bold leading-[28px] text-[rgba(0,0,0,1.000)] text-center">Short heading goes here</h4>
-          </div>
-          <div class="w-[405px] h-[505px] flex flex-col gap-[32px]">
-            <div class="w-[416px] h-[277px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-            <div class="w-[405px] h-[196px] flex flex-col justify-center items-center gap-[8px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <h1 class="text-[80px] font-bold leading-[96px] text-[rgba(0,0,0,1.000)] text-center">30%</h1>
-              <h4 class="text-[20px] font-bold leading-[28px] text-[rgba(0,0,0,1.000)] text-center">Short heading goes here</h4>
-            </div>
-          </div>
-          <div class="w-[405px] h-[505px] flex flex-col gap-[32px]">
-            <div class="w-[405px] h-[196px] flex flex-col justify-center items-center gap-[8px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
-              <h1 class="text-[80px] font-bold leading-[96px] text-[rgba(0,0,0,1.000)] text-center">30%</h1>
-              <h4 class="text-[20px] font-bold leading-[28px] text-[rgba(0,0,0,1.000)] text-center">Short heading goes here</h4>
-            </div>
-            <div class="w-[416px] h-[277px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
-          </div>
+        <div class="hidden md:flex flex-row border-b border-gray-200">
+          <button class="border border-gray-900 px-4 py-2 text-sm">30%</button>
+          <button class="px-4 py-2 text-sm text-gray-500">30%</button>
+          <button class="px-4 py-2 text-sm text-gray-500">30%</button>
         </div>
       </div>
     </section>
