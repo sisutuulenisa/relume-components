@@ -1,182 +1,182 @@
 {
   "components/features/layout-1.html": {
     "status": "ok",
-    "mobileStatus": "ok",
-    "checkedAt": "2026-03-10",
-    "note": "Render ok op desktop en mobiel."
-  },
-  "components/features/layout-15.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
-  },
-  "components/features/layout-50.html": {
-    "status": "ok",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Mobiel toont kleine/broken icon placeholders; verder zichtbaar."
+    "note": "Desktop: content zichtbaar met typografie/buttons; mobiel: tekst loopt deels af op mobile."
   },
-  "components/hero-headers-new/header-1.html": {
+  "components/features/layout-15.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Geen gebroken pagina; wel minimalistische structuur met beperkte interactie en geen opvallende knop-styling."
+  },
+  "components/features/layout-50.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Alleen lege/grijze banner zonder hero-content."
+    "note": "Alleen grijze image-placeholder zonder inhoud (desktop en mobiel)."
+  },
+  "components/hero-headers-new/header-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Hero content aanwezig, maar op mobile overlap/truncatie van heading; desktop toont lange tekst met beperkte marges."
   },
   "components/hero-headers-new/header-5.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Alleen placeholder-figure, geen headline/cta zichtbaar op desktop of mobiel."
   },
   "components/cta-new/cta-1.html": {
-    "status": "warn",
+    "status": "ok",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Tekst/beeld overlap en clipping op beide viewports."
+    "note": "CTA sectie met tekst+gestilede buttons; mobiel op 390px knalt tekst deels in.)"
   },
   "components/cta-new/cta-5.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
+    "status": "warn",
+    "mobileStatus": "ok",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Structuur aanwezig, dark card met heading/tekst/buttons; desktop visueel relatief donker maar functioneel."
   },
   "components/banners/banner-1.html": {
     "status": "ok",
-    "mobileStatus": "ok",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Banner zichtbaar met typografie en gestijlde knoppen."
+    "note": "Banner met tekst en icon/cta aanwezig; mobiele weergave is compact maar leesbaar."
   },
   "components/banners/banner-8.html": {
     "status": "ok",
-    "mobileStatus": "ok",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Banner-layout en CTA-knoppen renderen correct."
+    "note": "Vergelijkbaar met banner-1; geen zwarte content-blind spots, alleen compacte mobile layout."
   },
   "components/testimonials/testimonial-1.html": {
-    "status": "ok",
+    "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Mobiel screenshot leeg/wit; desktop wel zichtbaar."
+    "note": "Paden ontbreken op server (404), screenshot toont geen component.)"
   },
   "components/testimonials/testimonial-10.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Paden ontbreken op server (404), screenshot toont geen component."
   },
   "components/pricing-new/pricing-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Geen pricing-content; desktop vrijwel leeg en mobiel 404."
+    "note": "Map/pad bestaat niet (404), dus geen renderbare pricing component."
   },
   "components/pricing-new/pricing-5.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Map/pad bestaat niet (404), dus geen renderbare pricing component."
   },
   "components/blog-new/blog-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Map/pad bestaat niet (404), dus geen componentcontent zichtbaar.)"
   },
   "components/blog-new/blog-5.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Desktop zonder blog-content; mobiel 404."
+    "note": "Map/pad bestaat niet (404), dus geen componentcontent zichtbaar."
   },
   "components/footers/footer-1.html": {
     "status": "ok",
     "mobileStatus": "ok",
     "checkedAt": "2026-03-10",
-    "note": "Footer/content en CTA renderen correct op beide viewports."
+    "note": "Footer content/typografie en CTA renderen correct op beide viewports."
   },
   "components/footers/footer-6.html": {
     "status": "ok",
     "mobileStatus": "ok",
     "checkedAt": "2026-03-10",
-    "note": "Footer-variant renderen correct op desktop en mobiel."
+    "note": "Footer met nieuwsbriefsectie en links renderd; geen structureel layoutfalen."
   },
   "components/navbars/navbar-1.html": {
-    "status": "ok",
-    "mobileStatus": "fail",
+    "status": "warn",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Desktop ok; mobiel toont 404 i.p.v. navbar."
+    "note": "Navbar content zichtbaar met iconen, tekst en knoppen; mobiel is compact met beperkte spacing."
   },
   "components/contact-new/contact-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Pad bestaat niet op server (404)."
   },
   "components/team-new/team-1.html": {
-    "status": "warn",
+    "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Desktop met broken image; mobiel 404."
+    "note": "Pad bestaat niet op server (404)."
   },
   "components/faq-new/faq-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Pad bestaat niet op server (404)."
   },
   "components/gallery/gallery-1.html": {
     "status": "ok",
-    "mobileStatus": "fail",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Desktop ok; mobiel screenshot blanco."
+    "note": "Gallery met titel/tekst aanwezig; mobile weergave erg minimalistisch met placeholder."
   },
   "components/stats/stats-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Pad bestaat niet op server (404)."
   },
   "components/logos/logo-1.html": {
-    "status": "ok",
+    "status": "warn",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Desktop ok met placeholders; mobiel toont verkeerde content."
+    "note": "Typografie en logo-grid aanwezig met placeholder-logos; inhoud is wel placeholder-heavy."
   },
   "components/timelines/timeline-1.html": {
     "status": "warn",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Desktop tekst clipping/overflow; mobiel verkeerde content."
+    "note": "Structuur zichtbaar met veel tekst; mobiele versie heeft compacte/drukke kolommen."
   },
   "components/portfolio-new/portfolio-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Pad bestaat niet op server (404)."
   },
   "components/careers/careers-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Pad bestaat niet op server (404)."
   },
   "components/event-sections/event-1.html": {
     "status": "ok",
-    "mobileStatus": "ok",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
-    "note": "Events-sectie goed zichtbaar op beide viewports."
+    "note": "Event header/intro zichtbaar; mobiel wat compact maar bruikbaar."
   },
   "components/long-form-content-sections/long-form-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "404 pagina; componentbestand niet geserveerd."
+    "note": "Pad bestaat niet op server (404)."
   },
   "components/404/404-1.html": {
     "status": "fail",
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
-    "note": "Raw server 404 i.p.v. componentrender."
+    "note": "Doelpad is geen standaard componentbestand; server returned 404."
   }
 }
