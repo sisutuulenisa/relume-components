@@ -25,6 +25,42 @@ DEFAULT_INDEX_PATH = ROOT_DIR / "index.json"
 
 IMAGE_LIKE_TYPES = {"RECTANGLE", "ELLIPSE", "VECTOR", "STAR", "POLYGON"}
 
+# Desktop breakpoint detection
+DESKTOP_MIN_WIDTH = 1200
+DESKTOP_MAX_WIDTH = 1700
+
+
+def get_desktop_child(node: dict) -> dict | None:
+    """
+    For a COMPONENT_SET (or any node with desktop+mobile variants),
+    return the desktop breakpoint child.
+
+    Relume's Figma kit consistently uses:
+      - Breakpoint = Desktop  (width ~1440px)
+      - Breakpoint = Mobile   (width ~375px)
+    """
+    if not node:
+        return None
+    children = [c for c in node.get("children", []) or [] if c.get("visible", True)]
+    if not children:
+        return None
+
+    # 1. Match by name — most reliable
+    for child in children:
+        raw = (child.get("name") or "")
+        normalized = raw.lower().replace(" ", "").replace("_", "").replace("-", "")
+        if "desktop" in normalized:
+            return child
+
+    # 2. Fallback: child with desktop-like bounding width
+    for child in children:
+        box = child.get("absoluteBoundingBox") or {}
+        w = float(box.get("width") or 0)
+        if DESKTOP_MIN_WIDTH <= w <= DESKTOP_MAX_WIDTH:
+            return child
+
+    return None
+
 
 def load_env(path: Path) -> None:
     if not path.exists():
@@ -353,6 +389,14 @@ def render_node(node: dict, category: str, is_root: bool = False, indent: int = 
     if node.get("visible") is False:
         return ""
 
+    # ── COMPONENT_SET unwrapping ───────────────────────────────────────────────
+    # Relume components are COMPONENT_SETs containing Desktop + Mobile children.
+    # We only want the Desktop breakpoint for the HTML viewer.
+    if is_root and node.get("type") == "COMPONENT_SET":
+        desktop = get_desktop_child(node)
+        if desktop:
+            node = desktop
+
     node_type = node.get("type")
     pad = " " * indent
 
@@ -499,9 +543,13 @@ def build_html_document(title: str, body: str) -> str:
 <html lang=\"en\">
   <head>
     <meta charset=\"UTF-8\" />
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
+    <meta name=\"viewport\" content=\"width=1440\" />
     <title>{safe_title}</title>
     <script src=\"https://cdn.tailwindcss.com\"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body {{ min-width: 1440px; overflow-x: auto; }}
+    </style>
   </head>
   <body class=\"bg-white text-gray-900 antialiased\">
 {body}
@@ -569,6 +617,14 @@ def main() -> int:
         filename = f"{name_slug}.html" if count == 1 else f"{name_slug}-{count}.html"
 
         node = nodes_by_id.get(component["id"]) or component.get("node") or {}
+
+        # Resolve the desktop breakpoint — used both for rendering and Figma PNG export
+        figma_export_node_id = component.get("id")
+        if node.get("type") == "COMPONENT_SET":
+            desktop_child = get_desktop_child(node)
+            if desktop_child and desktop_child.get("id"):
+                figma_export_node_id = desktop_child["id"]
+
         component_markup = render_node(node, category=category_name, is_root=True, indent=4)
         if not component_markup:
             component_markup = (
@@ -590,7 +646,7 @@ def main() -> int:
                 "type": component.get("type"),
                 "path": rel_path,
                 "source_page_id": component.get("page_id"),
-                "source_node_id": component.get("id"),
+                "source_node_id": figma_export_node_id,
             }
         )
 
