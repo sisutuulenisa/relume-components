@@ -663,17 +663,54 @@ def semantic_root_tag(category: str) -> str:
     return "article"
 
 
-def semantic_container_tag(node: dict) -> str:
+def is_heading_tag(tag: str) -> bool:
+    return tag in {"h1", "h2", "h3", "h4", "h5", "h6"}
+
+
+def node_has_heading(node: dict, max_depth: int = 2) -> bool:
+    if max_depth < 0:
+        return False
+
+    if node.get("type") == "TEXT":
+        return is_heading_tag(semantic_text_tag(node))
+
+    if max_depth == 0:
+        return False
+
+    for child in get_visible_children(node):
+        if node_has_heading(child, max_depth=max_depth - 1):
+            return True
+    return False
+
+
+def node_has_own_heading(node: dict) -> bool:
+    for child in get_visible_children(node):
+        if child.get("type") == "TEXT" and is_heading_tag(semantic_text_tag(child)):
+            return True
+
+        child_name = (child.get("name") or "").lower()
+        if any(token in child_name for token in ("heading", "title", "headline")) and node_has_heading(child, max_depth=2):
+            return True
+    return False
+
+
+def semantic_container_tag(node: dict, *, has_heading: bool = False) -> str:
     name = (node.get("name") or "").lower()
     if "nav" in name or "menu" in name:
         return "nav"
     if "header" in name or "hero" in name:
-        return "header"
+        return "header" if has_heading else "div"
     if "footer" in name:
         return "footer"
-    if any(k in name for k in ("article", "post", "card", "content")):
+
+    layout_tokens = {"wrapper", "container", "column", "col", "inner", "row", "grid", "layout", "stack"}
+    is_layout_wrapper = any(token in name for token in layout_tokens)
+
+    if any(k in name for k in ("article", "post", "card")) and has_heading and not is_layout_wrapper:
         return "article"
-    return "section"
+    if has_heading and not is_layout_wrapper:
+        return "section"
+    return "div"
 
 
 def semantic_text_tag(node: dict) -> str:
@@ -687,7 +724,7 @@ def semantic_text_tag(node: dict) -> str:
     if size >= 24 and weight_val >= 600:
         return "h2" if size >= 32 else "h3"
     if size >= 36:
-        return "h1"
+        return "h2"
     if size >= 30:
         return "h2"
     if size >= 24:
@@ -917,6 +954,8 @@ def render_node(
 
     list_container = (not is_root) and is_list_container(node)
 
+    has_heading = node_has_own_heading(node)
+
     if is_root:
         tag = semantic_root_tag(category)
     elif is_button_node(node):
@@ -924,7 +963,7 @@ def render_node(
     elif list_container:
         tag = "ul"
     else:
-        tag = semantic_container_tag(node)
+        tag = semantic_container_tag(node, has_heading=has_heading)
 
     classes = build_layout_classes(node, is_root=is_root, parent=parent, responsive=responsive)
 
