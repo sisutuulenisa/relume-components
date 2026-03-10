@@ -2,11 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Event / 35 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[2040px] flex flex-col gap-[80px]">
+        <div class="w-[768px] h-[176px] flex flex-col gap-[16px]">
+          <div class="w-[53px] h-[24px] flex flex-row items-center">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Tagline</p>
+          </div>
+          <div class="w-[768px] h-[136px] flex flex-col items-center gap-[24px]">
+            <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Schedule</h1>
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="w-[1280px] h-[1784px] flex flex-col gap-[48px]">
+          <div class="w-[323px] h-[40px] flex flex-row items-center">
+            <div class="w-[103px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Fri 09 Feb</p>
+            </div>
+            <div class="w-[108px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Sat 10 Feb</p>
+            </div>
+            <div class="w-[112px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[16px] py-[8px]">
+              <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Sun 11 Feb</p>
+            </div>
+          </div>
+          <div class="w-[1280px] h-[1696px] flex flex-col gap-[48px]">
+            <div class="w-[1280px] h-[1696px] flex flex-col gap-[32px]">
+              <div class="w-[1280px] h-[544px] flex flex-row gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Friday 09 Feb</h3>
+                <div class="w-[480px] h-[442px] flex flex-col gap-[24px]">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Time</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">8:00 am - 9:00 am</p>
+                  </div>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Location</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">123 Sample St, Sydney</p>
+                  </div>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Speaker</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
+                  </div>
+                  <div class="w-[480px] h-[80px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Details</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                  </div>
+                  <button class="w-[127px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View details</p>
+                  </button>
+                </div>
+                <div class="w-[480px] h-[480px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              </div>
+              <div class="w-[1280px] h-[544px] flex flex-row gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Saturday 10 Feb</h3>
+                <div class="w-[480px] h-[442px] flex flex-col gap-[24px]">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Time</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">8:00 am - 9:00 am</p>
+                  </div>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Location</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">123 Sample St, Sydney</p>
+                  </div>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Speaker</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
+                  </div>
+                  <div class="w-[480px] h-[80px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Details</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                  </div>
+                  <button class="w-[127px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View details</p>
+                  </button>
+                </div>
+                <div class="w-[480px] h-[480px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              </div>
+              <div class="w-[1280px] h-[544px] flex flex-row gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Sunday 11 Feb</h3>
+                <div class="w-[480px] h-[442px] flex flex-col gap-[24px]">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Event title heading</h3>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Time</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">8:00 am - 9:00 am</p>
+                  </div>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Location</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">123 Sample St, Sydney</p>
+                  </div>
+                  <div class="w-[480px] h-[56px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Speaker</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Full name</p>
+                  </div>
+                  <div class="w-[480px] h-[80px] flex flex-col justify-center gap-[8px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Details</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                  </div>
+                  <button class="w-[127px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View details</p>
+                  </button>
+                </div>
+                <div class="w-[480px] h-[480px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
