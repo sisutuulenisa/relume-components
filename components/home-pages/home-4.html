@@ -2,11 +2,793 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Home / 4 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col mx-auto max-w-[1440px]">
+      <div class="w-[1440px] h-[505px] flex flex-col items-center bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1440px] h-[72px] flex flex-row justify-between items-center overflow-hidden">
+          <div class="w-[1312px] h-[40px] flex flex-row justify-between items-center gap-[622px]">
+            <div class="w-[498px] h-[36px] flex flex-row items-center gap-[24px]">
+              <div class="w-[84px] h-[36px] overflow-hidden">
+                <div class="w-[70px] h-[36px] overflow-hidden">
+                  <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                  <div class="w-[19px] h-[25px] bg-[rgba(0,0,0,1.000)]"></div>
+                  <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                  <div class="w-[22px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                  <div class="w-[15px] h-[9px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+              <div class="w-[390px] h-[24px] flex flex-row items-center gap-[32px] overflow-hidden">
+                <div class="w-[62px] h-[24px] flex flex-row gap-[10px]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
+                </div>
+                <div class="w-[64px] h-[24px] flex flex-row gap-[10px]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
+                </div>
+                <div class="w-[74px] h-[24px] flex flex-row gap-[10px]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
+                </div>
+                <div class="w-[94px] h-[24px] flex flex-col gap-[10px]">
+                  <div class="w-[94px] h-[24px] flex flex-row justify-center items-center gap-[4px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[13px] h-[7px] bg-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[238px] h-[40px] flex flex-row justify-center items-center gap-[16px]">
+              <button class="w-[84px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Log in</p>
+              </button>
+              <button class="w-[138px] h-[40px] flex flex-row justify-center items-center gap-[8px] px-[20px] py-[8px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Start free trial</p>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1440px] h-[433px] flex flex-row justify-center gap-[32px] px-[64px] py-[24px] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+          <div class="w-[200px] h-[221px] flex flex-row gap-[32px]">
+            <div class="w-[200px] h-[221px] flex flex-col gap-[16px]">
+              <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Blog categories</p>
+              <div class="w-[200px] h-[184px] flex flex-col gap-[16px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category One</p>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Two</p>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Three</p>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Four</p>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category Five</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[1080px] h-[385px] flex flex-row gap-[32px]">
+            <div class="w-[524px] h-[385px] flex flex-col gap-[8px]">
+              <div class="w-[524px] h-[123px] flex flex-row gap-[24px]">
+                <div class="w-[160px] h-[107px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[340px] h-[99px] flex flex-col gap-[8px]">
+                  <div class="w-[340px] h-[70px] flex flex-col gap-[4px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Article Title</p>
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Read more</p>
+                </div>
+              </div>
+              <div class="w-[524px] h-[123px] flex flex-row gap-[24px]">
+                <div class="w-[160px] h-[107px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[340px] h-[99px] flex flex-col gap-[8px]">
+                  <div class="w-[340px] h-[70px] flex flex-col gap-[4px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Article Title</p>
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Read more</p>
+                </div>
+              </div>
+              <div class="w-[524px] h-[123px] flex flex-row gap-[24px]">
+                <div class="w-[160px] h-[107px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[340px] h-[99px] flex flex-col gap-[8px]">
+                  <div class="w-[340px] h-[70px] flex flex-col gap-[4px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Article Title</p>
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Read more</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[524px] h-[384px] flex flex-col gap-[8px]">
+              <div class="w-[524px] h-[123px] flex flex-row gap-[24px]">
+                <div class="w-[160px] h-[107px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[340px] h-[99px] flex flex-col gap-[8px]">
+                  <div class="w-[340px] h-[70px] flex flex-col gap-[4px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Article Title</p>
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Read more</p>
+                </div>
+              </div>
+              <div class="w-[524px] h-[122px] flex flex-row gap-[24px]">
+                <div class="w-[160px] h-[106px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[340px] h-[99px] flex flex-col gap-[8px]">
+                  <div class="w-[340px] h-[70px] flex flex-col gap-[4px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Article Title</p>
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Read more</p>
+                </div>
+              </div>
+              <div class="w-[524px] h-[123px] flex flex-row gap-[24px]">
+                <div class="w-[160px] h-[107px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                <div class="w-[340px] h-[99px] flex flex-col gap-[8px]">
+                  <div class="w-[340px] h-[70px] flex flex-col gap-[4px]">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Article Title</p>
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Read more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[1350px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[1126px] flex flex-col gap-[80px]">
+          <div class="w-[768px] h-[326px] flex flex-col gap-[32px]">
+            <div class="w-[768px] h-[212px] flex flex-col gap-[24px]">
+              <h1 class="text-[56px] font-[700] leading-[67px] text-[rgba(0,0,0,1.000)] text-left">Headline that highlights the Value Proposition</h1>
+              <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Describe exactly what your product or service does and how it makes customer&#x27;s lives better. Avoid using verbose words or phrases.</p>
+            </div>
+            <div class="w-[513px] h-[82px] flex flex-col gap-[16px]">
+              <div class="w-[513px] h-[48px] flex flex-row gap-[16px]">
+                <div class="w-[351px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Enter your email</p>
+                </div>
+                <button class="w-[146px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Start free trial</p>
+                </button>
+              </div>
+              <div class="w-[513px] h-[18px] flex flex-row gap-[4px]">
+                <p class="text-[12px] font-[400] leading-[18px] text-[rgba(0,0,0,1.000)] text-left">By clicking Sign Up you&#x27;re confirming that you agree with our</p>
+                <p class="text-[12px] font-[400] leading-[18px] text-[rgba(0,0,0,1.000)] text-left">Terms and Conditions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[1280px] h-[720px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[250px] flex flex-col items-center gap-[80px] px-[64px] py-[80px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[90px] flex flex-col gap-[80px]">
+          <div class="w-[1280px] h-[90px] flex flex-row items-center gap-[64px]">
+            <h4 class="text-[20px] font-[700] leading-[30px] text-[rgba(0,0,0,1.000)] text-left">Trusted by the world&#x27;s best companies [social proof to build credibility]</h4>
+            <div class="w-[896px] h-[56px] flex flex-row flex-wrap justify-end items-center gap-[32px]">
+              <div class="w-[140px] h-[56px] overflow-hidden">
+                <div class="w-[135px] h-[22px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[140px] h-[56px] overflow-hidden">
+                <div class="w-[133px] h-[36px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[140px] h-[56px] overflow-hidden">
+                <div class="w-[135px] h-[22px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[140px] h-[56px] overflow-hidden">
+                <div class="w-[133px] h-[36px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[140px] h-[56px] overflow-hidden">
+                <div class="w-[135px] h-[22px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[1108px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[884px] flex flex-col gap-[80px]">
+          <div class="w-[768px] h-[164px] flex flex-col gap-[24px]">
+            <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Highlight the key benefits of using your product or service</h1>
+            <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="w-[1280px] h-[640px] flex flex-row items-center gap-[80px]">
+            <div class="w-[600px] h-[446px] flex flex-col gap-[40px]">
+              <div class="w-[600px] h-[122px] flex flex-row justify-center gap-[32px] overflow-hidden">
+                <div class="w-[0px] h-[122px] border border-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[568px] h-[122px] flex flex-col justify-center gap-[16px] overflow-hidden">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Highlight benefit one</h3>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                </div>
+              </div>
+              <div class="w-[600px] h-[122px] flex flex-row justify-center gap-[32px] overflow-hidden">
+                <div class="w-[0px] h-[122px] border border-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[568px] h-[122px] flex flex-col justify-center gap-[16px] overflow-hidden">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Highlight benefit two</h3>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                </div>
+              </div>
+              <div class="w-[600px] h-[122px] flex flex-row justify-center gap-[32px] overflow-hidden">
+                <div class="w-[0px] h-[122px] border border-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[568px] h-[122px] flex flex-col justify-center gap-[16px] overflow-hidden">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Highlight benefit three</h3>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[600px] h-[640px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[928px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[704px] flex flex-col gap-[80px]">
+          <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Highlight key features of the product or service</h1>
+          <div class="w-[1280px] h-[508px] flex flex-row justify-center gap-[48px]">
+            <div class="w-[395px] h-[508px] flex flex-col gap-[32px] overflow-hidden">
+              <div class="w-[395px] h-[240px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[395px] h-[236px] flex flex-col gap-[32px]">
+                <div class="w-[395px] h-[180px] flex flex-col gap-[16px]">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Describe feature one and its benefits</h3>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                </div>
+                <div class="w-[395px] h-[24px] flex flex-col gap-[8px]">
+                  <button class="w-[80px] h-[24px] flex flex-row justify-center items-center gap-[8px] overflow-hidden">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-[395px] h-[508px] flex flex-col gap-[32px] overflow-hidden">
+              <div class="w-[395px] h-[240px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[395px] h-[236px] flex flex-col gap-[32px]">
+                <div class="w-[395px] h-[180px] flex flex-col gap-[16px]">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Describe feature two and its benefits</h3>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                </div>
+                <div class="w-[395px] h-[24px] flex flex-col gap-[8px]">
+                  <button class="w-[80px] h-[24px] flex flex-row justify-center items-center gap-[8px] overflow-hidden">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-[395px] h-[508px] flex flex-col gap-[32px] overflow-hidden">
+              <div class="w-[395px] h-[240px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[395px] h-[236px] flex flex-col gap-[32px]">
+                <div class="w-[395px] h-[180px] flex flex-col gap-[16px]">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Describe feature three and its benefits</h3>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                </div>
+                <div class="w-[395px] h-[24px] flex flex-col gap-[8px]">
+                  <button class="w-[80px] h-[24px] flex flex-row justify-center items-center gap-[8px] overflow-hidden">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Button</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[692px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[468px] flex flex-col gap-[80px]">
+          <div class="w-[768px] h-[48px] flex flex-col gap-[24px]">
+            <h1 class="text-[40px] font-[700] leading-[48px] text-[rgba(0,0,0,1.000)] text-left">Customer testimonials [social proof]</h1>
+          </div>
+          <div class="w-[1280px] h-[340px] flex flex-col gap-[32px]">
+            <div class="w-[3808px] h-[260px] flex flex-row gap-[32px]">
+              <div class="w-[608px] h-[260px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[544px] h-[124px] flex flex-col gap-[24px]">
+                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot;</p>
+                </div>
+                <div class="w-[544px] h-[48px] flex flex-row items-center gap-[16px]">
+                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[480px] h-[48px] flex flex-col">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[608px] h-[260px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[544px] h-[124px] flex flex-col gap-[24px]">
+                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot;</p>
+                </div>
+                <div class="w-[544px] h-[48px] flex flex-row items-center gap-[16px]">
+                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[480px] h-[48px] flex flex-col">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[608px] h-[260px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[544px] h-[124px] flex flex-col gap-[24px]">
+                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot;</p>
+                </div>
+                <div class="w-[544px] h-[48px] flex flex-row items-center gap-[16px]">
+                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[480px] h-[48px] flex flex-col">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[608px] h-[260px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[544px] h-[124px] flex flex-col gap-[24px]">
+                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot;</p>
+                </div>
+                <div class="w-[544px] h-[48px] flex flex-row items-center gap-[16px]">
+                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[480px] h-[48px] flex flex-col">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[608px] h-[260px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[544px] h-[124px] flex flex-col gap-[24px]">
+                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot;</p>
+                </div>
+                <div class="w-[544px] h-[48px] flex flex-row items-center gap-[16px]">
+                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[480px] h-[48px] flex flex-col">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[608px] h-[260px] flex flex-col gap-[24px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                <div class="w-[544px] h-[124px] flex flex-col gap-[24px]">
+                  <div class="w-[116px] h-[19px] flex flex-row gap-[4px] overflow-hidden">
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[20px] h-[19px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot;</p>
+                </div>
+                <div class="w-[544px] h-[48px] flex flex-row items-center gap-[16px]">
+                  <div class="w-[48px] h-[48px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[480px] h-[48px] flex flex-col">
+                    <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Name Surname</p>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Position, Company name</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[1280px] h-[48px] flex flex-row justify-between items-center gap-[40px]">
+              <div class="w-[56px] h-[8px] flex flex-row gap-[8px]">
+                <div class="w-[8px] h-[8px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[8px] h-[8px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[8px] h-[8px] bg-[rgba(0,0,0,1.000)]"></div>
+                <div class="w-[8px] h-[8px] bg-[rgba(0,0,0,1.000)]"></div>
+              </div>
+              <div class="w-[112px] h-[48px] flex flex-row gap-[16px]">
+                <div class="w-[48px] h-[48px] flex flex-row justify-center items-center gap-[8px] p-[12px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[16px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </div>
+                <div class="w-[48px] h-[48px] flex flex-row justify-center items-center gap-[8px] p-[12px] rounded-[50px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[16px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[1080px] flex flex-col gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[856px] flex flex-col items-center gap-[80px]">
+          <div class="w-[768px] h-[149px] flex flex-col items-center gap-[16px]">
+            <div class="w-[53px] h-[24px] flex flex-row items-center">
+              <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-center">Tagline</p>
+            </div>
+            <div class="w-[768px] h-[109px] flex flex-col gap-[24px]">
+              <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Pricing plans</h1>
+              <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="w-[1280px] h-[627px] flex flex-row gap-[32px]">
+            <div class="w-[405px] h-[627px] flex flex-col gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[341px] h-[56px] flex flex-col gap-[4px]">
+                <h4 class="text-[20px] font-[700] leading-[28px] text-[rgba(0,0,0,1.000)] text-left">Basic plan</h4>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet</p>
+              </div>
+              <div class="w-[341px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[341px] h-[179px] flex flex-col gap-[32px]">
+                <div class="w-[352px] h-[99px] flex flex-col gap-[8px]">
+                  <h1 class="text-[56px] font-[700] leading-[67px] text-[rgba(0,0,0,1.000)] text-left">$19/mo</h1>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">or $199 yearly</p>
+                </div>
+                <div class="w-[341px] h-[48px] flex flex-col gap-[16px]">
+                  <button class="w-[341px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Get started</p>
+                  </button>
+                </div>
+              </div>
+              <div class="w-[341px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[341px] h-[120px] flex flex-col gap-[16px]">
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[405px] h-[627px] flex flex-col gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[341px] h-[56px] flex flex-col gap-[4px]">
+                <h4 class="text-[20px] font-[700] leading-[28px] text-[rgba(0,0,0,1.000)] text-left">Business plan</h4>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet</p>
+              </div>
+              <div class="w-[341px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[341px] h-[179px] flex flex-col gap-[32px]">
+                <div class="w-[352px] h-[99px] flex flex-col gap-[8px]">
+                  <h1 class="text-[56px] font-[700] leading-[67px] text-[rgba(0,0,0,1.000)] text-left">$29/mo</h1>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">or $299 yearly</p>
+                </div>
+                <div class="w-[341px] h-[48px] flex flex-col gap-[16px]">
+                  <button class="w-[341px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Get started</p>
+                  </button>
+                </div>
+              </div>
+              <div class="w-[341px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[341px] h-[160px] flex flex-col gap-[16px]">
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-[405px] h-[627px] flex flex-col gap-[32px] p-[32px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+              <div class="w-[341px] h-[56px] flex flex-col gap-[4px]">
+                <h4 class="text-[20px] font-[700] leading-[28px] text-[rgba(0,0,0,1.000)] text-left">Enterprise plan</h4>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet</p>
+              </div>
+              <div class="w-[341px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[341px] h-[179px] flex flex-col gap-[32px]">
+                <div class="w-[352px] h-[99px] flex flex-col gap-[8px]">
+                  <h1 class="text-[56px] font-[700] leading-[67px] text-[rgba(0,0,0,1.000)] text-left">$49/mo</h1>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">or $499 yearly</p>
+                </div>
+                <div class="w-[341px] h-[48px] flex flex-col gap-[16px]">
+                  <button class="w-[341px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(255,255,255,1.000)] text-left">Get started</p>
+                  </button>
+                </div>
+              </div>
+              <div class="w-[341px] border border-[rgba(0,0,0,1.000)]"></div>
+              <div class="w-[341px] h-[200px] flex flex-col gap-[16px]">
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+                <div class="w-[341px] h-[24px] flex flex-row gap-[16px]">
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[16px] h-[11px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Feature text goes here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[1012px] flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[788px] flex flex-col gap-[80px]">
+          <div class="w-[1280px] h-[207px] flex flex-row justify-between items-end">
+            <div class="w-[768px] h-[207px] flex flex-col gap-[16px]">
+              <div class="w-[33px] h-[24px] flex flex-row items-center">
+                <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Blog</p>
+              </div>
+              <div class="w-[768px] h-[167px] flex flex-col items-center gap-[24px]">
+                <h1 class="text-[48px] font-[700] leading-[58px] text-[rgba(0,0,0,1.000)] text-left">Introduce customer success stories</h1>
+                <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="w-[104px] h-[48px] flex flex-col gap-[16px]">
+              <button class="w-[104px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View all</p>
+              </button>
+            </div>
+          </div>
+          <div class="w-[1280px] h-[501px] flex flex-row gap-[32px]">
+            <div class="w-[405px] h-[501px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+              <div class="w-[405px] h-[270px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[405px] h-[231px] flex flex-col gap-[24px] p-[24px]">
+                <div class="w-[357px] h-[135px] flex flex-col gap-[16px]">
+                  <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                    <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                    </div>
+                    <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                  </div>
+                  <div class="w-[357px] h-[90px] flex flex-col gap-[8px]">
+                    <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Title of customer success story</h3>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                  </div>
+                </div>
+                <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="w-[405px] h-[501px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+              <div class="w-[405px] h-[270px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[405px] h-[231px] flex flex-col gap-[24px] p-[24px]">
+                <div class="w-[357px] h-[135px] flex flex-col gap-[16px]">
+                  <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                    <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                    </div>
+                    <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                  </div>
+                  <div class="w-[368px] h-[90px] flex flex-col gap-[8px]">
+                    <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Title of customer success story</h3>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                  </div>
+                </div>
+                <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="w-[405px] h-[501px] flex flex-col bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+              <div class="w-[405px] h-[270px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[405px] h-[231px] flex flex-col gap-[24px] p-[24px]">
+                <div class="w-[357px] h-[135px] flex flex-col gap-[16px]">
+                  <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                    <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                    </div>
+                    <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                  </div>
+                  <div class="w-[357px] h-[90px] flex flex-col gap-[8px]">
+                    <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Title of customer success story</h3>
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                  </div>
+                </div>
+                <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                  <div class="w-[24px] h-[24px] overflow-hidden">
+                    <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1440px] h-[544px] flex flex-col items-center gap-[80px] px-[64px] py-[80px] bg-[rgba(255,255,255,1.000)] overflow-hidden">
+        <div class="w-[1280px] h-[384px] flex flex-col gap-[80px]">
+          <div class="w-[1280px] h-[248px] flex flex-row gap-[128px]">
+            <div class="w-[752px] h-[225px] flex flex-row gap-[40px]">
+              <div class="w-[158px] h-[36px] flex flex-col overflow-hidden">
+                <div class="w-[84px] h-[36px] overflow-hidden">
+                  <div class="w-[70px] h-[36px] overflow-hidden">
+                    <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[19px] h-[25px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[19px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[22px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                    <div class="w-[15px] h-[9px] bg-[rgba(0,0,0,1.000)]"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[158px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
+                <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column One</p>
+                <div class="w-[158px] h-[185px] flex flex-col">
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link One</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Two</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Three</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Four</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Five</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[158px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
+                <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column Two</p>
+                <div class="w-[158px] h-[185px] flex flex-col">
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Six</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Seven</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Eight</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Nine</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Ten</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[158px] h-[225px] flex flex-col gap-[16px] overflow-hidden">
+                <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Column Three</p>
+                <div class="w-[158px] h-[185px] flex flex-col">
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Eleven</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Twelve</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Thirteen</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Fourteen</p>
+                  </div>
+                  <div class="w-[158px] h-[37px] flex flex-row">
+                    <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Link Fifteen</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[400px] h-[208px] flex flex-col gap-[24px]">
+              <div class="w-[400px] h-[88px] flex flex-col gap-[16px]">
+                <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Subscribe</p>
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Join our newsletter to stay up to date on features and releases.</p>
+              </div>
+              <div class="w-[400px] h-[96px] flex flex-col gap-[12px]">
+                <div class="w-[400px] h-[48px] flex flex-row gap-[16px]">
+                  <div class="w-[265px] h-[48px] flex flex-row items-center gap-[8px] p-[12px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,0.600)] text-left">Enter your email</p>
+                  </div>
+                  <button class="w-[119px] h-[48px] flex flex-row justify-center items-center gap-[8px] px-[24px] py-[12px] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Subscribe</p>
+                  </button>
+                </div>
+                <p class="text-[12px] font-[400] leading-[18px] text-[rgba(0,0,0,1.000)] text-left">By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[1280px] h-[56px] flex flex-col gap-[32px]">
+            <div class="w-[1280px] border border-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[1280px] h-[24px] flex flex-row justify-between gap-[64px]">
+              <div class="w-[589px] h-[21px] flex flex-row items-center gap-[24px]">
+                <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">© 2024 Relume. All rights reserved.</p>
+                <div class="w-[345px] h-[21px] flex flex-row gap-[24px]">
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Privacy Policy</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Terms of Service</p>
+                  <p class="text-[14px] font-[400] leading-[21px] text-[rgba(0,0,0,1.000)] text-left underline">Cookies Settings</p>
+                </div>
+              </div>
+              <div class="w-[168px] h-[24px] flex flex-row gap-[12px]">
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[20px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[18px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[16px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[18px] h-[18px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[20px] h-[14px] bg-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
