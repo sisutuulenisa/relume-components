@@ -56,6 +56,31 @@ DESKTOP_MIN_WIDTH = 1200
 DESKTOP_MAX_WIDTH = 1700
 MOBILE_MAX_WIDTH = 600
 
+PERCENT_TO_TAILWIND = {
+    8: "1/12",
+    9: "1/12",
+    16: "1/6",
+    17: "1/6",
+    25: "1/4",
+    33: "1/3",
+    34: "1/3",
+    40: "2/5",
+    41: "2/5",
+    47: "1/2",
+    48: "1/2",
+    50: "1/2",
+    58: "3/5",
+    60: "3/5",
+    66: "2/3",
+    67: "2/3",
+    75: "3/4",
+    83: "5/6",
+    84: "5/6",
+    89: "11/12",
+    90: "11/12",
+    100: "full",
+}
+
 
 def normalized_name(node: dict) -> str:
     raw = (node.get("name") or "")
@@ -156,6 +181,71 @@ def rgba(fill_color: dict | None, opacity: float | None = None) -> str:
     return f"rgba({r},{g},{b},{a:.3f})"
 
 
+def rgba_to_tailwind(rgba_str: str) -> dict[str, str] | None:
+    match = re.fullmatch(r"rgba\((\d+),(\d+),(\d+),([0-9.]+)\)", (rgba_str or "").strip())
+    if not match:
+        return None
+
+    r, g, b = (int(match.group(1)), int(match.group(2)), int(match.group(3)))
+    a = float(match.group(4))
+    if a < 0.95:
+        return None
+
+    rgb = (r, g, b)
+    mapping = {
+        (255, 255, 255): {"bg": "bg-white", "text": "text-white"},
+        (0, 0, 0): {"bg": "bg-black", "text": "text-black"},
+        (17, 24, 39): {"text": "text-gray-900"},
+        (107, 114, 128): {"text": "text-gray-500"},
+        (156, 163, 175): {"text": "text-gray-400"},
+        (229, 231, 235): {"bg": "bg-gray-100", "text": "text-gray-200"},
+        (249, 250, 251): {"bg": "bg-gray-50"},
+    }
+    return mapping.get(rgb)
+
+
+def percent_to_tailwind_fraction(percent) -> str | None:
+    try:
+        p = int(round(float(percent)))
+    except (TypeError, ValueError):
+        return None
+    return PERCENT_TO_TAILWIND.get(p)
+
+
+def class_percent(prefix: str, percent) -> str | None:
+    suffix = percent_to_tailwind_fraction(percent)
+    if not suffix:
+        return None
+    return f"{prefix}-{suffix}"
+
+
+def normalize_arbitrary_size_class(cls: str) -> str:
+    raw = (cls or "").strip()
+    if not raw:
+        return raw
+
+    parts = raw.split(":")
+    base = parts[-1]
+    variants = parts[:-1]
+
+    match = re.fullmatch(r"(w|h|min-w|min-h|max-w|max-h)-\[([0-9.]+)(%|px)\]", base)
+    if not match:
+        return raw
+
+    prefix, value, unit = match.groups()
+    normalized = None
+    if unit == "%":
+        normalized = class_percent(prefix, value)
+    elif unit == "px":
+        normalized = class_px(prefix, value)
+
+    if not normalized:
+        return raw
+    if variants:
+        return ":".join([*variants, normalized])
+    return normalized
+
+
 def px_to_tailwind_spacing(px) -> str:
     # Tailwind spacing scale: 1 unit = 4px
     # Round to nearest Tailwind value
@@ -217,7 +307,7 @@ def class_px(prefix: str, value) -> str | None:
         px = float(value)
     except (TypeError, ValueError):
         return None
-    if px <= 0:
+    if px < 0:
         return None
 
     spacing_prefixes = {"p", "px", "py", "pt", "pr", "pb", "pl", "m", "mx", "my", "mt", "mr", "mb", "ml", "gap"}
@@ -227,7 +317,9 @@ def class_px(prefix: str, value) -> str | None:
     if prefix == "max-w":
         return f"max-w-{px_to_tailwind_max_w(px)}"
 
-    if prefix in {"w", "h", "min-h"}:
+    if prefix in {"w", "h", "min-w", "min-h", "max-h"}:
+        if px == 0:
+            return f"{prefix}-0"
         size_val = min(96, max(1, int(round(px / 4))))
         return f"{prefix}-{size_val}"
 
@@ -245,10 +337,11 @@ def dedupe_classes(classes: list[str]) -> list[str]:
     seen = set()
     result = []
     for cls in classes:
-        if not cls or cls in seen:
+        normalized = normalize_arbitrary_size_class(cls)
+        if not normalized or normalized in seen:
             continue
-        seen.add(cls)
-        result.append(cls)
+        seen.add(normalized)
+        result.append(normalized)
     return result
 
 
@@ -472,8 +565,12 @@ def map_size_classes(node: dict, is_root: bool = False, parent: dict | None = No
 
     if parent_w > 0 and 0 < w_val < parent_w:
         width_pct = int(round((w_val / parent_w) * 100))
-        if 0 < width_pct < 100:
-            classes.append(f"w-[{width_pct}%]")
+        if 0 < width_pct <= 100:
+            w = class_percent("w", width_pct)
+            if w:
+                classes.append(w)
+            else:
+                classes.append(f"w-[{width_pct}%]")
         else:
             w = class_px("w", w_val)
             if w:
@@ -505,7 +602,9 @@ def map_fill_stroke_classes(node: dict) -> list[str]:
     classes = []
     fill = first_visible_fill(node)
     if fill and fill.get("type") == "SOLID":
-        classes.append(f"bg-[{rgba(fill.get('color'), fill.get('opacity'))}]")
+        fill_rgba = rgba(fill.get("color"), fill.get("opacity"))
+        tw_color = rgba_to_tailwind(fill_rgba)
+        classes.append((tw_color or {}).get("bg") or f"bg-[{fill_rgba}]")
 
     stroke = first_visible_stroke(node)
     if stroke and stroke.get("type") == "SOLID":
@@ -570,7 +669,9 @@ def map_text_classes(node: dict) -> list[str]:
 
     fill = first_visible_fill(node)
     if fill and fill.get("type") == "SOLID":
-        classes.append(f"text-[{rgba(fill.get('color'), fill.get('opacity'))}]")
+        fill_rgba = rgba(fill.get("color"), fill.get("opacity"))
+        tw_color = rgba_to_tailwind(fill_rgba)
+        classes.append((tw_color or {}).get("text") or f"text-[{fill_rgba}]")
     else:
         classes.append("text-gray-900")
 
@@ -708,7 +809,7 @@ def semantic_container_tag(node: dict, *, has_heading: bool = False) -> str:
 
     if any(k in name for k in ("article", "post", "card")) and has_heading and not is_layout_wrapper:
         return "article"
-    if has_heading and not is_layout_wrapper:
+    if not is_layout_wrapper:
         return "section"
     return "div"
 
@@ -856,11 +957,19 @@ def build_image_placeholder_classes(node: dict, parent: dict | None = None, resp
         if parent_w > 0 and node_w > 0:
             width_pct = int(round((node_w / parent_w) * 100))
             width_pct = max(1, min(100, width_pct))
+            mapped_width = class_percent("w", width_pct)
+            mapped_md_width = class_percent("w", width_pct)
             if responsive and width_pct <= 60:
                 classes.append("w-full")
-                classes.append(f"md:w-[{width_pct}%]")
+                if mapped_md_width:
+                    classes.append(f"md:{mapped_md_width}")
+                else:
+                    classes.append(f"md:w-[{width_pct}%]")
             elif width_pct < 100:
-                classes.append(f"w-[{width_pct}%]")
+                if mapped_width:
+                    classes.append(mapped_width)
+                else:
+                    classes.append(f"w-[{width_pct}%]")
 
     classes.extend(map_layout_classes(node, responsive=False))
     classes.extend(padding_classes(node))
