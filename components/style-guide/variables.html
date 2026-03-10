@@ -2,11 +2,255 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Variables</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col gap-[64px] p-[64px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px]">
+      <div class="w-[1312px] h-[48px] flex flex-row items-center">
+        <div class="w-[112px] h-[48px] overflow-hidden">
+          <div class="w-[93px] h-[48px] overflow-hidden">
+            <div class="w-[25px] h-[21px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[26px] h-[33px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[25px] h-[21px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[29px] h-[22px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[20px] h-[12px] bg-[rgba(0,0,0,1.000)]"></div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1024px] h-[68px] flex flex-col gap-[24px]">
+        <h1 class="text-[56px] font-[700] leading-[67px] text-[rgba(0,0,0,1.000)] text-left">Color</h1>
+      </div>
+      <div class="w-[1312px] h-[1169px] flex flex-col gap-[80px]">
+        <div class="w-[1312px] h-[642px] flex flex-col gap-[40px]">
+          <div class="w-[1312px] h-[104px] flex flex-col gap-[8px]">
+            <h2 class="text-[32px] font-[700] leading-[42px] text-[rgba(0,0,0,1.000)] text-left">Primitive Variables</h2>
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Primitive colors are the foundational building blocks of a design system&#x27;s color palette. They serve as the base for more specific design decisions.</p>
+          </div>
+          <div class="w-[1312px] h-[498px] flex flex-col gap-[40px]">
+            <div class="w-[1312px] h-[498px] flex flex-col gap-[24px]">
+              <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Neutrals</h3>
+              <div class="w-[1312px] h-[440px] flex flex-col gap-[8px]">
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[331px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">White</p>
+                    </div>
+                    <div class="w-[119px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#FFFFFF</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[333px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Neutral Lightest</p>
+                    </div>
+                    <div class="w-[121px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(238,238,238,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#EEEEEE</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[341px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Neutral Lighter</p>
+                    </div>
+                    <div class="w-[129px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(204,204,204,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#CCCCCC</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[341px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Neutral Light</p>
+                    </div>
+                    <div class="w-[129px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(170,170,170,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#AAAAAA</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[332px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Neutral</p>
+                    </div>
+                    <div class="w-[120px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(102,102,102,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#666666</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[332px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Neutral Dark</p>
+                    </div>
+                    <div class="w-[120px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(68,68,68,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#444444</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[332px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Neutral Darker</p>
+                    </div>
+                    <div class="w-[120px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(34,34,34,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#222222</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[1312px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                  <div class="w-[332px] h-[40px] flex flex-row items-center gap-[32px]">
+                    <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                      <div class="w-[16px] h-[16px] overflow-hidden">
+                        <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                      </div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Neutral Darkest</p>
+                    </div>
+                    <div class="w-[120px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[12px] py-[4px] rounded-[8px]">
+                      <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">#000000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1312px] h-[447px] flex flex-col gap-[40px]">
+          <div class="w-[1312px] h-[77px] flex flex-col gap-[8px]">
+            <h2 class="text-[32px] font-[700] leading-[42px] text-[rgba(0,0,0,1.000)] text-left">Color Schemes</h2>
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Easily manage colors of your website with global color schemes—use variables to quickly style sections.</p>
+          </div>
+          <div class="w-[1312px] h-[330px] flex flex-col gap-[32px]">
+            <div class="w-[1312px] h-[330px] flex flex-col gap-[24px]">
+              <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Color Scheme 1</h3>
+              <div class="w-[1312px] h-[272px] flex flex-row gap-[64px]">
+                <div class="w-[624px] h-[272px] flex flex-col gap-[8px]">
+                  <div class="w-[624px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <div class="w-[419px] h-[40px] flex flex-row items-center gap-[32px]">
+                      <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                        <div class="w-[16px] h-[16px] overflow-hidden">
+                          <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                        </div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Text</p>
+                      </div>
+                      <div class="w-[207px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[8px] py-[4px] rounded-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                        <div class="w-[32px] h-[32px]">
+                          <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                          <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-justify">Aa</p>
+                        </div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Color/Neutral Darkest</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[624px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <div class="w-[354px] h-[40px] flex flex-row items-center gap-[32px]">
+                      <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                        <div class="w-[16px] h-[16px] overflow-hidden">
+                          <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                        </div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Background</p>
+                      </div>
+                      <div class="w-[142px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[8px] py-[4px] rounded-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                        <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Color/White</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[624px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <div class="w-[354px] h-[40px] flex flex-row items-center gap-[32px]">
+                      <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                        <div class="w-[16px] h-[16px] overflow-hidden">
+                          <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                        </div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Foreground</p>
+                      </div>
+                      <div class="w-[142px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[8px] py-[4px] rounded-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                        <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Color/White</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[624px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <div class="w-[419px] h-[40px] flex flex-row items-center gap-[32px]">
+                      <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                        <div class="w-[16px] h-[16px] overflow-hidden">
+                          <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                        </div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Border</p>
+                      </div>
+                      <div class="w-[207px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[8px] py-[4px] rounded-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                        <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Color/Neutral Darkest</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[624px] h-[48px] flex flex-col justify-center gap-[8px] border border-[rgba(0,0,0,1.000)]">
+                    <div class="w-[419px] h-[40px] flex flex-row items-center gap-[32px]">
+                      <div class="w-[180px] h-[24px] flex flex-row items-center gap-[8px]">
+                        <div class="w-[16px] h-[16px] overflow-hidden">
+                          <div class="w-[11px] h-[13px] bg-[rgba(0,0,0,1.000)]"></div>
+                        </div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Accent</p>
+                      </div>
+                      <div class="w-[207px] h-[40px] flex flex-row items-center gap-[8px] pl-[4px] pr-[8px] py-[4px] rounded-[8px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                        <div class="w-[32px] h-[32px] rounded-[4px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                        <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Color/Neutral Darkest</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[624px] h-[272px] flex flex-col gap-[16px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] overflow-hidden">
+                  <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Scheme preview</h3>
+                  <div class="w-[576px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <div class="w-[8px] h-[8px] rounded-[8px] bg-[rgba(0,0,0,1.000)] overflow-hidden"></div>
+                    <p class="text-[16px] font-[500] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Accent color</p>
+                  </div>
+                  <div class="w-[576px] h-[134px] flex flex-row gap-[10px] p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Foreground color</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

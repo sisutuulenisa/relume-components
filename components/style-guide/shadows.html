@@ -2,11 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Shadows</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <section class="w-full mx-auto max-w-[1440px]"></section>
+    <section class="w-full flex flex-col gap-[64px] p-[64px] bg-[rgba(255,255,255,1.000)] mx-auto max-w-[1440px]">
+      <div class="w-[1312px] h-[48px] flex flex-row items-center">
+        <div class="w-[112px] h-[48px] overflow-hidden">
+          <div class="w-[93px] h-[48px] overflow-hidden">
+            <div class="w-[25px] h-[21px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[26px] h-[33px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[25px] h-[21px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[29px] h-[22px] bg-[rgba(0,0,0,1.000)]"></div>
+            <div class="w-[20px] h-[12px] bg-[rgba(0,0,0,1.000)]"></div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[1024px] h-[68px] flex flex-col gap-[24px]">
+        <h1 class="text-[56px] font-[700] leading-[67px] text-[rgba(0,0,0,1.000)] text-left">Shadows</h1>
+      </div>
+      <div class="w-[1312px] h-[160px] flex flex-row gap-[32px]">
+        <div class="w-[160px] h-[160px] flex flex-col justify-end p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden">
+          <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">xxsmall</p>
+        </div>
+        <div class="w-[160px] h-[160px] flex flex-col justify-end p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden">
+          <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">xsmall</p>
+        </div>
+        <div class="w-[160px] h-[160px] flex flex-col justify-end p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden">
+          <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">small</p>
+        </div>
+        <div class="w-[160px] h-[160px] flex flex-col justify-end p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden">
+          <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">medium</p>
+        </div>
+        <div class="w-[160px] h-[160px] flex flex-col justify-end p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden">
+          <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">large</p>
+        </div>
+        <div class="w-[160px] h-[160px] flex flex-col justify-end p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden">
+          <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">xlarge</p>
+        </div>
+        <div class="w-[160px] h-[160px] flex flex-col justify-end p-[24px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)] shadow-md overflow-hidden">
+          <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">xxlarge</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
