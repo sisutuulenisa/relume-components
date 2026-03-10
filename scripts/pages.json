@@ -1,0 +1,377 @@
+{
+  "file_key": "csPgPVhduXpcjSAKHqsygR",
+  "api_base": "https://api.figma.com/v1",
+  "page_count": 74,
+  "pages": [
+    {
+      "id": "40:1498",
+      "name": "Welcome - Getting Started ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1919:1544",
+      "name": "Changelog",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1320:43",
+      "name": "––––––––––",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1320:44",
+      "name": "WORKSPACE ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "5999:10562",
+      "name": "    ↳  Sitemap",
+      "type": "CANVAS"
+    },
+    {
+      "id": "5999:10563",
+      "name": "    ↳  Wireframe",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2368:52",
+      "name": "    ↳  Style Guide",
+      "type": "CANVAS"
+    },
+    {
+      "id": "6383:168",
+      "name": "    ↳  Design",
+      "type": "CANVAS"
+    },
+    {
+      "id": "5999:9842",
+      "name": "---",
+      "type": "CANVAS"
+    },
+    {
+      "id": "5999:9841",
+      "name": "MARKETING COMPONENTS",
+      "type": "CANVAS"
+    },
+    {
+      "id": "129:13658",
+      "name": "    ↳  Navbars",
+      "type": "CANVAS"
+    },
+    {
+      "id": "136:5239",
+      "name": "    ↳  Footers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "519:5759",
+      "name": "    ↳  Hero Headers ✨ NEW",
+      "type": "CANVAS"
+    },
+    {
+      "id": "519:5701",
+      "name": "    ↳  Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "507:5360",
+      "name": "    ↳  Features",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1161:5815",
+      "name": "    ↳  Careers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1161:5816",
+      "name": "    ↳  Gallery",
+      "type": "CANVAS"
+    },
+    {
+      "id": "509:5386",
+      "name": "    ↳  Contact",
+      "type": "CANVAS"
+    },
+    {
+      "id": "513:5486",
+      "name": "    ↳  FAQ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "515:5518",
+      "name": "    ↳  Pricing",
+      "type": "CANVAS"
+    },
+    {
+      "id": "515:5576",
+      "name": " ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "518:5640",
+      "name": "    ↳  Logos",
+      "type": "CANVAS"
+    },
+    {
+      "id": "518:5644",
+      "name": "    ↳  Team",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:58971",
+      "name": "    ↳  Timelines",
+      "type": "CANVAS"
+    },
+    {
+      "id": "509:5308",
+      "name": "    ↳  CTA ✨ NEW",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4175:49580",
+      "name": "    ↳  Cookie Consent",
+      "type": "CANVAS"
+    },
+    {
+      "id": "521:5775",
+      "name": "    ↳  Blog Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "522:5848",
+      "name": "    ↳  Blog Sections",
+      "type": "CANVAS"
+    },
+    {
+      "id": "3501:6972",
+      "name": "    ↳  Blog Post Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1919:275",
+      "name": "    ↳  Banners",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1919:1293",
+      "name": "    ↳  Contact Modals",
+      "type": "CANVAS"
+    },
+    {
+      "id": "5561:997",
+      "name": "    ↳  Comparisons",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2927:6675",
+      "name": "    ↳  Portfolio Sections",
+      "type": "CANVAS"
+    },
+    {
+      "id": "3283:6839",
+      "name": "    ↳  Portfolio Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:80292",
+      "name": "    ↳  Event Sections",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:85846",
+      "name": "    ↳  Event Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:87306",
+      "name": "    ↳  Event Item Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:88105",
+      "name": "    ↳  Stats Sections",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:91107",
+      "name": "    ↳  Multi-step Forms",
+      "type": "CANVAS"
+    },
+    {
+      "id": "3284:8359",
+      "name": "    ↳  Long Form Content Sections",
+      "type": "CANVAS"
+    },
+    {
+      "id": "3629:6984",
+      "name": "    ↳  Loaders",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4578:7185",
+      "name": "    ↳  Links pages",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:80291",
+      "name": "---",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:111169",
+      "name": "ECOMMERCE COMPONENTS",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2004:6",
+      "name": "    ↳  Product Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2005:808",
+      "name": "    ↳  Product List Sections",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2110:248",
+      "name": "    ↳  Category Filters",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:116702",
+      "name": "---",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:116703",
+      "name": "APPLICATION COMPONENTS",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:116704",
+      "name": "    ↳  Application Shells",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:121341",
+      "name": "    ↳  Sidebars",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:122640",
+      "name": "    ↳  Topbars",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:122818",
+      "name": "    ↳  Page Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:123110",
+      "name": "    ↳  Section Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:123252",
+      "name": "    ↳  Card Headers",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1919:420",
+      "name": "    ↳  Sign Up and Log In Pages",
+      "type": "CANVAS"
+    },
+    {
+      "id": "1919:1146",
+      "name": "    ↳  Sign Up and Log In Modals",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:125085",
+      "name": "    ↳  Onboarding Forms",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2322:52",
+      "name": "    ↳  Tables",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:133785",
+      "name": "    ↳  Stacked Lists",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:135105",
+      "name": "    ↳  Grid Lists ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:138040",
+      "name": "    ↳  Stat Cards",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:139087",
+      "name": "    ↳  Forms",
+      "type": "CANVAS"
+    },
+    {
+      "id": "4174:142227",
+      "name": "    ↳  Description Lists",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2008:7",
+      "name": "––––––––––",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2006:6",
+      "name": "PAGE TEMPLATES",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2006:7",
+      "name": "    ↳  Home Pages ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2006:2882",
+      "name": "    ↳  Pricing Pages",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2006:5147",
+      "name": "    ↳  About Pages ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2006:6713",
+      "name": "    ↳  Contact Pages",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2006:7515",
+      "name": "    ↳  Blog Pages",
+      "type": "CANVAS"
+    },
+    {
+      "id": "2006:7516",
+      "name": "    ↳  Blog Post Pages",
+      "type": "CANVAS"
+    },
+    {
+      "id": "3284:7061",
+      "name": "    ↳  Portfolio Pages ",
+      "type": "CANVAS"
+    },
+    {
+      "id": "3501:8750",
+      "name": "    ↳  Legal Pages",
+      "type": "CANVAS"
+    }
+  ]
+}
