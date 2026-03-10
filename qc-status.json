@@ -1,0 +1,182 @@
+{
+  "components/features/layout-1.html": {
+    "status": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Render ok op desktop en mobiel."
+  },
+  "components/features/layout-15.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/features/layout-50.html": {
+    "status": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Mobiel toont kleine/broken icon placeholders; verder zichtbaar."
+  },
+  "components/hero-headers-new/header-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Alleen lege/grijze banner zonder hero-content."
+  },
+  "components/hero-headers-new/header-5.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/cta-new/cta-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Tekst/beeld overlap en clipping op beide viewports."
+  },
+  "components/cta-new/cta-5.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/banners/banner-1.html": {
+    "status": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Banner zichtbaar met typografie en gestijlde knoppen."
+  },
+  "components/banners/banner-8.html": {
+    "status": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Banner-layout en CTA-knoppen renderen correct."
+  },
+  "components/testimonials/testimonial-1.html": {
+    "status": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Mobiel screenshot leeg/wit; desktop wel zichtbaar."
+  },
+  "components/testimonials/testimonial-10.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/pricing-new/pricing-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Geen pricing-content; desktop vrijwel leeg en mobiel 404."
+  },
+  "components/pricing-new/pricing-5.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/blog-new/blog-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/blog-new/blog-5.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop zonder blog-content; mobiel 404."
+  },
+  "components/footers/footer-1.html": {
+    "status": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Footer/content en CTA renderen correct op beide viewports."
+  },
+  "components/footers/footer-6.html": {
+    "status": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Footer-variant renderen correct op desktop en mobiel."
+  },
+  "components/navbars/navbar-1.html": {
+    "status": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop ok; mobiel toont 404 i.p.v. navbar."
+  },
+  "components/contact-new/contact-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/team-new/team-1.html": {
+    "status": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop met broken image; mobiel 404."
+  },
+  "components/faq-new/faq-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/gallery/gallery-1.html": {
+    "status": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop ok; mobiel screenshot blanco."
+  },
+  "components/stats/stats-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/logos/logo-1.html": {
+    "status": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop ok met placeholders; mobiel toont verkeerde content."
+  },
+  "components/timelines/timeline-1.html": {
+    "status": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-10",
+    "note": "Desktop tekst clipping/overflow; mobiel verkeerde content."
+  },
+  "components/portfolio-new/portfolio-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/careers/careers-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/event-sections/event-1.html": {
+    "status": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-10",
+    "note": "Events-sectie goed zichtbaar op beide viewports."
+  },
+  "components/long-form-content-sections/long-form-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "404 pagina; componentbestand niet geserveerd."
+  },
+  "components/404/404-1.html": {
+    "status": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-10",
+    "note": "Raw server 404 i.p.v. componentrender."
+  }
+}
