@@ -2,11 +2,162 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1440" />
     <title>Blog / 18 /</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Components are designed for 1440px desktop — render at that width */
+      html, body { min-width: 1440px; overflow-x: auto; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 antialiased">
-    <header class="w-full mx-auto max-w-[1440px]"></header>
+    <header class="w-full flex flex-col items-center gap-[80px] px-[64px] py-[112px] bg-[rgba(255,255,255,1.000)] overflow-hidden mx-auto max-w-[1440px]">
+      <div class="w-[1280px] h-[1952px] flex flex-col gap-[80px]">
+        <div class="w-[768px] h-[158px] flex flex-col gap-[16px]">
+          <div class="w-[33px] h-[24px] flex flex-row items-center">
+            <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Blog</p>
+          </div>
+          <div class="w-[768px] h-[118px] flex flex-col items-center gap-[24px]">
+            <h1 class="text-[56px] font-[700] leading-[67px] text-[rgba(0,0,0,1.000)] text-left">Short heading goes here</h1>
+            <p class="text-[18px] font-[400] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="w-[1280px] h-[1714px] flex flex-row gap-[64px]">
+          <div class="w-[240px] h-[291px] flex flex-col gap-[24px]">
+            <p class="text-[18px] font-[700] leading-[27px] text-[rgba(0,0,0,1.000)] text-left">Blog categories</p>
+            <div class="w-[240px] h-[240px] flex flex-col">
+              <div class="w-[240px] h-[48px] flex flex-row gap-[10px] px-[16px] py-[12px] bg-[rgba(255,255,255,1.000)] border border-[rgba(0,0,0,1.000)]">
+                <p class="text-[16px] font-[600] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">View all</p>
+              </div>
+              <div class="w-[240px] h-[48px] flex flex-row gap-[8px] px-[16px] py-[12px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category one</p>
+              </div>
+              <div class="w-[240px] h-[48px] flex flex-row gap-[8px] px-[16px] py-[12px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category two</p>
+              </div>
+              <div class="w-[240px] h-[48px] flex flex-row gap-[8px] px-[16px] py-[12px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category three</p>
+              </div>
+              <div class="w-[240px] h-[48px] flex flex-row gap-[8px] px-[16px] py-[12px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Category four</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[976px] h-[1714px] flex flex-col gap-[64px]">
+            <div class="w-[976px] h-[641px] flex flex-col gap-[24px]">
+              <div class="w-[976px] h-[450px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+              <div class="w-[976px] h-[119px] flex flex-col gap-[16px]">
+                <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                  <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                    <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                  </div>
+                  <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                </div>
+                <div class="w-[976px] h-[74px] flex flex-col gap-[8px]">
+                  <h2 class="text-[32px] font-[700] leading-[42px] text-[rgba(0,0,0,1.000)] text-left">Blog title heading will go here</h2>
+                  <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                </div>
+              </div>
+              <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                <div class="w-[24px] h-[24px] overflow-hidden">
+                  <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                </div>
+              </button>
+            </div>
+            <div class="w-[976px] h-[1009px] flex flex-col items-center gap-[64px]">
+              <div class="w-[976px] h-[472px] flex flex-row gap-[32px]">
+                <div class="w-[472px] h-[472px] flex flex-col gap-[24px]">
+                  <div class="w-[472px] h-[266px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[472px] h-[135px] flex flex-col gap-[16px]">
+                    <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                      <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                        <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                      </div>
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                    </div>
+                    <div class="w-[472px] h-[90px] flex flex-col gap-[8px]">
+                      <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Blog title heading will go here</h3>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+                  </div>
+                  <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+                <div class="w-[472px] h-[472px] flex flex-col gap-[24px]">
+                  <div class="w-[472px] h-[266px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[472px] h-[135px] flex flex-col gap-[16px]">
+                    <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                      <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                        <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                      </div>
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                    </div>
+                    <div class="w-[472px] h-[90px] flex flex-col gap-[8px]">
+                      <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Blog title heading will go here</h3>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+                  </div>
+                  <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="w-[976px] h-[472px] flex flex-row gap-[32px]">
+                <div class="w-[472px] h-[472px] flex flex-col gap-[24px]">
+                  <div class="w-[472px] h-[266px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[472px] h-[135px] flex flex-col gap-[16px]">
+                    <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                      <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                        <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                      </div>
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                    </div>
+                    <div class="w-[472px] h-[90px] flex flex-col gap-[8px]">
+                      <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Blog title heading will go here</h3>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+                  </div>
+                  <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+                <div class="w-[472px] h-[472px] flex flex-col gap-[24px]">
+                  <div class="w-[472px] h-[266px] bg-gray-200" role="img" aria-label="Image placeholder"></div>
+                  <div class="w-[472px] h-[135px] flex flex-col gap-[16px]">
+                    <div class="w-[156px] h-[29px] flex flex-row items-center gap-[16px]">
+                      <div class="w-[73px] h-[29px] flex flex-row px-[8px] py-[4px] bg-[rgba(238,238,238,1.000)]">
+                        <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">Category</p>
+                      </div>
+                      <p class="text-[14px] font-[600] leading-[21px] text-[rgba(0,0,0,1.000)] text-left">5 min read</p>
+                    </div>
+                    <div class="w-[472px] h-[90px] flex flex-col gap-[8px]">
+                      <h3 class="text-[24px] font-[700] leading-[34px] text-[rgba(0,0,0,1.000)] text-left">Blog title heading will go here</h3>
+                      <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+                  </div>
+                  <button class="w-[109px] h-[24px] flex flex-row justify-center items-center gap-[8px]">
+                    <p class="text-[16px] font-[400] leading-[24px] text-[rgba(0,0,0,1.000)] text-left">Read more</p>
+                    <div class="w-[24px] h-[24px] overflow-hidden">
+                      <div class="w-[7px] h-[12px] bg-[rgba(0,0,0,1.000)] border border-[rgba(0,0,0,1.000)]"></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
