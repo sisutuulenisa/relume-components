@@ -91,7 +91,7 @@ def clean_page_name(name: str) -> str:
 
 def rgba(fill_color: dict | None, opacity: float | None = None) -> str:
     if not fill_color:
-        return "rgba(0,0,0,1)"
+        return "rgba(0,0,0,0)"
     r = int(round(float(fill_color.get("r", 0)) * 255))
     g = int(round(float(fill_color.get("g", 0)) * 255))
     b = int(round(float(fill_color.get("b", 0)) * 255))
