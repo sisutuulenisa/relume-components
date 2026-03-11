@@ -2717,7 +2717,7 @@
     },
     {
       "id": "vqc-031",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/features/layout-32.html",
