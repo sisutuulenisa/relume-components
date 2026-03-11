@@ -78,237 +78,234 @@
   },
   "components/banners/banner-1.html": {
     "status": "warn",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "ok",
+    "desktopStatus": "warn",
     "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
     "issues": [
-      "[mobile] Email input-veld ontbreekt op mobiel (consistent tussen Figma en HTML mobile \u2014 mogelijk design gap)",
-      "[mobile] Overbodige witruimte rechts van close-icon; component niet volledig responsive"
+      "icoon links rendert als lege cirkel i.p.v. gestylede icoon",
+      "close \u00d7 rendert als lege cirkel",
+      "email input veld ontbreekt (alleen button aanwezig)",
+      "tekst wrapping naar 2 regels i.p.v. 1 regel",
+      "layout niet full-width verspreid zoals in Figma",
+      "mobiel: identiek aan desktop, geen responsieve aanpassing"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-1-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-1-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-1-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-1-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-1-figma.png",
+    "localDesktop": "relume-visual-qc/banner-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-1-local-mobile.png"
   },
   "components/banners/banner-2.html": {
     "status": "warn",
-    "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
     "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
     "issues": [
-      "[desktop] Leading icon (cube/box) rendert als lege cirkel i.p.v. gevuld SVG-icoon",
-      "[desktop] Close-icon (\u00d7) rendert als lege cirkel i.p.v. correct icoon",
-      "[mobile] Zelfde icon-issues als desktop"
+      "icoon links rendert als lege cirkel i.p.v. gestylede icoon",
+      "close \u00d7 rendert als lege cirkel i.p.v. \u00d7-icoon",
+      "tekst wrapping naar 2 regels i.p.v. 1 regel",
+      "te veel spatie links voor icoon",
+      "mobiel: identiek aan desktop, geen responsieve aanpassing"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-2-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-2-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-2-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-2-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-2-figma.png",
+    "localDesktop": "relume-visual-qc/banner-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-2-local-mobile.png"
   },
   "components/banners/banner-3.html": {
-    "status": "fail",
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
     "issues": [
-      "[desktop] Leading icon (diamond/shield) rendert als lege cirkel",
-      "[desktop] Close-icon (\u00d7) rendert als lege cirkel",
-      "[desktop] Content spreidt niet over de volle breedte \u2014 enorme witte ruimte rechts",
-      "[desktop] Heading breekt over 2 regels terwijl Figma single-line toont",
-      "[mobile] Zelfde icon- en layout-issues; geen zichtbare responsive aanpassing"
+      "icoon links rendert als lege cirkel i.p.v. gestylede icoon",
+      "close \u00d7 rendert als lege cirkel i.p.v. \u00d7-icoon",
+      "tekst wrapping naar 2 regels",
+      "te veel spatie links voor icoon",
+      "mobiel: identiek aan desktop, geen responsieve aanpassing"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-3-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-3-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-3-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-3-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-3-figma.png",
+    "localDesktop": "relume-visual-qc/banner-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-3-local-mobile.png"
   },
   "components/banners/banner-4.html": {
     "status": "fail",
-    "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
     "issues": [
-      "[desktop] Component rendert volledig niet \u2014 blanco/witte pagina",
-      "[mobile] Component rendert volledig niet \u2014 blanco/witte pagina"
+      "social media iconen (Facebook, Instagram, X, LinkedIn) volledig ontbrekend",
+      "icoon links verkeerd (info circle i.p.v. diamond/shield)",
+      "close \u00d7 rendert als tekst \"Close\" i.p.v. \u00d7-icoon",
+      "rechts \"Rating: 4/5\" tekst i.p.v. social icons - volledig verkeerde content",
+      "mobiel: identiek aan desktop"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-4-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-4-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-4-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-4-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-4-figma.png",
+    "localDesktop": "relume-visual-qc/banner-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-4-local-mobile.png"
   },
   "components/banners/banner-5.html": {
-    "status": "fail",
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
     "issues": [
-      "[desktop] Component rendert volledig niet \u2014 blanco/witte pagina",
-      "[mobile] Screenshot toont verkeerd component (blog-sectie i.p.v. notification banner)"
+      "close \u00d7 button volledig ontbrekend",
+      "tekst niet gecentreerd (Figma: gecentreerd)",
+      "\"with link\" mist underline styling",
+      "extra cirkel/spinner element aanwezig naast tekst",
+      "mobiel: identiek aan desktop"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-5-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-5-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-5-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-5-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-5-figma.png",
+    "localDesktop": "relume-visual-qc/banner-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-5-local-mobile.png"
   },
   "components/banners/banner-6.html": {
-    "status": "warn",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "warn",
-    "mobileStatus": "warn",
-    "issues": [
-      "[desktop] Email input-veld ontbreekt (rendert als lege cirkel)",
-      "[desktop] Close-icon (\u00d7) rendert als lege cirkel",
-      "[desktop] Button-kleur is donker navy i.p.v. zwart (#000) conform Figma",
-      "[desktop] Content te veel links/midden geclusterd, lege ruimte rechts",
-      "[mobile] Zelfde issues als desktop"
-    ],
-    "figmaScreenshot": "relume-visual-qc/banner-6-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-6-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-6-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-6-local-mobile.png"
-  },
-  "components/banners/banner-7.html": {
-    "status": "warn",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "warn",
-    "mobileStatus": "warn",
-    "issues": [
-      "[desktop] Card-grid container heeft zichtbare border/outline die in Figma ontbreekt",
-      "[mobile] Zelfde extra border rondom card-container"
-    ],
-    "figmaScreenshot": "relume-visual-qc/banner-7-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-7-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-7-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-7-local-mobile.png"
-  },
-  "components/banners/banner-8.html": {
     "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "warn",
-    "mobileStatus": "fail",
-    "issues": [
-      "[desktop] Close-knop toont tekst 'Close' i.p.v. \u00d7-icoon",
-      "[mobile] Screenshot toont geheel andere pagina (blog-sectie) i.p.v. banner-component"
-    ],
-    "figmaScreenshot": "relume-visual-qc/banner-8-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-8-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-8-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-8-local-mobile.png"
-  },
-  "components/banners/banner-9.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "warn",
-    "mobileStatus": "fail",
-    "issues": [
-      "[desktop] Blog card: '5 min read' metadata verplaatst van author-rij (onderaan) naar boven de titel",
-      "[desktop] Blog card: extra 'Read more \u203a' button toegevoegd die niet in Figma staat",
-      "[desktop] Blog card: author-rij (avatar + naam + datum) ontbreekt of is verplaatst",
-      "[mobile] Geen geldige mobiele screenshot beschikbaar voor vergelijking"
-    ],
-    "figmaScreenshot": "relume-visual-qc/banner-9-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-9-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-9-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-9-local-mobile.png"
-  },
-  "components/banners/banner-10.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "ok",
-    "mobileStatus": "fail",
-    "issues": [
-      "[mobile] Component rendert volledig niet op mobile viewport \u2014 blanco/witte pagina",
-      "[mobile] Mogelijk display:none media query of ontbrekende viewport meta tag"
-    ],
-    "figmaScreenshot": "relume-visual-qc/banner-10-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-10-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-10-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-10-local-mobile.png"
-  },
-  "components/banners/banner-11.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
     "issues": [
-      "[desktop] Volledige blog-header sectie ontbreekt \u2014 alleen logo-bar wordt gerenderd; 'Blog' tagline, heading, beschrijving en featured blog card zijn niet ge\u00efmplementeerd",
-      "[mobile] Logo-bar toont verkeerde active-state: border/outline rondom eerste item",
-      "[mobile] Items 2-5 zijn grijs (#6B7280) i.p.v. zwart conform Figma",
-      "[mobile] Items staan links-uitgelijnd en te dicht op elkaar i.p.v. gelijkmatig verdeeld over volle breedte"
+      "email input veld volledig ontbrekend",
+      "close \u00d7 button ontbrekend",
+      "icoon rendert als lege cirkel",
+      "layout gecentreerd/gestacked i.p.v. full-width horizontaal",
+      "mobiel: identiek aan desktop, geen responsieve aanpassing"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-11-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-11-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-11-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-11-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-6-figma.png",
+    "localDesktop": "relume-visual-qc/banner-6-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-6-local-mobile.png"
+  },
+  "components/banners/banner-7.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "icoon links rendert als lege cirkel",
+      "close \u00d7 rendert als lege cirkel",
+      "layout gestacked/gewrapped i.p.v. single horizontale rij",
+      "button oversized t.o.v. Figma",
+      "banner neemt te veel verticale ruimte in",
+      "mobiel: identiek aan desktop, geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "relume-visual-qc/banner-7-figma.png",
+    "localDesktop": "relume-visual-qc/banner-7-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-7-local-mobile.png"
+  },
+  "components/banners/banner-8.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "close button rendert als tekst \"Close\" i.p.v. \u00d7 icoon"
+    ],
+    "figmaScreenshot": "relume-visual-qc/banner-8-figma.png",
+    "localDesktop": "relume-visual-qc/banner-8-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-8-local-mobile.png"
+  },
+  "components/banners/banner-9.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "social media iconen renderen als lege cirkels/schuine lijnen i.p.v. brand iconen",
+      "icoon links is lege cirkel",
+      "close \u00d7 is lege cirkel",
+      "mobiel: identiek aan desktop"
+    ],
+    "figmaScreenshot": "relume-visual-qc/banner-9-figma.png",
+    "localDesktop": "relume-visual-qc/banner-9-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-9-local-mobile.png"
+  },
+  "components/banners/banner-10.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "close button rendert als tekst \"Close\" i.p.v. \u00d7 icoon",
+      "tekst links uitgelijnd i.p.v. gecentreerd (Figma: gecentreerd)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/banner-10-figma.png",
+    "localDesktop": "relume-visual-qc/banner-10-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-10-local-mobile.png"
+  },
+  "components/banners/banner-11.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/banner-11-figma.png",
+    "localDesktop": "relume-visual-qc/banner-11-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-11-local-mobile.png"
   },
   "components/banners/banner-12.html": {
-    "status": "warn",
-    "checkedAt": "2026-03-11",
+    "status": "ok",
     "desktopStatus": "ok",
-    "mobileStatus": "warn",
-    "issues": [
-      "[mobile] Geen responsive aanpassing voor kleine schermen \u2014 5-koloms logo-rij wrapping/scrolling ontbreekt; op echte 375px kan overlap/afsnijding optreden"
-    ],
-    "figmaScreenshot": "relume-visual-qc/banner-12-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-12-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-12-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-12-local-mobile.png"
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/banner-12-figma.png",
+    "localDesktop": "relume-visual-qc/banner-12-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-12-local-mobile.png"
   },
   "components/banners/banner-13.html": {
     "status": "warn",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "ok",
+    "desktopStatus": "warn",
     "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
     "issues": [
-      "[mobile] Blog card titel truncation: 'Blog title headi here' is afgesneden \u2014 ontbrekende text-wrapping of te kleine container",
-      "[mobile] Navbar niet responsive: desktop-navbar met alle links op mobiel, geen hamburger menu"
+      "tekst gecentreerd i.p.v. links uitgelijnd zoals in Figma",
+      "twee heading-regels getoond als gedupliceerdei.p.v. vloeiend flowing heading",
+      "mobiel: identiek aan desktop"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-13-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-13-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-13-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-13-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-13-figma.png",
+    "localDesktop": "relume-visual-qc/banner-13-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-13-local-mobile.png"
   },
   "components/banners/banner-14.html": {
-    "status": "fail",
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
     "checkedAt": "2026-03-11",
-    "desktopStatus": "ok",
-    "mobileStatus": "fail",
     "issues": [
-      "[mobile] Active tab-state (border/box) rondom eerste logo-item \u2014 niet aanwezig in Figma",
-      "[mobile] Tekstkleur van items 2-7 is grijs i.p.v. zwart",
-      "[mobile] Items links-uitgelijnd en te dicht op elkaar i.p.v. gelijkmatig gecentreerd over breedte"
+      "eerste tab heeft border/active-state styling die niet in Figma staat",
+      "overige tabs in grijze kleur i.p.v. uniforme zwarte tekst",
+      "mobiel: identiek aan desktop - mogelijk overflow op echte mobile schermen"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-14-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-14-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-14-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-14-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-14-figma.png",
+    "localDesktop": "relume-visual-qc/banner-14-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-14-local-mobile.png"
   },
   "components/banners/banner-15.html": {
-    "status": "ok",
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
     "checkedAt": "2026-03-11",
-    "desktopStatus": "ok",
-    "mobileStatus": "ok",
-    "issues": [],
-    "notes": "Pixel-perfect match op desktop en mobiel. Logo-strip met tabs correct ge\u00efmplementeerd.",
-    "figmaScreenshot": "relume-visual-qc/banner-15-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-15-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-15-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-15-local-mobile.png"
+    "issues": [
+      "volledig verkeerd component: tab-navigatie ge\u00efmplementeerd i.p.v. scrollende marquee banner",
+      "geen \"Relume Library\" marquee tekst aanwezig",
+      "geen afbeelding-placeholders aanwezig",
+      "geen scrollanimatie"
+    ],
+    "figmaScreenshot": "relume-visual-qc/banner-15-figma.png",
+    "localDesktop": "relume-visual-qc/banner-15-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-15-local-mobile.png"
   },
   "components/banners/banner-16.html": {
     "status": "fail",
-    "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
     "issues": [
-      "[desktop] Volledig verkeerd component gerenderd: HTML toont generieke tab-rij (T1\u2013T16) i.p.v. blog-header met navbar, hero-tekst, categorie-sidebar en featured image",
-      "[desktop] Navbar, heading 'Describe what your blog is about', subtitle, Blog categories en featured image placeholder volledig afwezig",
-      "[mobile] Screenshots tonen logo-ticker/marquee strip i.p.v. blog-component \u2014 geen valide vergelijking mogelijk"
+      "volledig verkeerd component: 16-tabs navigatie ge\u00efmplementeerd i.p.v. dual-row scrollende marquee banner",
+      "geen marquee tekst of afbeeldingen",
+      "geen scrollanimatie in beide richtingen"
     ],
-    "figmaScreenshot": "relume-visual-qc/banner-16-figma-desktop.png",
-    "localScreenshot": "relume-visual-qc/banner-16-local-desktop.png",
-    "figmaMobileScreenshot": "relume-visual-qc/banner-16-figma-mobile.png",
-    "localMobileScreenshot": "relume-visual-qc/banner-16-local-mobile.png"
+    "figmaScreenshot": "relume-visual-qc/banner-16-figma.png",
+    "localDesktop": "relume-visual-qc/banner-16-local-desktop.png",
+    "localMobile": "relume-visual-qc/banner-16-local-mobile.png"
   },
   "components/blog-headers/blog-2.html": {
     "status": "fail",
@@ -880,5 +877,65 @@
     "figmaScreenshot": "relume-visual-qc/blog-post-page-1-figma.png",
     "localDesktop": "relume-visual-qc/blog-post-page-1-local-desktop.png",
     "localMobile": "relume-visual-qc/blog-post-page-1-local-mobile.png"
+  },
+  "components/application-shells/application-shell-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: alle sidebar-iconen renderen als lege cirkels i.p.v. echte iconen",
+      "desktop: logo ontbreekt in sidebar (drie lege cirkels)",
+      "desktop: zoekbalk ontbreekt - alleen lege cirkel",
+      "desktop: profielavatar toont broken-image icoon",
+      "desktop: content areas (Secondary/Main) te klein, geen verticale fill",
+      "desktop: sidebar te breed (~50% viewport i.p.v. ~20%)",
+      "desktop: placeholder styling ontbreekt (dashed borders, grijze achtergronden)",
+      "mobiel: sidebar niet collapsed/hamburger-menu - neemt helft van scherm in",
+      "mobiel: geen responsieve aanpassing - identiek aan desktop"
+    ],
+    "figmaScreenshot": "relume-visual-qc/application-shell-9-figma.png",
+    "localDesktop": "relume-visual-qc/application-shell-9-local-desktop.png",
+    "localMobile": "relume-visual-qc/application-shell-9-local-mobile.png"
+  },
+  "components/blog-headers/blog-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "blog post cards volledig ontbrekend - alleen category tab rijen getoond",
+      "\"Blog\" label licht afgeknipt aan rechterzijde",
+      "geen afbeeldingen, titels, beschrijvingen of auteur-info in cards"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-1-figma.png",
+    "localDesktop": "relume-visual-qc/blog-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-1-local-mobile.png"
+  },
+  "components/blog-headers/blog-10.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: rechter card tekst afgeknipt (\"Blog title headi here\")",
+      "desktop: \"Read more\" link heeft dark box styling die niet in Figma staat",
+      "mobiel: \"All Posts\" dark button/nav element aanwezig dat niet in Figma staat",
+      "mobiel: header sectie (Blog/heading/beschrijving) volledig ontbrekend",
+      "mobiel: springt direct naar category + blog title + afbeelding - structuur klopt niet"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-10-figma.png",
+    "localDesktop": "relume-visual-qc/blog-10-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-10-local-mobile.png"
+  },
+  "components/blog-headers/blog-11.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/blog-11-figma.png",
+    "localDesktop": "relume-visual-qc/blog-11-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-11-local-mobile.png"
   }
 }
