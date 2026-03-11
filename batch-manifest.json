@@ -109,7 +109,7 @@
         "components/pages/careers/career-1.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-002",
@@ -217,7 +217,7 @@
         "components/pages/cta-new/cta-25.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-003",
@@ -325,7 +325,7 @@
         "components/pages/event-sections/event-6.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-004",
@@ -433,7 +433,7 @@
         "components/pages/features/layout-173.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-005",
