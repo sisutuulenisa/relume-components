@@ -1690,5 +1690,705 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+  },
+  "components/pages/careers/career-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/careers/career-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/comparisons/comparison-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact-modals/contact-modal-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact-modals/contact-modal-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact-modals/contact-modal-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact-modals/contact-modal-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact-modals/contact-modal-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact-modals/contact-modal-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/contact/contact-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cookie-consent/cookie-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cookie-consent/cookie-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cookie-consent/cookie-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cookie-consent/cookie-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cookie-consent/cookie-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/cta-new/cta-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "article+h2 fixed; CDN Tailwind"
   }
 }
