@@ -394,3 +394,12 @@
 - [x] contact-8 ✅
 - [x] contact-9 ✅
 
+
+## components/contact-modals/
+- [x] contact-modal-1 ✅
+- [x] contact-modal-2 ✅
+- [x] contact-modal-3 ✅
+- [x] contact-modal-4 ✅
+- [x] contact-modal-5 ✅
+- [x] contact-modal-6 ✅
+
