@@ -234,7 +234,9 @@
   "components/gallery/gallery-25.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Nordvik branding, hero-sectie met achtergrond, heading en CTA-knoppen correct gerenderd."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "vqc-055 auto-compare rms=0.1327"
   },
   "components/team/team-12.html": {
     "status": "warn",
@@ -21434,133 +21436,133 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1382"
   },
   "components/gallery/gallery-16.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1423"
   },
   "components/gallery/gallery-17.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1423"
   },
   "components/gallery/gallery-18.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1411"
   },
   "components/gallery/gallery-19.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1388"
   },
   "components/gallery/gallery-2.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1331"
   },
   "components/gallery/gallery-20.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1483"
   },
   "components/gallery/gallery-21.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1448"
   },
   "components/gallery/gallery-22.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1414"
   },
   "components/gallery/gallery-23.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1388"
   },
   "components/gallery/gallery-24.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1474"
   },
   "components/gallery/gallery-26.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1353"
   },
   "components/gallery/gallery-27.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1367"
   },
   "components/gallery/gallery-3.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1427"
   },
   "components/gallery/gallery-4.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1400"
   },
   "components/gallery/gallery-5.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1454"
   },
   "components/gallery/gallery-6.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1384"
   },
   "components/gallery/gallery-7.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1350"
   },
   "components/gallery/gallery-8.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-055 auto-compare rms=0.1348"
   },
   "components/gallery/gallery-9.html": {
     "status": "ok",
