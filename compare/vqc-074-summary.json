@@ -1,0 +1,88 @@
+{
+  "batch": "vqc-074",
+  "counts": {
+    "ok": 7,
+    "warn": 11,
+    "fail": 2
+  },
+  "warn_fail": [
+    {
+      "path": "components/portfolio-sections/portfolio-15.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-16.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-17.html",
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-18.html",
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-19.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-2.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-21.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-3.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-4.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-5.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-6.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-8.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    },
+    {
+      "path": "components/portfolio-sections/portfolio-9.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn"
+    }
+  ]
+}
