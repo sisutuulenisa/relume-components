@@ -16649,5 +16649,308 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/008022fe-1540-4a3f-a507-7d8280b0bc63",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-14-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-14-local-mobile.png"
+  },
+  "components/hero-headers-new/header-100.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing dark background container",
+      "Heading text completely absent",
+      "Description text completely absent",
+      "Only buttons render \u2014 all other content missing",
+      "Button style mismatch (white-on-dark vs dark-on-white)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-100-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-100-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-100-local-mobile.png"
+  },
+  "components/hero-headers-new/header-101.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing dark background container",
+      "Heading text completely absent",
+      "Email input not rendered (shows tiny broken element)",
+      "Description and terms text absent",
+      "Sign-up button unstyled/broken"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-101-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-101-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-101-local-mobile.png"
+  },
+  "components/hero-headers-new/header-102.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Carousel dot active state not shown",
+      "Navigation arrows rendered as '>' text instead of circular icons",
+      "Image placeholder sizing differs from Figma",
+      "No responsive stacking on mobile",
+      "Minor button color variance (navy vs black)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-102-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-102-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-102-local-mobile.png"
+  },
+  "components/hero-headers-new/header-103.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing dark background",
+      "Heading text completely absent",
+      "Description and buttons absent",
+      "Video play button overlay absent",
+      "Tab bar (Tab 1\u20134) completely absent",
+      "Only stray image card renders"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-103-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-103-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-103-local-mobile.png"
+  },
+  "components/hero-headers-new/header-104.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Inline image placeholders are oversized (taller than text line-height), disrupting text flow",
+      "Second inline image is very tall on mobile, creating awkward gaps",
+      "Minor button color variance (navy vs black)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-104-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-104-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-104-local-mobile.png"
+  },
+  "components/hero-headers-new/header-105.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Inline image placeholders render as large vertical blocks breaking text flow",
+      "Typography flow broken \u2014 text wrapping severely disrupted",
+      "No responsive differentiation between desktop and mobile",
+      "Button color mismatch (dark navy vs black)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-105-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-105-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-105-local-mobile.png"
+  },
+  "components/hero-headers-new/header-106.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Scattered image gallery completely missing on desktop (single broken icon only)",
+      "Mobile renders completely blank",
+      "Decorative edge-bleeding images absent",
+      "Complex positioned image grid not implemented"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-106-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-106-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-106-local-mobile.png"
+  },
+  "components/hero-headers-new/header-107.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders wrong component entirely (shows footer/subscribe component)",
+      "Mobile image gallery shows small uniform cards instead of large scattered collage",
+      "Missing overflow/bleed images",
+      "Component mapping failure on desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-107-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-107-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-107-local-mobile.png"
+  },
+  "components/hero-headers-new/header-108.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image gallery layout differs \u2014 structured grid instead of scattered collage",
+      "Missing edge-bleed images at left/right margins",
+      "Image count appears fewer than Figma",
+      "No responsive differentiation between desktop and mobile",
+      "Minor button color variance"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-108-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-108-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-108-local-mobile.png"
+  },
+  "components/hero-headers-new/header-109.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders completely blank",
+      "Mobile missing video play button overlay (shows plain image placeholder)",
+      "Image placeholder styling differs (light grey card vs dark grey Figma)",
+      "Top padding insufficient on mobile",
+      "Button color mismatch on mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-109-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-109-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-109-local-mobile.png"
+  },
+  "components/hero-headers-new/header-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading font size dramatically oversized causing severe line wrapping and content overflow/truncation",
+      "Video/image hero area shows broken image icons on light grey instead of dark grey background",
+      "No responsive behavior on mobile \u2014 two-column layout does not stack",
+      "Content clipped at viewport bottom"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-11-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-11-local-mobile.png"
+  },
+  "components/hero-headers-new/header-110.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile: three-column layout does not stack vertically (no responsive breakpoint)",
+      "Large center image placeholder proportionally shorter than Figma",
+      "Minor top padding difference"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-110-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-110-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-110-local-mobile.png"
+  },
+  "components/hero-headers-new/header-111.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders completely blank",
+      "Mobile renders wrong component ('Section Heading' + image placeholder)",
+      "Dark overlay background not implemented",
+      "White text on dark background not rendered",
+      "Heading, description, and buttons all absent"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-111-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-111-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-111-local-mobile.png"
+  },
+  "components/hero-headers-new/header-112.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Wrong component rendered on both viewports ('Section Heading' + image placeholder)",
+      "Full-screen overlay layout not implemented",
+      "Heading, description, buttons all absent",
+      "Dark background/overlay missing",
+      "Systematic failure shared with header-111 and header-113"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-112-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-112-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-112-local-mobile.png"
+  },
+  "components/hero-headers-new/header-113.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Wrong component rendered on both viewports ('Section Heading' + image placeholder)",
+      "Full-screen overlay layout not implemented",
+      "Heading, description, buttons all absent",
+      "Dark background/overlay missing",
+      "Systematic failure shared with header-111 and header-112"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-113-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-113-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-113-local-mobile.png"
+  },
+  "components/hero-headers-new/header-114.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders wrong component (sign-up form with 'Short heading here' / 'Taglir')",
+      "Mobile renders completely blank",
+      "Dark gray background missing",
+      "Hero heading, image placeholder, and CTA buttons all absent"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-114-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-114-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-114-local-mobile.png"
+  },
+  "components/hero-headers-new/header-115.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders completely blank",
+      "Mobile renders completely blank",
+      "Component appears entirely unimplemented"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-115-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-115-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-115-local-mobile.png"
+  },
+  "components/hero-headers-new/header-116.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Wrong component rendered \u2014 Figma shows 'Section Heading' + single large image, local shows hero with heading, description, buttons, and two images",
+      "Content mismatch: extra CTA buttons and description not in Figma design",
+      "Two-image grid instead of single image placeholder"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-116-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-116-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-116-local-mobile.png"
+  },
+  "components/hero-headers-new/header-117.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile renders completely blank",
+      "Desktop image proportions differ (left image appears narrower than Figma)",
+      "Desktop image vertical alignment \u2014 right image is extremely tall creating large height difference"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-117-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-117-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-117-local-mobile.png"
+  },
+  "components/hero-headers-new/header-118.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile renders completely blank",
+      "Desktop matches Figma closely \u2014 layout, heading, buttons, and 3-image grid all correct"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-118-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-118-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-118-local-mobile.png"
   }
 }
