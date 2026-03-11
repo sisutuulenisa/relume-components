@@ -5351,7 +5351,7 @@
     },
     {
       "id": "vqc-060",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/hero-headers-new/header-137.html",
