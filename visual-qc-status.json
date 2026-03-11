@@ -6978,5 +6978,352 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-193-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-193-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-193-local-mobile.png"
+  },
+  "components/features/layout-194.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder height significantly shorter than Figma",
+      "Top padding/margin missing \u2014 content flush to viewport top",
+      "Text not vertically centered relative to image",
+      "Mobile: no responsive stacking \u2014 two-column layout maintained at 390px",
+      "Mobile: content clipped at top edge"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/15454391-025d-4d5d-8879-8e67b279518d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-194-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-194-local-mobile.png"
+  },
+  "components/features/layout-195.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl' visible)",
+      "Image placeholder shorter than Figma",
+      "Primary button: dark filled vs Figma outline style",
+      "Secondary button: text arrow '\u2192' vs chevron icon",
+      "Mobile: no responsive stacking at 390px",
+      "Mobile: Tagline still clipped"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d4d13b8a-e7b1-4ad9-91a4-86aa204b00a1",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-195-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-195-local-mobile.png"
+  },
+  "components/features/layout-196.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Video/image placeholder missing play button \u2014 broken image icon shown instead",
+      "Image placeholder shorter than Figma",
+      "Primary button: dark filled vs Figma outline style",
+      "Secondary button: '\u2192' text vs chevron icon",
+      "Top padding missing",
+      "Mobile: two-column layout not stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/281fd348-f3c3-4bfc-99ee-f02c3876bde7",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-196-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-196-local-mobile.png"
+  },
+  "components/features/layout-197.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder lighter color and shorter than Figma",
+      "Content starts at viewport top \u2014 missing top padding",
+      "Image/text not vertically centered",
+      "Mobile: identical to desktop \u2014 no responsive stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1361a32d-4464-44bd-a43b-c93bf516d7a3",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-197-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-197-local-mobile.png"
+  },
+  "components/features/layout-198.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Subheading icons wrong: plain circles vs filled diamond/cube icons",
+      "Subheading text severely clipped in narrow columns",
+      "Body text wraps into single-word lines \u2014 columns too narrow",
+      "Buttons section cut off / not visible in viewport",
+      "Image placeholder shorter, not vertically centered",
+      "Mobile: no responsive stacking \u2014 two-column maintained"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e8eafa58-4e1f-46be-ad8e-f45a916ed232",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-198-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-198-local-mobile.png"
+  },
+  "components/features/layout-199.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder missing play button overlay",
+      "Tagline text truncated ('Tagl')",
+      "Subheading icons wrong: plain circles vs filled diamond/cube icons",
+      "Text columns too narrow \u2014 excessive wrapping",
+      "Buttons section cut off/not visible",
+      "Mobile: no responsive stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f7272d09-7a8d-45aa-a5e1-3dd73ffc83f8",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-199-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-199-local-mobile.png"
+  },
+  "components/features/layout-2.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Video placeholder missing \u2014 broken image icon vs dark gray with play button",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' text vs chevron",
+      "Top padding reduced",
+      "Image placeholder shorter than Figma",
+      "Mobile: no responsive stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6afb29c8-da5c-4457-bbc6-5703d7026424",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-2-local-mobile.png"
+  },
+  "components/features/layout-20.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Video placeholder missing \u2014 broken image icon vs dark gray with play button",
+      "Bullet points missing from list items",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' vs chevron",
+      "Top padding reduced",
+      "Mobile: no responsive stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/05f4e501-8bad-4164-88ae-34ead2347bec",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-20-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-20-local-mobile.png"
+  },
+  "components/features/layout-200.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Subheading text clipped ('Subheac one/two' instead of full text)",
+      "Icons wrong: empty circles vs filled 3D cube/box icons",
+      "Icon+text layout changed from inline (Figma) to stacked",
+      "Image placeholder significantly shorter",
+      "Body text wraps excessively in narrow columns",
+      "Mobile: no responsive stacking \u2014 identical to desktop"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9734bd6b-8605-40b1-a8ad-8711ce248410",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-200-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-200-local-mobile.png"
+  },
+  "components/features/layout-201.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons wrong: empty circles vs filled 3D cube/box icons",
+      "Tagline text truncated ('Tagl')",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' vs chevron",
+      "Image placeholder shorter than Figma",
+      "Mobile: two-column layout not stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5f761a21-ef9a-4038-a2af-b845a0472ccb",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-201-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-201-local-mobile.png"
+  },
+  "components/features/layout-202.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder missing play button \u2014 broken image icon shown",
+      "Tagline text truncated ('Tagl')",
+      "Icons wrong: unfilled circles vs filled cube/diamond icons",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' vs chevron",
+      "Image placeholder shorter",
+      "Top content clipped \u2014 missing padding",
+      "Mobile: two-column not stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3761b018-6034-4e18-aae4-f6f9ad0eedf7",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-202-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-202-local-mobile.png"
+  },
+  "components/features/layout-203.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder lighter/wrong color vs Figma medium gray",
+      "Icons wrong: unfilled circles vs filled cube/diamond icons",
+      "Image placeholder shorter than Figma",
+      "Top padding missing \u2014 content clipped at top",
+      "Mobile: identical to desktop \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4247155a-29f2-40e3-9249-09b24e25c5c6",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-203-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-203-local-mobile.png"
+  },
+  "components/features/layout-204.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Image placeholder shorter, lighter background",
+      "Logo/brand icons broken \u2014 showing broken image placeholders (Webflow, Relume)",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' vs chevron",
+      "Top padding missing",
+      "Mobile: identical to desktop \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a62efccd-716b-4640-a63d-5b2b00507770",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-204-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-204-local-mobile.png"
+  },
+  "components/features/layout-205.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Video placeholder missing play button overlay",
+      "Image placeholder shorter, lighter background",
+      "Logo/brand icons broken \u2014 showing broken image placeholders (Webflow, Relume)",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' vs chevron",
+      "Top padding missing",
+      "Mobile: identical to desktop \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5b9c8ab6-032c-4d98-8afb-1db046833628",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-205-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-205-local-mobile.png"
+  },
+  "components/features/layout-206.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Brand/logo images broken \u2014 displayed as broken image placeholders",
+      "Image placeholder significantly shorter than Figma",
+      "Top padding missing \u2014 content starts at viewport top",
+      "Mobile: two-column layout not stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b2fce416-c876-4002-b639-47cca2915bdd",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-206-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-206-local-mobile.png"
+  },
+  "components/features/layout-207.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "List item icons wrong: empty circles vs filled Relume-style icons",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' vs chevron",
+      "Top padding missing \u2014 content not vertically centered with image",
+      "Image placeholder shorter",
+      "Mobile: two-column not stacking \u2014 no responsive breakpoint",
+      "Gap between icons and text too large vs Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/865ee7e7-11ff-48a2-909b-1b7124b5b869",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-207-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-207-local-mobile.png"
+  },
+  "components/features/layout-208.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Video placeholder missing \u2014 broken image icon vs dark video area with play button",
+      "List item icons wrong: plain circles vs filled icon badges",
+      "Primary button: dark filled vs outline style",
+      "Content not vertically centered with image",
+      "Mobile: identical to desktop \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/76069879-b41f-49b0-bdac-b333d3832b84",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-208-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-208-local-mobile.png"
+  },
+  "components/features/layout-209.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder lighter color vs Figma medium gray",
+      "Image placeholder shorter than Figma",
+      "List item icons wrong: plain circles vs filled decorative badges",
+      "Content vertical alignment off \u2014 text at top vs centered in Figma",
+      "Heading slightly clipped at top \u2014 possible padding issue",
+      "Mobile: two-column not stacking at 390px \u2014 no responsive breakpoint"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f0d255c6-2d45-4fa6-85c2-ad0852225368",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-209-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-209-local-mobile.png"
+  },
+  "components/features/layout-210.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagl')",
+      "Image placeholder lighter/different background vs Figma",
+      "Image placeholder shorter in height",
+      "Primary button: dark filled vs outline style",
+      "Secondary button: '\u2192' vs chevron",
+      "Bullet points missing from list items",
+      "Image not vertically centered with text",
+      "Mobile: two-column not stacking at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/474ed28c-b964-4316-9da3-1a50ff1fe017",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-210-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-210-local-mobile.png"
+  },
+  "components/features/layout-21.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder lighter, rounded corners vs Figma solid dark gray rectangular",
+      "Image placeholder significantly shorter than Figma",
+      "Text/image not vertically centered",
+      "Bullet points missing from list items",
+      "Less vertical padding than Figma",
+      "Mobile: two-column not stacking at 390px \u2014 no responsive breakpoint"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8be0ac6c-7121-41fb-a827-0feebdcede3b",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-21-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-21-local-mobile.png"
   }
 }
