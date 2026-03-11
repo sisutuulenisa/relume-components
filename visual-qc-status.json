@@ -11420,5 +11420,356 @@
     "figmaScreenshot": "relume-visual-qc/layout-463-figma.png",
     "localDesktop": "relume-visual-qc/layout-463-local-desktop.png",
     "localMobile": "relume-visual-qc/layout-463-local-mobile.png"
+  },
+  "components/features/layout-464.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst is afgekapt tot 'Tagl' in zowel desktop als mobiel in plaats van volledig 'Tagline'",
+      "Primaire button heeft een donkere/zwarte achtergrond met witte tekst in de implementatie, terwijl Figma een outline/border button toont zonder vulling",
+      "Secundaire button gebruikt '\u2192' pijl in implementatie terwijl Figma een chevron '>' icoon toont",
+      "Layout verschil: in Figma staan de subheadings rechtsboven naast de heading met meer verticale ruimte/padding ertussen, in de implementatie staan ze compacter bovenaan naast de heading",
+      "Minder verticale spacing/padding rondom de sectie in de implementatie vergeleken met Figma",
+      "Mobiele screenshot toont geen responsieve stapeling - layout is identiek aan desktop, wat suggereert dat er geen mobiel-specifiek responsive design is"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-464-figma.png",
+    "localDesktop": "relume-visual-qc/layout-464-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-464-local-mobile.png"
+  },
+  "components/features/layout-465.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop and mobile screenshots are missing all text content: Tagline, heading, paragraph, subheadings, and sub-paragraphs are absent",
+      "Background color is light gray/white instead of the dark gray overlay shown in the Figma reference",
+      "Image placeholder is only a tiny broken-image icon instead of the large centered placeholder from the Figma design",
+      "Two buttons (solid 'Button' and text+arrow 'Button') are completely missing in both desktop and mobile",
+      "Subheading columns ('Subheading one' and 'Subheading two') with their descriptions are entirely missing",
+      "Overall layout structure is completely different: Figma shows a full-width dark section with left-aligned text and right-aligned content area, while the implementation shows only a light card with a broken image icon and empty white space below"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-465-figma.png",
+    "localDesktop": "relume-visual-qc/layout-465-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-465-local-mobile.png"
+  },
+  "components/features/layout-466.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma toont een twee-kolom layout (tekst links, afbeelding+content rechts) terwijl desktop en mobiel een gestapelde single-column layout tonen",
+      "Figma heeft een donkergrijze achtergrond; lokale screenshots hebben een witte achtergrond",
+      "Figma toont de afbeelding rechts naast de heading/tagline; lokaal staat de afbeelding onder de tekst en knoppen",
+      "Figma toont 'Subheading one' en 'Subheading two' secties met bijbehorende tekst rechts van de afbeelding; deze ontbreken volledig in zowel desktop als mobiel",
+      "Knoppen staan in Figma onder de subheadings rechts; lokaal staan ze direct onder de beschrijvingstekst boven de afbeelding",
+      "Desktop toont slechts \u00e9\u00e9n afbeelding-placeholder; mobiel toont twee afbeelding-placeholders naast elkaar, wat niet overeenkomt met Figma's enkele afbeelding",
+      "Figma buttons hebben lichte/outline styling op donkere achtergrond; lokaal heeft de primaire button een donkere fill en de secundaire een lichte outline op witte achtergrond"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-466-figma.png",
+    "localDesktop": "relume-visual-qc/layout-466-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-466-local-mobile.png"
+  },
+  "components/features/layout-467.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma heeft een donkergrijze achtergrond met witte tekst; desktop en mobiel hebben een witte achtergrond met donkere tekst",
+      "Figma toont de afbeelding placeholder rechts naast de tekst in een overlay-stijl; desktop en mobiel tonen de afbeelding placeholder onder de tekst in een apart blok",
+      "Figma toont twee subheadings ('Subheading one' en 'Subheading two') met bijbehorende tekst onderaan rechts; deze ontbreken volledig in desktop en mobiel",
+      "De tweede afbeelding placeholder in desktop/mobiel lijkt kleiner en rechts gepositioneerd zonder duidelijke container, niet overeenkomend met Figma",
+      "Button styling verschilt: Figma heeft een outlined/ghost button; desktop en mobiel hebben een filled dark button voor de eerste en een outlined button voor de tweede",
+      "Layout in Figma is een horizontale compositie (tekst links, afbeelding rechts); desktop en mobiel zijn verticaal gestapeld"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-467-figma.png",
+    "localDesktop": "relume-visual-qc/layout-467-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-467-local-mobile.png"
+  },
+  "components/features/layout-468.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop screenshot is completely blank/white - no content rendered at all, missing all elements from the Figma reference",
+      "Mobile screenshot is missing the gray background color - shows white background instead of gray",
+      "Mobile screenshot is missing the placeholder image that appears in the Figma reference",
+      "Mobile screenshot is missing the 'Subheading one' and 'Subheading two' sections with their descriptions from the Figma top area",
+      "Mobile screenshot has tab navigation elements ('Medium length section heading goes here' repeated 3x) not present in the Figma design",
+      "Mobile screenshot uses dark/black text on white background instead of white text on gray background as in Figma",
+      "Mobile screenshot button styling differs - dark filled button instead of outline/transparent style in Figma",
+      "Mobile screenshot second button has a bordered style not matching the Figma text-link style"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-468-figma.png",
+    "localDesktop": "relume-visual-qc/layout-468-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-468-local-mobile.png"
+  },
+  "components/features/layout-469.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Layout is completely different - Figma shows text left / images right in a two-column layout, but desktop screenshot shows text and description split into two columns side-by-side without images, with tab navigation below instead of images",
+      "Desktop: Image placeholders from Figma are completely missing",
+      "Desktop: Tagline text appears truncated to 'Tagl' instead of 'Tagline'",
+      "Desktop: Buttons are positioned next to the description text instead of below it on the left side",
+      "Desktop: Tab-style navigation row ('Medium length section heading goes here' repeated) is present but not in the Figma reference",
+      "Desktop: Primary button has dark/filled style instead of the outlined style shown in Figma",
+      "Mobile: Layout stacks content vertically which is acceptable, but images are shown as separate side-by-side placeholders below content instead of the overlapping collage style in Figma",
+      "Mobile: Primary button has dark filled style instead of outlined style in Figma",
+      "Mobile: Secondary button uses arrow '\u2192' instead of chevron '>' as in Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-469-figma.png",
+    "localDesktop": "relume-visual-qc/layout-469-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-469-local-mobile.png"
+  },
+  "components/features/layout-47.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst is afgekapt tot 'Taglir' in zowel desktop als mobiel in plaats van 'Tagline'",
+      "Eerste button heeft een donkere/filled stijl in de implementatie terwijl het in Figma een outlined/border-only stijl is",
+      "Tweede button gebruikt een pijl '\u2192' in de implementatie terwijl Figma een chevron '>' toont",
+      "Buttons zijn in de implementatie gepositioneerd onder de rechterkolom content, terwijl ze in Figma meer links uitgelijnd staan onder subheading one",
+      "Mobiele screenshot toont geen responsieve aanpassing - layout is identiek aan desktop in plaats van een gestapelde mobiele layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-47-figma.png",
+    "localDesktop": "relume-visual-qc/layout-47-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-47-local-mobile.png"
+  },
+  "components/features/layout-470.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Tagline text is truncated to 'Tagl' instead of 'Tagline'",
+      "Desktop: Primary button is filled/dark instead of outlined as in Figma",
+      "Desktop: Secondary button styled as outlined with arrow instead of text-only with chevron",
+      "Desktop: Image placeholders appear slightly different in arrangement and overlapping style compared to Figma",
+      "Desktop: Overall color scheme uses dark navy text instead of pure black as in Figma",
+      "Mobile: Layout is completely different from Figma - images are missing entirely",
+      "Mobile: Content is split into two columns with description text on right and subheadings (Subheading one, Subheading two) that do not exist in the Figma reference",
+      "Mobile: The overlapping image collage from Figma is replaced by a text-based layout with subheadings and paragraphs",
+      "Mobile: Tagline shows 'Tagl' instead of 'Tagline'",
+      "Mobile: Structural mismatch - mobile version shows a completely different component layout than the Figma reference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-470-figma.png",
+    "localDesktop": "relume-visual-qc/layout-470-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-470-local-mobile.png"
+  },
+  "components/features/layout-471.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Image placeholder area is completely missing, replaced by paragraph text, two subheading columns (Subheading one, Subheading two) that do not exist in the Figma reference",
+      "Desktop: Layout is fundamentally different - Figma shows left text + right image, desktop shows left heading + right text content with subheadings",
+      "Desktop: Primary button style changed from outlined/transparent to filled dark button",
+      "Desktop: Secondary button changed from text+chevron style to outlined 'Button \u2192'",
+      "Desktop: Tagline text appears truncated to 'Tagl' instead of 'Tagline'",
+      "Mobile: Tagline text appears truncated to 'Tagl' instead of 'Tagline'",
+      "Mobile: Primary button style changed from outlined/transparent to filled dark button",
+      "Mobile: Secondary button changed from text+chevron to outlined 'Button \u2192'",
+      "Mobile: Image placeholders are present but appear as separate stacked cards rather than overlapping cards as in Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-471-figma.png",
+    "localDesktop": "relume-visual-qc/layout-471-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-471-local-mobile.png"
+  },
+  "components/features/layout-472.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders from Figma reference are completely missing in both desktop and mobile implementations",
+      "Right side content replaced with two subheading columns (Subheading one, Subheading two) with text blocks instead of overlapping image placeholders",
+      "Figma shows text content on left and image collage on right; implementation shows text on left and subheading columns on right",
+      "Button styling differs: Figma has outlined primary button, implementation has filled dark primary button",
+      "Secondary button styling differs: Figma shows 'Button >' text link style, implementation shows 'Button \u2192' outlined button",
+      "Tagline text appears truncated to 'Tagl' in both desktop and mobile implementations",
+      "Description text below heading is duplicated in right column area in desktop view",
+      "Overall layout structure is fundamentally different: hero with image vs. text-only content section"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-472-figma.png",
+    "localDesktop": "relume-visual-qc/layout-472-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-472-local-mobile.png"
+  },
+  "components/features/layout-473.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst is afgekapt tot 'Tagl' in zowel desktop als mobiel in plaats van 'Tagline'",
+      "Eerste button heeft een gevulde donkere stijl in de implementatie terwijl het in Figma een outline/bordered stijl is",
+      "Tweede button heeft een outline stijl met pijl (\u2192) in de implementatie terwijl het in Figma een tekst-link stijl is met chevron (>)",
+      "Achtergrondkleur van de afbeeldingen-sectie is lichtgrijs/blauw in de implementatie versus puur grijs in Figma",
+      "De twee overlappende placeholder-afbeeldingen zijn minder prominent overlappend in de implementatie vergeleken met Figma",
+      "Mobiele screenshot toont dezelfde layout als desktop, geen responsive aanpassing zichtbaar voor mobiel formaat"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-473-figma.png",
+    "localDesktop": "relume-visual-qc/layout-473-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-473-local-mobile.png"
+  },
+  "components/features/layout-474.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst is afgekapt tot 'Tagl' in zowel desktop als mobiel in plaats van 'Tagline' zoals in Figma",
+      "Eerste button heeft een donkere/zwarte achtergrond in de implementatie terwijl het in Figma een outlined/border-only button is",
+      "Tweede button gebruikt een pijl '\u2192' in plaats van het chevron '>' icoon uit Figma",
+      "De overlappende afbeeldingen in de linkerkolom hebben minder contrast/zichtbaarheid in de implementatie - de placeholders zijn lichter/subtieler vergeleken met de meer opvallende grijze vlakken in Figma",
+      "De twee afbeeldingen overlappen minder en zijn meer verticaal gestapeld in de implementatie vergeleken met de diagonale overlap in Figma",
+      "Desktop en mobiel screenshot lijken identiek, wat suggereert dat er geen responsief onderscheid is, maar bij deze viewport zijn ze vergelijkbaar"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-474-figma.png",
+    "localDesktop": "relume-visual-qc/layout-474-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-474-local-mobile.png"
+  },
+  "components/features/layout-475.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst is afgekapt tot 'Tagl' in zowel desktop als mobiel in plaats van volledig 'Tagline'",
+      "Eerste button heeft een donkere/zwarte filled stijl in de implementatie terwijl het in Figma een outlined/border-only stijl is",
+      "Tweede button gebruikt een pijl '\u2192' in de implementatie terwijl Figma een chevron '>' toont",
+      "Tweede button heeft een zichtbare border/outline in de implementatie maar niet in de Figma referentie",
+      "Afbeelding placeholders hebben een lichtere, meer subtiele stijl in de implementatie vergeleken met de donkerdere grijze placeholders in Figma",
+      "De derde afbeelding placeholder lijkt deels afgesneden/buiten beeld in zowel desktop als mobiel screenshot"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-475-figma.png",
+    "localDesktop": "relume-visual-qc/layout-475-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-475-local-mobile.png"
+  },
+  "components/features/layout-476.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst is afgekapt naar 'Tagl' in zowel desktop als mobiel in plaats van 'Tagline' zoals in Figma",
+      "Eerste button heeft een donkere/zwarte achtergrond in de implementatie terwijl het in Figma een outline/bordered button is zonder vulling",
+      "Tweede button toont '\u2192' pijl in de implementatie terwijl Figma een '>' chevron-stijl pijl gebruikt",
+      "De twee overlappende afbeelding-placeholders in Figma hebben een donkerder grijs achtergrondkleur, terwijl de implementatie lichtere grijstinten gebruikt",
+      "De layout op desktop en mobiel is identiek (geen responsieve aanpassing voor mobiel), wat suggereert dat de mobiele weergave niet apart geoptimaliseerd is"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-476-figma.png",
+    "localDesktop": "relume-visual-qc/layout-476-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-476-local-mobile.png"
+  },
+  "components/features/layout-477.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text is truncated to 'Tagl' in both desktop and mobile instead of 'Tagline'",
+      "Primary button style differs: Figma shows outlined/white button, implementation shows filled dark/black button",
+      "Secondary button arrow style differs: Figma shows '>' chevron, implementation shows '\u2192' arrow",
+      "Image placeholders layout differs: Figma shows 3 overlapping images in a stacked/collage arrangement, implementation shows 3 separate non-overlapping image placeholders in a vertical list",
+      "Image placeholder backgrounds are lighter/different shade in implementation compared to Figma's darker gray"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-477-figma.png",
+    "localDesktop": "relume-visual-qc/layout-477-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-477-local-mobile.png"
+  },
+  "components/features/layout-478.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst is afgekapt tot 'Tagl' in zowel desktop als mobiel in plaats van 'Tagline'",
+      "Achtergrondkleur van de afbeelding-placeholders is veel lichter/witter in de implementatie vergeleken met het duidelijke grijs in de Figma referentie",
+      "Eerste button heeft een donkere/zwarte achtergrond met witte tekst in de implementatie, terwijl Figma een outline/bordered button zonder fill toont",
+      "Tweede button gebruikt een pijl-symbool (\u2192) in de implementatie in plaats van het chevron (>) uit de Figma referentie",
+      "Tweede button heeft een zichtbare border/outline in de implementatie, terwijl het in Figma een tekst-link stijl zonder border is",
+      "De overlappende afbeelding-placeholders hebben minder contrast en minder duidelijke schaduw/overlap vergeleken met de Figma referentie"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-478-figma.png",
+    "localDesktop": "relume-visual-qc/layout-478-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-478-local-mobile.png"
+  },
+  "components/features/layout-479.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma toont twee overlappende afbeelding-placeholders (groot + klein rechts), desktop en mobiel tonen slechts \u00e9\u00e9n enkele afbeelding-placeholder",
+      "Tagline tekst verschilt: Figma toont 'Tagline', lokale versies tonen 'Taglir' (mogelijke tekst-rendering of font issue)",
+      "Eerste button in Figma is outlined/transparant, in lokale versies is de eerste button donker/gevuld (zwart)",
+      "Tweede button in Figma toont een chevron-pijl (>), lokale versies tonen een pijl-arrow (\u2192)",
+      "Afbeelding-placeholder achtergrondkleur is donkerder grijs in Figma versus lichtgrijs/off-white in lokale versies",
+      "Buttons in Figma zijn rechts uitgelijnd naast de paragraaf, in lokale versies staan ze onder de paragraaf maar ook rechts"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-479-figma.png",
+    "localDesktop": "relume-visual-qc/layout-479-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-479-local-mobile.png"
+  },
+  "components/features/layout-48.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop en mobiel: verticale padding/marges rond de sectie zijn kleiner dan in Figma referentie - content lijkt naar de bovenkant geschoven",
+      "Desktop en mobiel: heading staat linksboven tegen de rand geplakt zonder de verticale centrering/padding die in Figma zichtbaar is",
+      "Mobiele screenshot is identiek aan desktop screenshot, wat suggereert dat er geen responsive/mobiele layout-aanpassing is ge\u00efmplementeerd"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-48-figma.png",
+    "localDesktop": "relume-visual-qc/layout-48-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-48-local-mobile.png"
+  },
+  "components/features/layout-480.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst wijkt af: Figma toont 'Tagline' maar implementatie toont 'Taglir' (typefout)",
+      "Figma toont twee overlappende afbeelding-placeholders met verschillende groottes, implementatie toont \u00e9\u00e9n enkele grote afbeelding-placeholder",
+      "Button styling verschilt: Figma heeft outline/ghost buttons, implementatie heeft een filled (donker) primary button en een outline secondary button",
+      "Figma gebruikt een chevron-icoon (>) bij de tweede button, implementatie gebruikt een pijl (\u2192)",
+      "Buttons zijn in Figma gepositioneerd onder de beschrijvingstekst aan de rechterkant, in de implementatie staan ze ook rechts maar met andere styling",
+      "De afbeelding-sectie in Figma heeft een donkerder grijs met overlappende elementen, de implementatie toont een lichtgrijze vlakke placeholder",
+      "Mobiele weergave is identiek aan desktop - er lijkt geen responsive aanpassing te zijn voor mobiel (zelfde twee-kolom layout)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-480-figma.png",
+    "localDesktop": "relume-visual-qc/layout-480-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-480-local-mobile.png"
+  },
+  "components/features/layout-481.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst verschilt: 'Tagline' in Figma vs 'Taglir' in desktop en mobiel (typfout)",
+      "Figma toont 3 overlappende afbeelding-placeholders met verschillende groottes en posities; desktop en mobiel tonen slechts 1 enkele platte afbeelding-placeholder zonder overlap",
+      "Eerste button in Figma heeft een outline/bordered stijl, in desktop en mobiel is deze gevuld (dark/filled)",
+      "Tweede button in Figma toont 'Button >' met chevron-icoon, in desktop en mobiel is het 'Button \u2192' met pijl-teken",
+      "Buttons in Figma staan rechts naast de description tekst, in desktop en mobiel staan ze onder de description tekst",
+      "Layout in Figma is meer een side-by-side met tagline+heading links en description+buttons rechts op dezelfde rij; in desktop/mobiel lijkt de heading en description dezelfde twee-kolom layout te volgen maar buttons zijn anders gepositioneerd",
+      "Afbeeldingsectie in Figma is visueel veel complexer (collage van 3 overlappende grijze vlakken) vergeleken met de enkele lichtgrijze container in desktop/mobiel"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-481-figma.png",
+    "localDesktop": "relume-visual-qc/layout-481-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-481-local-mobile.png"
   }
 }
