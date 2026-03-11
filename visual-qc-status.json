@@ -17748,5 +17748,520 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7a89e2c2-c4ff-4bda-a094-e98e8a9d070a",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-73-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-73-local-mobile.png"
+  },
+  "components/hero-headers-new/header-74.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Het e-mail invoerveld is vervangen door een radio button.",
+      "De video placeholder ontbreekt.",
+      "De layout van de Terms and Conditions tekst wijkt af."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-74-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-74-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-74-local-mobile.png"
+  },
+  "components/hero-headers-new/header-75.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-75-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-75-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-75-local-mobile.png"
+  },
+  "components/hero-headers-new/header-76.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Het grid met afbeeldingen aan de rechterkant ontbreekt volledig."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-76-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-76-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-76-local-mobile.png"
+  },
+  "components/hero-headers-new/header-77.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Het grid met afbeeldingen is onjuist ge\u00efmplementeerd als een reeks dunne verticale sliders."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-77-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-77-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-77-local-mobile.png"
+  },
+  "components/hero-headers-new/header-78.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: de afbeeldingen-carousel ontbreekt.",
+      "Mobile: de afbeeldingen-carousel is onjuist ge\u00efmplementeerd als een reeks dunne verticale sliders."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-78-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-78-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-78-local-mobile.png"
+  },
+  "components/hero-headers-new/header-79.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component is niet ge\u00efmplementeerd.",
+      "De achtergrond met afbeeldingen is afwezig.",
+      "De titel, de paragraaf en de overlay ontbreken.",
+      "De knoppen zijn incorrect gestyled en verkeerd gepositioneerd."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-79-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-79-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-79-local-mobile.png"
+  },
+  "components/hero-headers-new/header-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component is niet ge\u00efmplementeerd.",
+      "De titel, de paragraaf, het e-mailinvoerveld en de juridische tekst ontbreken.",
+      "De Sign up knop is niet als knop gestyled.",
+      "Er is een onverwacht cirkel-element aanwezig."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-8-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-8-local-mobile.png"
+  },
+  "components/hero-headers-new/header-80.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "De verspreide afbeeldingen op de achtergrond ontbreken volledig.",
+      "In plaats van de afbeeldingen wordt een incorrecte rij met verticale placeholders bovenaan getoond."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-80-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-80-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-80-local-mobile.png"
+  },
+  "components/hero-headers-new/header-81.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "De split-screen layout (50/50) is niet ge\u00efmplementeerd.",
+      "De afbeelding staat links i.p.v. rechts.",
+      "Het lettergewicht van de titel lijkt dikker dan in ontwerp.",
+      "De component is niet responsive."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-81-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-81-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-81-local-mobile.png"
+  },
+  "components/hero-headers-new/header-82.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "De content is links uitgelijnd i.p.v. gecentreerd.",
+      "De maximale breedte van de paragraaf lijkt smaller dan in ontwerp."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-82-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-82-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-82-local-mobile.png"
+  },
+  "components/hero-headers-new/header-83.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Implementatie toont een logo-grid i.p.v. de hero header uit Figma.",
+      "Titel, paragraaf, knoppen, icoon en achtergrondafbeelding ontbreken volledig."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-83-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-83-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-83-local-mobile.png"
+  },
+  "components/hero-headers-new/header-84.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: de afbeelding placeholder is significant kleiner dan in ontwerp.",
+      "Desktop: secundaire knop is gevuld i.p.v. outlined.",
+      "Mobile: layout niet responsief; kolommen staan naast elkaar."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-84-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-84-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-84-local-mobile.png"
+  },
+  "components/hero-headers-new/header-85.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Formulier is incorrect: radiobutton-formulier i.p.v. e-mailinvoerveld + knop naast elkaar.",
+      "Mobile: layout niet responsief; kolommen zouden onder elkaar moeten staan."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-85-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-85-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-85-local-mobile.png"
+  },
+  "components/hero-headers-new/header-86.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video-element met play-knop is ge\u00efmplementeerd als standaard image placeholder.",
+      "Mobile: layout niet responsief; kolommen zouden onder elkaar moeten staan."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-86-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-86-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-86-local-mobile.png"
+  },
+  "components/hero-headers-new/header-87.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component is incorrect: video-element als image en e-mailformulier als radiobutton-formulier.",
+      "Mobile: layout niet responsief."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-87-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-87-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-87-local-mobile.png"
+  },
+  "components/hero-headers-new/header-88.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component komt niet overeen met ontwerp; ander component (Section Heading) wordt weergegeven."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-88-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-88-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-88-local-mobile.png"
+  },
+  "components/hero-headers-new/header-89.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component komt niet overeen met ontwerp; ander component (Section Heading) wordt weergegeven."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-89-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-89-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-89-local-mobile.png"
+  },
+  "components/hero-headers-new/header-9.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-9-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-9-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-9-local-mobile.png"
+  },
+  "components/hero-headers-new/header-90.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component is incompleet; alleen knoppen zichtbaar.",
+      "Achtergrondkleur incorrect (wit i.p.v. donkergrijs).",
+      "Titel en paragraaftekst ontbreken."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-90-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-90-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-90-local-mobile.png"
+  },
+  "components/hero-headers-new/header-91.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component is incompleet en incorrect weergegeven.",
+      "Achtergrondkleur incorrect (wit i.p.v. donkergrijs).",
+      "Titel, paragraaftekst en juridische tekst ontbreken.",
+      "E-mailveld en aanmeldknop renderen niet correct."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-91-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-91-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-91-local-mobile.png"
+  },
+  "components/hero-headers-new/header-155.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~44.0% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~48.1% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-155-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-155-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-155-local-mobile.png"
+  },
+  "components/hero-headers-new/header-156.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: grote visuele mismatch; structuur/spacing wijkt sterk af (~45.3% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~53.5% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-156-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-156-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-156-local-mobile.png"
+  },
+  "components/hero-headers-new/header-157.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-157-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-157-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-157-local-mobile.png"
+  },
+  "components/hero-headers-new/header-16.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: grote visuele mismatch; structuur/spacing wijkt sterk af (~47.7% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~65.0% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-16-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-16-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-16-local-mobile.png"
+  },
+  "components/hero-headers-new/header-17.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: grote visuele mismatch; structuur/spacing wijkt sterk af (~59.1% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~66.4% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-17-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-17-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-17-local-mobile.png"
+  },
+  "components/hero-headers-new/header-18.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: grote visuele mismatch; structuur/spacing wijkt sterk af (~56.5% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~65.0% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-18-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-18-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-18-local-mobile.png"
+  },
+  "components/hero-headers-new/header-19.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: minor afwijkingen in spacing/alignment (~29.5% mismatch).",
+      "Mobiel: duidelijke layout/typografie afwijkingen t.o.v. Figma (~34.3% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-19-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-19-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-19-local-mobile.png"
+  },
+  "components/hero-headers-new/header-2.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~30.4% mismatch).",
+      "Mobiel: duidelijke layout/typografie afwijkingen t.o.v. Figma (~40.7% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-2-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-2-local-mobile.png"
+  },
+  "components/hero-headers-new/header-20.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~30.4% mismatch).",
+      "Mobiel: duidelijke layout/typografie afwijkingen t.o.v. Figma (~32.9% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-20-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-20-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-20-local-mobile.png"
+  },
+  "components/hero-headers-new/header-21.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~39.0% mismatch).",
+      "Mobiel: duidelijke layout/typografie afwijkingen t.o.v. Figma (~39.6% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-21-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-21-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-21-local-mobile.png"
+  },
+  "components/hero-headers-new/header-22.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~39.7% mismatch).",
+      "Mobiel: duidelijke layout/typografie afwijkingen t.o.v. Figma (~38.0% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-22-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-22-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-22-local-mobile.png"
+  },
+  "components/hero-headers-new/header-23.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel: minor afwijkingen in spacing/alignment (~21.7% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-23-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-23-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-23-local-mobile.png"
+  },
+  "components/hero-headers-new/header-24.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel: minor afwijkingen in spacing/alignment (~23.5% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-24-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-24-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-24-local-mobile.png"
+  },
+  "components/hero-headers-new/header-25.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel: minor afwijkingen in spacing/alignment (~22.4% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-25-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-25-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-25-local-mobile.png"
+  },
+  "components/hero-headers-new/header-26.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~35.3% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~55.5% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-26-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-26-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-26-local-mobile.png"
+  },
+  "components/hero-headers-new/header-27.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~32.7% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~61.2% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-27-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-27-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-27-local-mobile.png"
+  },
+  "components/hero-headers-new/header-28.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~43.5% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~61.7% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-28-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-28-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-28-local-mobile.png"
+  },
+  "components/hero-headers-new/header-29.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~41.0% mismatch).",
+      "Mobiel: grote visuele mismatch; structuur/spacing wijkt sterk af (~61.2% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-29-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-29-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-29-local-mobile.png"
+  },
+  "components/hero-headers-new/header-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: duidelijke layout/typografie afwijkingen t.o.v. Figma (~39.0% mismatch).",
+      "Mobiel: duidelijke layout/typografie afwijkingen t.o.v. Figma (~38.8% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-3-local-mobile.png"
+  },
+  "components/hero-headers-new/header-30.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: vrijwel volledig afwijkende rendering t.o.v. Figma (~98.1% mismatch).",
+      "Mobiel: vrijwel volledig afwijkende rendering t.o.v. Figma (~95.7% mismatch)."
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-30-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-30-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-30-local-mobile.png"
   }
 }
