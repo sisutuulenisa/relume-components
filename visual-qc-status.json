@@ -13328,5 +13328,307 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-571-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-571-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-571-local-mobile.png"
+  },
+  "components/features/layout-572.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen renderen als lege cirkel-outlines i.p.v. gevulde Relume 3D-box iconen",
+      "Buttons zijn filled/dark bars i.p.v. text-links (button-variant mismatch)",
+      "Afbeelding is niet full-bleed: lichtgrijze afgeronde placeholder met padding i.p.v. donkergrijze edge-to-edge",
+      "Button-tekst over volledige kolombreedte als donkere balk \u2014 significante stijlbreuk"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-572-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-572-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-572-local-mobile.png"
+  },
+  "components/features/layout-573.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen renderen als lege cirkel-outlines i.p.v. gevulde Relume 3D-box iconen",
+      "Afbeelding is kleiner met afgeronde hoeken en padding i.p.v. full-bleed donkergrijs",
+      "Verticale spacing tussen feature-items groter dan in Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-573-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-573-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-573-local-mobile.png"
+  },
+  "components/features/layout-574.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen renderen als lege cirkel-outlines i.p.v. gevulde Relume 3D-box iconen",
+      "Video play-button overlay ontbreekt \u2014 statische image placeholder getoond i.p.v. video-placeholder",
+      "Afbeelding niet full-bleed: kleiner met afgeronde hoeken en padding"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-574-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-574-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-574-local-mobile.png"
+  },
+  "components/features/layout-575.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen renderen als lege cirkel-outlines i.p.v. gevulde Relume 3D-box iconen",
+      "Buttons zijn filled/solid i.p.v. text-links \u2014 significante stijlbreuk",
+      "Button-tekst afgekapt: 'utton >' zichtbaar i.p.v. 'Button >' \u2014 overflow/clipping bug",
+      "Afbeelding niet full-bleed: lichtgrijze afgeronde placeholder met padding"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-575-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-575-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-575-local-mobile.png"
+  },
+  "components/features/layout-576.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline' \u2014 CSS overflow/text-overflow bug",
+      "Primaire button stijl: filled/dark i.p.v. outline/ghost",
+      "Secundaire button: outline border + pijl '\u2192' i.p.v. ghost + chevron '>'",
+      "Afbeelding niet full-width: container heeft zijmarges, geen edge-to-edge grijs"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-576-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-576-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-576-local-mobile.png"
+  },
+  "components/features/layout-577.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Primaire button stijl: filled/dark i.p.v. outline/ghost",
+      "Secundaire button: outline border + '\u2192' i.p.v. ghost + chevron",
+      "Video play-icoon ontbreekt \u2014 statische image placeholder i.p.v. video-placeholder met play-button",
+      "Afbeelding niet full-width"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-577-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-577-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-577-local-mobile.png"
+  },
+  "components/features/layout-578.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Primaire button stijl: filled/dark i.p.v. outline/ghost",
+      "Secundaire button: outline border + '\u2192' i.p.v. ghost + chevron",
+      "Afbeelding niet full-width: heeft zijmarges en lichtbeige achtergrond i.p.v. edge-to-edge grijs"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-578-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-578-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-578-local-mobile.png"
+  },
+  "components/features/layout-579.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Primaire button stijl: filled/dark i.p.v. outline/ghost",
+      "Secundaire button: outline border + '\u2192' i.p.v. ghost + chevron",
+      "Video play-icoon ontbreekt \u2014 statische image placeholder i.p.v. video-placeholder"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-579-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-579-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-579-local-mobile.png"
+  },
+  "components/features/layout-58.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Volledige content ontbreekt \u2014 witte pagina, alle tekst (heading, description, subheadings) verdwenen",
+      "Achtergrondkleur ontbreekt: Figma toont donkergrijs, implementatie is wit",
+      "Alleen twee lege cirkel-placeholders zichtbaar \u2014 iconen compleet broken",
+      "Twee-koloms layout volledig onherkenbaar \u2014 rendering/hydration error"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-58-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-58-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-58-local-mobile.png"
+  },
+  "components/features/layout-580.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Ernstige tekst-truncatie: 'Subheac one/two' i.p.v. 'Subheading one/two', 'Tagli' i.p.v. 'Tagline'",
+      "Tekst breekt op woordniveau in extreem smalle kolommen",
+      "Iconen renderen als lege cirkels",
+      "Afbeeldings-sectie ontbreekt in screenshot / niet zichtbaar",
+      "Geen responsieve layout \u2014 mobiel identiek aan desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-580-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-580-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-580-local-mobile.png"
+  },
+  "components/features/layout-581.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Ernstige tekst-truncatie: 'Subheac one/two', 'Tagli' \u2014 overflow bug",
+      "Iconen renderen als lege cirkels",
+      "Video-sectie ontbreekt volledig",
+      "Geen responsieve breakpoints \u2014 mobiel identiek aan desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-581-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-581-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-581-local-mobile.png"
+  },
+  "components/features/layout-582.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Iconen renderen als lege cirkel-outlines",
+      "Afbeeldingssectie niet volledig zichtbaar in viewport"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-582-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-582-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-582-local-mobile.png"
+  },
+  "components/features/layout-583.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen renderen als lege cirkel-outlines i.p.v. gevulde diamant/kubus-iconen",
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Primaire button filled/zwart i.p.v. outline/ghost",
+      "Secundaire button: outline + '\u2192' i.p.v. text-link + chevron"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-583-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-583-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-583-local-mobile.png"
+  },
+  "components/features/layout-584.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen renderen als lege cirkel-outlines i.p.v. gevulde check/globe-iconen",
+      "Icoon-tekst spacing te groot \u2014 grotere gap tussen icoon en tekst dan in Figma",
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Primaire button filled/zwart i.p.v. outline/ghost"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-584-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-584-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-584-local-mobile.png"
+  },
+  "components/features/layout-585.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen renderen als lege cirkel-outlines",
+      "Icoon-tekst spacing te groot",
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Primaire button filled/zwart i.p.v. outline/ghost",
+      "Video play-icoon ontbreekt"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-585-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-585-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-585-local-mobile.png"
+  },
+  "components/features/layout-586.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Bullet list markers ontbreken \u2014 items renderen als plain text zonder bullet-punt",
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Primaire button filled/zwart i.p.v. outline/ghost",
+      "Secundaire button: outline + '\u2192' i.p.v. text-link + chevron"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-586-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-586-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-586-local-mobile.png"
+  },
+  "components/features/layout-587.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt: 'Tagli' i.p.v. 'Tagline'",
+      "Bullet list markers ontbreken \u2014 items als plain text",
+      "Secundaire button: outlined + '\u2192' i.p.v. text-link + chevron",
+      "Geen responsieve breakpoints \u2014 mobiel identiek aan desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-587-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-587-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-587-local-mobile.png"
+  },
+  "components/features/layout-588.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon rendert als open cirkel i.p.v. gevuld 3D-kubus-icoon",
+      "Afbeeldingssectie: inset container met lichtgrijs i.p.v. full-width donkergrijs",
+      "Video play-button overlay ontbreekt \u2014 statische image placeholder",
+      "Geen responsieve breakpoints \u2014 mobiel identiek aan desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-588-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-588-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-588-local-mobile.png"
+  },
+  "components/features/layout-589.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon rendert als open cirkel i.p.v. gevuld 3D-kubus-icoon",
+      "Afbeeldingssectie: inset container met lichtgrijs i.p.v. full-width donkergrijs",
+      "Video play-button overlay ontbreekt",
+      "Secundaire button: outlined + '\u2192' i.p.v. text-link + chevron",
+      "Geen responsieve breakpoints \u2014 mobiel identiek aan desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-589-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-589-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-589-local-mobile.png"
+  },
+  "components/features/layout-59.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt: 'Taglir' i.p.v. 'Tagline'",
+      "Iconen renderen als open cirkels i.p.v. gevulde 3D-kubus-iconen",
+      "Button stijl omgekeerd: primaire is filled/dark, secundaire is outlined \u2014 visuele hi\u00ebrarchie incorrect",
+      "Minimale top-padding: tagline zit vrijwel aan bovenrand van viewport",
+      "Geen responsieve breakpoints \u2014 mobiel identiek aan desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-59-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-59-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-59-local-mobile.png"
   }
 }
