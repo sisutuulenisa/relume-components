@@ -3898,5 +3898,286 @@
     "figmaScreenshot": "cta-49-figma.png",
     "localDesktop": "cta-49-local-desktop.png",
     "localMobile": "cta-49-local-mobile.png"
+  },
+  "components/cta-new/cta-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing heading text in both desktop and mobile",
+      "Background color white instead of dark gray as in Figma",
+      "Primary/secondary button styles swapped vs Figma",
+      "No responsive difference between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-5-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-5-local-mobile.png"
+  },
+  "components/cta-new/cta-50.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background missing, all text content missing",
+      "Email input field missing (only spinner icon rendered)",
+      "Two-column layout broken, terms text missing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-50-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-50-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-50-local-mobile.png"
+  },
+  "components/cta-new/cta-51.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minor: heading wraps to two lines vs single line in Figma (acceptable)",
+      "Minor: button color near-black vs pure black (negligible)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-51-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-51-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-51-local-mobile.png"
+  },
+  "components/cta-new/cta-52.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input collapsed to tiny circle on both desktop and mobile",
+      "Form layout broken: input + button misaligned"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-52-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-52-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-52-local-mobile.png"
+  },
+  "components/cta-new/cta-53.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Catastrophic rendering failure: heading, paragraph, and buttons completely missing",
+      "Background image renders as broken placeholder icon",
+      "Text overlay layout entirely absent"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-53-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-53-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-53-local-mobile.png"
+  },
+  "components/cta-new/cta-54.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All content missing: heading, description, email input, button, terms text",
+      "Only empty image placeholder rendered",
+      "Background overlay absent"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-54-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-54-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-54-local-mobile.png"
+  },
+  "components/cta-new/cta-55.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background entirely missing, white background instead",
+      "Heading and description text completely missing",
+      "Only two unstyled buttons rendered with no surrounding context"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-55-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-55-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-55-local-mobile.png"
+  },
+  "components/cta-new/cta-56.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background container missing, white background instead",
+      "Heading, description, terms text missing",
+      "Email input collapsed to tiny circle",
+      "Color scheme entirely wrong: should be white text on dark bg"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-56-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-56-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-56-local-mobile.png"
+  },
+  "components/cta-new/cta-57.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button color dark navy vs pure black in Figma (minor)",
+      "Button border-radius: slightly rounded vs square corners in Figma",
+      "Mobile appears identical to desktop, no responsive adaptation visible"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-57-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-57-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-57-local-mobile.png"
+  },
+  "components/cta-new/cta-58.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input collapsed to tiny circle on both breakpoints",
+      "Form row layout broken: button misaligned",
+      "Vertical spacing/padding missing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-58-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-58-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-58-local-mobile.png"
+  },
+  "components/cta-new/cta-59.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-height, large empty whitespace below",
+      "Mobile layout remains side-by-side instead of stacking to single column",
+      "Image placeholder visual mismatch vs Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-59-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-59-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-59-local-mobile.png"
+  },
+  "components/cta-new/cta-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background, heading, description, email input, terms text all missing",
+      "Only tiny circle icon and 'Sign Up' text visible",
+      "Component fundamentally broken on both breakpoints"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-6-local-mobile.png"
+  },
+  "components/cta-new/cta-60.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input broken/collapsed to small circle on desktop and mobile",
+      "Image placeholder smaller than Figma, not filling right column vertically",
+      "Terms and Conditions link missing underline"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-60-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-60-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-60-local-mobile.png"
+  },
+  "components/cta-new/cta-61.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image area not full-width, contained placeholder vs full-bleed in Figma",
+      "Mobile appears identical to desktop, no stacking/responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-61-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-61-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-61-local-mobile.png"
+  },
+  "components/cta-new/cta-62.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input missing/broken on both breakpoints",
+      "Image area not full-width, significantly smaller than Figma",
+      "Terms link lacks underline/hyperlink styling",
+      "No responsive adaptation between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-62-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-62-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-62-local-mobile.png"
+  },
+  "components/cta-new/cta-63.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-width on desktop and mobile",
+      "Button color dark navy vs pure black (minor)",
+      "Text area spans wider than Figma's constrained left column"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-63-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-63-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-63-local-mobile.png"
+  },
+  "components/cta-new/cta-64.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input collapsed to tiny circle on both breakpoints",
+      "Terms link not styled as hyperlink",
+      "Image placeholder not full-width"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-64-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-64-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-64-local-mobile.png"
+  },
+  "components/cta-new/cta-65.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image area not full-width, smaller centered placeholder vs full-bleed in Figma",
+      "Primary button dark navy vs pure black (minor)",
+      "Mobile identical to desktop, no responsive adaptation visible"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-65-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-65-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-65-local-mobile.png"
+  },
+  "components/cta-new/cta-66.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input collapsed to tiny circle on both breakpoints",
+      "Form layout broken",
+      "Image area not full-width"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-66-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-66-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-66-local-mobile.png"
+  },
+  "components/cta-new/cta-67.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image gallery completely broken: images render as narrow vertical slivers",
+      "Images only occupy ~35% of viewport width, right side empty",
+      "Grid layout non-functional (likely CSS width/flex issue)",
+      "Desktop and mobile identical, no responsive behavior"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-67-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-67-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/cta-67-local-mobile.png"
   }
 }
