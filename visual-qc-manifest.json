@@ -624,7 +624,7 @@
     },
     {
       "id": "vqc-008",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/careers/career-26.html",
