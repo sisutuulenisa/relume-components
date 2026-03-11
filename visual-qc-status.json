@@ -9322,5 +9322,303 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-337-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-337-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-337-local-mobile.png"
+  },
+  "components/features/layout-338.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All content completely missing \u2014 only broken image placeholder rendered",
+      "Missing: heading, 4 feature cards with icons, headings, body text, Button links",
+      "Missing gray background color"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-338-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-338-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-338-local-mobile.png"
+  },
+  "components/features/layout-339.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Background color completely wrong (dark gray in Figma vs white in local)",
+      "Missing: main heading, all icons, all body text, all Button links",
+      "Local renders tab-style headings instead of feature grid layout"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-339-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-339-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-339-local-mobile.png"
+  },
+  "components/features/layout-34.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons rendered as empty circles instead of detailed cube/box icons",
+      "Button styled as dark filled button instead of text link with chevron",
+      "Desktop: image placeholder not vertically centered alongside all 3 feature items",
+      "Mobile: image appears between feature items; content cut off at bottom"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-34-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-34-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-34-local-mobile.png"
+  },
+  "components/features/layout-340.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All content completely missing \u2014 only broken image placeholder rendered",
+      "Missing: Tagline, heading, description, 4 feature cards with icons, CTA buttons",
+      "Missing gray background color"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-340-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-340-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-340-local-mobile.png"
+  },
+  "components/features/layout-341.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing: Tagline, heading, description paragraph",
+      "Missing: icons for all 4 feature cards",
+      "Missing: body text paragraphs under feature headings",
+      "Background color wrong: dark gray Figma vs white local",
+      "Feature headings rendered as horizontal tab bar instead of 4 card columns",
+      "Button styling mismatch: white-outlined on dark vs dark filled on white"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-341-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-341-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-341-local-mobile.png"
+  },
+  "components/features/layout-342.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing: top header section (heading + description)",
+      "Image placeholder renders as broken icon only",
+      "Missing: all 4 feature card columns (icon, heading, body, Button link)",
+      "Background color wrong: medium gray Figma vs white local"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-342-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-342-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-342-local-mobile.png"
+  },
+  "components/features/layout-343.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing: top header section (heading + description)",
+      "Missing: all icons",
+      "Missing: body text descriptions",
+      "Missing: Button links per feature card",
+      "Background color wrong: dark charcoal Figma vs white local",
+      "Feature headings rendered as horizontal tab bar instead of 4 separate card columns"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-343-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-343-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-343-local-mobile.png"
+  },
+  "components/features/layout-344.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing: Tagline, heading, description",
+      "Image placeholder renders as broken icon only",
+      "Missing: all 4 feature card columns below image",
+      "Missing: CTA buttons at bottom",
+      "Background color wrong: medium-dark gray Figma vs white local"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-344-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-344-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-344-local-mobile.png"
+  },
+  "components/features/layout-345.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing: Tagline, heading, description from top section",
+      "Dark background completely absent (renders white)",
+      "Feature cards missing icons, headings, body text \u2014 only tab headings as horizontal row",
+      "Mobile: no responsive stacking, 4 columns still shown horizontally at mobile width"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-345-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-345-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-345-local-mobile.png"
+  },
+  "components/features/layout-346.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component fundamentally broken \u2014 only single broken image placeholder rendered",
+      "Missing: heading, description, all 4 feature columns, image overlay, all buttons",
+      "Background color wrong: gray Figma vs white local",
+      "Mobile: same critical failure \u2014 only image placeholder, no text content"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-346-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-346-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-346-local-mobile.png"
+  },
+  "components/features/layout-347.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background missing (renders white)",
+      "Missing: top heading and description",
+      "Only horizontal tab row of 4 headings visible; all icons, body text, Button links absent",
+      "Mobile: no responsive adaptation, horizontal row maintained"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-347-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-347-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-347-local-mobile.png"
+  },
+  "components/features/layout-348.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma has 4 stacked rows (image left, text right); local shows only 1 row",
+      "Text content severely clipped/truncated (heading, description, Tagline cut off)",
+      "Button style mismatch: outline border vs text-only link in Figma",
+      "Mobile: no responsive stacking, identical to broken desktop view"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-348-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-348-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-348-local-mobile.png"
+  },
+  "components/features/layout-349.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Tagline truncated to 'Tagl'",
+      "Desktop: button styles differ \u2014 filled vs outlined in Figma; secondary button style mismatch",
+      "Desktop: image placeholder lighter/different aspect ratio vs Figma",
+      "Mobile: completely blank \u2014 no content renders at all"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-349-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-349-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-349-local-mobile.png"
+  },
+  "components/features/layout-350.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows tabbed interface (Tab One/Two/Three/Four); local renders accordion with numbered items (01/02/03/04)",
+      "Layout structure fundamentally different: tabs vs accordion",
+      "Image overlaps text content; heading cut off",
+      "Mobile: same accordion issues, text obscured by overlapping image"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-350-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-350-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-350-local-mobile.png"
+  },
+  "components/features/layout-351.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: header section visible but expanded accordion content area completely missing",
+      "Desktop: feature content, image, accordion body all absent",
+      "Mobile: completely different structure \u2014 centered header with overlapping card; no accordion/tab pattern",
+      "Mobile: text cut off by overlapping image"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-351-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-351-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-351-local-mobile.png"
+  },
+  "components/features/layout-352.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows timeline/vertical layout with dated entries and vertical connecting line",
+      "Local shows card-style layout with overlapping image \u2014 no timeline structure at all",
+      "Missing: date labels, timeline dots, vertical connecting line",
+      "Mobile: image overlaps text; button wrapping to two lines; no timeline"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-352-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-352-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-352-local-mobile.png"
+  },
+  "components/features/layout-353.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: renders wrong component entirely \u2014 centered header + card grid instead of 2-column text+cards layout",
+      "Mobile: icons are empty circles instead of 3D cube/box icons from Figma",
+      "Mobile: Tagline text clipped to 'Tagl'",
+      "Mobile: button styles differ (filled+outline vs outline+text-link in Figma)",
+      "Mobile: card 4 cut off/not visible"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-353-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-353-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-353-local-mobile.png"
+  },
+  "components/features/layout-354.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: completely missing all text content \u2014 only empty placeholder image areas",
+      "Desktop: dark background missing; layout structure entirely wrong",
+      "Mobile: renders different component (card-grid layout vs dark video/image layout in Figma)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-354-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-354-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-354-local-mobile.png"
+  },
+  "components/features/layout-355.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minor: image placeholders in cards slightly narrower than card border (~70% width vs full width)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-355-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-355-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-355-local-mobile.png"
+  },
+  "components/features/layout-35.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: completely blank \u2014 no content renders at all",
+      "Mobile: Tagline text truncated to 'Tagl'",
+      "Mobile: button styles differ (filled+outline vs outline+text-link in Figma)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-35-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-35-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-35-local-mobile.png"
   }
 }
