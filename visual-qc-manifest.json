@@ -88,7 +88,7 @@
     },
     {
       "id": "vqc-002",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/application-shells/application-shell-9.html",
@@ -170,7 +170,12 @@
           "path": "components/blog-headers/blog-11.html",
           "nodeId": "4174:66171"
         }
-      ]
+      ],
+      "results": {
+        "ok": 3,
+        "warn": 10,
+        "fail": 7
+      }
     },
     {
       "id": "vqc-003",
