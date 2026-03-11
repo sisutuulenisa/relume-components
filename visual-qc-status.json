@@ -3274,5 +3274,342 @@
     "figmaScreenshot": "relume-visual-qc/cta-30-figma.png",
     "localDesktop": "relume-visual-qc/cta-30-local-desktop.png",
     "localMobile": "relume-visual-qc/cta-30-local-mobile.png"
+  },
+  "components/contact-modals/contact-modal-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels i.p.v. tekstvelden",
+      "desktop: textarea ontbreekt",
+      "desktop: checkbox 'I accept the Terms' ontbreekt (enkel vinkje-icoon)",
+      "desktop: close-knop (\u00d7) ontbreekt",
+      "desktop: modal card-container/overlay ontbreekt",
+      "desktop: submit knop niet gecentreerd",
+      "mobiel: identiek aan desktop, geen responsive layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-modal-1-figma.png",
+    "localDesktop": "relume-visual-qc/contact-modal-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-modal-1-local-mobile.png"
+  },
+  "components/contact-modals/contact-modal-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: radio buttons als pill-shapes i.p.v. standaard radio",
+      "desktop: dropdown chevron verkeerd (> i.p.v. \u25bc)",
+      "desktop: textarea ontbreekt",
+      "desktop: checkbox + Terms ontbreekt",
+      "desktop: submit knop ontbreekt",
+      "desktop: close-knop ontbreekt",
+      "mobiel: identiek aan desktop, geen responsive layout (geen 1-kolom stacking)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-modal-2-figma.png",
+    "localDesktop": "relume-visual-qc/contact-modal-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-modal-2-local-mobile.png"
+  },
+  "components/contact-modals/contact-modal-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: textarea ontbreekt",
+      "desktop: checkbox + Terms ontbreekt",
+      "desktop: submit knop ontbreekt",
+      "desktop: split 50/50 layout (afbeelding links) ontbreekt",
+      "desktop: tagline afgekapt ('Tagl')",
+      "mobiel: identiek aan desktop, geen responsive layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-modal-3-figma.png",
+    "localDesktop": "relume-visual-qc/contact-modal-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-modal-3-local-mobile.png"
+  },
+  "components/contact-modals/contact-modal-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: radio buttons als pill-shapes",
+      "desktop: dropdown chevron verkeerd",
+      "desktop: textarea ontbreekt",
+      "desktop: checkbox + Terms ontbreekt",
+      "desktop: submit knop ontbreekt/afgesneden",
+      "desktop: split-layout afbeelding links ontbreekt",
+      "desktop: close-knop ontbreekt",
+      "mobiel: identiek aan desktop, geen responsive layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-modal-4-figma.png",
+    "localDesktop": "relume-visual-qc/contact-modal-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-modal-4-local-mobile.png"
+  },
+  "components/contact-modals/contact-modal-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: textarea ontbreekt",
+      "desktop: checkbox + Terms ontbreekt (enkel vinkje-icoon)",
+      "desktop: close-knop ontbreekt",
+      "desktop: onverklaard cirkel-element onder submit knop",
+      "mobiel: identiek aan desktop, geen responsive layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-modal-5-figma.png",
+    "localDesktop": "relume-visual-qc/contact-modal-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-modal-5-local-mobile.png"
+  },
+  "components/contact-modals/contact-modal-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: radio buttons als pill-shapes",
+      "desktop: dropdown chevron verkeerd",
+      "desktop: textarea ontbreekt",
+      "desktop: checkbox + Terms ontbreekt",
+      "desktop: submit knop ontbreekt/afgesneden",
+      "desktop: close-knop ontbreekt",
+      "mobiel: identiek aan desktop, geen responsive layout, overflow"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-modal-6-figma.png",
+    "localDesktop": "relume-visual-qc/contact-modal-6-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-modal-6-local-mobile.png"
+  },
+  "components/contact-pages/contact-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: radio buttons als pill-shapes",
+      "desktop: contactinfo-iconen als lege cirkels",
+      "desktop: logo niet geladen (5 cirkels)",
+      "desktop: tagline afgekapt ('Tagl')",
+      "desktop: navbar-styling afwijkend (Link One in badge)",
+      "mobiel: identiek aan desktop, geen hamburger-menu, geen responsive layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-1-figma.png",
+    "localDesktop": "relume-visual-qc/contact-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-1-local-mobile.png"
+  },
+  "components/contact-pages/contact-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: departement-kaarten (Sales/Help/Media) ontbreken",
+      "desktop: General enquiries blok ontbreekt",
+      "desktop: Our locations sectie ontbreekt",
+      "desktop: footer ontbreekt",
+      "desktop: logo niet geladen",
+      "desktop: tab-content volledig leeg",
+      "mobiel: identiek aan desktop, geen hamburger-menu, geen responsive layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-2-figma.png",
+    "localDesktop": "relume-visual-qc/contact-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-2-local-mobile.png"
+  },
+  "components/contact-pages/contact-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: textarea ontbreekt",
+      "desktop: checkbox + Terms enkel vinkje",
+      "desktop: submit knop ontbreekt",
+      "desktop: tagline afgekapt ('Tagl')",
+      "desktop: contact-kaarten + locations-sectie + footer afgesneden/ontbrekend",
+      "mobiel: identiek aan desktop, geen responsive layout (twee-koloms blijft)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-3-figma.png",
+    "localDesktop": "relume-visual-qc/contact-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-3-local-mobile.png"
+  },
+  "components/contact-pages/contact-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: radio buttons als pill-shapes",
+      "desktop: dropdown chevron verkeerd (> i.p.v. \u25bc)",
+      "desktop: message/checkbox/submit afgesneden (mogelijk scroll)",
+      "mobiel: identiek aan desktop, geen responsive layout (velden stacken niet)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-4-figma.png",
+    "localDesktop": "relume-visual-qc/contact-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-4-local-mobile.png"
+  },
+  "components/contact-pages/contact-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: input velden renderen als cirkels",
+      "desktop: logo niet geladen (5 cirkels)",
+      "desktop: navbar-styling afwijkend",
+      "desktop: tagline afgekapt",
+      "desktop: map-placeholder toont broken image",
+      "desktop: onderliggende secties ontbreken (trusted-by, contact-info, footer)",
+      "mobiel: identiek aan desktop, geen hamburger-menu, geen responsive layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-5-figma.png",
+    "localDesktop": "relume-visual-qc/contact-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-5-local-mobile.png"
+  },
+  "components/cookie-consent/cookie-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: banner positie rechts-boven i.p.v. rechts-onder (Figma)",
+      "desktop: Accept button niet zwart gevuld (ghost/text stijl)",
+      "desktop: close-icoon is cirkel i.p.v. \u00d7",
+      "desktop: tekst wrapping smaller dan Figma-ontwerp",
+      "mobiel: identiek aan desktop, geen responsieve aanpassing"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cookie-1-figma.png",
+    "localDesktop": "relume-visual-qc/cookie-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/cookie-1-local-mobile.png"
+  },
+  "components/cookie-consent/cookie-2.html": {
+    "status": "fail",
+    "desktopStatus": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "mobiel: cookie-banner volledig onzichtbaar",
+      "mobiel: broken image placeholder op pagina"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cookie-2-figma.png",
+    "localDesktop": "relume-visual-qc/cookie-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/cookie-2-local-mobile.png"
+  },
+  "components/cookie-consent/cookie-3.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 'Preferences' button stijl afwijkend (plain text i.p.v. outline)",
+      "desktop: close-icoon cirkel i.p.v. \u2715",
+      "mobiel: cookie-banner volledig onzichtbaar"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cookie-3-figma.png",
+    "localDesktop": "relume-visual-qc/cookie-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/cookie-3-local-mobile.png"
+  },
+  "components/cookie-consent/cookie-4.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: close-icoon cirkel i.p.v. \u2715",
+      "mobiel: cookie-banner volledig onzichtbaar"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cookie-4-figma.png",
+    "localDesktop": "relume-visual-qc/cookie-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/cookie-4-local-mobile.png"
+  },
+  "components/cookie-consent/cookie-5.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: banner is full-width top-bar i.p.v. gecentreerde modal",
+      "desktop: Accept button niet zwart gevuld",
+      "desktop: Decline button mist border",
+      "desktop: close-knop ontbreekt",
+      "desktop: onverklaard cirkel-element linksonder",
+      "desktop: overmatige lege ruimte / banner te hoog",
+      "mobiel: identiek aan desktop, geen responsive aanpassing (geen button stacking)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cookie-5-figma.png",
+    "localDesktop": "relume-visual-qc/cookie-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/cookie-5-local-mobile.png"
+  },
+  "components/cta-new/cta-1.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: button kleur donkerblauw i.p.v. zwart",
+      "desktop: content verticale uitlijning bovenaan i.p.v. gecentreerd",
+      "desktop: spacing/padding iets krapper dan Figma",
+      "mobiel: volledig leeg scherm (geen content gerenderd)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-1-figma.png",
+    "localDesktop": "relume-visual-qc/cta-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-1-local-mobile.png"
+  },
+  "components/cta-new/cta-10.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: totaal verkeerde layout (2-rijen i.p.v. horizontale banner met e-mail input)",
+      "desktop: e-mail inputveld ontbreekt",
+      "desktop: 'Sign Up' button ontbreekt",
+      "desktop: grijze achtergrond/overlay ontbreekt",
+      "desktop: Terms & Conditions tekst ontbreekt",
+      "mobiel: volledig leeg scherm (enkel grijze balk, geen content)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-10-figma.png",
+    "localDesktop": "relume-visual-qc/cta-10-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-10-local-mobile.png"
+  },
+  "components/cta-new/cta-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: donkergrijze achtergrond ontbreekt (wit scherm)",
+      "desktop: heading en beschrijving ontbreken volledig",
+      "desktop: layout kapot (enkel 2 buttons zichtbaar, gecentreerd)",
+      "mobiel: identiek aan desktop, geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-11-figma.png",
+    "localDesktop": "relume-visual-qc/cta-11-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-11-local-mobile.png"
+  },
+  "components/cta-new/cta-12.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: donkergrijze achtergrond ontbreekt",
+      "desktop: heading en beschrijving ontbreken",
+      "desktop: e-mail inputveld rendert als cirkel",
+      "desktop: 'Sign Up' toont als platte tekst i.p.v. button",
+      "desktop: Terms & Conditions tekst ontbreekt",
+      "mobiel: identiek aan desktop, geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-12-figma.png",
+    "localDesktop": "relume-visual-qc/cta-12-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-12-local-mobile.png"
   }
 }
