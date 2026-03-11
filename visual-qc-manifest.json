@@ -5897,7 +5897,7 @@
     },
     {
       "id": "vqc-066",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/logos/logo-2.html",
