@@ -4690,5 +4690,1405 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-445.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-446.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-447.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-448.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-449.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-45.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-450.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-451.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-452.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-453.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-454.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-455.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-456.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-457.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-458.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-459.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-46.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-460.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-461.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-462.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-463.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-464.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-465.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-466.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-467.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-468.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-469.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-47.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-470.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-471.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-472.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-473.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-474.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-475.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-476.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-477.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-478.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-479.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-48.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-480.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-481.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-482.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-483.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-484.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-485.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-486.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-487.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-488.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-489.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-49.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-490.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-491.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-492.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-493.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-494.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-495.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-496.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-497.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-498.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-499.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-50.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-500.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-501.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-502.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-503.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-504.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-505.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-506.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-507.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-508.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-509.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-51.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-510.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-511.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-512.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-513.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-514.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-515.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-516.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-517.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-518.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-519.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-52.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-520.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-521.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-522.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-523.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-524.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-525.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-526.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-527.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-528.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-529.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-53.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-530.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-531.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-532.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-533.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-534.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "root div\u2192article, removed py-16 md:py-24, container class fixed"
+  },
+  "components/pages/features/layout-535.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-536.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-537.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-538.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-539.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-54.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-540.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-541.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-542.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-543.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-544.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-545.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-546.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-547.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-548.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-549.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-55.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-550.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-551.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-552.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-553.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-554.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-555.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-556.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-557.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-558.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-559.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-56.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-560.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-561.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-562.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-563.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-564.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-565.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-566.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-567.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-568.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-569.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-57.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-570.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-571.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-572.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-573.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-574.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-575.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-576.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-577.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-578.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-579.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-58.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-580.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-581.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-582.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-583.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-584.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-585.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-586.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-587.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-588.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-589.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-59.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-590.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-591.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-592.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-593.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-594.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-595.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-596.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-597.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-598.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-599.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-60.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-600.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-601.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-602.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-603.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-604.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-605.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-606.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-607.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-608.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-609.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-61.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-610.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-611.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-612.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-613.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-614.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-615.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-616.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-617.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-618.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-619.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-62.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-620.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-621.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-622.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-623.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
+  },
+  "components/pages/features/layout-624.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-009 fixed"
   }
 }
