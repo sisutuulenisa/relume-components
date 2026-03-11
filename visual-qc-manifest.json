@@ -447,7 +447,7 @@
     },
     {
       "id": "vqc-006",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/blog-sections/blog-49.html",
@@ -529,7 +529,12 @@
           "path": "components/blog-sections/blog-68.html",
           "nodeId": "4174:72945"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 2,
+        "fail": 18
+      }
     },
     {
       "id": "vqc-007",
