@@ -533,3 +533,17 @@
 - [x] event-header-4 ✅
 - [x] event-header-5 ✅
 - [x] event-header-6 ✅
+
+
+## components/event-item-headers/
+- [x] event-item-header-1 ✅
+- [x] event-item-header-2 ✅
+- [x] event-item-header-3 ✅
+- [x] event-item-header-4 ✅
+- [x] event-item-header-5 ✅
+- [x] event-item-header-6 ✅
+- [x] event-item-header-7 ✅
+- [x] event-item-header-8 ✅
+- [x] event-item-header-9 ✅
+- [x] event-item-header-10 ✅
+- [x] event-item-header-11 ✅
