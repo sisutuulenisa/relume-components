@@ -403,3 +403,11 @@
 - [x] contact-modal-5 ✅
 - [x] contact-modal-6 ✅
 
+
+## components/contact-pages/
+- [x] contact-1 ✅
+- [x] contact-2 ✅
+- [x] contact-3 ✅
+- [x] contact-4 ✅
+- [x] contact-5 ✅
+
