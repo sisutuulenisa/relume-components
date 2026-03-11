@@ -2,7 +2,7 @@
   "batches": [
     {
       "id": "vqc-001",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/about-pages/about-1.html",
@@ -5998,7 +5998,7 @@
     },
     {
       "id": "vqc-067",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/long-form-content-sections/content-23.html",
@@ -6084,7 +6084,7 @@
     },
     {
       "id": "vqc-068",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/multi-step-forms/multi-form-12.html",
@@ -6170,7 +6170,7 @@
     },
     {
       "id": "vqc-069",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/multi-step-forms/multi-form-30.html",
@@ -6256,7 +6256,7 @@
     },
     {
       "id": "vqc-070",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/multi-step-forms/multi-form-7.html",
@@ -6342,7 +6342,7 @@
     },
     {
       "id": "vqc-071",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/navbars/navbar-25.html",
@@ -6428,7 +6428,7 @@
     },
     {
       "id": "vqc-072",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/onboarding-forms/onboarding-form-14.html",
@@ -6514,7 +6514,7 @@
     },
     {
       "id": "vqc-073",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/portfolio-headers/portfolio-header-12.html",
@@ -6600,7 +6600,7 @@
     },
     {
       "id": "vqc-074",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/portfolio-sections/portfolio-13.html",
@@ -6686,7 +6686,7 @@
     },
     {
       "id": "vqc-075",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/pricing/pricing-10.html",
@@ -6772,7 +6772,7 @@
     },
     {
       "id": "vqc-076",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/pricing/pricing-29.html",
@@ -6858,7 +6858,7 @@
     },
     {
       "id": "vqc-077",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/pricing/pricing-47.html",
@@ -6944,7 +6944,7 @@
     },
     {
       "id": "vqc-078",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/pricing-pages/pricing-5.html",
@@ -7030,7 +7030,7 @@
     },
     {
       "id": "vqc-079",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/product-list-sections/product-8.html",
@@ -7116,7 +7116,7 @@
     },
     {
       "id": "vqc-080",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/sidebars/sidebar-sits-beside-a-level-1-topbar-includes-a-company-logo-but-does-not-have-search-or-a-user-avatar.html",
@@ -7202,7 +7202,7 @@
     },
     {
       "id": "vqc-081",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/sign-up-and-log-in-pages/sign-up-7.html",
@@ -7288,7 +7288,7 @@
     },
     {
       "id": "vqc-082",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/stat-cards/stat-card-8.html",
@@ -7374,7 +7374,7 @@
     },
     {
       "id": "vqc-083",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/stats-sections/stats-27.html",
@@ -7460,7 +7460,7 @@
     },
     {
       "id": "vqc-084",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/stats-sections/stats-45.html",
@@ -7546,7 +7546,7 @@
     },
     {
       "id": "vqc-085",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/stats-sections/stats-9.html",
@@ -7632,7 +7632,7 @@
     },
     {
       "id": "vqc-086",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/team/team-10.html",
@@ -7718,7 +7718,7 @@
     },
     {
       "id": "vqc-087",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/team/team-9.html",
@@ -7804,7 +7804,7 @@
     },
     {
       "id": "vqc-088",
-      "status": "paused",
+      "status": "pending",
       "components": [
         {
           "path": "components/timelines/timeline-8.html",
