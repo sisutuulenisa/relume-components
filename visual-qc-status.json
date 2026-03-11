@@ -20495,5 +20495,305 @@
       "figmaMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-figma-mobile.png",
       "localMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-local-mobile.png"
     }
+  },
+  "components/onboarding-forms/onboarding-form-14.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff warn (mae=0.0965, rms=0.1824)",
+      "mobile diff fail (mae=0.1068, rms=0.1933)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0965 rms=0.1824; mobile mae=0.1068 rms=0.1933",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-14-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-14-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-14-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-14-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-15.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff fail (mae=0.2121, rms=0.2580)",
+      "mobile diff fail (mae=0.2223, rms=0.2733)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.2121 rms=0.2580; mobile mae=0.2223 rms=0.2733",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-15-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-15-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-15-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-15-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-16.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff fail (mae=0.2114, rms=0.2560)",
+      "mobile diff fail (mae=0.2154, rms=0.2615)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.2114 rms=0.2560; mobile mae=0.2154 rms=0.2615",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-16-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-16-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-16-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-16-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-17.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff fail (mae=0.2016, rms=0.2519)",
+      "mobile diff fail (mae=0.2095, rms=0.2628)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.2016 rms=0.2519; mobile mae=0.2095 rms=0.2628",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-17-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-17-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-17-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-17-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0416, rms=0.1873)",
+      "mobile diff warn (mae=0.0703, rms=0.2375)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0416 rms=0.1873; mobile mae=0.0703 rms=0.2375",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-2-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-2-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-2-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-2-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0386, rms=0.1791)",
+      "mobile diff warn (mae=0.0735, rms=0.2185)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0386 rms=0.1791; mobile mae=0.0735 rms=0.2185",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-3-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-3-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-3-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-3-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0352, rms=0.1716)",
+      "mobile diff warn (mae=0.0650, rms=0.2089)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0352 rms=0.1716; mobile mae=0.0650 rms=0.2089",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-4-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-4-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-4-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-4-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-5.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff warn (mae=0.0425, rms=0.1882)",
+      "mobile diff fail (mae=0.0789, rms=0.2509)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0425 rms=0.1882; mobile mae=0.0789 rms=0.2509",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-5-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-5-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-5-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-5-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-6.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff warn (mae=0.0396, rms=0.1819)",
+      "mobile diff fail (mae=0.0745, rms=0.2433)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0396 rms=0.1819; mobile mae=0.0745 rms=0.2433",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-6-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-6-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-6-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-6-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-7.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0371, rms=0.1748)",
+      "mobile diff warn (mae=0.0509, rms=0.2013)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0371 rms=0.1748; mobile mae=0.0509 rms=0.2013",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-7-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-7-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-7-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-7-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-8.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0376, rms=0.1768)",
+      "mobile diff warn (mae=0.0513, rms=0.2012)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0376 rms=0.1768; mobile mae=0.0513 rms=0.2012",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-8-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-8-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-8-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-8-local-mobile.png"
+  },
+  "components/onboarding-forms/onboarding-form-9.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0335, rms=0.1634)",
+      "mobile diff warn (mae=0.0530, rms=0.1888)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0335 rms=0.1634; mobile mae=0.0530 rms=0.1888",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-9-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-9-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-9-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/onboarding-forms__onboarding-form-9-local-mobile.png"
+  },
+  "components/page-headers/page-header-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0526, rms=0.2170)",
+      "mobile diff warn (mae=0.0692, rms=0.2322)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0526 rms=0.2170; mobile mae=0.0692 rms=0.2322",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-1-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-1-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-1-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-1-local-mobile.png"
+  },
+  "components/page-headers/page-header-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0516, rms=0.2168)",
+      "mobile diff warn (mae=0.0542, rms=0.2114)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0516 rms=0.2168; mobile mae=0.0542 rms=0.2114",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-2-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-2-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-2-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-2-local-mobile.png"
+  },
+  "components/page-headers/page-header-3.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff fail (mae=0.1092, rms=0.1882)",
+      "mobile diff fail (mae=0.1099, rms=0.1982)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.1092 rms=0.1882; mobile mae=0.1099 rms=0.1982",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-3-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-3-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-3-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-3-local-mobile.png"
+  },
+  "components/page-headers/page-header-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0515, rms=0.2084)",
+      "mobile diff warn (mae=0.0635, rms=0.2050)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0515 rms=0.2084; mobile mae=0.0635 rms=0.2050",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-4-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-4-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-4-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-4-local-mobile.png"
+  },
+  "components/page-headers/page-header-5.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff fail (mae=0.1287, rms=0.2066)",
+      "mobile diff fail (mae=0.1211, rms=0.2112)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.1287 rms=0.2066; mobile mae=0.1211 rms=0.2112",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-5-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-5-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-5-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/page-headers__page-header-5-local-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff warn (mae=0.0293, rms=0.1604)",
+      "mobile diff warn (mae=0.0567, rms=0.2189)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0293 rms=0.1604; mobile mae=0.0567 rms=0.2189",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-1-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-1-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-1-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-1-local-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-10.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff fail (mae=0.1127, rms=0.1715)",
+      "mobile diff fail (mae=0.1206, rms=0.2024)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.1127 rms=0.1715; mobile mae=0.1206 rms=0.2024",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-10-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-10-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-10-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-10-local-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-11.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff warn (mae=0.0945, rms=0.1609)",
+      "mobile diff fail (mae=0.1078, rms=0.2032)"
+    ],
+    "notes": "vqc-072 auto-compare desktop mae=0.0945 rms=0.1609; mobile mae=0.1078 rms=0.2032",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-11-figma-desktop.png",
+    "localScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-11-local-desktop.png",
+    "figmaMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-11-figma-mobile.png",
+    "localMobileScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/portfolio-headers__portfolio-header-11-local-mobile.png"
   }
 }
