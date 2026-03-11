@@ -7845,7 +7845,7 @@
     },
     {
       "id": "vqc-084",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/stats-sections/stats-45.html",
@@ -7927,7 +7927,12 @@
           "path": "components/stats-sections/stats-8.html",
           "nodeId": "4174:88379"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 3,
+        "fail": 17
+      }
     },
     {
       "id": "vqc-085",
