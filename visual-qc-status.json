@@ -11151,5 +11151,274 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-445-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-445-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-445-local-mobile.png"
+  },
+  "components/features/layout-446.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button style differs: Figma shows outlined/transparent button, local shows filled dark button",
+      "Secondary button differs: Figma shows text+chevron link style, local shows outlined \"Button \u2192\" style",
+      "Tagline text appears truncated to \"Tagl\" in local vs full \"Tagline\" in Figma",
+      "Image placeholders have different aspect ratios - Figma shows taller images, local shows shorter/squarer",
+      "Images in Figma are offset vertically (staggered), local shows both at same height",
+      "Excessive vertical spacing between text section and image section in local compared to Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-446-figma.png",
+    "localDesktop": "relume-visual-qc/layout-446-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-446-local-mobile.png"
+  },
+  "components/features/layout-447.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows 3 images: one large left, one small top-right, one large bottom-right; local desktop shows only 2 equal images side by side",
+      "Right-side image layout completely wrong - Figma has stacked small+large, local has two equal-width placeholders",
+      "Second right image missing background/size in local - appears as tiny icon without container",
+      "Primary button style differs: Figma outlined vs local filled dark",
+      "Secondary button style differs: Figma text+chevron vs local outlined \"Button \u2192\"",
+      "Tagline truncated to \"Tagl\" in local"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-447-figma.png",
+    "localDesktop": "relume-visual-qc/layout-447-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-447-local-mobile.png"
+  },
+  "components/features/layout-448.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button style differs: Figma outlined vs local filled dark",
+      "Secondary button style differs: Figma text+chevron vs local outlined \"Button \u2192\"",
+      "Image layout differs: Figma shows large right image + smaller left image below; local image section positioning differs"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-448-figma.png",
+    "localDesktop": "relume-visual-qc/layout-448-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-448-local-mobile.png"
+  },
+  "components/features/layout-449.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button style differs: Figma outlined vs local filled dark",
+      "Secondary button style differs: Figma text+chevron vs local outlined \"Button \u2192\"",
+      "Image proportions and stagger differ slightly from Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-449-figma.png",
+    "localDesktop": "relume-visual-qc/layout-449-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-449-local-mobile.png"
+  },
+  "components/features/layout-45.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows dark background with text columns; local shows white page with only buttons",
+      "Tagline, heading and paragraph are missing",
+      "Layout structure is broken on desktop and mobile"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-45-figma.png",
+    "localDesktop": "relume-visual-qc/layout-45-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-45-local-mobile.png"
+  },
+  "components/features/layout-450.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button style differs: Figma outlined vs local filled dark",
+      "Secondary button style differs: Figma text+chevron vs local outlined \"Button \u2192\"",
+      "Image gap and left image proportion differ from Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-450-figma.png",
+    "localDesktop": "relume-visual-qc/layout-450-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-450-local-mobile.png"
+  },
+  "components/features/layout-451.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop text content missing (tagline/heading/paragraph/buttons) with only image placeholder visible",
+      "Mobile screenshot is blank/empty",
+      "Expected 3-image + text structure from Figma is not rendered"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-451-figma.png",
+    "localDesktop": "relume-visual-qc/layout-451-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-451-local-mobile.png"
+  },
+  "components/features/layout-452.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop text content missing with only image placeholder visible",
+      "Mobile screenshot is blank/empty",
+      "Expected 2-image staggered + text structure not rendered"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-452-figma.png",
+    "localDesktop": "relume-visual-qc/layout-452-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-452-local-mobile.png"
+  },
+  "components/features/layout-453.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch (filled+outlined locally vs outline+text-link in Figma)",
+      "Image grid mismatch: expected asymmetric 2-image grid, local shows fewer/incorrectly positioned images"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-453-figma.png",
+    "localDesktop": "relume-visual-qc/layout-453-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-453-local-mobile.png"
+  },
+  "components/features/layout-454.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch",
+      "Expected asymmetric image composition; local renders two equal side-by-side placeholders"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-454-figma.png",
+    "localDesktop": "relume-visual-qc/layout-454-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-454-local-mobile.png"
+  },
+  "components/features/layout-455.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch",
+      "Figma balanced two-image layout; local uses asymmetric small/large layout"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-455-figma.png",
+    "localDesktop": "relume-visual-qc/layout-455-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-455-local-mobile.png"
+  },
+  "components/features/layout-456.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch",
+      "Expected 3-image composition; local second/third image placement is cut off/incorrect"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-456-figma.png",
+    "localDesktop": "relume-visual-qc/layout-456-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-456-local-mobile.png"
+  },
+  "components/features/layout-457.html": {
+    "status": "fail",
+    "desktopStatus": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile screenshot is blank/empty (no content rendered)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-457-figma.png",
+    "localDesktop": "relume-visual-qc/layout-457-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-457-local-mobile.png"
+  },
+  "components/features/layout-458.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile tagline appears clipped (\"Tagl\")",
+      "Mobile tabs/spacing differ from Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-458-figma.png",
+    "localDesktop": "relume-visual-qc/layout-458-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-458-local-mobile.png"
+  },
+  "components/features/layout-459.html": {
+    "status": "fail",
+    "desktopStatus": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile screenshot is blank/empty (no content rendered)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-459-figma.png",
+    "localDesktop": "relume-visual-qc/layout-459-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-459-local-mobile.png"
+  },
+  "components/features/layout-46.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/layout-46-figma.png",
+    "localDesktop": "relume-visual-qc/layout-46-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-46-local-mobile.png"
+  },
+  "components/features/layout-460.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile tagline appears clipped (\"Tagl\")",
+      "Mobile tabs/spacing differ from Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-460-figma.png",
+    "localDesktop": "relume-visual-qc/layout-460-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-460-local-mobile.png"
+  },
+  "components/features/layout-461.html": {
+    "status": "fail",
+    "desktopStatus": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile screenshot is blank/empty (no content rendered)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-461-figma.png",
+    "localDesktop": "relume-visual-qc/layout-461-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-461-local-mobile.png"
+  },
+  "components/features/layout-462.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Expected right-side images are missing on desktop and mobile",
+      "Layout structure differs significantly from Figma",
+      "Button styling/placement differs"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-462-figma.png",
+    "localDesktop": "relume-visual-qc/layout-462-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-462-local-mobile.png"
+  },
+  "components/features/layout-463.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline appears clipped (\"Tagl\")",
+      "Button style differs from Figma reference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/layout-463-figma.png",
+    "localDesktop": "relume-visual-qc/layout-463-local-desktop.png",
+    "localMobile": "relume-visual-qc/layout-463-local-mobile.png"
   }
 }
