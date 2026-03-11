@@ -5481,5 +5481,304 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-102-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-102-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-102-local-mobile.png"
+  },
+  "components/features/layout-103.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Geen responsive stacking op mobiel (desktop=mobiel)",
+      "Iconen lege cirkels i.p.v. design icons",
+      "Video placeholder verkeerde kleur (lichtgrijs i.p.v. donkergrijs), play-button ontbreekt",
+      "Button stijl mismatch: primary filled i.p.v. outlined, secondary bordered i.p.v. text-link",
+      "Tagline tekst afgekapt ('Taglir')"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a00097e8-e168-4dc1-9ba6-217fafc58d22",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-103-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-103-local-mobile.png"
+  },
+  "components/features/layout-104.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Geen responsive stacking op mobiel (desktop=mobiel)",
+      "Iconen lege cirkels i.p.v. design icons",
+      "Video placeholder verkeerde kleur, play-button ontbreekt",
+      "Top-padding ontbreekt"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/37b4d1cf-880d-43be-ab94-88d29973cd80",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-104-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-104-local-mobile.png"
+  },
+  "components/features/layout-105.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image niet full-width (slechts ~35% breedte)",
+      "Checkmark-iconen zijn lege cirkels",
+      "Button stijl omgewisseld (filled vs outlined)",
+      "Geen responsive breakpoint (desktop=mobiel)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5dfbc555-2aa5-44f2-8a40-feda9d34a0e5",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-105-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-105-local-mobile.png"
+  },
+  "components/features/layout-106.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image niet full-width (slechts ~35% breedte)",
+      "Checkmark-iconen zijn lege cirkels",
+      "Geen responsive breakpoint (desktop=mobiel)",
+      "Top-padding ontbreekt"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0326f9c8-ac7e-40e9-a704-f9c18d07ab01",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-106-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-106-local-mobile.png"
+  },
+  "components/features/layout-107.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen lege cirkels i.p.v. globe-iconen",
+      "Video placeholder verkeerde kleur, play-button ontbreekt, hoogte te klein",
+      "Button stijl omgewisseld (filled vs outline)",
+      "Geen responsive stacking op mobiel"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/19a95e07-e671-4b32-8d74-09a23e8cbd0d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-107-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-107-local-mobile.png"
+  },
+  "components/features/layout-108.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen lege cirkels i.p.v. globe-iconen",
+      "Video placeholder verkeerde kleur, play-button ontbreekt",
+      "Geen responsive stacking op mobiel"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4a4798e0-98ca-47ab-a2d0-bf1af81a6513",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-108-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-108-local-mobile.png"
+  },
+  "components/features/layout-109.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image niet full-width (slechts ~1/3 breedte)",
+      "Bullet points ontbreken (platte tekst)",
+      "Button stijl afwijkend",
+      "Geen responsive breakpoint (desktop=mobiel)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8b717121-b2dd-47e5-ad96-a243e439c467",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-109-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-109-local-mobile.png"
+  },
+  "components/features/layout-11.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen lege cirkels i.p.v. kubus-iconen",
+      "Video/image te klein, geen play-button",
+      "Mobiel toont compleet ander component (timeline/stepper)",
+      "Button stijl afwijkend",
+      "Tagline afgekapt"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/92f50a62-4997-4cc1-85ff-47ba2ba0e49c",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-11-local-mobile.png"
+  },
+  "components/features/layout-110.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image niet full-width (slechts ~1/3 breedte)",
+      "Bullet points ontbreken",
+      "Top-padding ontbreekt",
+      "Mobiel volledig leeg/wit scherm"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7c6a95ac-3062-439d-b386-500ac0c8f22f",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-110-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-110-local-mobile.png"
+  },
+  "components/features/layout-111.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel volledig leeg/wit scherm",
+      "Video play-button ontbreekt, verkeerde kleur placeholder",
+      "Bullet points ontbreken",
+      "Tagline afgekapt ('Taglir')",
+      "Button stijl afwijkend"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/402714db-0d58-4f70-8f71-3c95f067d212",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-111-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-111-local-mobile.png"
+  },
+  "components/features/layout-112.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel volledig leeg/wit scherm",
+      "Video play-button ontbreekt desktop",
+      "Bullet points ontbreken desktop",
+      "Top-padding ontbreekt desktop"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/77e103e1-8e61-4a57-bf6a-740912da73e6",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-112-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-112-local-mobile.png"
+  },
+  "components/features/layout-113.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel volledig leeg/wit scherm",
+      "Icoon laadt niet (lege cirkel)",
+      "Image niet full-width (~1/3 breedte)",
+      "Button icoon afwijkend (\u2192 vs chevron)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/dad3ecd6-efe7-4e77-9a3d-127bd3b6c484",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-113-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-113-local-mobile.png"
+  },
+  "components/features/layout-114.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel volledig leeg/wit scherm",
+      "Icoon lege cirkel i.p.v. kubus",
+      "Image niet full-width (~1/3 breedte)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/533a4c41-b2ea-4db7-9e6d-a786b7977c2f",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-114-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-114-local-mobile.png"
+  },
+  "components/features/layout-115.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon lege cirkel i.p.v. kubus",
+      "Button stijl afwijkend (filled vs outlined, pijl vs chevron)",
+      "Video placeholder lichtgrijs i.p.v. donkergrijs, play-button ontbreekt, kleinere breedte",
+      "Geen responsive stacking zichtbaar (desktop=mobiel)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ff51ef1c-f3fa-4e1b-bbe0-d980e5ef7dea",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-115-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-115-local-mobile.png"
+  },
+  "components/features/layout-116.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobiel volledig leeg/wit scherm",
+      "Icoon lege cirkel i.p.v. kubus desktop",
+      "Image hoogte te klein, play-button ontbreekt desktop"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f8e70b9a-691a-44df-9c77-27231370b022",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-116-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-116-local-mobile.png"
+  },
+  "components/features/layout-117.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image niet full-width desktop (~1/3 breedte)",
+      "Button stijl afwijkend desktop",
+      "Mobiel: image ontbreekt volledig",
+      "Mobiel: buttons volledig verkeerde stijl (filled full-width)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8dfadae9-63dd-4a2b-a4e4-819e50517bb9",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-117-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-117-local-mobile.png"
+  },
+  "components/features/layout-118.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image niet full-width (slechts ~1/3 breedte)",
+      "Top-padding ontbreekt",
+      "Geen responsive breakpoint (desktop=mobiel)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3b3895a0-b512-462a-9e2f-eabeb736010d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-118-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-118-local-mobile.png"
+  },
+  "components/features/layout-119.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video play-button ontbreekt, placeholder verkeerde kleur (lichtgrijs i.p.v. donkergrijs)",
+      "Button stijl afwijkend (filled vs outlined)",
+      "Geen responsive breakpoint (desktop=mobiel)",
+      "Top-padding ontbreekt"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6322d9ca-87f6-4f9d-baef-4384b9cf2eda",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-119-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-119-local-mobile.png"
+  },
+  "components/features/layout-12.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen volledig verkeerd (lege cirkels i.p.v. kubus-iconen)",
+      "Afbeelding hoogte te klein",
+      "Geen responsive stacking op mobiel",
+      "Top-padding ontbreekt"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/cf16f70d-d1dc-4e83-8e63-98c8933f0cdd",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-12-local-mobile.png"
+  },
+  "components/features/layout-120.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video play-button ontbreekt",
+      "Afbeelding hoogte te klein (~30% i.p.v. ~60% sectie)",
+      "Top-padding ontbreekt",
+      "Geen responsive stacking zichtbaar (desktop=mobiel)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b2cbead7-1b0a-4468-83e4-d1336e78bb49",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-120-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-120-local-mobile.png"
   }
 }
