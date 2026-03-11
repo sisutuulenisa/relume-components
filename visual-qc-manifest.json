@@ -6768,7 +6768,7 @@
     },
     {
       "id": "vqc-074",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/portfolio-sections/portfolio-13.html",
@@ -6850,7 +6850,13 @@
           "path": "components/pricing/pricing-1.html",
           "nodeId": "4174:46122"
         }
-      ]
+      ],
+      "results": {
+        "ok": 7,
+        "warn": 11,
+        "fail": 2,
+        "checkedAt": "2026-03-11"
+      }
     },
     {
       "id": "vqc-075",
