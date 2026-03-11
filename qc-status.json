@@ -8190,5 +8190,705 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "batch-012 fixed"
+  },
+  "components/pages/features/layout-355.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-356.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-357.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-358.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-359.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-36.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-360.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-361.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-362.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-363.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-364.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-365.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-366.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-367.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-368.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-369.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-37.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-370.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-371.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-372.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-373.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-374.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-375.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-376.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-377.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-378.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-379.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-38.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-380.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-381.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-382.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-383.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-384.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-385.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-386.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-387.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-388.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-389.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-39.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-390.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-391.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-392.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-393.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-394.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-395.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-396.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-397.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-398.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-399.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-40.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-400.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-401.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-402.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-403.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-404.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-405.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-406.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-407.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-408.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-409.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-41.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-410.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-411.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-412.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-413.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-414.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-415.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-416.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-417.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-418.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-419.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-42.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-420.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-421.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-422.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-423.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-424.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-425.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-426.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-427.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-428.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-429.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-43.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-430.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-431.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-432.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-433.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-434.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-435.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-436.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-437.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-438.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-439.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-44.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-440.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-441.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-442.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-443.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/features/layout-444.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
   }
 }
