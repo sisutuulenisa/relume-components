@@ -6172,7 +6172,13 @@
           "path": "components/multi-step-forms/multi-form-3.html",
           "nodeId": "4174:91506"
         }
-      ]
+      ],
+      "results": {
+        "ok": 17,
+        "warn": 1,
+        "fail": 2,
+        "checkedAt": "2026-03-11"
+      }
     },
     {
       "id": "vqc-069",
