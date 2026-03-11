@@ -113,7 +113,7 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: CDN Tailwind, CTA button width fixed (w-1/12 \u2192 auto), button text kleur wit"
+    "note": "gefixed: CDN Tailwind, CTA button width fixed (w-1/12 → auto), button text kleur wit"
   },
   "components/contact/contact-1.html": {
     "status": "warn",
@@ -171,10 +171,11 @@
     "note": "gefixed: herschreven met CDN Tailwind, 4 stat cards + header row + filter tabs"
   },
   "components/headers/header-44.html": {
-    "status": "warn",
-    "mobileStatus": "ok",
-    "checkedAt": "2026-03-10",
-    "note": "Desktop veel lege ruimte; mobiel leesbaar."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "vqc-056: vqc-056: matcht Figma op desktop/mobiel, enkel minieme spacingverschillen."
   },
   "components/pages/features/layout-79.html": {
     "status": "warn",
@@ -280,7 +281,7 @@
   "components/faq/faq-10.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
-    "note": "Twee-koloms layout functioneel, accordions allemaal open (standaard zou er \u00e9\u00e9n open zijn), overflow onderaan."
+    "note": "Twee-koloms layout functioneel, accordions allemaal open (standaard zou er één open zijn), overflow onderaan."
   },
   "components/blog-headers/blog-27.html": {
     "status": "ok",
@@ -999,700 +1000,700 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl; screenshot ok"
   },
   "components/pages/event-sections/event-8.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/event-sections/event-9.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-1.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-10.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl; screenshot ok"
   },
   "components/pages/faq/faq-11.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-12.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-13.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-14.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-2.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-3.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-4.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-5.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl; screenshot ok"
   },
   "components/pages/faq/faq-6.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-7.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-8.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/faq/faq-9.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-1.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-10.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-100.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-101.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-102.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-103.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-104.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-105.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-106.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-107.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-108.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-109.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-11.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-110.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-111.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-112.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-113.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-114.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-115.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-116.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-117.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-118.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-119.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-12.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-120.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-121.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-122.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-123.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-124.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-125.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl; screenshot ok"
   },
   "components/pages/features/layout-126.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-127.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-128.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-129.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-13.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-130.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-131.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-132.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-133.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-134.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-135.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-136.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-137.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-138.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-139.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-14.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-140.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-141.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-142.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-143.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-144.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-145.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-146.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-147.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-148.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-149.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-15.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-150.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-151.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-152.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-153.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-154.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-155.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-156.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-157.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-158.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-159.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-16.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-160.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-161.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-162.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-163.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-164.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-165.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-166.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-167.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-168.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-169.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-17.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-170.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-171.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-172.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl"
   },
   "components/pages/features/layout-173.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+    "note": "gefixed: <div>→<article>, container mx-auto px-6→max-w-screen-xl; screenshot ok"
   },
   "components/pages/careers/career-10.html": {
     "status": "ok",
@@ -4699,700 +4700,700 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-446.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-447.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-448.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-449.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-45.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-450.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-451.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-452.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-453.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-454.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-455.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-456.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-457.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-458.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-459.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-46.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-460.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-461.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-462.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-463.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-464.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-465.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-466.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-467.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-468.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-469.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-47.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-470.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-471.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-472.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-473.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-474.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-475.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-476.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-477.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-478.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-479.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-48.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-480.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-481.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-482.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-483.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-484.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-485.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-486.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-487.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-488.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-489.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-49.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-490.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-491.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-492.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-493.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-494.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-495.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-496.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-497.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-498.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-499.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-5.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-50.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-500.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-501.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-502.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-503.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-504.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-505.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-506.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-507.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-508.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-509.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-51.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-510.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-511.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-512.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-513.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-514.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-515.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-516.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-517.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-518.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-519.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-52.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-520.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-521.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-522.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-523.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-524.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-525.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-526.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-527.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-528.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-529.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-53.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-530.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-531.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-532.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-533.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-534.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "root\u2192article, container fixed, closing tag fixed"
+    "note": "root→article, container fixed, closing tag fixed"
   },
   "components/pages/features/layout-535.html": {
     "status": "ok",
@@ -21215,60 +21216,60 @@
     "note": "batch-032 fixed"
   },
   "components/headers/header-45.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-056: Email input rendert foutief als klein rond element i.p.v. invoerveld."
   },
   "components/headers/header-46.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Component rendert leeg; heading/tekst ontbreken."
   },
   "components/headers/header-47.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Verkeerde layoutrichting en ontbrekende image-collage; wijkt sterk af van Figma."
   },
   "components/headers/header-48.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Component rendert leeg; content ontbreekt."
   },
   "components/headers/header-49.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Component rendert leeg; content ontbreekt."
   },
   "components/headers/header-50.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-056: Structuur aanwezig maar input/tagline renderfouten en typografische afwijkingen."
   },
   "components/headers/header-51.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Dark hero ontbreekt; enkel knoppen zichtbaar."
   },
   "components/headers/header-52.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Volledig verkeerde placeholder-sectie t.o.v. Figma hero met form/background."
   },
   "components/headers/header-53.html": {
     "status": "ok",
@@ -21565,11 +21566,11 @@
     "note": "vqc-055 auto-compare rms=0.1348"
   },
   "components/gallery/gallery-9.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-056: Desktop grid proporties wijken af van Figma; asymmetrische bento-layout ontbreekt."
   },
   "components/templates/about-pages/about-1.html": {
     "status": "ok",
@@ -23714,74 +23715,74 @@
     "note": "batch-037 fixed"
   },
   "components/grid-lists/grid-list-1.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Cards renderen niet: content/controls ontbreken, enkel minimale tekst zichtbaar."
   },
   "components/grid-lists/grid-list-10.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Course cards kapot: thumbnails/metadata/CTA ontbreken."
   },
   "components/grid-lists/grid-list-2.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Cardlayout ontbreekt; enkel naamlabels zichtbaar zonder avatar/inhoud."
   },
   "components/grid-lists/grid-list-3.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Cardlayout ontbreekt; profielinhoud en acties ontbreken."
   },
   "components/grid-lists/grid-list-4.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Project cards renderen niet volledig; enkel titels zichtbaar."
   },
   "components/grid-lists/grid-list-5.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Property cards renderen niet; afbeeldingen/details/CTA ontbreken."
   },
   "components/grid-lists/grid-list-6.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-056: Basale structuur aanwezig maar spacing/truncatie/icon- en CTA-afsnijding wijkt af."
   },
   "components/grid-lists/grid-list-7.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Job cards grotendeels stuk: ontbrekende iconen/labels en verkeerde knop-/layoutweergave."
   },
   "components/grid-lists/grid-list-8.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Joblist cards ontbreken; enkel titelregels zichtbaar."
   },
   "components/grid-lists/grid-list-9.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-037 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-056: Course list sterk afwijkend met ontbrekende metadata/controls."
   },
   "components/stacked-lists/stacked-list-1.html": {
     "status": "ok",
