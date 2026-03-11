@@ -4729,7 +4729,7 @@
     },
     {
       "id": "vqc-053",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/footers/footer-12.html",
@@ -4906,7 +4906,7 @@
     },
     {
       "id": "vqc-055",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/gallery/gallery-15.html",
@@ -4992,7 +4992,7 @@
     },
     {
       "id": "vqc-056",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/gallery/gallery-9.html",
@@ -5078,7 +5078,7 @@
     },
     {
       "id": "vqc-057",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/headers/header-53.html",
