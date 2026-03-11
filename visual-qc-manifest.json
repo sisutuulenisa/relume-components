@@ -6187,7 +6187,7 @@
     },
     {
       "id": "vqc-069",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/multi-step-forms/multi-form-30.html",
@@ -6269,7 +6269,12 @@
           "path": "components/multi-step-forms/multi-form-6.html",
           "nodeId": "4174:92383"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 12,
+        "fail": 8
+      }
     },
     {
       "id": "vqc-070",
@@ -6628,7 +6633,7 @@
     },
     {
       "id": "vqc-074",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/portfolio-sections/portfolio-13.html",
