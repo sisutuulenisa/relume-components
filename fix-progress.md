@@ -304,3 +304,33 @@
 - [x] card-header-1 ✅
 - [x] card-header-2 ✅
 
+
+## components/careers/
+- [x] career-1 ✅
+- [x] career-10 ✅
+- [x] career-11 ✅
+- [x] career-12 ✅
+- [x] career-13 ✅
+- [x] career-14 ✅
+- [x] career-15 ✅
+- [x] career-16 ✅
+- [x] career-17 ✅
+- [x] career-18 ✅
+- [x] career-19 ✅
+- [x] career-2 ✅
+- [x] career-20 ✅
+- [x] career-21 ✅
+- [x] career-22 ✅
+- [x] career-23 ✅
+- [x] career-24 ✅
+- [x] career-25 ✅
+- [x] career-26 ✅
+- [x] career-27 ✅
+- [x] career-3 ✅
+- [x] career-4 ✅
+- [x] career-5 ✅
+- [x] career-6 ✅
+- [x] career-7 ✅
+- [x] career-8 ✅
+- [x] career-9 ✅
+
