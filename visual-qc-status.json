@@ -5780,5 +5780,288 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b2cbead7-1b0a-4468-83e4-d1336e78bb49",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-120-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-120-local-mobile.png"
+  },
+  "components/features/layout-14.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated in local ('Tagl' instead of 'Tagline')",
+      "Logo/brand icons show as broken image placeholders instead of Webflow/Relume logos",
+      "Video placeholder is light gray with broken image icon instead of dark gray with play button",
+      "Button styles differ: Figma has outline button, local has filled dark primary button",
+      "Secondary button shows 'Button \u2192' with border instead of 'Button >' without border"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/875d7eec-5e80-4751-9e60-4bf8718a707f",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-14-local-mobile.png"
+  },
+  "components/features/layout-140.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styles differ: Figma shows outline-only buttons, local has filled dark primary button and outlined secondary",
+      "Minor spacing/padding differences at top"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/33918ee8-ab34-4b44-97a3-c9195d3ce1bb",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-140-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-140-local-mobile.png"
+  },
+  "components/features/layout-141.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styles differ: Figma has outline button + text link, local has filled dark primary button and outlined secondary",
+      "Image placeholder lighter/smaller in local vs full-width darker gray in Figma",
+      "Image width in desktop local appears narrower (~60%) compared to Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/cab6d73e-ce71-4a54-813d-0e7361f4876f",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-141-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-141-local-mobile.png"
+  },
+  "components/features/layout-142.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image area in local desktop appears narrower (~60%) compared to Figma full-width placeholder",
+      "Placeholder image styling differs slightly"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3b4534ac-65ac-41bd-8c57-15c60235a363",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-142-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-142-local-mobile.png"
+  },
+  "components/features/layout-143.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styles differ: Figma has outline button + text link, local has filled dark primary + outlined secondary",
+      "Video area: Figma shows dark gray with play button, local shows light gray placeholder with broken image icon"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/078848ae-59c3-4922-9a3f-3e6ba39d638f",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-143-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-143-local-mobile.png"
+  },
+  "components/features/layout-144.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows gray video placeholder with play button; local shows light gray placeholder with broken image icon",
+      "Video/image area significantly shorter in local vs Figma",
+      "Missing play button overlay in local implementation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6c20ee34-909c-4856-a479-06a29c4eafa1",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-144-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-144-local-mobile.png"
+  },
+  "components/features/layout-145.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styles differ: Figma has outline/text-link style, local has filled dark primary + outlined secondary",
+      "Figma shows cube icon; local shows broken image placeholder",
+      "Image area narrower/smaller than Figma's full-width placeholder"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d19894e7-f9ce-4b39-97dc-70c613cd71ae",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-145-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-145-local-mobile.png"
+  },
+  "components/features/layout-146.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows filled cube icon; local shows empty circle/ring icon - icon mismatch",
+      "Figma image area is full-width; local image is narrower and centered",
+      "Image placeholder height differs"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/51327a74-88c6-470e-a25c-541e79c012d0",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-146-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-146-local-mobile.png"
+  },
+  "components/features/layout-147.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styles differ: Figma has outline/text-link style, local has filled dark primary + outlined secondary",
+      "Figma shows cube icon; local shows broken image placeholder",
+      "Figma video area has gray background with play button; local shows full-width light gray placeholder"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/33f02020-4678-400d-a707-2b7431f264f0",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-147-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-147-local-mobile.png"
+  },
+  "components/features/layout-148.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows filled cube icon; local shows empty circle/ring icon - icon mismatch",
+      "Figma video area is tall gray with play button; local shows shorter light gray placeholder",
+      "Missing play button overlay in local",
+      "Image area significantly shorter in local"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4b9cb092-7dd2-4d36-bd9a-a7055433667a",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-148-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-148-local-mobile.png"
+  },
+  "components/features/layout-149.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo icons not rendering - showing broken image placeholders instead of Webflow/Relume logos",
+      "Button styles differ: Figma has outline button + text link, local has filled dark button + outlined button",
+      "Image placeholder smaller/narrower than Figma's full-width image area"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/768dd5d9-55e0-4531-ac1d-e3f3dacf7141",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-149-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-149-local-mobile.png"
+  },
+  "components/features/layout-15.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo icons not rendering - showing broken image placeholders instead of Webflow/Relume logos",
+      "Image placeholder significantly smaller with rounded corners vs Figma's larger full-height image",
+      "Large empty whitespace below content area on desktop"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5f764c50-fdff-4f78-bb68-bbf50bb9a493",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-15-local-mobile.png"
+  },
+  "components/features/layout-150.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo icons not rendering - showing broken image placeholders instead of Webflow/Relume logos",
+      "Image placeholder smaller/narrower than Figma's full-width image area",
+      "Image area has rounded corners in local vs sharp corners in Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ed25ccc7-cf05-410a-b398-c755f4b94cd7",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-150-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-150-local-mobile.png"
+  },
+  "components/features/layout-151.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo icons not rendering - showing broken image placeholders instead of Webflow/Relume logos",
+      "Button styles differ: Figma has outline button + text link, local has filled dark button + outlined button",
+      "Video placeholder missing play button icon in local; plain gray placeholder vs Figma's dark overlay"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f4d623f1-a42a-4f37-9249-6c26235ee25d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-151-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-151-local-mobile.png"
+  },
+  "components/features/layout-152.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo icons not rendering - showing broken image placeholders instead of Webflow/Relume logos",
+      "Video/image placeholder much shorter in height compared to Figma's tall video area with play button",
+      "Missing play button overlay on video placeholder",
+      "Image area has rounded corners in local vs Figma design"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/234c0414-ae57-4f01-a1d2-863229163ada",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-152-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-152-local-mobile.png"
+  },
+  "components/features/layout-153.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styles differ: Figma has outline button + text link, local has dark filled button + outline button",
+      "Image placeholder not full-width in local - narrower than Figma design",
+      "Image placeholder background color lighter in local vs Figma's darker gray"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1a5cc95f-e40e-4e43-a3e8-ddf7e605cdb3",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-153-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-153-local-mobile.png"
+  },
+  "components/features/layout-154.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styles differ: Figma has outline button + text link, local has dark filled button + outline button",
+      "Image placeholder much shorter/smaller vs Figma's tall video placeholder area",
+      "Figma shows video play button overlay, local shows small image placeholder on light gray",
+      "Image area not full-width in local"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9d74e992-460e-4a09-86a9-7d5e36e04e49",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-154-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-154-local-mobile.png"
+  },
+  "components/features/layout-155.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-width - narrower centered block vs Figma's wide image area",
+      "Image placeholder background lighter in local vs Figma's darker gray",
+      "Button styles differ: Figma has outline button + text link, local has dark filled button + outline button"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4a15f5cf-9210-40af-945c-67ec743b8f6a",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-155-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-155-local-mobile.png"
+  },
+  "components/features/layout-156.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-width - narrower centered block vs Figma's wide image area",
+      "Image area height significantly shorter in local vs Figma",
+      "Image placeholder background lighter in local"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f455cf0a-e341-41c1-85d3-ee78372b10cc",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-156-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-156-local-mobile.png"
+  },
+  "components/features/layout-157.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows video with play button on dark gray background, local shows light gray image placeholder",
+      "Video/image area much shorter in local vs Figma's tall video area",
+      "Button styles differ: Figma has outline button + text link, local has dark filled button + outline button",
+      "Image area not full-width in local"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b289abd4-14a5-4e07-a77a-0c44d92b002e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-157-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-157-local-mobile.png"
   }
 }
