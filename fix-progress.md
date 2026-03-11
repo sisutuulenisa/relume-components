@@ -411,3 +411,11 @@
 - [x] contact-4 ✅
 - [x] contact-5 ✅
 
+
+## components/cookie-consent/
+- [x] cookie-1 ✅
+- [x] cookie-2 ✅
+- [x] cookie-3 ✅
+- [x] cookie-4 ✅
+- [x] cookie-5 ✅
+
