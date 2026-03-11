@@ -8723,5 +8723,322 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-300-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-300-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-300-local-mobile.png"
+  },
+  "components/features/layout-301.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing image placeholders (grey image boxes absent)",
+      "Missing per-card description text",
+      "Missing 'Button >' per-card links",
+      "Renders as tab-bar instead of feature card grid",
+      "No responsive adaptation (desktop = mobile)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-301-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-301-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-301-local-mobile.png"
+  },
+  "components/features/layout-302.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing cube/box icons",
+      "Missing per-card description text",
+      "Missing per-card headings below icons",
+      "Wrong button style: dark filled instead of outlined; arrow '\u2192' instead of '>'",
+      "Tab-bar replaces icon+heading+description grid",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-302-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-302-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-302-local-mobile.png"
+  },
+  "components/features/layout-303.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing cube icons",
+      "Missing per-card descriptions",
+      "Missing per-card 'Button >' links",
+      "Content area below tabs is empty",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-303-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-303-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-303-local-mobile.png"
+  },
+  "components/features/layout-304.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing inline cube icons",
+      "Missing per-card headings and descriptions",
+      "Wrong button style: dark filled + '\u2192' instead of outlined 'Button' + '>'",
+      "Icon-beside-heading layout not implemented",
+      "Content area below tabs empty"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-304-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-304-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-304-local-mobile.png"
+  },
+  "components/features/layout-305.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing inline cube icons",
+      "Missing per-card descriptions",
+      "Missing per-card 'Button >' links",
+      "Only tab-bar headings rendered; full card content not displayed"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-305-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-305-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-305-local-mobile.png"
+  },
+  "components/features/layout-306.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 image placeholder boxes missing",
+      "Missing card descriptions",
+      "Wrong button style: dark filled instead of outlined; '\u2192' vs '>'",
+      "Cards render as horizontal text tab row",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-306-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-306-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-306-local-mobile.png"
+  },
+  "components/features/layout-307.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 image placeholders missing",
+      "All 4 card descriptions missing",
+      "All 4 per-card 'Button >' links missing",
+      "Layout reduced to tab-style row; large empty whitespace below"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-307-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-307-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-307-local-mobile.png"
+  },
+  "components/features/layout-308.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline label truncated (only 'Ta' visible)",
+      "Main heading massively oversized \u2014 overflows container",
+      "All 4 cube icons missing",
+      "All 4 feature descriptions missing",
+      "Wrong button style: dark filled + '\u2192' instead of outlined + '>'",
+      "Cards as tab-style row"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-308-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-308-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-308-local-mobile.png"
+  },
+  "components/features/layout-309.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 cube icons missing",
+      "All 4 card descriptions missing",
+      "All 4 per-card 'Button >' links missing",
+      "Top section (heading + description two-column) renders correctly",
+      "Tab-style navigation replaces feature card grid"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-309-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-309-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-309-local-mobile.png"
+  },
+  "components/features/layout-31.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons wrong: empty outline circles instead of cube/box icons",
+      "'Button >' links replaced with full-width dark filled buttons",
+      "Right-side image placeholder differs: small broken-image icon vs large grey placeholder",
+      "Layout proportions off: left content compressed, right image area too small",
+      "No responsive stacking on mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-31-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-31-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-31-local-mobile.png"
+  },
+  "components/features/layout-310.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text clipped/truncated (only 'Ta' visible)",
+      "Main heading massively oversized and overflows container",
+      "Feature cards wrong: tab-like layout instead of icon+heading+body",
+      "All 4 icons missing",
+      "All body text under feature cards missing",
+      "Wrong button styles: dark filled vs outlined; border vs text-link"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-310-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-310-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-310-local-mobile.png"
+  },
+  "components/features/layout-311.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Feature cards rendered as horizontal tab items instead of icon+heading+body+button cards",
+      "All 4 feature icons missing",
+      "All 4 feature body text paragraphs missing",
+      "All 4 per-card 'Button >' links missing",
+      "Large empty whitespace below tab row"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-311-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-311-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-311-local-mobile.png"
+  },
+  "components/features/layout-312.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Ta'",
+      "Main heading oversized and clipped",
+      "All 4 image placeholders missing",
+      "Feature cards shown as tab-like text instead of image+heading+body",
+      "Feature body text missing",
+      "Wrong button styling: dark filled + bordered instead of outlined + text-link"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-312-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-312-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-312-local-mobile.png"
+  },
+  "components/features/layout-313.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 image placeholders missing",
+      "Feature cards displayed as tab-like text row",
+      "All body text under features missing",
+      "All per-card 'Button >' links missing",
+      "Large empty space below tabs"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-313-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-313-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-313-local-mobile.png"
+  },
+  "components/features/layout-314.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Complete rendering failure: shows only pale grey rectangle with tiny broken-image icon",
+      "All text content missing (taglines, headings, body text)",
+      "All buttons missing",
+      "Background image/overlay not rendering",
+      "4-column layout not visible at all"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-314-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-314-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-314-local-mobile.png"
+  },
+  "components/features/layout-315.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background missing",
+      "Only horizontal tab bar with 4 'Tagline' labels visible",
+      "All headings, body text, buttons missing",
+      "Complete structural mismatch: tab/nav instead of 4-column content section"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-315-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-315-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-315-local-mobile.png"
+  },
+  "components/features/layout-316.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background missing",
+      "Only horizontal tab bar with heading labels visible",
+      "Body text paragraphs missing",
+      "'Button >' links missing",
+      "Rendered as tabs instead of 4-column content layout"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-316-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-316-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-316-local-mobile.png"
+  },
+  "components/features/layout-317.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-317-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-317-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-317-local-mobile.png"
+  },
+  "components/features/layout-318.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Shows only single large image placeholder with broken-image icon",
+      "All 4 columns missing",
+      "All cube icons missing",
+      "All headings, body text, buttons missing",
+      "Dark background not rendered",
+      "Complete structural failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-318-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-318-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-318-local-mobile.png"
+  },
+  "components/features/layout-319.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Only tab headers with heading labels visible",
+      "Dark background missing",
+      "All cube icons missing",
+      "All body text missing",
+      "All buttons missing",
+      "Rendered as tab component instead of 4-column feature grid"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-319-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-319-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-319-local-mobile.png"
   }
 }
