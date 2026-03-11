@@ -10505,5 +10505,311 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-427-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-427-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-427-local-mobile.png"
+  },
+  "components/features/layout-392.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles (\u25cb) instead of Figma 3D cube icons",
+      "Heading text overflow/truncation in card 2",
+      "Tab-interface instead of full card content in some cards",
+      "Button style mismatch: filled dark vs text-link with chevron",
+      "'Taglir' typo instead of 'Tagline' in some cards"
+    ],
+    "figmaScreenshot": "layout-392-figma.png",
+    "localDesktop": "layout-392-local-desktop.png",
+    "localMobile": "layout-392-local-mobile.png"
+  },
+  "components/features/layout-393.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles (\u25cb) instead of Figma 3D cube icons",
+      "Tab-interface instead of full card content",
+      "Heading text overflow/truncation in icon cards",
+      "Button style mismatch: filled dark vs text-link with chevron",
+      "'Taglir' typo instead of 'Tagline'"
+    ],
+    "figmaScreenshot": "layout-393-figma.png",
+    "localDesktop": "layout-393-local-desktop.png",
+    "localMobile": "layout-393-local-mobile.png"
+  },
+  "components/features/layout-394.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 3 cards not rendering \u2014 only tab labels visible",
+      "Card content (heading, body, button, image placeholder) completely absent",
+      "Tab-component not initializing card panels"
+    ],
+    "figmaScreenshot": "layout-394-figma.png",
+    "localDesktop": "layout-394-local-desktop.png",
+    "localMobile": "layout-394-local-mobile.png"
+  },
+  "components/features/layout-395.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 3 cards not rendering \u2014 only tab labels visible",
+      "Card content (heading, body, button, image placeholder) completely absent",
+      "Identical issue to layout-394: tab panels not initialized"
+    ],
+    "figmaScreenshot": "layout-395-figma.png",
+    "localDesktop": "layout-395-local-desktop.png",
+    "localMobile": "layout-395-local-mobile.png"
+  },
+  "components/features/layout-396.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Full 3-column card grid not rendering \u2014 only horizontal text list visible",
+      "Icons completely absent",
+      "Body text and button links absent per card",
+      "No responsive stacking on mobile"
+    ],
+    "figmaScreenshot": "layout-396-figma.png",
+    "localDesktop": "layout-396-local-desktop.png",
+    "localMobile": "layout-396-local-mobile.png"
+  },
+  "components/features/layout-397.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "3\u00d72 card grid not rendering \u2014 only 3 tab-like text items visible instead of 6 cards",
+      "Image placeholders completely absent",
+      "Icons absent",
+      "Body text and button links absent"
+    ],
+    "figmaScreenshot": "layout-397-figma.png",
+    "localDesktop": "layout-397-local-desktop.png",
+    "localMobile": "layout-397-local-mobile.png"
+  },
+  "components/features/layout-398.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "3\u00d72 card grid not rendering \u2014 only 3 tab labels visible",
+      "Image placeholders absent",
+      "Icons absent",
+      "Body text and button links absent",
+      "Layout completely wrong: flat row instead of 3\u00d72 grid"
+    ],
+    "figmaScreenshot": "layout-398-figma.png",
+    "localDesktop": "layout-398-local-desktop.png",
+    "localMobile": "layout-398-local-mobile.png"
+  },
+  "components/features/layout-399.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "4-column card grid not rendering \u2014 only 4 'Tagline' tab labels visible",
+      "Image placeholders completely absent",
+      "Body text and button links absent",
+      "No responsive stacking to 1 or 2 columns on mobile"
+    ],
+    "figmaScreenshot": "layout-399-figma.png",
+    "localDesktop": "layout-399-local-desktop.png",
+    "localMobile": "layout-399-local-mobile.png"
+  },
+  "components/features/layout-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated: shows 'Tagl' instead of 'Tagline'",
+      "Button style mismatch: primary button is filled/dark instead of outline; secondary is bordered instead of text-link with chevron",
+      "Image placeholder smaller/shorter than Figma (doesn't fill full right column height)",
+      "No responsive stacking visible on mobile (desktop and mobile screenshots appear identical)"
+    ],
+    "figmaScreenshot": "layout-4-figma.png",
+    "localDesktop": "layout-4-local-desktop.png",
+    "localMobile": "layout-4-local-mobile.png"
+  },
+  "components/features/layout-40.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component renders completely blank/white \u2014 no content visible at all",
+      "Dark grey background from Figma absent",
+      "Heading and paragraph text absent",
+      "Component not rendering"
+    ],
+    "figmaScreenshot": "layout-40-figma.png",
+    "localDesktop": "layout-40-local-desktop.png",
+    "localMobile": "layout-40-local-mobile.png"
+  },
+  "components/features/layout-400.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "4 cards not rendering \u2014 only 4 tab labels visible",
+      "Image placeholders absent in cards",
+      "Button links absent in cards",
+      "Card descriptions absent",
+      "Tabs interface shown instead of cards grid"
+    ],
+    "figmaScreenshot": "layout-400-figma.png",
+    "localDesktop": "layout-400-local-desktop.png",
+    "localMobile": "layout-400-local-mobile.png"
+  },
+  "components/features/layout-401.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "4 cards not rendering \u2014 only 4 tab labels visible",
+      "3D cube icons absent",
+      "Card descriptions absent",
+      "Button links absent",
+      "Structurally wrong: tabs pattern instead of cards grid"
+    ],
+    "figmaScreenshot": "layout-401-figma.png",
+    "localDesktop": "layout-401-local-desktop.png",
+    "localMobile": "layout-401-local-mobile.png"
+  },
+  "components/features/layout-402.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated: shows 'Tagl' instead of 'Tagline'",
+      "Button style mismatch: primary filled/dark instead of outline; secondary bordered with arrow instead of text-link with chevron",
+      "Tab indicator: box/border around active tab instead of underline",
+      "Image placeholder wrong aspect ratio (landscape vs portrait in Figma)",
+      "No responsive stacking on mobile \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "layout-402-figma.png",
+    "localDesktop": "layout-402-local-desktop.png",
+    "localMobile": "layout-402-local-mobile.png"
+  },
+  "components/features/layout-403.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated: shows 'Tagl' instead of 'Tagline'",
+      "Button style mismatch: primary filled/dark instead of outline; secondary bordered instead of text-link with chevron",
+      "Tab indicator: box/border around active tab instead of underline",
+      "Image placeholder much smaller than Figma (Figma shows large portrait)",
+      "No responsive stacking on mobile"
+    ],
+    "figmaScreenshot": "layout-403-figma.png",
+    "localDesktop": "layout-403-local-desktop.png",
+    "localMobile": "layout-403-local-mobile.png"
+  },
+  "components/features/layout-404.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch: primary filled/dark instead of outline; secondary with arrow instead of text-link",
+      "Tab indicator: box/border around active tab instead of underline",
+      "Image placeholder not full-width (~60% of expected width)",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation visible"
+    ],
+    "figmaScreenshot": "layout-404-figma.png",
+    "localDesktop": "layout-404-local-desktop.png",
+    "localMobile": "layout-404-local-mobile.png"
+  },
+  "components/features/layout-405.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-width (~60% of expected width)",
+      "Button style mismatch: primary filled/dark instead of outline",
+      "Tab indicator: box/border around active tab instead of underline",
+      "Screenshot appears cut off at bottom \u2014 content may not be fully visible",
+      "No responsive adaptation on mobile"
+    ],
+    "figmaScreenshot": "layout-405-figma.png",
+    "localDesktop": "layout-405-local-desktop.png",
+    "localMobile": "layout-405-local-mobile.png"
+  },
+  "components/features/layout-406.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "3-column feature row replaced by horizontal tab navigation",
+      "Image not full-width \u2014 shows as small ~1/3 width placeholder",
+      "Feature column text and dividers absent",
+      "No responsive adaptation on mobile"
+    ],
+    "figmaScreenshot": "layout-406-figma.png",
+    "localDesktop": "layout-406-local-desktop.png",
+    "localMobile": "layout-406-local-mobile.png"
+  },
+  "components/features/layout-407.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "3-column feature row completely absent",
+      "Image not full-width \u2014 shows as small ~1/3 width placeholder instead of full-width",
+      "Image cut off at bottom of viewport",
+      "No responsive adaptation on mobile"
+    ],
+    "figmaScreenshot": "layout-407-figma.png",
+    "localDesktop": "layout-407-local-desktop.png",
+    "localMobile": "layout-407-local-mobile.png"
+  },
+  "components/features/layout-408.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading text cut off/truncated behind overlapping image placeholder",
+      "Image placeholder overlaps text column instead of 50/50 split",
+      "Button style mismatch: primary filled/dark instead of outline",
+      "No responsive stacking on mobile (text + image should stack vertically)"
+    ],
+    "figmaScreenshot": "layout-408-figma.png",
+    "localDesktop": "layout-408-local-desktop.png",
+    "localMobile": "layout-408-local-mobile.png"
+  },
+  "components/features/layout-409.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders completely empty/white \u2014 no content visible",
+      "Mobile shows wrong/incomplete content (appears to show layout-408 content)",
+      "Component not properly rendering on desktop",
+      "4-card alternating layout not implemented"
+    ],
+    "figmaScreenshot": "layout-409-figma.png",
+    "localDesktop": "layout-409-local-desktop.png",
+    "localMobile": "layout-409-local-mobile.png"
   }
 }
