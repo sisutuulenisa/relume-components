@@ -2080,7 +2080,7 @@
     },
     {
       "id": "vqc-024",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/features/layout-194.html",
