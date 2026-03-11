@@ -16023,5 +16023,1020 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "batch-023 fixed"
+  },
+  "components/application/application-shells/application-shell-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/application-shells/application-shell-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/card-headers/card-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/card-headers/card-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/description-lists/description-list-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/description-lists/description-list-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/description-lists/description-list-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/description-lists/description-list-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/forms/form-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/grid-lists/grid-list-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/onboarding-forms/onboarding-form-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/page-headers/page-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/page-headers/page-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/page-headers/page-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/page-headers/page-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/page-headers/page-header-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/section-headers/section-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/section-headers/section-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/section-headers/section-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/section-headers/section-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/level-badge-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/level-badge-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/level-badge.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sidebars/sidebar-sits-beside-a-level-1-topbar-includes-a-company-logo-but-does-not-have-search-or-a-user-avatar.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-modals/login-modal-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-modals/login-modal-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-modals/sign-up-modal-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-modals/sign-up-modal-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-modals/sign-up-modal-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-024 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/login-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/sign-up-and-log-in-pages/sign-up-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/stacked-lists/stacked-list-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/tables/table-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/level-badge-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/level-badge-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/level-badge-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/level-badge.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/topbar-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/topbar-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/topbar-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/topbar-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/topbar-should-be-used-alone-and-features-company-logo-and-nav-links.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/topbar-sits-beside-a-level-2-sidebar-does-not-include-company-logo-or-nav-links-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
+  },
+  "components/application/topbars/topbar-sits-beside-a-level-2-sidebar-does-not-include-company-logo-or-nav-links.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-025 fixed"
   }
 }
