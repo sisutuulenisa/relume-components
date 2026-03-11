@@ -3611,5 +3611,292 @@
     "figmaScreenshot": "relume-visual-qc/cta-12-figma.png",
     "localDesktop": "relume-visual-qc/cta-12-local-desktop.png",
     "localMobile": "relume-visual-qc/cta-12-local-mobile.png"
+  },
+  "components/cta-new/cta-31.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders completely blank \u2014 no heading, description, buttons or image visible",
+      "Mobile renders wrong component content (Sign Up form elements)"
+    ],
+    "figmaScreenshot": "cta-31-figma.png",
+    "localDesktop": "cta-31-local-desktop.png",
+    "localMobile": "cta-31-local-mobile.png"
+  },
+  "components/cta-new/cta-32.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input field broken \u2014 renders as small circle instead of text input",
+      "Image placeholder not full-width (narrower than reference)",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "cta-32-figma.png",
+    "localDesktop": "cta-32-local-desktop.png",
+    "localMobile": "cta-32-local-mobile.png"
+  },
+  "components/cta-new/cta-33.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo images broken \u2014 showing placeholder icons instead of Webflow/Relume logos",
+      "Missing top padding \u2014 content flush to top edge",
+      "Heading wraps to 2 lines at 1440px (single line in reference)",
+      "Mobile screenshot identical to desktop \u2014 no responsive differentiation"
+    ],
+    "figmaScreenshot": "cta-33-figma.png",
+    "localDesktop": "cta-33-local-desktop.png",
+    "localMobile": "cta-33-local-mobile.png"
+  },
+  "components/cta-new/cta-34.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input field completely missing/broken \u2014 critical functional defect",
+      "Logo images broken \u2014 placeholder icons only",
+      "Missing top padding",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "cta-34-figma.png",
+    "localDesktop": "cta-34-local-desktop.png",
+    "localMobile": "cta-34-local-mobile.png"
+  },
+  "components/cta-new/cta-35.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons broken \u2014 showing small circles instead of Relume diamond icons",
+      "Missing top padding",
+      "Mobile screenshot shows wrong component entirely \u2014 different layout, content and structure from CTA-35"
+    ],
+    "figmaScreenshot": "cta-35-figma.png",
+    "localDesktop": "cta-35-local-desktop.png",
+    "localMobile": "cta-35-local-mobile.png"
+  },
+  "components/cta-new/cta-36.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minor: Icon renders as empty circle instead of 3D cube placeholder"
+    ],
+    "figmaScreenshot": "cta-36-figma.png",
+    "localDesktop": "cta-36-local-desktop.png",
+    "localMobile": "cta-36-local-mobile.png"
+  },
+  "components/cta-new/cta-37.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: missing tagline, all four hover link texts and image placeholder \u2014 only orphan buttons visible",
+      "Mobile: completely blank \u2014 zero content rendered",
+      "Hover-link interactive CTA pattern not implemented"
+    ],
+    "figmaScreenshot": "cta-37-figma.png",
+    "localDesktop": "cta-37-local-desktop.png",
+    "localMobile": "cta-37-local-mobile.png"
+  },
+  "components/cta-new/cta-38.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: renders wrong component \u2014 shows generic heading/description/buttons instead of numbered hover-link list",
+      "Mobile: renders newsletter/signup CTA variant \u2014 completely wrong component",
+      "Missing: numbered rows (01-04), divider lines, tagline, image placeholder"
+    ],
+    "figmaScreenshot": "cta-38-figma.png",
+    "localDesktop": "cta-38-local-desktop.png",
+    "localMobile": "cta-38-local-mobile.png"
+  },
+  "components/cta-new/cta-39.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: layout not card-based \u2014 no border container, wrong content arrangement (heading separate from description)",
+      "Mobile: completely blank \u2014 no content renders",
+      "Image placeholder small and bottom-left instead of occupying right half of card"
+    ],
+    "figmaScreenshot": "cta-39-figma.png",
+    "localDesktop": "cta-39-local-desktop.png",
+    "localMobile": "cta-39-local-mobile.png"
+  },
+  "components/cta-new/cta-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing dark background/overlay \u2014 renders on plain white instead",
+      "Wrong CTA type: shows two generic buttons instead of email form",
+      "No email input field, no Terms & Conditions disclaimer",
+      "Heading text different from reference"
+    ],
+    "figmaScreenshot": "cta-4-figma.png",
+    "localDesktop": "cta-4-local-desktop.png",
+    "localMobile": "cta-4-local-mobile.png"
+  },
+  "components/cta-new/cta-40.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Wrong layout: centered single-column instead of two-column card with border",
+      "Wrong CTA type: two generic buttons instead of email form",
+      "No email input, no Terms & Conditions, no image placeholder visible",
+      "Mobile: completely blank"
+    ],
+    "figmaScreenshot": "cta-40-figma.png",
+    "localDesktop": "cta-40-local-desktop.png",
+    "localMobile": "cta-40-local-mobile.png"
+  },
+  "components/cta-new/cta-41.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All text content (heading, description) completely missing",
+      "CTA buttons completely missing",
+      "Background image overlay not implemented \u2014 only empty image placeholder shell renders",
+      "No left text / right buttons layout"
+    ],
+    "figmaScreenshot": "cta-41-figma.png",
+    "localDesktop": "cta-41-local-desktop.png",
+    "localMobile": "cta-41-local-mobile.png"
+  },
+  "components/cta-new/cta-42.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All content missing: heading, description, email input, Sign Up button, terms text",
+      "Desktop renders wrong component type (two generic buttons instead of email form)",
+      "Background image overlay not rendered",
+      "Mobile shows fragmentary broken form elements"
+    ],
+    "figmaScreenshot": "cta-42-figma.png",
+    "localDesktop": "cta-42-local-desktop.png",
+    "localMobile": "cta-42-local-mobile.png"
+  },
+  "components/cta-new/cta-43.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading and description text completely missing",
+      "Dark background fill not applied \u2014 renders as white with thin border only",
+      "Buttons present but floating without content context"
+    ],
+    "figmaScreenshot": "cta-43-figma.png",
+    "localDesktop": "cta-43-local-desktop.png",
+    "localMobile": "cta-43-local-mobile.png"
+  },
+  "components/cta-new/cta-44.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark gray background completely missing \u2014 white background instead",
+      "Heading and description text not rendering",
+      "Email input replaced by small circle/radio element",
+      "Sign Up button has no styling \u2014 plain text only",
+      "Terms & Conditions disclaimer missing"
+    ],
+    "figmaScreenshot": "cta-44-figma.png",
+    "localDesktop": "cta-44-local-desktop.png",
+    "localMobile": "cta-44-local-mobile.png"
+  },
+  "components/cta-new/cta-45.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minor: Button fill color appears dark navy rather than pure black",
+      "Desktop and mobile appear identical \u2014 no visible responsive adaptation"
+    ],
+    "figmaScreenshot": "cta-45-figma.png",
+    "localDesktop": "cta-45-local-desktop.png",
+    "localMobile": "cta-45-local-mobile.png"
+  },
+  "components/cta-new/cta-46.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input field not rendering \u2014 shows as tiny circle instead of text input",
+      "Sign Up button has rounded corners vs square corners in reference",
+      "Terms and Conditions link missing underline",
+      "Layout doesn't stack for mobile \u2014 remains side-by-side"
+    ],
+    "figmaScreenshot": "cta-46-figma.png",
+    "localDesktop": "cta-46-local-desktop.png",
+    "localMobile": "cta-46-local-mobile.png"
+  },
+  "components/cta-new/cta-47.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All content missing: heading, description, both CTA buttons",
+      "Background image overlay not implemented \u2014 only empty placeholder container renders",
+      "No left text / right buttons layout"
+    ],
+    "figmaScreenshot": "cta-47-figma.png",
+    "localDesktop": "cta-47-local-desktop.png",
+    "localMobile": "cta-47-local-mobile.png"
+  },
+  "components/cta-new/cta-48.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All content missing: heading, description, email input, Sign Up button, terms text",
+      "Background image overlay not rendered",
+      "Only empty image placeholder container visible"
+    ],
+    "figmaScreenshot": "cta-48-figma.png",
+    "localDesktop": "cta-48-local-desktop.png",
+    "localMobile": "cta-48-local-mobile.png"
+  },
+  "components/cta-new/cta-49.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading and description text completely missing",
+      "Background color wrong: white instead of dark charcoal",
+      "Button colors inverted (should be white on dark bg)",
+      "No left-right content split \u2014 text column absent",
+      "Card uses thin border stroke instead of solid dark fill background"
+    ],
+    "figmaScreenshot": "cta-49-figma.png",
+    "localDesktop": "cta-49-local-desktop.png",
+    "localMobile": "cta-49-local-mobile.png"
   }
 }
