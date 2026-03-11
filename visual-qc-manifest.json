@@ -8257,7 +8257,7 @@
     },
     {
       "id": "vqc-088",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/timelines/timeline-8.html",
@@ -8315,7 +8315,12 @@
           "path": "components/topbars/topbar-sits-beside-a-level-2-sidebar-does-not-include-company-logo-or-nav-links.html",
           "nodeId": "4174:122771"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 6,
+        "fail": 8
+      }
     }
   ],
   "batchSize": 20,
