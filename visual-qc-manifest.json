@@ -725,7 +725,7 @@
     },
     {
       "id": "vqc-009",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/comparisons/comparison-14.html",
@@ -807,7 +807,12 @@
           "path": "components/contact/contact-18.html",
           "nodeId": "4174:42665"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 6,
+        "fail": 14
+      }
     },
     {
       "id": "vqc-010",
