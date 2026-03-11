@@ -252,3 +252,11 @@
 - [x] blog-post-header-4 ✅
 - [x] blog-post-header-5 ✅
 
+
+## components/blog-post-pages/
+- [x] blog-post-1 ✅
+- [x] blog-post-2 ✅
+- [x] blog-post-3 ✅
+- [x] blog-post-4 ✅
+- [x] blog-post-5 ✅
+
