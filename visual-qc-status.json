@@ -13630,5 +13630,292 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-59-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-59-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-59-local-mobile.png"
+  },
+  "components/features/layout-590.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagli' instead of 'Tagline')",
+      "Button style mismatch: Figma outline/ghost, local filled dark",
+      "Secondary button: Figma chevron icon, local text arrow '\u2192'",
+      "Image placeholder not full-width; local shows smaller inset rounded rectangle",
+      "No visible responsive difference between desktop and mobile screenshots"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-590-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-590-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-590-local-mobile.png"
+  },
+  "components/features/layout-591.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated ('Tagli')",
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Video placeholder not full-width; no play button icon in local",
+      "No responsive difference between desktop and mobile screenshots"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-591-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-591-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-591-local-mobile.png"
+  },
+  "components/features/layout-592.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Image placeholder not full-width; smaller inset rounded rectangle in local",
+      "No responsive difference between desktop and mobile screenshots"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-592-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-592-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-592-local-mobile.png"
+  },
+  "components/features/layout-593.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder not full-width; no play button icon in local",
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "No responsive difference between desktop and mobile screenshots"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-593-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-593-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-593-local-mobile.png"
+  },
+  "components/features/layout-594.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Icon above tagline not loading (broken image placeholder instead of cube icon)",
+      "Image section cut off at bottom in local; Figma shows full area"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-594-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-594-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-594-local-mobile.png"
+  },
+  "components/features/layout-595.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Icon above tagline not loading (broken image placeholder instead of cube icon)",
+      "Video placeholder has different styling: local lighter gray with rounded corners vs Figma dark gray with play button"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-595-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-595-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-595-local-mobile.png"
+  },
+  "components/features/layout-596.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo row: Figma shows brand logos, local shows broken image placeholders (logos not loading)",
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Image placeholder not full-width in local"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-596-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-596-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-596-local-mobile.png"
+  },
+  "components/features/layout-597.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo row: Figma shows brand logos, local shows broken image placeholders (logos not loading)",
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Video placeholder: local lighter gray with rounded corners vs Figma dark gray with play button; not full-bleed"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-597-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-597-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-597-local-mobile.png"
+  },
+  "components/features/layout-598.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Image placeholder not full-bleed; local has centered card with rounded corners vs Figma edge-to-edge"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-598-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-598-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-598-local-mobile.png"
+  },
+  "components/features/layout-599.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch: Figma outline, local filled dark",
+      "Secondary button: Figma chevron icon, local '\u2192'",
+      "Video placeholder: Figma dark gray with play button, local static light gray card without play button; not full-bleed"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-599-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-599-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-599-local-mobile.png"
+  },
+  "components/features/layout-6.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-6-local-mobile.png"
+  },
+  "components/features/layout-60.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Icons differ \u2014 Figma shows filled solid cube icons, local shows outline circle icons",
+      "Mobile: Second subheading column ('Subheading two') clipped/overflows viewport \u2014 content not fully visible",
+      "Mobile: Two-column layout does not adapt to mobile; causes horizontal overflow"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-60-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-60-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-60-local-mobile.png"
+  },
+  "components/features/layout-600.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-bleed; local has smaller centered rounded card vs Figma edge-to-edge",
+      "Figma image area significantly taller (full-viewport); local is shorter",
+      "Buttons and text below image cut off in local screenshots",
+      "No responsive difference visible between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-600-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-600-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-600-local-mobile.png"
+  },
+  "components/features/layout-601.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder not full-bleed; Figma dark gray edge-to-edge with play button, local has padding/margins and rounded corners",
+      "Local screenshots cut off before buttons are visible",
+      "No responsive difference visible between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-601-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-601-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-601-local-mobile.png"
+  },
+  "components/features/layout-602.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-bleed; Figma edge-to-edge, local has side margins and rounded corners",
+      "Local screenshots cut off before heading completes; buttons not visible",
+      "No responsive difference visible between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-602-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-602-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-602-local-mobile.png"
+  },
+  "components/features/layout-603.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder not full-bleed; Figma edge-to-edge with play button, local has padding and rounded corners",
+      "Local screenshots cut off before heading; buttons not visible",
+      "No responsive difference visible between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-603-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-603-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-603-local-mobile.png"
+  },
+  "components/features/layout-604.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-bleed; Figma edge-to-edge hero, local ~60% width rounded card",
+      "Local screenshot cut off \u2014 logos and buttons not visible",
+      "Image background color differs: Figma darker gray, local very light gray"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-604-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-604-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-604-local-mobile.png"
+  },
+  "components/features/layout-605.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder not full-bleed; Figma edge-to-edge dark gray with play button, local has padding and rounded corners",
+      "Play button overlay missing in local",
+      "Local screenshot cut off \u2014 logos and buttons not visible"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-605-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-605-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-605-local-mobile.png"
+  },
+  "components/features/layout-606.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading missing in local \u2014 replaced by bold description text (no h1/heading element visible)",
+      "Logo row present in Figma but missing in local",
+      "Local screenshot cut off at bottom (buttons partially visible)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-606-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-606-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-606-local-mobile.png"
+  },
+  "components/features/layout-607.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Completely blank/white \u2014 no content rendered",
+      "Mobile: Completely blank/white \u2014 no content rendered",
+      "Component appears entirely broken or not implemented"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-607-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-607-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-607-local-mobile.png"
   }
 }
