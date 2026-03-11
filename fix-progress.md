@@ -361,3 +361,36 @@
 - [x] comparison-8 ✅
 - [x] comparison-9 ✅
 
+
+## components/contact/
+- [x] contact-1 ✅
+- [x] contact-10 ✅
+- [x] contact-11 ✅
+- [x] contact-12 ✅
+- [x] contact-13 ✅
+- [x] contact-14 ✅
+- [x] contact-15 ✅
+- [x] contact-16 ✅
+- [x] contact-17 ✅
+- [x] contact-18 ✅
+- [x] contact-19 ✅
+- [x] contact-2 ✅
+- [x] contact-20 ✅
+- [x] contact-21 ✅
+- [x] contact-22 ✅
+- [x] contact-23 ✅
+- [x] contact-24 ✅
+- [x] contact-25 ✅
+- [x] contact-26 ✅
+- [x] contact-27 ✅
+- [x] contact-28 ✅
+- [x] contact-29 ✅
+- [x] contact-3 ✅
+- [x] contact-30 ✅
+- [x] contact-4 ✅
+- [x] contact-5 ✅
+- [x] contact-6 ✅
+- [x] contact-7 ✅
+- [x] contact-8 ✅
+- [x] contact-9 ✅
+
