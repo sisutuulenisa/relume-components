@@ -2512,7 +2512,7 @@
         "components/application/sign-up-and-log-in-pages/login-3.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-025",
@@ -2565,7 +2565,7 @@
         "components/application/topbars/topbar-sits-beside-a-level-2-sidebar-does-not-include-company-logo-or-nav-links.html"
       ],
       "count": 45,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-026",
@@ -2673,7 +2673,7 @@
         "components/hero-headers-new/header-73.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-027",
@@ -2709,7 +2709,7 @@
         "components/hero-headers-new/header-99.html"
       ],
       "count": 28,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-028",
