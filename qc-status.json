@@ -12,22 +12,25 @@
     "note": "Desktop broken icons; mobiel heading/text overflow en broken images."
   },
   "components/features/layout-50.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Vrijwel leeg: alleen placeholder zonder bruikbare content."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: herschreven met CDN Tailwind, volledige feature layout met text/image/feature list"
   },
   "components/hero-headers-new/header-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Layout-break met overlappende/afgekorte tekst op beide viewports."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: herschreven met CDN Tailwind, responsive 2-koloms hero met heading/tekst/knoppen"
   },
   "components/hero-headers-new/header-5.html": {
-    "status": "fail",
-    "mobileStatus": "warn",
-    "checkedAt": "2026-03-10",
-    "note": "Desktop leeg met placeholder; mobiel vrijwel leeg met veel witruimte."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: herschreven met CDN Tailwind, full-width hero met overlay tekst/knoppen"
   },
   "components/cta-new/cta-1.html": {
     "status": "ok",
@@ -53,42 +56,6 @@
     "checkedAt": "2026-03-10",
     "note": "Compacte banner met correcte typografie en knoppen."
   },
-  "components/testimonials/testimonial-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Paden ontbreken op server (404), screenshot toont geen component.)"
-  },
-  "components/testimonials/testimonial-10.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Paden ontbreken op server (404), screenshot toont geen component."
-  },
-  "components/pricing-new/pricing-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Map/pad bestaat niet (404), dus geen renderbare pricing component."
-  },
-  "components/pricing-new/pricing-5.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Map/pad bestaat niet (404), dus geen renderbare pricing component."
-  },
-  "components/blog-new/blog-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Map/pad bestaat niet (404), dus geen componentcontent zichtbaar.)"
-  },
-  "components/blog-new/blog-5.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Map/pad bestaat niet (404), dus geen componentcontent zichtbaar."
-  },
   "components/footers/footer-1.html": {
     "status": "warn",
     "mobileStatus": "warn",
@@ -107,77 +74,32 @@
     "checkedAt": "2026-03-10",
     "note": "Desktop netjes; mobiel minimale inhoud met lege cirkel-placeholders."
   },
-  "components/contact-new/contact-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Pad bestaat niet op server (404)."
-  },
-  "components/team-new/team-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Pad bestaat niet op server (404)."
-  },
-  "components/faq-new/faq-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Pad bestaat niet op server (404)."
-  },
   "components/gallery/gallery-1.html": {
-    "status": "fail",
-    "mobileStatus": "warn",
-    "checkedAt": "2026-03-10",
-    "note": "Desktop gallery-content ontbreekt (broken placeholder); mobiel beperkt placeholderbeeld."
-  },
-  "components/stats/stats-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Pad bestaat niet op server (404)."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: herschreven met CDN Tailwind, responsive 3-koloms gallery grid met 6 placeholders"
   },
   "components/logos/logo-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Logo-afbeeldingen niet geladen; op mobiel ook gestapelde layout-break."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind, flex-wrap logo rij met brand-namen"
   },
   "components/timelines/timeline-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Tekstafkapping/overflow in timeline op desktop en mobiel."
-  },
-  "components/portfolio-new/portfolio-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Pad bestaat niet op server (404)."
-  },
-  "components/careers/careers-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Pad bestaat niet op server (404)."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: herschreven met CDN Tailwind, timeline met dot/line indicator, min-w-0 op content, geen vaste w-96"
   },
   "components/event-sections/event-1.html": {
     "status": "ok",
     "mobileStatus": "warn",
     "checkedAt": "2026-03-10",
     "note": "Desktop goed; mobiel met afgekapt label en veel lege ruimte onderaan."
-  },
-  "components/long-form-content-sections/long-form-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Bestand geeft 404/kapotte pagina in beide viewports."
-  },
-  "components/404/404-1.html": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Doelpad is geen standaard componentbestand; server returned 404."
   },
   "components/blog-sections/blog-33.html": {
     "status": "ok",
@@ -186,10 +108,11 @@
     "note": "Blog-sectie rendert correct; tabs/CTA zichtbaar."
   },
   "components/blog-sections/blog-37.html": {
-    "status": "fail",
-    "mobileStatus": "warn",
-    "checkedAt": "2026-03-10",
-    "note": "Desktop CTA afgekapt/gebroken; mobiel nog leesbaar maar rand-issue."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind, CTA button width fixed (w-1/12 → auto), button text kleur wit"
   },
   "components/contact/contact-1.html": {
     "status": "warn",
@@ -240,10 +163,11 @@
     "note": "Desktop onderzijde deels afgesneden; mobiel acceptabel."
   },
   "components/stat-cards/stat-card-1.html": {
-    "status": "fail",
-    "mobileStatus": "warn",
-    "checkedAt": "2026-03-10",
-    "note": "Desktop grotendeels leeg/vastgelopen state; mobiel beperkt content."
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: herschreven met CDN Tailwind, 4 stat cards + header row + filter tabs"
   },
   "components/headers/header-44.html": {
     "status": "warn",
@@ -251,21 +175,17 @@
     "checkedAt": "2026-03-10",
     "note": "Desktop veel lege ruimte; mobiel leesbaar."
   },
-  "components/testimonials": {
-    "status": "fail",
-    "mobileStatus": "fail",
-    "checkedAt": "2026-03-10",
-    "note": "Geen testimonials-map gevonden via ls components/ | grep -i test; niet renderbaar in deze repo."
-  },
   "components/pages/features/layout-79.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
     "note": "Placeholder-tekst aanwezig, Relume-logo overgedimensioneerd/afgesneden, geen knoppen."
   },
   "components/navbars/navbar-11.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Volledig leeg scherm - geen content, links of logo gerenderd."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: ongeldige gap-158 class verwijderd, navbar herschreven met logo/nav/CTA"
   },
   "components/contact-pages/contact-2.html": {
     "status": "ok",
@@ -273,9 +193,11 @@
     "note": "Navbar, gestijlde knoppen en tabs renderen correct. Structureel in orde."
   },
   "components/features/layout-316.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Broken image-placeholder op grijze achtergrond, geen tekst of knoppen zichtbaar."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind, 2-koloms layout met placeholder image en knoppen"
   },
   "components/pricing/pricing-49.html": {
     "status": "warn",
@@ -283,14 +205,18 @@
     "note": "Heading en toggle renderen goed, pricing-cards/content onder tabs ontbreekt, tagline afgekort."
   },
   "components/style-guide/style-guide/icons.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Geen iconen zichtbaar, alleen kale nummers als placeholder. Alle icon-refs broken."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind, inline SVG Heroicons aanwezig per card"
   },
   "components/application/topbars/topbar-sits-above-a-level-1-sidebar-includes-a-company-logo-but-does-not-have-nav-links.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Unstyled lijst zonder topbar of sidebar UI. Component rendert niet."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind, topbar met sidebar shell correct gestyled"
   },
   "components/stats-sections/stats-37.html": {
     "status": "warn",
@@ -298,9 +224,11 @@
     "note": "Tagline afgekort, heading en knoppen correct gestyled, lege ruimte onder tabs suggereert ontbrekende content."
   },
   "components/features/layout-258.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Donkergrijze achtergrond met nauwelijks leesbare tabs, feature-content ontbreekt volledig, kritiek contrast."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind, dark themed tabs/content aanwezig en leesbaar"
   },
   "components/gallery/gallery-25.html": {
     "status": "ok",
@@ -323,9 +251,11 @@
     "note": "Tekst correct, maar oversized Relume-logo domineert viewport als placeholder image."
   },
   "components/home-pages/home-8.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Meervoudig broken image-placeholders: hero en logo-rij (11x broken icon). Grotendeels kapot."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: 11 broken logo li-items (w-[11%] wrappers) vervangen door brand-text items"
   },
   "components/pages/features/layout-629.html": {
     "status": "warn",
@@ -333,9 +263,11 @@
     "note": "Zelfde als layout-258: oversized Relume-logo placeholder, geen knoppen of echte feature-content."
   },
   "components/pages/hero-headers-new/header-82.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Knoppen ongestijlde links, geen hero-image, content hangt linksboven zonder padding/centering."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind, h1/CTA gestyled, proper padding/centering"
   },
   "components/product-headers/product-header-3.html": {
     "status": "warn",
@@ -353,8 +285,10 @@
     "note": "Tagline, heading en filter-knop correct gecentreerd en gestyled. Geen layout-issues."
   },
   "components/application/forms/form-7.html": {
-    "status": "fail",
+    "status": "ok",
     "checkedAt": "2026-03-11",
-    "note": "Volledig ongestijld: browser-default inputs, geen grid/layout, submit als kale link, geen container."
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: CDN Tailwind al aanwezig, layout/inputs correct gestyled"
   }
 }

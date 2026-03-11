@@ -7,32 +7,26 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <nav class="w-full flex flex-col items-center bg-white mx-auto max-w-screen-xl px-5 md:px-20">
-      <div class="w-full max-w-screen-xl flex flex-col md:flex-row justify-between items-center overflow-hidden">
-        <div class="w-full max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-158 overflow-hidden min-w-0 md:w-1/2">
-          <div class="w-[6%] flex flex-col md:flex-row items-center gap-6 overflow-hidden min-w-0 w-full md:w-1/2">
-            <div class="w-21 overflow-hidden min-w-0 w-full md:w-1/2">
-              <div class="w-5/6 flex flex-col md:flex-row overflow-hidden">
-                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-                <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-              </div>
-            </div>
+    <nav class="w-full flex flex-col items-center bg-white border-b border-gray-200">
+      <div class="w-full max-w-screen-xl mx-auto px-5 md:px-20 py-4 flex flex-row justify-between items-center gap-6">
+        <!-- Logo -->
+        <div class="flex items-center gap-2 flex-shrink-0">
+          <div class="w-8 h-8 bg-gray-900 rounded flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
           </div>
-          <div class="w-[46%] flex flex-col md:flex-row justify-center items-center gap-4 overflow-hidden min-w-0 w-full md:w-1/2">
-            <div class="hidden md:flex flex-row border-b border-gray-200">
-              <button class="border border-gray-900 px-4 py-2 text-sm">Link One</button>
-              <button class="px-4 py-2 text-sm text-gray-500">Link Two</button>
-              <button class="px-4 py-2 text-sm text-gray-500">Link Three</button>
-              <button class="px-4 py-2 text-sm text-gray-500">Link Four</button>
-            </div>
-            <div class="flex flex-row items-center gap-6">
-              <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
-              <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Button</button>
-            </div>
-          </div>
+          <span class="text-base font-semibold text-gray-900">Company</span>
+        </div>
+        <!-- Nav links -->
+        <div class="hidden md:flex flex-row items-center gap-6">
+          <a href="#" class="text-sm font-medium text-gray-900">Link One</a>
+          <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Link Two</a>
+          <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Link Three</a>
+          <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Link Four</a>
+        </div>
+        <!-- CTA buttons -->
+        <div class="flex flex-row items-center gap-3">
+          <button class="inline-flex items-center gap-2 px-5 py-2.5 border border-gray-900 text-gray-900 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors">Log in</button>
+          <button class="inline-flex items-center gap-2 px-5 py-2.5 bg-black text-white rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">Sign up</button>
         </div>
       </div>
     </nav>

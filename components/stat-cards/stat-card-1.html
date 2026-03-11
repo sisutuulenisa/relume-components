@@ -4,31 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stat Card / 1 /</title>
-    <link rel="stylesheet" href="../../dist/tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <article class="w-full flex flex-col bg-white mx-auto max-w-screen-xl px-5 md:px-20">
-      <div class="w-full max-w-screen-lg flex flex-col md:flex-row items-end gap-6 bg-white overflow-hidden">
-        <div class="w-full max-w-screen-md flex flex-col gap-2 min-w-0 md:w-1/2">
-          <h3 class="text-2xl font-bold leading-snug text-black text-left">Recent Activity</h3>
-          <p class="text-base font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+    <article class="w-full max-w-screen-xl mx-auto px-5 md:px-20 py-16">
+      <!-- Header row -->
+      <div class="w-full flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-10">
+        <div class="flex flex-col gap-2">
+          <h2 class="text-2xl font-bold leading-snug text-black">Recent Activity</h2>
+          <p class="text-base font-normal leading-normal text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
         </div>
-        <div class="w-[23%] flex flex-col md:flex-row justify-end items-center gap-4 overflow-hidden min-w-0 w-full md:w-1/2">
-          <div class="flex flex-row items-center gap-6">
-            <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
-            <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Button</button>
-          </div>
-          <button class="w-1/6 flex flex-col md:flex-row justify-center items-center gap-3 p-2 overflow-hidden min-w-0 w-full md:w-1/2 bg-gray-900 text-white px-4 py-2.5 rounded rounded-lg cursor-pointer">
-            <div class="w-3/5 overflow-hidden min-w-0 w-full md:w-1/2">
-              <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
-            </div>
+        <div class="flex flex-row items-center gap-4">
+          <button class="inline-flex items-center gap-2 px-6 py-3 border border-gray-900 text-gray-900 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors">Export</button>
+          <button class="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
+            Add new
           </button>
         </div>
       </div>
-      <div class="hidden md:flex flex-row border-b border-gray-200">
-        <button class="border border-gray-900 px-4 py-2 text-sm">Lorem ipsum</button>
-        <button class="px-4 py-2 text-sm text-gray-500">Lorem ipsum</button>
-        <button class="px-4 py-2 text-sm text-gray-500">Lorem ipsum</button>
+      <!-- Stat cards grid -->
+      <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div class="bg-white border border-gray-200 rounded-xl p-6 flex flex-col gap-2">
+          <p class="text-sm text-gray-500 font-medium">Total Revenue</p>
+          <p class="text-3xl font-bold text-gray-900">$45,231</p>
+          <p class="text-sm text-green-600 font-medium">+20.1% from last month</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-xl p-6 flex flex-col gap-2">
+          <p class="text-sm text-gray-500 font-medium">Active Users</p>
+          <p class="text-3xl font-bold text-gray-900">+2,350</p>
+          <p class="text-sm text-green-600 font-medium">+180 since last week</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-xl p-6 flex flex-col gap-2">
+          <p class="text-sm text-gray-500 font-medium">New Signups</p>
+          <p class="text-3xl font-bold text-gray-900">+12,234</p>
+          <p class="text-sm text-green-600 font-medium">+19% from last month</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-xl p-6 flex flex-col gap-2">
+          <p class="text-sm text-gray-500 font-medium">Active Sessions</p>
+          <p class="text-3xl font-bold text-gray-900">+573</p>
+          <p class="text-sm text-gray-500 font-medium">+201 since last hour</p>
+        </div>
+      </div>
+      <!-- Table filter tabs -->
+      <div class="w-full flex flex-row flex-wrap gap-1 border-b border-gray-200 mb-6">
+        <button class="px-4 py-2 text-sm font-semibold text-gray-900 border-b-2 border-gray-900 -mb-px">All</button>
+        <button class="px-4 py-2 text-sm text-gray-500 hover:text-gray-900 transition-colors">Active</button>
+        <button class="px-4 py-2 text-sm text-gray-500 hover:text-gray-900 transition-colors">Pending</button>
       </div>
     </article>
   </body>

@@ -4,28 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Blog / 37 /</title>
-    <link rel="stylesheet" href="../../dist/tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white text-gray-900 antialiased font-sans">
-    <article class="w-full flex flex-col items-center gap-20 px-16 py-28 bg-white overflow-hidden mx-auto max-w-screen-xl px-5 md:px-20">
-      <div class="w-full max-w-screen-xl min-h-96 flex flex-col gap-20">
-        <div class="w-full max-w-screen-md flex flex-col gap-4">
-          <div class="w-[4%] flex flex-col md:flex-row items-center overflow-hidden">
-            <p class="text-base font-semibold leading-normal text-black text-left">Blog</p>
-          </div>
-          <div class="w-full max-w-screen-md flex flex-col items-center gap-6">
-            <h2 class="text-5xl font-bold leading-tight text-black text-left">Short heading goes here</h2>
-            <p class="text-lg font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <article class="w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28">
+      <div class="w-full flex flex-col gap-12">
+        <!-- Header -->
+        <div class="w-full flex flex-col gap-4">
+          <p class="text-base font-semibold text-black">Blog</p>
+          <div class="flex flex-col gap-4">
+            <h2 class="text-4xl md:text-5xl font-bold leading-tight text-black">Short heading goes here</h2>
+            <p class="text-lg font-normal leading-normal text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="hidden md:flex flex-row border-b border-gray-200">
-          <button class="border border-gray-900 px-4 py-2 text-sm">Category</button>
-          <button class="px-4 py-2 text-sm text-gray-500">Category</button>
-          <button class="px-4 py-2 text-sm text-gray-500">Category</button>
+        <!-- Category tabs -->
+        <div class="w-full flex flex-row flex-wrap gap-2 border-b border-gray-200 pb-0">
+          <button class="border border-gray-900 px-4 py-2 text-sm font-medium">Category</button>
+          <button class="px-4 py-2 text-sm text-gray-500 hover:text-black transition-colors">Category</button>
+          <button class="px-4 py-2 text-sm text-gray-500 hover:text-black transition-colors">Category</button>
         </div>
-        <div class="w-full max-w-screen-xl min-h-12 flex flex-col items-end gap-4">
-          <button class="w-1/12 flex flex-col md:flex-row justify-center items-center gap-2 px-6 py-3 border border-black overflow-hidden bg-gray-900 text-white px-4 py-2.5 rounded rounded-lg mt-auto cursor-pointer">
-            <p class="text-base font-normal leading-normal text-black text-left">View all</p>
+        <!-- CTA row -->
+        <div class="w-full flex justify-end">
+          <button class="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">
+            View all
           </button>
         </div>
       </div>
