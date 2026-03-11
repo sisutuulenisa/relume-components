@@ -7639,7 +7639,7 @@
     },
     {
       "id": "vqc-082",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/stat-cards/stat-card-8.html",
@@ -7721,11 +7721,16 @@
           "path": "components/stats-sections/stats-26.html",
           "nodeId": "4174:89125"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 0,
+        "fail": 20
+      }
     },
     {
       "id": "vqc-083",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/stats-sections/stats-27.html",
@@ -7807,7 +7812,36 @@
           "path": "components/stats-sections/stats-44.html",
           "nodeId": "4174:90115"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 4,
+        "fail": 16,
+        "warnComponents": [
+          "components/stats-sections/stats-28.html",
+          "components/stats-sections/stats-30.html",
+          "components/stats-sections/stats-39.html",
+          "components/stats-sections/stats-40.html"
+        ],
+        "failComponents": [
+          "components/stats-sections/stats-27.html",
+          "components/stats-sections/stats-29.html",
+          "components/stats-sections/stats-3.html",
+          "components/stats-sections/stats-31.html",
+          "components/stats-sections/stats-32.html",
+          "components/stats-sections/stats-33.html",
+          "components/stats-sections/stats-34.html",
+          "components/stats-sections/stats-35.html",
+          "components/stats-sections/stats-36.html",
+          "components/stats-sections/stats-37.html",
+          "components/stats-sections/stats-38.html",
+          "components/stats-sections/stats-4.html",
+          "components/stats-sections/stats-41.html",
+          "components/stats-sections/stats-42.html",
+          "components/stats-sections/stats-43.html",
+          "components/stats-sections/stats-44.html"
+        ]
+      }
     },
     {
       "id": "vqc-084",
