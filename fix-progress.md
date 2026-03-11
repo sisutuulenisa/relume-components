@@ -334,3 +334,12 @@
 - [x] career-8 ✅
 - [x] career-9 ✅
 
+
+## components/category-filters/
+- [x] category-filters-1 ✅
+- [x] category-filters-2 ✅
+- [x] category-filters-3 ✅
+- [x] category-filters-4 ✅
+- [x] category-filters-5 ✅
+- [x] category-filters-6 ✅
+
