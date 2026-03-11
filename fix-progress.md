@@ -244,3 +244,11 @@
 - [x] blog-4 ✅
 - [x] blog-5 ✅
 
+
+## components/blog-post-headers/
+- [x] blog-post-header-1 ✅
+- [x] blog-post-header-2 ✅
+- [x] blog-post-header-3 ✅
+- [x] blog-post-header-4 ✅
+- [x] blog-post-header-5 ✅
+
