@@ -1544,7 +1544,7 @@
     },
     {
       "id": "vqc-018",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/event-sections/event-9.html",
@@ -1626,7 +1626,12 @@
           "path": "components/features/layout-102.html",
           "nodeId": "4174:10074"
         }
-      ]
+      ],
+      "results": {
+        "ok": 2,
+        "warn": 9,
+        "fail": 9
+      }
     },
     {
       "id": "vqc-019",
