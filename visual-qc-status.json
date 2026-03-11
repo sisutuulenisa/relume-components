@@ -18751,5 +18751,272 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4606-7824-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/links-pages-links-10-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/links-pages-links-10-local-mobile.png"
+  },
+  "components/logos/logo-2.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-2-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-2-local-mobile.png"
+  },
+  "components/logos/logo-3.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-3-local-mobile.png"
+  },
+  "components/logos/logo-4.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 47.6)",
+      "Mobiele visual afwijking vs Figma (RMS 65.2)",
+      "Figma-component lager dan viewport; extra whitespace in lokale capture"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-4-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-4-local-mobile.png"
+  },
+  "components/logos/logo-5.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 31.0)",
+      "Mobiele visual afwijking vs Figma (RMS 33.6)",
+      "Figma-component lager dan viewport; extra whitespace in lokale capture"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-5-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-5-local-mobile.png"
+  },
+  "components/logos/logo-6.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/logos-logo-6-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-1.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 49.2)",
+      "Mobiele visual afwijking vs Figma (RMS 66.2)",
+      "Figma-component lager dan viewport; extra whitespace in lokale capture"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-1-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-1-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-10.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 85.7)",
+      "Mobiele visual afwijking vs Figma (RMS 79.0)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-10-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-10-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 103.8)",
+      "Mobiele visual afwijking vs Figma (RMS 81.8)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-11-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-11-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-12.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 40.0)",
+      "Mobiele visual afwijking vs Figma (RMS 56.7)",
+      "Figma-component lager dan viewport; extra whitespace in lokale capture"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-12-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-12-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-13.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 44.7)",
+      "Mobiele visual afwijking vs Figma (RMS 58.6)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-13-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-13-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-14.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 38.6)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-14-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-14-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-15.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 80.0)",
+      "Mobiele visual afwijking vs Figma (RMS 78.9)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-15-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-15-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-16.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 103.8)",
+      "Mobiele visual afwijking vs Figma (RMS 63.6)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-16-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-16-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-16-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-17.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 44.3)",
+      "Mobiele visual afwijking vs Figma (RMS 66.9)",
+      "Figma-component lager dan viewport; extra whitespace in lokale capture"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-17-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-17-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-17-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-18.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 50.2)",
+      "Mobiele visual afwijking vs Figma (RMS 67.1)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-18-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-18-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-18-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-19.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 41.0)",
+      "Mobiele visual afwijking vs Figma (RMS 52.7)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-19-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-19-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-19-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-2.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 49.2)",
+      "Mobiele visual afwijking vs Figma (RMS 66.0)",
+      "Figma-component lager dan viewport; extra whitespace in lokale capture"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-2-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-2-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-20.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 90.8)",
+      "Mobiele visual afwijking vs Figma (RMS 82.4)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-20-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-20-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-20-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-21.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 103.8)",
+      "Mobiele visual afwijking vs Figma (RMS 78.7)",
+      "Figma-component hoger dan viewport; vergelijking op topsectie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-21-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-21-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-21-local-mobile.png"
+  },
+  "components/long-form-content-sections/content-22.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop visual afwijking vs Figma (RMS 51.9)",
+      "Mobiele visual afwijking vs Figma (RMS 68.6)",
+      "Figma-component lager dan viewport; extra whitespace in lokale capture"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-22-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-22-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/long-form-content-sections-content-22-local-mobile.png"
   }
 }
