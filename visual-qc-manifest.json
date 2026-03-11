@@ -6256,7 +6256,7 @@
     },
     {
       "id": "vqc-070",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/multi-step-forms/multi-form-7.html",
