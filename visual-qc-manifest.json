@@ -2,7 +2,7 @@
   "batches": [
     {
       "id": "vqc-001",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/about-pages/about-1.html",
@@ -5998,7 +5998,7 @@
     },
     {
       "id": "vqc-067",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/long-form-content-sections/content-23.html",
@@ -6080,7 +6080,13 @@
           "path": "components/multi-step-forms/multi-form-11.html",
           "nodeId": "4174:93866"
         }
-      ]
+      ],
+      "results": {
+        "ok": 18,
+        "warn": 2,
+        "fail": 0,
+        "checkedAt": "2026-03-11"
+      }
     },
     {
       "id": "vqc-068",
@@ -6348,7 +6354,7 @@
     },
     {
       "id": "vqc-071",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/navbars/navbar-25.html",
