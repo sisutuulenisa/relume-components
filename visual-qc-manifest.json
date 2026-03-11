@@ -8022,7 +8022,7 @@
     },
     {
       "id": "vqc-086",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/team/team-10.html",
@@ -8104,7 +8104,36 @@
           "path": "components/team/team-8.html",
           "nodeId": "4174:56203"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 16,
+        "fail": 4,
+        "warnComponents": [
+          "components/team/team-10.html",
+          "components/team/team-11.html",
+          "components/team/team-12.html",
+          "components/team/team-13.html",
+          "components/team/team-14.html",
+          "components/team/team-15.html",
+          "components/team/team-16.html",
+          "components/team/team-17.html",
+          "components/team/team-18.html",
+          "components/team/team-19.html",
+          "components/team/team-20.html",
+          "components/team/team-21.html",
+          "components/team/team-22.html",
+          "components/team/team-3.html",
+          "components/team/team-5.html",
+          "components/team/team-7.html"
+        ],
+        "failComponents": [
+          "components/team/team-2.html",
+          "components/team/team-4.html",
+          "components/team/team-6.html",
+          "components/team/team-8.html"
+        ]
+      }
     },
     {
       "id": "vqc-087",
