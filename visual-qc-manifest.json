@@ -806,7 +806,7 @@
     },
     {
       "id": "vqc-010",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/contact/contact-19.html",
