@@ -20073,5 +20073,425 @@
     "figmaScreenshot": "relume-visual-qc/components__application-shells__application-shell-8-figma.png",
     "localDesktop": "relume-visual-qc/components__application-shells__application-shell-8-local-desktop.png",
     "localMobile": "relume-visual-qc/components__application-shells__application-shell-8-local-mobile.png"
+  },
+  "components/navbars/navbar-25.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0440, rms=0.1274)",
+      "mobile diff high (mae=0.0578, rms=0.1393)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0440 rms=0.1274; mobile mae=0.0578 rms=0.1393",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-25-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-25-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-25-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-25-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-25-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-25-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-25-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-25-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-26.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0874, rms=0.1940)",
+      "mobile diff high (mae=0.0987, rms=0.1947)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0874 rms=0.1940; mobile mae=0.0987 rms=0.1947",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-26-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-26-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-26-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-26-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-26-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-26-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-26-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-26-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-27.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1523, rms=0.2468)",
+      "mobile diff high (mae=0.1574, rms=0.2420)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.1523 rms=0.2468; mobile mae=0.1574 rms=0.2420",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-27-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-27-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-27-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-27-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-27-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-27-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-27-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-27-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-28.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1775, rms=0.2629)",
+      "mobile diff high (mae=0.1811, rms=0.2593)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.1775 rms=0.2629; mobile mae=0.1811 rms=0.2593",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-28-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-28-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-28-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-28-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-28-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-28-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-28-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-28-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-29.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1890, rms=0.2707)",
+      "mobile diff high (mae=0.1925, rms=0.2664)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.1890 rms=0.2707; mobile mae=0.1925 rms=0.2664",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-29-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-29-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-29-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-29-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-29-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-29-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-29-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-29-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-3.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.6174, rms=0.7846)",
+      "mobile diff high (mae=0.5944, rms=0.7659)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.6174 rms=0.7846; mobile mae=0.5944 rms=0.7659",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-3-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-3-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-3-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-3-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-3-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-3-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-3-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-3-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-30.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0569, rms=0.1382)",
+      "mobile diff high (mae=0.0669, rms=0.1407)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0569 rms=0.1382; mobile mae=0.0669 rms=0.1407",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-30-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-30-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-30-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-30-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-30-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-30-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-30-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-30-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-31.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.6301, rms=0.7922)",
+      "mobile diff high (mae=0.5868, rms=0.7607)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.6301 rms=0.7922; mobile mae=0.5868 rms=0.7607",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-31-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-31-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-31-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-31-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-31-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-31-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-31-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-31-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-32.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.6336, rms=0.7943)",
+      "mobile diff high (mae=0.6190, rms=0.7825)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.6336 rms=0.7943; mobile mae=0.6190 rms=0.7825",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-32-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-32-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-32-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-32-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-32-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-32-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-32-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-32-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-4.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.0179, rms=0.1089)",
+      "mobile diff high (mae=0.0763, rms=0.2234)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0179 rms=0.1089; mobile mae=0.0763 rms=0.2234",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-4-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-4-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-4-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-4-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-4-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-4-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-4-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-4-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-5.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0482, rms=0.1633)",
+      "mobile diff high (mae=0.0618, rms=0.1670)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0482 rms=0.1633; mobile mae=0.0618 rms=0.1670",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-5-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-5-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-5-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-5-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-5-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-5-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-5-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-5-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-6.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0415, rms=0.1572)",
+      "mobile diff high (mae=0.0695, rms=0.1887)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0415 rms=0.1572; mobile mae=0.0695 rms=0.1887",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-6-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-6-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-6-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-6-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-6-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-6-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-6-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-6-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-7.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0350, rms=0.1472)",
+      "mobile diff high (mae=0.0433, rms=0.1327)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0350 rms=0.1472; mobile mae=0.0433 rms=0.1327",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-7-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-7-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-7-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-7-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-7-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-7-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-7-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-7-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-8.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0315, rms=0.1409)",
+      "mobile diff high (mae=0.0387, rms=0.1266)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0315 rms=0.1409; mobile mae=0.0387 rms=0.1266",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-8-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-8-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-8-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-8-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-8-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-8-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-8-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-8-local-mobile.png"
+    }
+  },
+  "components/navbars/navbar-9.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0275, rms=0.1334)",
+      "mobile diff high (mae=0.0372, rms=0.1310)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0275 rms=0.1334; mobile mae=0.0372 rms=0.1310",
+    "figmaScreenshot": "relume-visual-qc/components__navbars__navbar-9-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__navbars__navbar-9-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__navbars__navbar-9-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__navbars__navbar-9-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__navbars__navbar-9-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__navbars__navbar-9-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__navbars__navbar-9-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__navbars__navbar-9-local-mobile.png"
+    }
+  },
+  "components/onboarding-forms/onboarding-form-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0336, rms=0.1460)",
+      "mobile diff high (mae=0.0637, rms=0.1907)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0336 rms=0.1460; mobile mae=0.0637 rms=0.1907",
+    "figmaScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-1-local-mobile.png"
+    }
+  },
+  "components/onboarding-forms/onboarding-form-10.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0259, rms=0.1259)",
+      "mobile diff high (mae=0.0341, rms=0.1326)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0259 rms=0.1259; mobile mae=0.0341 rms=0.1326",
+    "figmaScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-10-local-mobile.png"
+    }
+  },
+  "components/onboarding-forms/onboarding-form-11.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0721, rms=0.1388)",
+      "mobile diff high (mae=0.0871, rms=0.1568)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0721 rms=0.1388; mobile mae=0.0871 rms=0.1568",
+    "figmaScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-11-local-mobile.png"
+    }
+  },
+  "components/onboarding-forms/onboarding-form-12.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0729, rms=0.1397)",
+      "mobile diff high (mae=0.0871, rms=0.1558)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0729 rms=0.1397; mobile mae=0.0871 rms=0.1558",
+    "figmaScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-12-local-mobile.png"
+    }
+  },
+  "components/onboarding-forms/onboarding-form-13.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0713, rms=0.1337)",
+      "mobile diff high (mae=0.0804, rms=0.1418)"
+    ],
+    "notes": "vqc-071 auto-compare desktop mae=0.0713 rms=0.1337; mobile mae=0.0804 rms=0.1418",
+    "figmaScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-figma-desktop.png",
+    "localScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-local-desktop.png",
+    "figmaMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-figma-mobile.png",
+    "localMobileScreenshot": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-figma-desktop.png",
+      "localDesktop": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-local-desktop.png",
+      "figmaMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-figma-mobile.png",
+      "localMobile": "relume-visual-qc/components__onboarding-forms__onboarding-form-13-local-mobile.png"
+    }
   }
 }
