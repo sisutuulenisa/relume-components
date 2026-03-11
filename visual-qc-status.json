@@ -14513,5 +14513,301 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/97615869-ded1-4a66-ab17-2ddc633ff5e0",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-661-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-661-local-mobile.png"
+  },
+  "components/features/layout-626.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Volledige feature-grid met 4 kolommen ontbreekt \u2014 tab-navigatie component gerenderd i.p.v. feature-grid",
+      "Kubus-iconen ontbreken volledig",
+      "Verticale scheidingslijnen ontbreken",
+      "Button styling afwijkend (filled vs outline)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-626-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-626-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-626-local-mobile.png"
+  },
+  "components/features/layout-627.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Feature-grid met 4 kolommen en image placeholders ontbreekt \u2014 tab-navigatie component gerenderd",
+      "Image placeholders ontbreken volledig",
+      "Button styling afwijkend"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-627-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-627-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-627-local-mobile.png"
+  },
+  "components/features/layout-628.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Feature-grid met tekst-boven-image layout ontbreekt \u2014 tab-navigatie component gerenderd",
+      "Image placeholders ontbreken",
+      "Button styling afwijkend"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-628-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-628-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-628-local-mobile.png"
+  },
+  "components/features/layout-629.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Twee-kolom header layout gebroken \u2014 heading extreem groot en afgekapt",
+      "Tagline afgekapt tot 'Ta'",
+      "Feature-grid met icons ontbreekt \u2014 tab-navigatie gerenderd",
+      "Font-size heading veel te groot voor beschikbare ruimte",
+      "Button styling afwijkend"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-629-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-629-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-629-local-mobile.png"
+  },
+  "components/features/layout-63.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Achtergrondkleur ontbreekt \u2014 wit i.p.v. donkergrijs",
+      "Alle tekst (tagline, heading, beschrijving, subheadings) ontbreekt",
+      "Iconen zijn kleine lege cirkels i.p.v. 3D-kubus-iconen",
+      "Layout gecentreerd i.p.v. twee-kolom links-uitgelijnd",
+      "Button styling afwijkend"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-63-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-63-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-63-local-mobile.png"
+  },
+  "components/features/layout-630.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt tot 'Ta'",
+      "Heading extreem groot, afgekapt ('Mediun')",
+      "4 image-placeholder kaarten ontbreken \u2014 tab-layout gerenderd i.p.v. kaarten-grid",
+      "Horizontale scheidingslijn ontbreekt"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-630-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-630-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-630-local-mobile.png"
+  },
+  "components/features/layout-631.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Identiek aan layout-630 \u2014 tab-layout gerenderd i.p.v. kaarten-grid",
+      "Tagline afgekapt tot 'Ta'",
+      "Heading extreem groot en afgekapt",
+      "Image placeholders ontbreken"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-631-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-631-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-631-local-mobile.png"
+  },
+  "components/features/layout-632.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders hebben blekere/lichtere achtergrond dan Figma",
+      "Placeholder-icoon kleiner dan Figma",
+      "Subtiele border op afbeeldingen die niet in Figma staat",
+      "2-kolom layout behouden op mobiel i.p.v. stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-632-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-632-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-632-local-mobile.png"
+  },
+  "components/features/layout-633.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Screenshot afgesneden onderaan \u2014 headings, descriptions en buttons niet zichtbaar",
+      "Afbeelding-placeholders lichter/fijner (kleiner icon) dan Figma",
+      "Geen responsieve omzetting naar single-column op mobiel"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-633-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-633-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-633-local-mobile.png"
+  },
+  "components/features/layout-634.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading extreem groot en afgekapt ('Mediun') \u2014 font-size veel te groot",
+      "Tagline afgekapt tot 'Ta'",
+      "Card headings en descriptions niet zichtbaar",
+      "Geen responsieve aanpassing op mobiel"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-634-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-634-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-634-local-mobile.png"
+  },
+  "components/features/layout-635.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primaire button is filled/zwart i.p.v. outlined",
+      "Secundaire button gebruikt '\u2192' i.p.v. chevron '>'",
+      "Afbeelding-placeholder aanzienlijk kleiner in hoogte dan Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-635-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-635-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-635-local-mobile.png"
+  },
+  "components/features/layout-636.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video-placeholder ontbreekt \u2014 statische image-placeholder getoond i.p.v. donkergrijze video-placeholder",
+      "Play-button icon ontbreekt",
+      "Primaire button filled i.p.v. outlined",
+      "Secundaire button '\u2192' i.p.v. chevron '>'",
+      "Geen responsieve stack op mobiel"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-636-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-636-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-636-local-mobile.png"
+  },
+  "components/features/layout-637.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primaire button filled/donker i.p.v. outlined",
+      "Secundaire button outlined met '\u2192' i.p.v. text link zonder border",
+      "Afbeelding placeholder kleiner in hoogte dan Figma",
+      "Placeholder icon verschilt van Figma standaard"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-637-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-637-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-637-local-mobile.png"
+  },
+  "components/features/layout-638.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder met play-button ontbreekt volledig \u2014 statische image placeholder getoond",
+      "Geen play-button/video-indicatie zichtbaar",
+      "Button-stijl afwijkend (filled i.p.v. outlined)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-638-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-638-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-638-local-mobile.png"
+  },
+  "components/features/layout-639.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen bij subheadings zijn lege cirkels i.p.v. hexagonale Relume-iconen",
+      "Subheading tekst afgekapt ('Subheadg one/two')",
+      "Body tekst breekt excessief (1-2 woorden per regel) \u2014 layout gebroken",
+      "Icon+tekst layout incorrect \u2014 te veel witruimte tussen icon en tekst"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-639-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-639-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-639-local-mobile.png"
+  },
+  "components/features/layout-64.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Donkere achtergrond ontbreekt volledig \u2014 wit i.p.v. donkergrijs",
+      "Alle tekst (heading, beschrijving, subheadings, body) ontbreekt",
+      "Iconen zijn lege cirkels i.p.v. hexagonale Relume-iconen",
+      "Component volledig onbruikbaar/niet functioneel"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-64-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-64-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-64-local-mobile.png"
+  },
+  "components/features/layout-640.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video-placeholder toont geen play-button \u2014 lichtgrijze achtergrond met broken image icon",
+      "Subheading-teksten afgekapt ('Subheac one/two')",
+      "Iconen bij subheadings zijn lege cirkels i.p.v. Relume diamond-iconen",
+      "Layout subheading-items verkeerd \u2014 icon staat los van tekst in smalle kolom"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-640-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-640-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-640-local-mobile.png"
+  },
+  "components/features/layout-641.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen bij subheadings zijn lege cirkels i.p.v. Relume diamond-iconen",
+      "Primaire button filled (navy) i.p.v. outlined",
+      "Secundaire button '\u2192' i.p.v. chevron '>'"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-641-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-641-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-641-local-mobile.png"
+  },
+  "components/features/layout-642.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen bij subheadings zijn lege cirkels i.p.v. Relume diamond-iconen",
+      "Primaire button filled (navy) i.p.v. outlined",
+      "Secundaire button '\u2192' i.p.v. chevron '>'",
+      "Video-placeholder toont lichtgrijze image placeholder i.p.v. donkergrijze video met play-button"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-642-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-642-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-642-local-mobile.png"
+  },
+  "components/features/layout-643.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo's (Webflow, Relume) worden niet gerenderd \u2014 gebroken afbeelding-iconen i.p.v. logo's",
+      "Primaire button filled (navy) i.p.v. outlined",
+      "Secundaire button '\u2192' i.p.v. chevron '>'"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-643-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-643-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-643-local-mobile.png"
   }
 }
