@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Topbar sits above a Level 1 sidebar. Includes a company logo but does not have nav links. — topbars</title>
   <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body class="bg-gray-100 font-sans antialiased">
 <!-- Relume: Topbar sits above a Level 1 sidebar. Includes a company logo but does not have nav links. | Category: topbars | ID: 4174:122773 -->
@@ -25,9 +26,7 @@
       <!-- Company logo -->
       <div class="flex items-center gap-2">
         <div class="w-8 h-8 bg-gray-900 rounded flex items-center justify-center">
-          <svg class="w-5 h-5 text-white" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
-            <circle cx="10" cy="10" r="7"/>
-          </svg>
+          <i data-lucide="circle" class="w-5 h-5 text-white"></i>
         </div>
         <span class="text-base font-semibold text-gray-900">Company Name</span>
       </div>
@@ -56,5 +55,6 @@
   </div>
 </div>
 
+    <script>if(window.lucide){lucide.createIcons();}</script>
 </body>
 </html>

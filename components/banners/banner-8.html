@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Banner / 8 /</title>
     <link rel="stylesheet" href="../../dist/tailwind.css">
-  </head>
+      <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
   <body class="bg-white text-gray-900 antialiased font-sans">
     <article class="w-full flex flex-col items-center bg-white border border-black overflow-hidden mx-auto max-w-screen-xl px-5 md:px-20">
       <div class="w-full max-w-screen-xl flex flex-col md:flex-row items-center justify-between gap-6 py-3">
         <div class="flex w-full items-start gap-4 md:w-2/3">
-          <span class="text-base font-bold leading-normal text-black">ⓘ</span>
+          <i data-lucide="info" class="w-5 h-5 flex-shrink-0"></i>
           <div class="flex flex-col">
             <p class="text-base font-semibold leading-normal text-black text-left">Medium length banner heading goes here</p>
             <p class="text-sm font-normal leading-normal text-black text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -21,9 +22,10 @@
             <button class="bg-gray-900 text-white px-4 py-2.5 rounded">Button</button>
             <button class="border border-gray-900 text-gray-900 px-4 py-2.5 rounded bg-transparent">Button</button>
           </div>
-          <button class="text-base font-semibold leading-normal text-black">Close</button>
+          <button class="text-base font-semibold leading-normal text-black"><i data-lucide="x" class="w-4 h-4"></i></button>
         </div>
       </div>
     </article>
-  </body>
+      <script>if(window.lucide){lucide.createIcons();}</script>
+</body>
 </html>

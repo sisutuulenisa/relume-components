@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Level Badge</title>
     <link rel="stylesheet" href="../../dist/tailwind.css">
-  </head>
+      <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
   <body class="bg-white text-gray-900 antialiased font-sans">
     <article class="w-full flex flex-row justify-center items-center gap-2 pl-2 pr-4 py-1 rounded-xl bg-[#ffead4] border border-[#ff7448]/50 overflow-hidden mx-auto max-w-screen-xl px-5 md:px-20">
-      <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="7"/></svg>
+      <i data-lucide="circle" class="w-5 h-5 flex-shrink-0"></i>
       <h2 class="text-3xl font-medium leading-tight text-[#ff7448] text-left">Level 1</h2>
     </article>
-  </body>
+      <script>if(window.lucide){lucide.createIcons();}</script>
+</body>
 </html>
