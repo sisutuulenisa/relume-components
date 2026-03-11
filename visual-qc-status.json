@@ -14809,5 +14809,312 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-643-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-643-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-643-local-mobile.png"
+  },
+  "components/features/layout-662.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Subheading columns missing on desktop view",
+      "Video play button missing from image placeholder",
+      "Primary button filled instead of outlined",
+      "Image placeholder height insufficient"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-662-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-662-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-662-local-mobile.png"
+  },
+  "components/features/layout-663.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Subheading text truncated/clipped ('Subheac one' instead of 'Subheading one')",
+      "Icons render as empty circles instead of 3D-box icons",
+      "Sub-column body text wrapping in extremely narrow columns",
+      "Buttons cut off / not visible",
+      "No mobile responsive stacking at 390px"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-663-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-663-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-663-local-mobile.png"
+  },
+  "components/features/layout-664.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Subheading text truncated/clipped ('Subheac one')",
+      "Icons render as empty circles instead of 3D-box icons",
+      "Image placeholder wrong height; no video play button",
+      "Buttons not visible / cut off",
+      "No mobile responsive stacking at 390px"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-664-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-664-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-664-local-mobile.png"
+  },
+  "components/features/layout-665.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of 3D-box icons",
+      "No mobile responsive stacking at 390px",
+      "Primary button filled instead of outlined",
+      "Image placeholder shorter than Figma reference"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-665-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-665-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-665-local-mobile.png"
+  },
+  "components/features/layout-666.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of 3D-box icons",
+      "No mobile responsive stacking at 390px",
+      "Primary button filled instead of outlined",
+      "Video play button missing from image placeholder",
+      "Image placeholder does not fill full column height"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-666-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-666-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-666-local-mobile.png"
+  },
+  "components/features/layout-667.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All brand logos (Webflow/Relume) broken \u2014 rendering as broken-image placeholders",
+      "Logo count mismatch (4 in Figma vs 5 broken in local)",
+      "No mobile responsive stacking at 390px",
+      "Primary button filled instead of outlined",
+      "Image placeholder does not fill full column height"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-667-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-667-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-667-local-mobile.png"
+  },
+  "components/features/layout-668.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All brand logos broken \u2014 rendering as broken-image placeholders",
+      "Primary button filled instead of outlined",
+      "Image placeholder does not fill full column height",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-668-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-668-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-668-local-mobile.png"
+  },
+  "components/features/layout-669.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "List item icons render as empty circles instead of filled check/globe icons",
+      "Primary button filled instead of outlined",
+      "List item icon-to-text gap wider than Figma",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-669-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-669-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-669-local-mobile.png"
+  },
+  "components/features/layout-670.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "List item icons render as empty circles instead of filled check/globe icons",
+      "Primary button filled instead of outlined",
+      "No mobile responsive stacking at 390px",
+      "Image placeholder does not fill full column height"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-670-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-670-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-670-local-mobile.png"
+  },
+  "components/features/layout-671.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "List items have no bullet markers \u2014 rendered as plain text without bullets",
+      "Primary button filled instead of outlined",
+      "No mobile responsive stacking at 390px",
+      "Image placeholder does not fill full column height"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-671-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-671-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-671-local-mobile.png"
+  },
+  "components/features/layout-672.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled instead of outlined",
+      "Video play button overlay missing",
+      "Bullet markers missing from list items",
+      "Image placeholder does not fill full column height",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-672-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-672-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-672-local-mobile.png"
+  },
+  "components/features/layout-673.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icon above heading is broken \u2014 shows broken-image placeholder instead of cube icon",
+      "Primary button filled instead of outlined",
+      "Image placeholder does not fill full column height",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-673-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-673-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-673-local-mobile.png"
+  },
+  "components/features/layout-674.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Cube/box icon above heading is broken (broken-image placeholder)",
+      "Image/video placeholder broken (no play button overlay)",
+      "Primary button filled instead of outlined",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-674-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-674-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-674-local-mobile.png"
+  },
+  "components/features/layout-675.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled instead of outlined",
+      "Image placeholder does not fill full column height",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-675-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-675-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-675-local-mobile.png"
+  },
+  "components/features/layout-676.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder broken \u2014 no play button overlay",
+      "Primary button filled instead of outlined",
+      "Image placeholder does not fill full column height",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-676-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-676-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-676-local-mobile.png"
+  },
+  "components/features/layout-677.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 feature icons render as empty circles instead of cube/box icons",
+      "Primary button filled instead of outlined",
+      "Image placeholder does not fill full column height",
+      "No mobile responsive stacking at 390px"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-677-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-677-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-677-local-mobile.png"
+  },
+  "components/features/layout-678.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 feature icons render as empty circles instead of cube/box icons",
+      "Primary button filled instead of outlined",
+      "Image placeholder does not fill full column height",
+      "Video play button overlay missing",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-678-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-678-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-678-local-mobile.png"
+  },
+  "components/features/layout-679.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 feature icons render as empty circles instead of cube/box icons",
+      "Button pattern wrong \u2014 full-width dark bars instead of text links per feature card",
+      "Image placeholder does not fill full column height",
+      "Mobile view appears identical to desktop \u2014 stacking unverifiable"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-679-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-679-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-679-local-mobile.png"
+  },
+  "components/features/layout-67.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "CRITICAL: All text content missing \u2014 heading, tagline, paragraph, bullets, buttons not rendering",
+      "Background color white instead of dark gray/charcoal",
+      "Image placeholder renders as tiny broken-image icon",
+      "Two-column layout structure entirely absent",
+      "Component appears completely broken / non-functional"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-67-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-67-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-67-local-mobile.png"
+  },
+  "components/features/layout-68.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "CRITICAL: All text content missing \u2014 heading, paragraph, bullet list items not rendering",
+      "Background color white instead of dark gray/charcoal",
+      "Image placeholder renders as tiny broken-image icon",
+      "Two-column layout structure entirely absent",
+      "Component appears completely broken / non-functional"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-68-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-68-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-68-local-mobile.png"
   }
 }
