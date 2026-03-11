@@ -533,7 +533,7 @@
     },
     {
       "id": "vqc-007",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/card-headers/card-header-1.html",
