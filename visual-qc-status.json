@@ -1642,5 +1642,365 @@
     "figmaScreenshot": "relume-visual-qc/blog-48-figma.png",
     "localDesktop": "relume-visual-qc/blog-48-local-desktop.png",
     "localMobile": "relume-visual-qc/blog-48-local-mobile.png"
+  },
+  "components/card-headers/card-header-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: button order swapped (filled/outlined reversed vs Figma)",
+      "desktop: more-menu icon renders as oversized dark pill instead of compact ellipsis",
+      "mobile: viewport not applied correctly (renders at desktop width 1280px, mobile CSS not triggered)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/card-header-1-figma.png",
+    "localDesktop": "relume-visual-qc/card-header-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/card-header-1-local-mobile.png"
+  },
+  "components/card-headers/card-header-2.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: search input field missing, only an icon circle renders",
+      "desktop: sort dropdown uses wrong chevron direction (right-facing instead of down-facing) and is oversized",
+      "mobile: viewport not applied correctly (renders at desktop width 1280px, mobile CSS not triggered)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/card-header-2-figma.png",
+    "localDesktop": "relume-visual-qc/card-header-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/card-header-2-local-mobile.png"
+  },
+  "components/careers/career-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Apply Now button styling inverted (dark filled vs outlined in Figma), text wrapping to 2 lines",
+      "desktop: Apply Now button positioning wrong (not pushed to far right)",
+      "desktop: accordion chevron direction wrong (right-pointing instead of up-pointing)",
+      "desktop: missing horizontal dividers between department sections",
+      "desktop: left border appearing on sections (not in Figma)",
+      "desktop: content width/padding issues, vertical spacing compressed",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-1-figma.png",
+    "localDesktop": "relume-visual-qc/career-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-1-local-mobile.png"
+  },
+  "components/careers/career-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Apply Now button styling inverted (dark filled vs outlined), text wraps to 2 lines",
+      "desktop: Apply Now button not right-aligned",
+      "desktop: accordion chevron direction wrong and position wrong (inline left instead of far right)",
+      "desktop: section container borders shown instead of horizontal dividers",
+      "desktop: Open Positions title center-aligned instead of left-aligned",
+      "desktop: description text spans full width instead of 60%",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-2-figma.png",
+    "localDesktop": "relume-visual-qc/career-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-2-local-mobile.png"
+  },
+  "components/careers/career-10.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: location/clock icons not rendering (appear as empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: job card borders wrong (full rectangle borders instead of horizontal dividers)",
+      "desktop: Department badge has no background styling",
+      "desktop: typography appears bolder than Figma",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-10-figma.png",
+    "localDesktop": "relume-visual-qc/career-10-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-10-local-mobile.png"
+  },
+  "components/careers/career-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Open Positions heading center-aligned instead of left-aligned",
+      "desktop: Apply Now button styling inverted (dark filled, white text), text wraps to 2 lines",
+      "desktop: job card borders wrong (full rectangle boxes instead of horizontal dividers)",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: Department badge no styling (plain bold text)",
+      "desktop: only 1.5 of 3 cards visible due to oversized card heights",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-11-figma.png",
+    "localDesktop": "relume-visual-qc/career-11-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-11-local-mobile.png"
+  },
+  "components/careers/career-12.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Apply Now button styling inverted (dark filled vs outlined), oversized, text wraps to 2 lines",
+      "desktop: Department badge has no background/border styling",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: Contract Type text wrapping to 2 lines",
+      "desktop: job card borders wrong (table-like borders)",
+      "desktop: Tagline text appears clipped",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-12-figma.png",
+    "localDesktop": "relume-visual-qc/career-12-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-12-local-mobile.png"
+  },
+  "components/careers/career-13.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Department badge positioned inline next to Job Title instead of top-right corner",
+      "desktop: Department badge has no pill/background styling",
+      "desktop: Apply Now button styling inverted (dark filled), text wraps to 2 lines",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: only 1 card visible in viewport vs 3 in Figma",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-13-figma.png",
+    "localDesktop": "relume-visual-qc/career-13-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-13-local-mobile.png"
+  },
+  "components/careers/career-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Open Positions heading center-aligned instead of left-aligned",
+      "desktop: Department badge positioned inline instead of top-right, no badge styling",
+      "desktop: Apply Now button styling inverted (dark filled), text wraps to 2 lines",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: only 1 card visible vs 3 in Figma",
+      "desktop: Tagline text clipped",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-14-figma.png",
+    "localDesktop": "relume-visual-qc/career-14-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-14-local-mobile.png"
+  },
+  "components/careers/career-15.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Department badge positioned inline instead of far right, no badge styling",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: Apply Now button styling inverted (dark filled), text wraps to 2 lines, oversized",
+      "desktop: Contract Type text wrapping to 2 lines",
+      "desktop: Tagline text clipped",
+      "desktop: only ~2 of 3 cards visible",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-15-figma.png",
+    "localDesktop": "relume-visual-qc/career-15-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-15-local-mobile.png"
+  },
+  "components/careers/career-16.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label (space-between instead of compact)",
+      "desktop: metadata row spans full card width instead of being left-aligned",
+      "desktop: card border-radius applied but Figma shows square corners",
+      "desktop: card borders slightly lighter gray vs Figma black",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-16-figma.png",
+    "localDesktop": "relume-visual-qc/career-16-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-16-local-mobile.png"
+  },
+  "components/careers/career-17.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Open Positions heading center-aligned instead of left-aligned",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: Tagline text clipped",
+      "desktop: description text spans wider than ~55% max-width in Figma",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-17-figma.png",
+    "localDesktop": "relume-visual-qc/career-17-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-17-local-mobile.png"
+  },
+  "components/careers/career-18.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: Tagline text shows 'Taglir' instead of 'Tagline' (clipping artifact)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: Contract Type text wrapping to 2 lines",
+      "desktop: third job card partially clipped",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-18-figma.png",
+    "localDesktop": "relume-visual-qc/career-18-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-18-local-mobile.png"
+  },
+  "components/careers/career-19.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Apply Now renders as large dark filled button instead of plain text with chevron",
+      "desktop: department filter tabs have extra underline border not in Figma",
+      "desktop: unselected tab text color muted gray instead of black",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: only 1 job card visible vs 3 in Figma (layout oversized)",
+      "desktop: overall elements appear proportionally larger/zoomed in",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-19-figma.png",
+    "localDesktop": "relume-visual-qc/career-19-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-19-local-mobile.png"
+  },
+  "components/careers/career-20.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Open Positions heading center-aligned instead of left-aligned",
+      "desktop: Apply Now renders as large dark filled button instead of plain text with chevron",
+      "desktop: department filter tab underline present (not in Figma)",
+      "desktop: tab text color muted gray instead of black",
+      "desktop: Department badge no styling (plain bold text)",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: layout shows only 1 card vs 3 in Figma",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-20-figma.png",
+    "localDesktop": "relume-visual-qc/career-20-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-20-local-mobile.png"
+  },
+  "components/careers/career-21.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Apply Now styling inverted (dark filled vs plain text with chevron)",
+      "desktop: Job Title text wrapping to 2 lines",
+      "desktop: Department badge text truncated ('Departmer')",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: card header row not horizontal flex (elements stacking/wrapping)",
+      "desktop: only 2 of 3 cards visible due to oversized layout",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-21-figma.png",
+    "localDesktop": "relume-visual-qc/career-21-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-21-local-mobile.png"
+  },
+  "components/careers/career-22.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: job card borders wrong (full rectangle boxes instead of top horizontal divider only)",
+      "desktop: Apply Now button styling inverted (dark filled vs outlined), text wraps to 2 lines",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: Department badge no background/border styling",
+      "desktop: Contract Type wraps to 2 lines",
+      "desktop: typography appears bolder/heavier than Figma",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-22-figma.png",
+    "localDesktop": "relume-visual-qc/career-22-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-22-local-mobile.png"
+  },
+  "components/careers/career-23.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Department badge positioned inline left instead of far right",
+      "desktop: Department badge no background styling",
+      "desktop: Apply Now button styling inverted (dark filled), text wraps to 2 lines",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: Contract Type wraps to 2 lines",
+      "desktop: only 1 row of cards visible vs full grid in Figma",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-23-figma.png",
+    "localDesktop": "relume-visual-qc/career-23-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-23-local-mobile.png"
+  },
+  "components/careers/career-24.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Apply Now button styling inverted (dark filled vs ghost/outline), text wraps to 2 lines",
+      "desktop: Department badge positioned inline (not right-aligned), uses dark filled pill instead of light pill",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: card spans too wide (~80% vs 60-65% in Figma)",
+      "desktop: font sizes appear proportionally larger than Figma at 1280px",
+      "desktop: only top of first card visible due to oversized layout",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-24-figma.png",
+    "localDesktop": "relume-visual-qc/career-24-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-24-local-mobile.png"
+  },
+  "components/careers/career-25.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Apply Now button styling inverted (dark filled vs outlined), text wraps to 2 lines",
+      "desktop: Department badge positioned inline (not right-aligned), no badge styling",
+      "desktop: location/clock icons not rendering (empty circles)",
+      "desktop: excessive spacing between icon and text label",
+      "desktop: section dividers missing (outer border shown instead)",
+      "desktop: only 1 card per department visible vs 2 in Figma",
+      "desktop: page cut off, only first department section visible",
+      "desktop: left column has excessive empty vertical space (alignment broken)",
+      "mobile: viewport not applied correctly (renders at desktop width)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/career-25-figma.png",
+    "localDesktop": "relume-visual-qc/career-25-local-desktop.png",
+    "localMobile": "relume-visual-qc/career-25-local-mobile.png"
   }
 }
