@@ -11771,5 +11771,341 @@
     "figmaScreenshot": "relume-visual-qc/layout-481-figma.png",
     "localDesktop": "relume-visual-qc/layout-481-local-desktop.png",
     "localMobile": "relume-visual-qc/layout-481-local-mobile.png"
+  },
+  "components/features/layout-482.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled/dark instead of outlined as in Figma",
+      "Secondary button uses border+arrow instead of borderless text+chevron",
+      "Image area shows single placeholder instead of 3-image composition",
+      "Reduced top padding (tagline starts near top vs generous whitespace in Figma)",
+      "No responsive adaptation visible at 390px mobile viewport"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-482-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-482-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-482-local-mobile.png"
+  },
+  "components/features/layout-483.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image gallery shows only 2 placeholder boxes instead of 3 overlapping images (right small image missing)",
+      "All text content section (tagline, heading, description, buttons) completely missing",
+      "Image placeholders use tiny broken icons instead of styled placeholder blocks",
+      "Background color too light vs design's darker gray",
+      "No responsive adaptation at 390px mobile viewport"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-483-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-483-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-483-local-mobile.png"
+  },
+  "components/features/layout-484.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled/dark instead of outlined",
+      "Secondary button uses arrow character instead of chevron icon",
+      "Reduced top padding (tagline near top edge vs generous whitespace in Figma)",
+      "Text color slightly dark navy vs pure black",
+      "No responsive adaptation visible at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-484-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-484-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-484-local-mobile.png"
+  },
+  "components/features/layout-485.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled/dark instead of outlined",
+      "Secondary button outlined+arrow instead of plain text link with chevron",
+      "Step number '01' smaller and differently positioned vs Figma's large left-aligned number",
+      "Divider line spans differently from design",
+      "No responsive adaptation visible at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-485-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-485-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-485-local-mobile.png"
+  },
+  "components/features/layout-486.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled/dark instead of outlined/ghost style",
+      "Secondary button outlined+arrow instead of plain text link with chevron",
+      "Separator line is full-width thick rule vs Figma's short subtle top-line accent",
+      "Step numbers significantly smaller/less prominent than Figma's large condensed numerals",
+      "Content area appears narrower/more centered than Figma's wider text column"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-486-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-486-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-486-local-mobile.png"
+  },
+  "components/features/layout-487.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder overlaps and clips text content (not two-column side-by-side layout)",
+      "Image is wrong orientation (portrait cards instead of landscape rectangles)",
+      "Text content (heading, body) truncated/hidden behind image card",
+      "Primary button filled instead of outlined",
+      "Secondary button arrow character vs chevron icon",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-487-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-487-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-487-local-mobile.png"
+  },
+  "components/features/layout-488.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder is rectangular with rounded corners instead of circular",
+      "Image placeholder icon much smaller than design",
+      "'goes here' text wraps to two lines instead of one",
+      "No responsive adaptation at 390px \u2014 still showing wide 3-column layout",
+      "Layout not reflowing for mobile breakpoint"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-488-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-488-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-488-local-mobile.png"
+  },
+  "components/features/layout-489.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "'Tagline' text truncated to 'Tagl'",
+      "Image placeholder much smaller and not vertically full-height",
+      "Left border accent on list items shows as full rectangular outline instead of left-side vertical bar",
+      "Spacing between list items tighter than Figma",
+      "No responsive adaptation at 390px \u2014 still desktop two-column layout"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-489-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-489-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-489-local-mobile.png"
+  },
+  "components/features/layout-49.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All text content missing (tagline, heading, paragraph, subheadings, body text, buttons)",
+      "Background color wrong (light gray vs design's dark gray)",
+      "Image placeholder is tiny broken icon instead of styled placeholder block",
+      "Layout structure completely absent \u2014 no two-column layout visible",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-49-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-49-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-49-local-mobile.png"
+  },
+  "components/features/layout-490.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "'Tagline' text truncated to 'Tagl'",
+      "Image placeholder smaller and not vertically centered/full-height",
+      "First feature list item has box/outline border instead of left-border accent only",
+      "Buttons dark/filled instead of outlined",
+      "Spacing between feature items tighter (missing vertical gaps)",
+      "Image column too narrow at mobile (no stacking adaptation)"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-490-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-490-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-490-local-mobile.png"
+  },
+  "components/features/layout-491.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled/dark instead of outlined/ghost",
+      "Secondary button outlined instead of text-only link",
+      "Content section layout broken: text items have visible left border/box not in design",
+      "Horizontal divider lines between items missing",
+      "Image placeholder much smaller and not spanning full right column height",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-491-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-491-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-491-local-mobile.png"
+  },
+  "components/features/layout-492.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled/dark instead of outlined",
+      "Secondary button uses arrow character vs chevron",
+      "Image placeholder smaller and misaligned (should be full-height left column)",
+      "Vertical alignment of text and image off (text starts higher than image)",
+      "Divider lines between text blocks missing",
+      "No responsive layout at 390px \u2014 same desktop two-column"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-492-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-492-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-492-local-mobile.png"
+  },
+  "components/features/layout-493.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "'Tagline' text truncated to 'Tagl'",
+      "Image placeholder significantly smaller, not vertically filling content area",
+      "Section dividers appear as left-border/box outlines instead of horizontal rules",
+      "Top padding reduced compared to Figma",
+      "Buttons not visible (likely below fold or missing)",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-493-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-493-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-493-local-mobile.png"
+  },
+  "components/features/layout-494.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "'Tagline' text truncated to 'Tagl'",
+      "Image placeholder much smaller and not vertically filling content area",
+      "Short heading sections have visible box/table-like borders instead of bottom dividers only",
+      "Buttons not visible (cut off or missing)",
+      "Image column too narrow",
+      "No responsive adaptation at 390px \u2014 content overflows/requires horizontal scroll"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-494-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-494-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-494-local-mobile.png"
+  },
+  "components/features/layout-495.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Feature section layout completely broken: only first item visible in small bordered card",
+      "Image placeholder completely missing",
+      "Icon is empty circle instead of filled cube icon from Figma",
+      "Remaining 2 feature items not visible",
+      "Primary button filled/black instead of outlined",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-495-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-495-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-495-local-mobile.png"
+  },
+  "components/features/layout-496.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Feature section layout completely broken: only small card right-of-center, image placeholder missing",
+      "Icon renders as empty circle instead of filled diamond/gem icon",
+      "Image placeholder not visible",
+      "Primary button dark/filled instead of outlined",
+      "Secondary button uses text arrow instead of chevron icon",
+      "Reduced top padding",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-496-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-496-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-496-local-mobile.png"
+  },
+  "components/features/layout-497.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Feature list items have wrong layout (horizontal card with empty box vs vertically stacked with icon left of heading)",
+      "Icons render as plain circle/outline instead of filled cube icon",
+      "Image placeholder much smaller and not right-aligned/full-height",
+      "Feature items have visible border/card outlines not in Figma",
+      "Separator lines between items missing (replaced by card borders)",
+      "'Tagline' truncated to 'Tagl'",
+      "Third feature item not visible (cut off)",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-497-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-497-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-497-local-mobile.png"
+  },
+  "components/features/layout-498.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Layout broken: image and text not side-by-side, image pushed to bottom-left",
+      "'Tagline' text truncated to 'Tagl'",
+      "Feature list items have visible border/outline boxes not in design",
+      "Icon circles are empty/wrong (outlined circles vs filled globe icons in Figma)",
+      "Feature items in grid/card layout with borders instead of clean vertical stacked list",
+      "Buttons not visible (below fold)",
+      "No responsive adaptation at 390px"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-498-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-498-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-498-local-mobile.png"
+  },
+  "components/features/layout-499.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled/dark instead of outlined",
+      "Secondary button has border/outline style instead of text-only with chevron",
+      "Left border on content items appears as full rectangular border (box) instead of simple left accent line",
+      "Image placeholder smaller and not vertically spanning full height of text blocks",
+      "Tighter spacing between hero and content sections",
+      "Mobile screenshot identical to desktop (no responsive adaptation)"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-499-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-499-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-499-local-mobile.png"
+  },
+  "components/features/layout-5.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "'Tagline' text truncated to 'Tagl'",
+      "Video/image placeholder is light gray with broken icon instead of dark gray with play button",
+      "Primary button filled/dark instead of outlined",
+      "Secondary button has visible border/outline not in Figma (design shows text+arrow only)",
+      "Top padding reduced compared to Figma",
+      "No responsive adaptation at 390px \u2014 still wide desktop two-column layout"
+    ],
+    "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-5-figma.png",
+    "localDesktop": "local/screenshots/relume-visual-qc/layout-5-local-desktop.png",
+    "localMobile": "local/screenshots/relume-visual-qc/layout-5-local-mobile.png"
   }
 }
