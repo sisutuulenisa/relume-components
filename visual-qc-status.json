@@ -9912,5 +9912,312 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/596f3af3-9394-4e7d-b197-7addb3bb68e9",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-373-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-373-local-mobile.png"
+  },
+  "components/features/layout-374.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling differs (filled dark vs outlined text links in Figma)",
+      "Heading text truncated in small cards",
+      "Mobile: no responsive stacking, 3-column layout persists at 390px viewport"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-374-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-374-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-374-local-mobile.png"
+  },
+  "components/features/layout-375.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling differs (filled dark vs text links)",
+      "Heading text truncated in small cards",
+      "Image placeholder slightly skewed",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-375-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-375-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-375-local-mobile.png"
+  },
+  "components/features/layout-376.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of cube/diamond icons from Figma",
+      "Button styling differs (filled dark vs text links)",
+      "Heading text truncated in small cards",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-376-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-376-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-376-local-mobile.png"
+  },
+  "components/features/layout-377.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of cube/diamond icons",
+      "Heading text truncated in small cards",
+      "Button styling differs (filled dark vs text links)",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-377-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-377-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-377-local-mobile.png"
+  },
+  "components/features/layout-378.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles",
+      "Button styling differs (filled dark vs text links)",
+      "Heading text truncated in top-left card",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-378-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-378-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-378-local-mobile.png"
+  },
+  "components/features/layout-379.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading text truncated in small right-side cards",
+      "Icons render as empty circles",
+      "Button styling differs (filled dark vs text links)",
+      "Mobile: no responsive stacking (same layout at 390px)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-379-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-379-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-379-local-mobile.png"
+  },
+  "components/features/layout-38.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All text content missing (heading, description, buttons not rendered)",
+      "Background not applied (white instead of dark gray)",
+      "Only placeholder image visible",
+      "Component fundamentally broken on both desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-38-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-38-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-38-local-mobile.png"
+  },
+  "components/features/layout-380.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading text truncated in left card",
+      "Body text truncated",
+      "Text clipping in right card",
+      "Button styling differs (filled dark vs text links)",
+      "Mobile: identical to desktop, no responsive reflow"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-380-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-380-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-380-local-mobile.png"
+  },
+  "components/features/layout-381.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Text truncation in right-side small feature cards",
+      "Icons render as empty circles instead of Figma cube/diamond icons",
+      "Button styling differs (filled dark vs text links)",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-381-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-381-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-381-local-mobile.png"
+  },
+  "components/features/layout-382.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "'Tagline' renders as 'Taglir' (text truncation/typo)",
+      "Button styling differs (filled dark vs text links)",
+      "Card proportions differ (~50/50 vs Figma's ~65/35 split)",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-382-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-382-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-382-local-mobile.png"
+  },
+  "components/features/layout-383.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders don't fill full card width (white space on right)",
+      "'Tagline' renders as 'Taglir'",
+      "Mobile: no responsive stacking, two-column persists at 390px"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-383-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-383-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-383-local-mobile.png"
+  },
+  "components/features/layout-384.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling differs (filled dark vs text links)",
+      "Right card image doesn't fill full card width, appears rotated/skewed",
+      "'Tagline' renders as 'Taglir'",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-384-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-384-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-384-local-mobile.png"
+  },
+  "components/features/layout-385.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Left card image placeholder significantly smaller than Figma",
+      "Heading text truncated in left card",
+      "Description text truncated",
+      "Button styling differs",
+      "'Taglir' typo in right card tagline",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-385-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-385-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-385-local-mobile.png"
+  },
+  "components/features/layout-386.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of cube/diamond icons from Figma",
+      "Button styling differs throughout (filled dark vs text links)",
+      "Right panel image placeholder smaller than Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-386-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-386-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-386-local-mobile.png"
+  },
+  "components/features/layout-387.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Left card image placeholder significantly smaller/narrower than Figma",
+      "Icons render as empty circles instead of cube/diamond icons",
+      "Button styling differs (filled dark vs text links)",
+      "Image doesn't fill card width properly"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-387-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-387-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-387-local-mobile.png"
+  },
+  "components/features/layout-388.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of 3D cube icons",
+      "Button styling differs (filled dark vs text links)",
+      "Image placeholder in right card smaller/differently positioned",
+      "Heading text truncated in right card",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-388-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-388-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-388-local-mobile.png"
+  },
+  "components/features/layout-389.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of 3D cube icons",
+      "Button styling differs (filled dark vs text links)",
+      "Left card image area smaller/narrower than Figma",
+      "Heading/description text truncated in left card",
+      "Mobile: no responsive reflow"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-389-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-389-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-389-local-mobile.png"
+  },
+  "components/features/layout-39.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background section entirely missing",
+      "All text content missing (tagline, heading, description)",
+      "Only two buttons visible on white background",
+      "Background color not applied (white instead of dark gray)",
+      "Component fundamentally broken on both desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-39-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-39-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-39-local-mobile.png"
+  },
+  "components/features/layout-390.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling differs (filled dark vs text links)",
+      "'Tagline' renders as 'Taglir' in multiple cards",
+      "Heading text truncated in right cards",
+      "Image placeholders lighter/smaller than Figma",
+      "Left column proportionally wider than Figma",
+      "Mobile: no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-390-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-390-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-390-local-mobile.png"
+  },
+  "components/features/layout-391.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling differs (filled dark vs text links)",
+      "Heading/description text truncated in left cards",
+      "Right column card image proportions differ from Figma",
+      "'Taglir' typo in right card tagline",
+      "Card grid balance differs from Figma",
+      "Mobile: no responsive layout changes"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-391-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-391-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-391-local-mobile.png"
   }
 }
