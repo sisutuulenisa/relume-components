@@ -4997,7 +4997,7 @@
     },
     {
       "id": "vqc-056",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/gallery/gallery-9.html",
