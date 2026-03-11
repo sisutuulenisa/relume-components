@@ -1180,7 +1180,7 @@
     },
     {
       "id": "vqc-014",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/cta-new/cta-5.html",
@@ -1262,7 +1262,12 @@
           "path": "components/cta-new/cta-67.html",
           "nodeId": "8228:706"
         }
-      ]
+      ],
+      "results": {
+        "ok": 1,
+        "warn": 6,
+        "fail": 13
+      }
     },
     {
       "id": "vqc-015",
