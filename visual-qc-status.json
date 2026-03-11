@@ -13013,5 +13013,320 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-553-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-553-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-553-local-mobile.png"
+  },
+  "components/features/layout-554.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder area smaller than Figma (full-height left panel vs small rectangle)",
+      "Tagline text truncated to 'Tagl' instead of 'Tagline'",
+      "Buttons at bottom cut off / not visible in viewport"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-554-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-554-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-554-local-mobile.png"
+  },
+  "components/features/layout-555.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder area smaller than Figma",
+      "Tagline text truncated to 'Tagl'",
+      "Missing video play button icon on placeholder",
+      "Buttons at bottom cut off"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-555-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-555-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-555-local-mobile.png"
+  },
+  "components/features/layout-556.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons rendered as empty circle outlines instead of filled 3D-cube icons",
+      "Subheading text truncated/clipped ('Subheac one' instead of 'Subheading one')",
+      "Subheading area layout broken \u2014 columns too narrow causing text overflow",
+      "Tagline truncated to 'Tagl'",
+      "Buttons not visible (cut off at bottom)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-556-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-556-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-556-local-mobile.png"
+  },
+  "components/features/layout-557.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons rendered as empty circle outlines instead of filled 3D-cube icons",
+      "Subheading text truncated/clipped ('Subheac one'/'Subheac two')",
+      "Subheading area layout broken \u2014 columns too narrow",
+      "Missing video play button on placeholder",
+      "Tagline truncated to 'Tagl'",
+      "Buttons not visible (cut off at bottom)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-557-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-557-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-557-local-mobile.png"
+  },
+  "components/features/layout-558.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder area smaller than Figma",
+      "Tagline truncated to 'Tagl'",
+      "Icons rendered as empty circles instead of 3D cube icons",
+      "Buttons section cut off at bottom"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-558-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-558-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-558-local-mobile.png"
+  },
+  "components/features/layout-559.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image/video placeholder area smaller than Figma",
+      "Tagline truncated to 'Tagl'",
+      "Icons rendered as empty circles instead of 3D cube icons",
+      "Missing video play button overlay",
+      "Buttons cut off at bottom"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-559-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-559-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-559-local-mobile.png"
+  },
+  "components/features/layout-56.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Entire content section missing \u2014 only small image placeholder bar rendered, rest blank white",
+      "Missing dark/gray background color",
+      "Missing heading, paragraph text, subheading blocks and cube icons",
+      "Complete layout failure \u2014 no text, no icons, no background styling rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-56-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-56-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-56-local-mobile.png"
+  },
+  "components/features/layout-560.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl'",
+      "Logo/brand images (Webflow, Relume) rendered as broken image icons",
+      "Logo count differs (4 in Figma vs 5 in implementation)",
+      "Primary button style differs (outlined in Figma vs filled dark in implementation)",
+      "Secondary button arrow style differs (> vs \u2192)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-560-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-560-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-560-local-mobile.png"
+  },
+  "components/features/layout-561.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video/image placeholder not full-bleed; shows smaller rounded card instead",
+      "Tagline truncated to 'Tagl'",
+      "Logo/brand icons shown as broken image placeholders",
+      "Primary button style mismatch (filled vs outlined)",
+      "Secondary button arrow style differs",
+      "No responsive differentiation between desktop and mobile views"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-561-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-561-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-561-local-mobile.png"
+  },
+  "components/features/layout-562.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-bleed; shows smaller rounded card",
+      "Tagline truncated to 'Tagl'",
+      "List item icons differ \u2014 empty circles instead of filled Relume-style icons",
+      "Excessive gap between circle icon and text in list items",
+      "Buttons cut off / not visible in viewport"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-562-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-562-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-562-local-mobile.png"
+  },
+  "components/features/layout-563.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-bleed; shows smaller rounded card",
+      "Tagline truncated to 'Tagl'",
+      "List item icons differ \u2014 empty circles instead of filled Relume-style icons",
+      "Excessive gap between circle icon and text",
+      "Buttons cut off / not visible in viewport"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-563-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-563-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-563-local-mobile.png"
+  },
+  "components/features/layout-564.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder not full-bleed; shows smaller rounded card",
+      "Tagline truncated to 'Tagl'",
+      "List items missing bullet point markers (plain text instead of styled list)",
+      "Buttons missing / cut off below viewport"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-564-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-564-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-564-local-mobile.png"
+  },
+  "components/features/layout-565.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video placeholder image area not full-height; Figma shows full-height grey with play button",
+      "Tagline truncated to 'Tagl'",
+      "Bullet list items missing bullet point markers (plain text)",
+      "Buttons completely missing / cut off below viewport",
+      "Layout not stacked/responsive at mobile width \u2014 still two-column side-by-side"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-565-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-565-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-565-local-mobile.png"
+  },
+  "components/features/layout-566.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Cube/box icon above heading replaced by small image placeholder",
+      "Primary button style mismatch (outlined in Figma vs filled dark in implementation)",
+      "Secondary button arrow style differs (> vs \u2192)",
+      "Left image area shorter than full-height Figma design",
+      "Layout not stacked for mobile \u2014 still two-column side-by-side"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-566-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-566-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-566-local-mobile.png"
+  },
+  "components/features/layout-567.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Cube/box icon replaced by small image placeholder",
+      "Primary button style mismatch (outlined vs filled dark)",
+      "Secondary button arrow style differs",
+      "Video play button missing on placeholder",
+      "Left image area shorter than Figma's full-height design",
+      "Layout not stacked for mobile \u2014 still two-column side-by-side"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-567-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-567-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-567-local-mobile.png"
+  },
+  "components/features/layout-568.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl'",
+      "Primary button style mismatch (outlined in Figma vs filled dark)",
+      "Secondary button arrow style differs",
+      "Left image area shorter than Figma's full-height design",
+      "Buttons partially cut off at bottom of viewport",
+      "Layout not stacked for mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-568-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-568-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-568-local-mobile.png"
+  },
+  "components/features/layout-569.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image/video placeholder smaller than Figma's full-bleed area",
+      "Tagline truncated to 'Tagl'",
+      "Primary button style mismatch (outlined vs filled dark)",
+      "Image area not edge-to-edge as in Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-569-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-569-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-569-local-mobile.png"
+  },
+  "components/features/layout-57.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark/grey background missing \u2014 implementation shows white background",
+      "All text content missing (tagline, heading, paragraph, subheadings)",
+      "Subheading icon+text blocks not rendering \u2014 only tiny circle outlines",
+      "Button styling differs (white outlined on dark bg in Figma vs dark filled on white bg)",
+      "Layout essentially broken/empty \u2014 critical render failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-57-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-57-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-57-local-mobile.png"
+  },
+  "components/features/layout-570.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder shown as light grey card instead of Figma's full-bleed dark grey area",
+      "Feature icons rendered as empty circles instead of filled 3D-cube icons",
+      "Primary button style mismatch (outlined vs filled dark)",
+      "Image area not edge-to-edge as in Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-570-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-570-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-570-local-mobile.png"
+  },
+  "components/features/layout-571.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image/video placeholder shown as light grey card instead of Figma's full-bleed grey area with video play button",
+      "Feature icons rendered as empty circles instead of filled 3D-cube icons",
+      "Primary button style mismatch (outlined vs filled dark)",
+      "Left image area not edge-to-edge as in Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-571-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-571-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-571-local-mobile.png"
   }
 }
