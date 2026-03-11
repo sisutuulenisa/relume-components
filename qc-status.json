@@ -3090,5 +3090,905 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "Container uses `container mx-auto px-6` (not project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`); root is <div> not <article>; CSS loads correctly; no inline styles, no broken images"
+  },
+  "layout-174": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-175": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-176": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-177": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-178": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-179": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-18": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-180": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-181": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-182": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-183": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-184": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-185": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-186": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-187": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-188": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-189": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-19": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-190": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-191": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-192": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-193": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-194": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-195": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-196": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-197": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-198": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-199": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-2": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-20": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-200": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-201": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-202": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-203": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-204": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-205": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-206": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-207": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-208": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-209": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-21": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-210": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-211": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-212": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-213": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-214": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-215": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-216": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-217": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-218": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-219": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-22": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-220": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-221": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-222": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-223": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-224": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-225": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-226": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-227": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-228": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-229": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-23": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-230": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-231": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-232": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-233": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-234": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-235": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-236": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-237": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-238": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-239": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-24": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-240": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-241": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-242": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-243": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-244": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-245": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-246": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-247": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-248": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-249": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-25": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-250": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-251": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-252": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-253": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-254": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-255": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-256": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-257": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-259": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-26": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-260": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-261": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-262": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-263": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
+  },
+  "layout-264": {
+    "status": "ok",
+    "batch": "batch-005",
+    "fixes": [
+      "article-root",
+      "max-w-container",
+      "py-28-container"
+    ]
   }
 }
