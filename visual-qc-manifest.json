@@ -6552,7 +6552,7 @@
     },
     {
       "id": "vqc-073",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/portfolio-headers/portfolio-header-12.html",
@@ -6634,7 +6634,137 @@
           "path": "components/portfolio-sections/portfolio-12.html",
           "nodeId": "4174:78704"
         }
-      ]
+      ],
+      "results": {
+        "counts": {
+          "ok": 0,
+          "warn": 12,
+          "fail": 8
+        },
+        "warn_fail": [
+          {
+            "path": "components/portfolio-headers/portfolio-header-12.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-2.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-3.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-4.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-5.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-6.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-7.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-8.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-headers/portfolio-header-9.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-pages/portfolio-page-1.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-pages/portfolio-page-2.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-pages/portfolio-page-3.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-pages/portfolio-page-4.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-pages/portfolio-page-5.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-pages/portfolio-page-6.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-pages/portfolio-page-7.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-sections/portfolio-1.html",
+            "status": "fail",
+            "desktopStatus": "fail",
+            "mobileStatus": "fail"
+          },
+          {
+            "path": "components/portfolio-sections/portfolio-10.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-sections/portfolio-11.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          },
+          {
+            "path": "components/portfolio-sections/portfolio-12.html",
+            "status": "warn",
+            "desktopStatus": "warn",
+            "mobileStatus": "warn"
+          }
+        ],
+        "completedAt": "2026-03-11T15:06:45Z"
+      }
     },
     {
       "id": "vqc-074",
@@ -6810,7 +6940,7 @@
     },
     {
       "id": "vqc-076",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/pricing/pricing-29.html",
