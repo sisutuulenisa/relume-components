@@ -23,7 +23,7 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: herschreven met CDN Tailwind, responsive 2-koloms hero met heading/tekst/knoppen"
+    "note": "vqc-057: two-column hero remains aligned with figma"
   },
   "components/hero-headers-new/header-5.html": {
     "status": "ok",
@@ -17240,11 +17240,11 @@
     "note": "batch-027 fixed"
   },
   "components/hero-headers-new/header-10.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-026 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-057: mobile clipping + form/media layout mismatch still present"
   },
   "components/hero-headers-new/header-100.html": {
     "status": "ok",
@@ -21276,126 +21276,126 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-057: dark signup header matches figma after form fix"
   },
   "components/headers/header-54.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-057: structure visible but spacing/background differ from figma reference"
   },
   "components/headers/header-55.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-057: core heading/body match, but mobile spacing/padding still off"
   },
   "components/headers/header-56.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-057: major mismatch vs figma variant (content hierarchy/layout not aligned)"
   },
   "components/headers/header-57.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-057: section heading + media placeholder layout matches reference"
   },
   "components/headers/header-58.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-057: rendered variant does not match figma node composition"
   },
   "components/headers/header-59.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-057: tagline clipping and edge padding issues remain after pass"
   },
   "components/headers/header-60.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-057: major mismatch vs figma variant (wrong content pattern)"
   },
   "components/headers/header-61.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-057: close on desktop; mobile top spacing/crop still off"
   },
   "components/headers/header-62.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-057: centered dark header with dual CTA matches figma"
   },
   "components/headers/header-63.html": {
-    "status": "ok",
+    "status": "fail",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "fail",
+    "mobile": "fail",
+    "note": "vqc-057: signup form rendering regressed on responsive breakpoints"
   },
   "components/headers/header-64.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-057: minimal variant renders, but copy/spacing diverge from figma"
   },
   "components/headers/header-65.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-057: mostly aligned; media/placeholder overlap artifacts remain"
   },
   "components/headers/header-66.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-057: section heading + media block renders correctly"
   },
   "components/headers/header-67.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktop": "ok",
-    "mobile": "ok",
-    "note": "batch-034 fixed"
+    "desktop": "warn",
+    "mobile": "warn",
+    "note": "vqc-057: desktop acceptable; responsive variant inconsistencies observed"
   },
   "components/headers/header-68.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-057: centered signup header matches figma after form fix"
   },
   "components/headers/header-69.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-057: light section heading + media placeholder matches reference"
   },
   "components/headers/header-70.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-057: dark centered heading/description matches figma"
   },
   "components/gallery/gallery-10.html": {
     "status": "ok",
