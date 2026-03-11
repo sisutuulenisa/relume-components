@@ -5998,7 +5998,7 @@
     },
     {
       "id": "vqc-067",
-      "status": "done",
+      "status": "running",
       "components": [
         {
           "path": "components/long-form-content-sections/content-23.html",
@@ -6080,12 +6080,7 @@
           "path": "components/multi-step-forms/multi-form-11.html",
           "nodeId": "4174:93866"
         }
-      ],
-      "results": {
-        "ok": 18,
-        "warn": 2,
-        "fail": 0
-      }
+      ]
     },
     {
       "id": "vqc-068",
@@ -6261,7 +6256,7 @@
     },
     {
       "id": "vqc-070",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/multi-step-forms/multi-form-7.html",
@@ -6343,7 +6338,13 @@
           "path": "components/navbars/navbar-24.html",
           "nodeId": "6944:2661"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 8,
+        "fail": 12,
+        "checkedAt": "2026-03-11"
+      }
     },
     {
       "id": "vqc-071",
