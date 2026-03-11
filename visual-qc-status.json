@@ -12107,5 +12107,327 @@
     "figmaScreenshot": "local/screenshots/relume-visual-qc/layout-5-figma.png",
     "localDesktop": "local/screenshots/relume-visual-qc/layout-5-local-desktop.png",
     "localMobile": "local/screenshots/relume-visual-qc/layout-5-local-mobile.png"
+  },
+  "components/features/layout-50.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Layout structure completely different: Figma gray 3-col, implementation white 2-col",
+      "Background color mismatch: gray in Figma vs white in implementation",
+      "Content mismatch: different heading, missing tagline/feature list/CTAs",
+      "Typography: white text on dark in Figma vs dark on white in implementation",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-50-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-50-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-50-local-mobile.png"
+  },
+  "components/features/layout-500.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling: first button filled dark vs outlined in Figma",
+      "Bottom section tagline truncated to 'Tagl'",
+      "First text block has visible border not in Figma",
+      "Image placeholder smaller than Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-500-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-500-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-500-local-mobile.png"
+  },
+  "components/features/layout-501.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling: first button filled dark vs outlined in Figma",
+      "Tab active state: boxed rectangle vs underline in Figma",
+      "Tagline truncated to 'Tagl'",
+      "Image placeholder: lighter/smaller vs darker in Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-501-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-501-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-501-local-mobile.png"
+  },
+  "components/features/layout-502.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button styling: first button filled dark vs outlined in Figma",
+      "Tab active state: boxed rectangle vs underline in Figma",
+      "Tagline truncated to 'Tagl'",
+      "Image placeholder smaller and cut off vs large in Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-502-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-502-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-502-local-mobile.png"
+  },
+  "components/features/layout-503.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled dark vs outlined in Figma",
+      "Secondary button outlined vs text-link style in Figma",
+      "Tab active state: box/border vs underline in Figma",
+      "Image cut off at bottom of viewport",
+      "Mobile screenshot identical to desktop \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-503-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-503-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-503-local-mobile.png"
+  },
+  "components/features/layout-504.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button filled dark vs outlined in Figma",
+      "Secondary button outlined vs text-link style in Figma",
+      "Tab active state: box/border vs underline in Figma",
+      "Image placeholder doesn't fill full height as in Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-504-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-504-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-504-local-mobile.png"
+  },
+  "components/features/layout-505.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icon in content panel: small empty circle vs cube/box icon in Figma",
+      "Primary button filled dark vs outlined in Figma",
+      "Secondary button outlined vs text-link style in Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-505-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-505-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-505-local-mobile.png"
+  },
+  "components/features/layout-506.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icon in content panel: small empty circle vs cube/box icon in Figma",
+      "Primary button filled dark vs outlined in Figma",
+      "Secondary button outlined vs text-link style in Figma",
+      "Tab list cells have visible extra borders vs clean dividers in Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-506-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-506-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-506-local-mobile.png"
+  },
+  "components/features/layout-507.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tab bar: compact left-aligned vs full-width equal grid with cell borders in Figma",
+      "Image placeholder overlapping text content, breaking two-column layout",
+      "Image placeholder too small vs large in Figma",
+      "CTA buttons not visible (cut off or missing)",
+      "Text content clipped by overlapping image",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-507-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-507-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-507-local-mobile.png"
+  },
+  "components/features/layout-508.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tab bar: compact left-aligned vs full-width equal grid with cell borders in Figma",
+      "Image placeholder too small, doesn't match proportions",
+      "Text heading and body text truncated/cut off",
+      "CTA buttons not visible",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-508-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-508-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-508-local-mobile.png"
+  },
+  "components/features/layout-509.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder much smaller than Figma (25% vs 50% width, shorter height)",
+      "Primary button filled dark vs outlined in Figma",
+      "Tagline truncated to 'Tagl'",
+      "Image doesn't fill full vertical height of content area",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-509-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-509-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-509-local-mobile.png"
+  },
+  "components/features/layout-51.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Almost all content missing: only two centered buttons visible",
+      "Background color missing: Figma has dark gray, implementation has white",
+      "Tagline, heading, paragraph text, subheading sections all absent",
+      "Two-column layout structure completely missing",
+      "Buttons centered instead of left-aligned under right column",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-51-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-51-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-51-local-mobile.png"
+  },
+  "components/features/layout-510.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tab active state: boxed vs underline in Figma",
+      "Image placeholder smaller, lighter, rounded vs large dark in Figma",
+      "Primary button filled dark vs outlined in Figma",
+      "Tagline truncated to 'Tagl'",
+      "Content top-aligned vs vertically centered in Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-510-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-510-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-510-local-mobile.png"
+  },
+  "components/features/layout-511.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder much smaller and shorter vs full-height in Figma",
+      "Tab active state: boxed vs underline in Figma",
+      "Primary button filled dark vs outlined in Figma",
+      "Tagline truncated to 'Tagl'",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-511-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-511-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-511-local-mobile.png"
+  },
+  "components/features/layout-512.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tab active state: boxed vs underline in Figma",
+      "Image placeholder much smaller and lighter vs large dark in Figma",
+      "Primary button filled dark vs outlined in Figma",
+      "Tagline truncated to 'Tagl'",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-512-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-512-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-512-local-mobile.png"
+  },
+  "components/features/layout-513.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders dramatically smaller than Figma's large prominent visuals",
+      "Primary button filled dark vs outlined in Figma",
+      "Tagline truncated to 'Tagl'",
+      "Feature items (01-04) images much smaller than Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-513-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-513-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-513-local-mobile.png"
+  },
+  "components/features/layout-514.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl'",
+      "Button styling: filled dark primary vs outlined in Figma",
+      "Feature row images use lighter/different placeholder style",
+      "Mobile screenshot identical to desktop \u2014 no responsive column stacking",
+      "Section spacing compressed vs Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-514-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-514-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-514-local-mobile.png"
+  },
+  "components/features/layout-515.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl'",
+      "Figma shows full-bleed gray background on image half; implementation uses contained rounded placeholders",
+      "Insufficient vertical spacing between sections",
+      "Button styling: filled dark vs outlined in Figma",
+      "Mobile screenshot identical to desktop \u2014 no column stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-515-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-515-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-515-local-mobile.png"
+  },
+  "components/features/layout-516.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl'",
+      "Figma full-bleed gray on image half; implementation uses contained rounded placeholders",
+      "Insufficient spacing between sections",
+      "Button styling: filled dark primary vs outlined in Figma",
+      "Mobile screenshot identical to desktop \u2014 no responsive single-column stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-516-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-516-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-516-local-mobile.png"
+  },
+  "components/features/layout-517.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Major structural difference: Figma shows single centered card on gray BG with no image; implementation adds large image placeholder not in design",
+      "Card border: thick dark border vs subtle shadow in Figma",
+      "Tagline clipped/truncated",
+      "Layout structure fundamentally different from design",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-517-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-517-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-517-local-mobile.png"
   }
 }
