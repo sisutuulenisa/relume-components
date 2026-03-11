@@ -4729,7 +4729,7 @@
     },
     {
       "id": "vqc-053",
-      "status": "running",
+      "status": "pending",
       "components": [
         {
           "path": "components/footers/footer-12.html",
@@ -4906,7 +4906,7 @@
     },
     {
       "id": "vqc-055",
-      "status": "running",
+      "status": "pending",
       "components": [
         {
           "path": "components/gallery/gallery-15.html",
