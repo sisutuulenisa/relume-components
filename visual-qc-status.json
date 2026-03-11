@@ -2981,5 +2981,298 @@
     "figmaScreenshot": "relume-visual-qc/contact-30-figma.png",
     "localDesktop": "relume-visual-qc/contact-30-local-desktop.png",
     "localMobile": "relume-visual-qc/contact-30-local-mobile.png"
+  },
+  "components/cta-new/cta-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig wit scherm \u2014 heading, tekst, email-input, button, afbeelding ontbreken",
+      "desktop: twee-koloms layout (tekst links + image rechts) niet ge\u00efmplementeerd",
+      "mobile: email-input veld ontbreekt, vervangen door lege cirkel-icoon naast Sign Up button",
+      "mobile: afbeelding-placeholder vervangen door rij broken-image iconen"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-2-figma.png",
+    "localDesktop": "relume-visual-qc/cta-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-2-local-mobile.png"
+  },
+  "components/cta-new/cta-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: content ontbreekt \u2014 alleen lichtgrijs vlak met broken-image icoon",
+      "desktop: achtergrond is #f2f3f5 i.p.v. donkere overlay op afbeelding",
+      "desktop: buttons volledig afwezig",
+      "mobile: identiek \u2014 volledige content ontbreekt, achtergrondafbeelding niet geladen"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-3-figma.png",
+    "localDesktop": "relume-visual-qc/cta-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-3-local-mobile.png"
+  },
+  "components/cta-new/cta-13.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: toont cookie-banner i.p.v. CTA-sectie met heading + paragraph + 2 buttons",
+      "desktop: twee-koloms heading-links/content-rechts layout ontbreekt volledig",
+      "mobile: kaartlayout getoond i.p.v. single-column CTA, buttons donkerblauw i.p.v. zwart",
+      "mobile: heading tekst is 'Short heading here' i.p.v. 'Medium length heading goes here'"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-13-figma.png",
+    "localDesktop": "relume-visual-qc/cta-13-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-13-local-mobile.png"
+  },
+  "components/cta-new/cta-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg/wit \u2014 component rendert niet",
+      "desktop: heading, paragraph, email-input, Sign Up button volledig afwezig",
+      "mobile: email-input veld ontbreekt, vervangen door lege cirkel-icoon",
+      "mobile: 'Terms and Conditions' link mist underline-styling"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-14-figma.png",
+    "localDesktop": "relume-visual-qc/cta-14-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-14-local-mobile.png"
+  },
+  "components/cta-new/cta-15.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: cookie-banner overlapt/vervangt het component volledig",
+      "desktop: heading, tekst, buttons, grijze achtergrond ontbreken",
+      "mobile: verkeerd component gerenderd (card grid i.p.v. CTA balk)",
+      "mobile: twee keer 'Short heading here' in card-format \u2014 volledig onjuist"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-15-figma.png",
+    "localDesktop": "relume-visual-qc/cta-15-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-15-local-mobile.png"
+  },
+  "components/cta-new/cta-16.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg/wit \u2014 niets gerenderd",
+      "desktop: email-formulier, heading, paragraaf, grijze achtergrond allemaal afwezig",
+      "mobile: lichtgrijs vlak met broken-image icoon \u2014 alle content ontbreekt",
+      "mobile: broken image pad/src probleem"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-16-figma.png",
+    "localDesktop": "relume-visual-qc/cta-16-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-16-local-mobile.png"
+  },
+  "components/cta-new/cta-17.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: cookie-banner getoond i.p.v. CTA \u2014 heading, donkere achtergrond, buttons afwezig",
+      "desktop: twee-koloms layout (heading links, tekst+buttons rechts) volledig ontbreekt",
+      "mobile: heading en beschrijving ontbreken \u2014 alleen twee buttons op wit canvas",
+      "mobile: achtergrondkleur donkergrijs ontbreekt, buttons verkeerd gestyled"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-17-figma.png",
+    "localDesktop": "relume-visual-qc/cta-17-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-17-local-mobile.png"
+  },
+  "components/cta-new/cta-18.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: cookie-banner getoond i.p.v. component \u2014 email-input, Sign Up button, disclaimer afwezig",
+      "desktop: twee-koloms layout met heading links + formulier rechts op donkere achtergrond volledig ontbreekt",
+      "mobile: volledig leeg wit scherm \u2014 geen enkel element zichtbaar",
+      "mobile: donkergrijze achtergrond, heading, tekst, formulier allemaal afwezig"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-18-figma.png",
+    "localDesktop": "relume-visual-qc/cta-18-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-18-local-mobile.png"
+  },
+  "components/cta-new/cta-19.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: image-placeholder rechts aanwezig terwijl Figma alleen tekst+buttons links-uitgelijnd toont",
+      "desktop: buttonkleur is navy i.p.v. puur zwart (#000)",
+      "desktop: top-padding ontbreekt, content begint direct aan bovenkant"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-19-figma.png",
+    "localDesktop": "relume-visual-qc/cta-19-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-19-local-mobile.png"
+  },
+  "components/cta-new/cta-20.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg/wit \u2014 heading, beschrijving, email-input, Sign Up, disclaimer niet gerenderd",
+      "desktop: rendering/visibility-bug of component laadt niet",
+      "mobile: email-invoerveld kapot \u2014 kleine cirkel i.p.v. volledig tekstveld",
+      "mobile: spacing boven button-rij te krap"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-20-figma.png",
+    "localDesktop": "relume-visual-qc/cta-20-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-20-local-mobile.png"
+  },
+  "components/cta-new/cta-21.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: afbeelding placeholder ~1/3 breedte links i.p.v. full-width",
+      "desktop: heading kleur donkerblauw i.p.v. puur zwart",
+      "desktop: bovenste padding/margin ontbreekt (~80px top-padding)",
+      "mobile: geen responsief gedrag \u2014 layout breekt niet naar single-column stack",
+      "mobile: afbeelding blijft links ~1/3 breedte, rechter 2/3 leeg"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-21-figma.png",
+    "localDesktop": "relume-visual-qc/cta-21-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-21-local-mobile.png"
+  },
+  "components/cta-new/cta-22.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading, body, email-input, Sign Up button, Terms-tekst ontbreken",
+      "desktop: alleen kleine image-placeholder met lichtgrijze achtergrond zichtbaar",
+      "mobile: volledig lege/witte pagina \u2014 geen enkel element gerenderd"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-22-figma.png",
+    "localDesktop": "relume-visual-qc/cta-22-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-22-local-mobile.png"
+  },
+  "components/cta-new/cta-23.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading, beschrijving en afbeelding ontbreken \u2014 alleen twee buttons gecentreerd",
+      "desktop: buttons hebben rounded corners + navy i.p.v. scherpe hoeken + puur zwart",
+      "mobile: afbeelding placeholder ~1/3 breedte i.p.v. full-width",
+      "mobile: buttons rounded corners + navy i.p.v. scherpe hoeken + puur zwart"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-23-figma.png",
+    "localDesktop": "relume-visual-qc/cta-23-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-23-local-mobile.png"
+  },
+  "components/cta-new/cta-24.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading, beschrijving, email-input, disclaimer, afbeelding ontbreken",
+      "desktop: twee generieke 'Button' buttons getoond i.p.v. email-formulier",
+      "mobile: email-inputveld kapot \u2014 kleine cirkel i.p.v. volledig tekstveld",
+      "mobile: 'Terms and Conditions' tekst mist hyperlink-styling (underline)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-24-figma.png",
+    "localDesktop": "relume-visual-qc/cta-24-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-24-local-mobile.png"
+  },
+  "components/cta-new/cta-25.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: loading spinner en 'Sign Up' tekst zichtbaar, heading/description/buttons niet gerenderd",
+      "desktop: layout komt niet overeen met Figma (gecentreerde heading + paragraph + 2 buttons)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-25-figma.png",
+    "localDesktop": "relume-visual-qc/cta-25-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-25-local-mobile.png"
+  },
+  "components/cta-new/cta-26.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: loading spinner + 'Sign Up' zichtbaar \u2014 email-input, heading, beschrijving niet gerenderd",
+      "mobile: volledig lege/witte viewport \u2014 component lijkt niet te laden of te crashen"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-26-figma.png",
+    "localDesktop": "relume-visual-qc/cta-26-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-26-local-mobile.png"
+  },
+  "components/cta-new/cta-27.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading, beschrijving, buttons ontbreken \u2014 alleen lege lichtgrijze placeholder",
+      "desktop: achtergrond is lichtgrijs i.p.v. donkergrijs met overlay",
+      "mobile: identiek \u2014 volledige content ontbreekt, afbeelding/overlay niet geladen"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-27-figma.png",
+    "localDesktop": "relume-visual-qc/cta-27-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-27-local-mobile.png"
+  },
+  "components/cta-new/cta-28.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading, beschrijving, email-input, Sign Up button, disclaimer ontbreken",
+      "desktop: achtergrond lichtgrijs placeholder i.p.v. donkergrijs met image-overlay",
+      "mobile: identiek \u2014 broken-image placeholder, email-formulier volledig afwezig"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-28-figma.png",
+    "localDesktop": "relume-visual-qc/cta-28-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-28-local-mobile.png"
+  },
+  "components/cta-new/cta-29.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: achtergrondkleur ontbreekt (wit i.p.v. donkergrijs #4A4A4A)",
+      "desktop: heading en beschrijvingstekst ontbreken volledig",
+      "desktop: buttons verkeerd gestyled (filled dark + outlined i.p.v. beide outlined wit)",
+      "mobile: identiek \u2014 achtergrond, heading, tekst en button-stijl wijken af"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-29-figma.png",
+    "localDesktop": "relume-visual-qc/cta-29-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-29-local-mobile.png"
+  },
+  "components/cta-new/cta-30.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: achtergrondkleur ontbreekt (wit i.p.v. donkergrijs #4A4A4A)",
+      "desktop: heading, beschrijvingstekst en Terms-disclaimer ontbreken volledig",
+      "desktop: email-input afwezig \u2014 alleen lege cirkel + 'Sign Up' tekst",
+      "mobile: identiek aan desktop \u2014 achtergrond, heading, tekst, formulier ontbreken"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-30-figma.png",
+    "localDesktop": "relume-visual-qc/cta-30-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-30-local-mobile.png"
   }
 }
