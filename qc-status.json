@@ -64,9 +64,10 @@
   },
   "components/footers/footer-6.html": {
     "status": "ok",
-    "mobileStatus": "warn",
-    "checkedAt": "2026-03-10",
-    "note": "Desktop goed; mobiel placeholders i.p.v. icon/input."
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "vqc-053 mae=0.0287 rms=0.1502"
   },
   "components/navbars/navbar-1.html": {
     "status": "ok",
@@ -21902,42 +21903,42 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-053 mae=0.0286 rms=0.146"
   },
   "components/forms/form-10.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-053 mae=0.07 rms=0.2454"
   },
   "components/forms/form-11.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-053 mae=0.0306 rms=0.1557"
   },
   "components/forms/form-12.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-053 mae=0.0304 rms=0.1559"
   },
   "components/forms/form-13.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-053 mae=0.0477 rms=0.2004"
   },
   "components/forms/form-14.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-053 mae=0.0715 rms=0.2473"
   },
   "components/forms/form-15.html": {
     "status": "ok",
@@ -22903,91 +22904,91 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0574 rms=0.2251"
   },
   "components/footers/footer-13.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0563 rms=0.2235"
   },
   "components/footers/footer-14.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0467 rms=0.1972"
   },
   "components/footers/footer-15.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.082 rms=0.2729"
   },
   "components/footers/footer-16.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0943 rms=0.2909"
   },
   "components/footers/footer-17.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.1058 rms=0.3103"
   },
   "components/footers/footer-2.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0362 rms=0.1687"
   },
   "components/footers/footer-3.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0211 rms=0.128"
   },
   "components/footers/footer-4.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0199 rms=0.1224"
   },
   "components/footers/footer-5.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0313 rms=0.1563"
   },
   "components/footers/footer-7.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0144 rms=0.1029"
   },
   "components/footers/footer-8.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0345 rms=0.1667"
   },
   "components/footers/footer-9.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-036 fixed"
+    "note": "vqc-053 mae=0.0375 rms=0.1718"
   },
   "components/sidebars/level-badge-2.html": {
     "status": "ok",
