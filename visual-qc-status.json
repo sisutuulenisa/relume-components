@@ -17215,5 +17215,265 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-136-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-136-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-136-local-mobile.png"
+  },
+  "components/hero-headers-new/header-137.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "issues": [
+      "Desktop: image composition/background mismatch and heading wraps differently",
+      "Mobile: no responsive reflow; desktop layout persists at 390px"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-137-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-137-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-137-local-mobile.png"
+  },
+  "components/hero-headers-new/header-138.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Hero structure broken: heading/body/buttons missing",
+      "Only broken/partial image placeholders visible"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-138-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-138-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-138-local-mobile.png"
+  },
+  "components/hero-headers-new/header-139.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Wrong component rendered (section heading placeholder instead of intended hero)",
+      "No responsive adaptation visible"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-139-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-139-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-139-local-mobile.png"
+  },
+  "components/hero-headers-new/header-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Hero media/play button missing and placeholder styling incorrect",
+      "Email input broken/missing; heading clipping and no mobile reflow"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-14-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-14-local-mobile.png"
+  },
+  "components/hero-headers-new/header-140.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "Text/button block matches, but 3-image collage is missing",
+      "Only tiny single placeholder icon rendered"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-140-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-140-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-140-local-mobile.png"
+  },
+  "components/hero-headers-new/header-141.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Main text is present, but full 3-image collage layout is missing",
+      "Large empty area with only tiny placeholder icon"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-141-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-141-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-141-local-mobile.png"
+  },
+  "components/hero-headers-new/header-142.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Scattered multi-image composition largely missing (only one placeholder visible)",
+      "Desktop/mobile appear identical; responsive behavior not evident"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-142-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-142-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-142-local-mobile.png"
+  },
+  "components/hero-headers-new/header-143.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "Overall structure matches but media placeholder tone/icon differs from Figma",
+      "Top padding and media proportion differ slightly"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-143-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-143-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-143-local-mobile.png"
+  },
+  "components/hero-headers-new/header-144.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Bottom media block renders partial-width instead of full-width",
+      "Media appears cropped/truncated"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-144-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-144-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-144-local-mobile.png"
+  },
+  "components/hero-headers-new/header-145.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "Core content matches, but bottom image block is cut off/truncated",
+      "Minor spacing/color deviations"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-145-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-145-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-145-local-mobile.png"
+  },
+  "components/hero-headers-new/header-146.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Email input field broken/missing (renders as tiny circle/spinner)",
+      "Media placeholder size/style differs strongly from Figma"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-146-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-146-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-146-local-mobile.png"
+  },
+  "components/hero-headers-new/header-147.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "Structure mostly correct, but media section not full-bleed and wrong tone",
+      "Play button/icon missing in media area"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-147-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-147-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-147-local-mobile.png"
+  },
+  "components/hero-headers-new/header-148.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Email input broken/missing (tiny circle instead of input)",
+      "Media block differs significantly (inset/light, missing play state)"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-148-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-148-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-148-local-mobile.png"
+  },
+  "components/hero-headers-new/header-149.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "Main layout and typography match",
+      "Bottom placeholder area appears truncated/cut off"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-149-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-149-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-149-local-mobile.png"
+  },
+  "components/hero-headers-new/header-15.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Bottom image block renders ~1/3 width instead of full-width",
+      "Top spacing/padding differs from Figma"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-15-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-15-local-mobile.png"
+  },
+  "components/hero-headers-new/header-150.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Email input missing/broken (radio-like circle shown)",
+      "Bottom media section is cut off and incomplete"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-150-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-150-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-150-local-mobile.png"
+  },
+  "components/hero-headers-new/header-151.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "Most content matches, but media/video area style differs (rounded/inset/cutoff)",
+      "Play icon/state not matching Figma"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-151-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-151-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-151-local-mobile.png"
+  },
+  "components/hero-headers-new/header-152.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "Email input field appears broken/missing",
+      "Media/video block lacks expected dark/play treatment"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-152-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-152-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-152-local-mobile.png"
+  },
+  "components/hero-headers-new/header-153.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Component render is fundamentally broken: heading/body/buttons missing",
+      "Only tiny broken image icons visible, collage layout absent"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-153-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-153-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-153-local-mobile.png"
+  },
+  "components/hero-headers-new/header-154.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "Unexpected top placeholder inserted; expected CTA buttons missing",
+      "No responsive adaptation visible between desktop and mobile captures"
+    ],
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-154-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-154-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-154-local-mobile.png"
   }
 }
