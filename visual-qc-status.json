@@ -10219,5 +10219,291 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-391-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-391-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-391-local-mobile.png"
+  },
+  "components/features/layout-41.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows side-by-side layout (tagline+heading left, description+buttons right); local shows centered stacked layout",
+      "Buttons missing in local implementation",
+      "Image placeholder shown in local does not exist in Figma",
+      "Layout structure completely wrong"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-41-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-41-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-41-local-mobile.png"
+  },
+  "components/features/layout-410.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image overlaps heading text causing truncation ('Medium len... section hea...')",
+      "Buttons have wrong style (filled dark vs outlined)",
+      "Only 1 card visible in viewport instead of 4",
+      "Second button wrong styling (bordered box with arrow instead of text link with chevron)",
+      "Mobile screenshot identical to desktop - no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-410-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-410-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-410-local-mobile.png"
+  },
+  "components/features/layout-411.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image overlaps heading text causing truncation",
+      "Buttons styled wrong (filled dark vs outlined)",
+      "Mobile screenshot identical to desktop - no responsive behavior"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-411-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-411-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-411-local-mobile.png"
+  },
+  "components/features/layout-412.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Component completely blank/white - nothing renders on desktop",
+      "Component completely blank/white - nothing renders on mobile",
+      "Component appears completely broken"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-412-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-412-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-412-local-mobile.png"
+  },
+  "components/features/layout-413.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image-text column order reversed vs Figma (text-left/image-right instead of image-left/text-right)",
+      "'Tagline' truncated to 'Tagl' in both desktop and mobile",
+      "Image placeholder smaller/shorter than Figma",
+      "Button styles differ (filled dark primary + outlined vs outlined + text link with chevron)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-413-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-413-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-413-local-mobile.png"
+  },
+  "components/features/layout-414.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Images collapsed to tiny narrow vertical strips (~30px wide) instead of full-width rows",
+      "'Tagline' truncated to 'Taglir'",
+      "Button styles wrong (filled dark vs outlined)",
+      "Mobile identical broken layout - no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-414-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-414-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-414-local-mobile.png"
+  },
+  "components/features/layout-415.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows stacked/fanned card effect; local shows flat vertical list of bordered cards",
+      "'Tagline' truncated to 'Tagl'",
+      "Buttons missing in local",
+      "Circle icons instead of cube/box icons from Figma",
+      "Card visual treatment completely different"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-415-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-415-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-415-local-mobile.png"
+  },
+  "components/features/layout-416.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows stacked card carousel; local shows flat vertical list of bordered cards",
+      "'Tagline' truncated to 'Tagl'",
+      "Circle icons instead of cube/box icons from Figma",
+      "Stacked card visual effect entirely missing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-416-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-416-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-416-local-mobile.png"
+  },
+  "components/features/layout-417.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-417-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-417-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-417-local-mobile.png"
+  },
+  "components/features/layout-418.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-418-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-418-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-418-local-mobile.png"
+  },
+  "components/features/layout-419.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders rendered as light gray boxes instead of darker gray style from Figma",
+      "'Tagline' truncated to 'Tagl' on mobile",
+      "Overall two-column layout structure preserved"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-419-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-419-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-419-local-mobile.png"
+  },
+  "components/features/layout-42.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white - no content renders at all",
+      "Mobile correctly shows heading and paragraph text matching Figma layout"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-42-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-42-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-42-local-mobile.png"
+  },
+  "components/features/layout-420.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders rendered as light gray with small icons instead of full gray overlay style with numbered indicators",
+      "Numbered overlay style (1, 2, 3, 4) from Figma not replicated",
+      "'Tagline' truncated to 'Tagl' on mobile",
+      "Overall scroll-based layout structure maintained"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-420-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-420-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-420-local-mobile.png"
+  },
+  "components/features/layout-421.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button style differs: Figma shows outline/bordered; local shows filled dark",
+      "Secondary button differs: Figma shows text+chevron link; local shows outlined button with arrow",
+      "Image section not fully visible - only partial placeholder visible",
+      "Figma uses overlapping/staggered image placeholders; local shows minimal light gray placeholder"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-421-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-421-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-421-local-mobile.png"
+  },
+  "components/features/layout-422.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Card content completely missing: Figma shows gray overlay cards with Tagline/heading/description/buttons",
+      "Local only shows empty light gray placeholder rectangles with broken image icons",
+      "No text overlay, no gradient overlay, no button links visible",
+      "Cards lack the dark overlay treatment from Figma design"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-422-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-422-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-422-local-mobile.png"
+  },
+  "components/features/layout-423.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows 3 gray overlay cards in a row with text and button links",
+      "Local shows header area with tabs but no card content below - content area completely empty",
+      "Entire card grid section with image overlays is missing",
+      "Tab component appears instead of expected card grid"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-423-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-423-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-423-local-mobile.png"
+  },
+  "components/features/layout-424.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma shows simple centered Tagline + large Heading with significant vertical padding",
+      "Local renders a completely different layout - left-aligned heading with image placeholders on right, body text, and two buttons",
+      "Component rendered appears to be a different layout entirely (possibly wrong component)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-424-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-424-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-424-local-mobile.png"
+  },
+  "components/features/layout-425.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Right image significantly undersized compared to Figma (much smaller/shorter)",
+      "Bottom-left image placeholder appears as tiny broken icon instead of proper image block",
+      "'Tagline' truncated to 'Tagl'",
+      "Overall image proportions and sizes do not match Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-425-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-425-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-425-local-mobile.png"
+  },
+  "components/features/layout-426.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Right image significantly smaller/shorter than Figma (should be much taller)",
+      "Left small image appears as tiny placeholder icon",
+      "'Tagline' truncated to 'Tagl'",
+      "Overall layout structure correct but proportions differ"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-426-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-426-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-426-local-mobile.png"
+  },
+  "components/features/layout-427.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Layout horizontally mirrored vs Figma: image on left/text right instead of Figma's small-image-left + text-left + large-image-right",
+      "'Tagline' truncated to 'Tagl'",
+      "Mobile shows no responsive stacking - two-column layout retained on mobile viewport",
+      "Bottom image placeholder barely visible/cropped"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-427-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-427-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-427-local-mobile.png"
   }
 }
