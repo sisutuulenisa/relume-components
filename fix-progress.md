@@ -587,3 +587,20 @@
 - [x] event-35 ✅
 - [x] event-36 ✅
 - [x] event-37 ✅
+
+
+## components/faq/
+- [x] faq-1 ✅
+- [x] faq-2 ✅
+- [x] faq-3 ✅
+- [x] faq-4 ✅
+- [x] faq-5 ✅
+- [x] faq-6 ✅
+- [x] faq-7 ✅
+- [x] faq-8 ✅
+- [x] faq-9 ✅
+- [x] faq-10 ✅
+- [x] faq-11 ✅
+- [x] faq-12 ✅
+- [x] faq-13 ✅
+- [x] faq-14 ✅
