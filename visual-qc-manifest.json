@@ -7205,7 +7205,7 @@
     },
     {
       "id": "vqc-078",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/pricing-pages/pricing-5.html",
@@ -7287,7 +7287,12 @@
           "path": "components/product-list-sections/product-7.html",
           "nodeId": "4174:113567"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 5,
+        "fail": 15
+      }
     },
     {
       "id": "vqc-079",
