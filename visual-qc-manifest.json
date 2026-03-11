@@ -6365,7 +6365,7 @@
     },
     {
       "id": "vqc-071",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/navbars/navbar-25.html",
@@ -6447,7 +6447,12 @@
           "path": "components/onboarding-forms/onboarding-form-13.html",
           "nodeId": "4174:128331"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 13,
+        "fail": 7
+      }
     },
     {
       "id": "vqc-072",
@@ -6537,7 +6542,7 @@
     },
     {
       "id": "vqc-073",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/portfolio-headers/portfolio-header-12.html",
