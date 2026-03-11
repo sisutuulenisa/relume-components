@@ -489,3 +489,9 @@
 - [x] cta-65 ✅
 - [x] cta-66 ✅
 - [x] cta-67 ✅
+
+## components/description-lists/
+- [x] description-list-1 ✅
+- [x] description-list-2 ✅
+- [x] description-list-3 ✅
+- [x] description-list-4 ✅
