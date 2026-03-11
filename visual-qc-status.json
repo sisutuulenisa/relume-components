@@ -16310,5 +16310,344 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-27-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-27-local-desktop-v2.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-27-local-mobile-v2.png"
+  },
+  "components/footers/footer-12.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as 5 circle icons instead of script 'Logo' wordmark",
+      "Social icons in bottom bar render as circle/crescent placeholders instead of Facebook/Instagram/X/LinkedIn/YouTube",
+      "Social image placeholders in middle render as tall broken image boxes",
+      "Divider does not span full width",
+      "Desktop and mobile screenshots appear identical \u2014 no responsive differentiation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/889cb087-e682-460b-9c3b-d1086038a59d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-12-local-mobile.png"
+  },
+  "components/footers/footer-13.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as 5 circle icons instead of script 'Logo' wordmark",
+      "Social icons render as circle/crescent placeholders instead of branded icons",
+      "Implementation adds Privacy Policy/Terms of Service/Cookies Settings in bottom bar outside card \u2014 not in Figma design",
+      "Desktop and mobile screenshots appear identical \u2014 no responsive differentiation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1f3508b8-47c3-4c94-9eaa-51697a28f995",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-13-local-mobile.png"
+  },
+  "components/footers/footer-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Link columns collapsed into horizontal tab/pill navigation (Column One\u2013Six as buttons) instead of 6 expanded columns with 30 visible links as in Figma",
+      "Logo renders as 4-5 circle icons instead of 'Logo' wordmark",
+      "Social icons render as circle/crescent placeholders",
+      "Divider does not span full width",
+      "Mobile screenshot captured wrong component (image gallery carousel) \u2014 agent-browser state pollution"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/31daee1c-74a0-4381-bcff-58cc5510fe36",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-14-local-mobile.png"
+  },
+  "components/footers/footer-15.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as 5 circle icons instead of 'Logo' wordmark",
+      "Social icons render as circle/crescent placeholders",
+      "'Company name' large text renders as a broken image placeholder (gray box with SVG icon) instead of full-width bold typography",
+      "Mobile screenshot captured wrong component (image gallery carousel) \u2014 agent-browser state pollution"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e22adfa8-99ac-459b-a06a-1711ce8ed725",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-15-local-mobile.png"
+  },
+  "components/footers/footer-16.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as 5 circle icons instead of 'Logo' wordmark",
+      "Social icons (Facebook/Instagram/X/LinkedIn/YouTube with labels) replaced by circles \u2014 Figma shows icons with branded labels",
+      "Email input renders as circle icon instead of bordered text input",
+      "Link columns collapsed to horizontal tab navigation instead of expanded columns with individual links",
+      "'Company name' large text renders as broken image placeholder (gray box)",
+      "Divider spans only ~35% width (left-aligned) instead of full-width",
+      "Desktop and mobile screenshots identical \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/09026590-a33a-4e9f-bf2a-e135db696e5c",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-16-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-16-local-mobile.png"
+  },
+  "components/footers/footer-17.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as 5 circle icons instead of 'Logo' wordmark",
+      "Email input renders as circle icon instead of bordered text input",
+      "Subscribe button is dark filled instead of outlined as in Figma",
+      "'Company name' large text renders as broken image placeholder (gray box)",
+      "Divider spans only ~35% width (left-aligned) instead of full-width",
+      "Desktop and mobile screenshots pixel-identical \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9f0c24c5-afb2-4a96-88c4-a1314827bad1",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-17-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-17-local-mobile.png"
+  },
+  "components/footers/footer-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as empty placeholder box instead of script 'Logo' wordmark",
+      "Link columns show only 'Tab 1 / Column One / Column Two / Column Three' headers \u2014 actual link lists (Link One\u2013Fifteen) are absent from HTML",
+      "Email input renders as circle icon instead of bordered text input",
+      "Subscribe button is dark filled instead of outlined as in Figma",
+      "Social icons render as crescent/circle placeholders",
+      "Divider does not span full width",
+      "Privacy Policy link styled as bordered button instead of plain underlined text"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/cca7ec55-477b-44c5-9644-998ac8210417",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-2-local-mobile.png"
+  },
+  "components/footers/footer-3.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as 5 circle icons instead of 'Logo' wordmark",
+      "Social icons render as crescent/circle placeholders",
+      "Link column text appears bold/semibold in implementation vs regular weight in Figma",
+      "Privacy Policy link styled as bordered button instead of plain underlined text",
+      "Divider does not span full width",
+      "Mobile screenshot identical size to desktop \u2014 responsive breakpoint not adapting correctly"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3b7e6ff5-40eb-481a-a46f-5f589518952e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-3-local-mobile.png"
+  },
+  "components/footers/footer-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as 5 circle icons instead of 'Logo' wordmark",
+      "Social icons render as crescent/circle placeholders",
+      "Nav link text wraps to two lines (e.g. 'Link\\nOne') instead of single-line as in Figma",
+      "Link One has active/focus border box \u2014 not present in Figma",
+      "Privacy Policy link styled as bordered button instead of plain text",
+      "Divider does not span full width \u2014 only center portion",
+      "Desktop and mobile appear identical \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c4a19fd2-0f29-4b96-97be-0a84249d9704",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-4-local-mobile.png"
+  },
+  "components/footers/footer-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo is completely missing \u2014 not rendered in implementation",
+      "Five link columns with 25 links are absent \u2014 replaced by 'Tab 1 / Column One\u2013Five' tab navigation labels only",
+      "Email input renders as circle icon instead of bordered text input",
+      "Subscribe button is dark filled instead of outlined as in Figma",
+      "Social icons render as crescent/circle placeholders",
+      "Divider is partial-width (left-aligned, short)",
+      "Privacy Policy link styled as bordered button",
+      "Desktop and mobile appear identical \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5b52735a-b805-45c0-98bf-503a8161f028",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-5-local-mobile.png"
+  },
+  "components/footers/footer-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Email input renders as circle icon instead of full-width bordered text input",
+      "Subscribe button is dark filled instead of outlined as in Figma",
+      "Six-column link grid collapsed into horizontal tab navigation \u2014 individual links not visible",
+      "Logo in bottom-left replaced by circle placeholders",
+      "Divider spans only ~35% of full width",
+      "Social icons absent (Figma shows no social icons but implementation has circles in unexpected position)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9e5afe70-e59d-42ef-9888-3984d7d29e1b",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-6-local-mobile.png"
+  },
+  "components/footers/footer-7.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders blank at 1440px \u2014 logo (5 circles in w-21 container) and link content too small/clipped to render visibly",
+      "Logo renders as 5 circle icons clipped in w-21 container instead of 'Logo' wordmark",
+      "Nav links (Link One\u2013Five) in 'hidden md:flex' render at 1440px as button-styled elements with border",
+      "Privacy Policy, Terms of Service, Cookies Settings styled as bordered buttons instead of plain links",
+      "No visible content at 1440px desktop viewport \u2014 major rendering failure"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1408d1d1-884c-4828-986f-fb478607a187",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-7-local-mobile.png"
+  },
+  "components/footers/footer-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop renders blank at 1440px \u2014 logo (5 circles in w-21 container) clipped; no visible page content",
+      "Logo renders as 5 circle icons in oversized container instead of 'Logo' wordmark",
+      "Nav links (Link One\u2013Five) styled as bordered tab buttons instead of plain horizontal nav links",
+      "Email input renders as circle icon instead of bordered text input",
+      "Subscribe button is dark filled instead of outlined as in Figma",
+      "Social icons absent/broken"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/173a7c0e-ac1c-4d45-9f6f-6b4e0ad72003",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-8-local-mobile.png"
+  },
+  "components/footers/footer-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo renders as ~4.5 circle icons (clipped) instead of 'Logo' wordmark",
+      "Border/card wrapper matches Figma's card style \u2014 layout structure correct",
+      "Link columns collapsed to horizontal tab navigation (Column One/Two/Follow Us) instead of expanded columns with all links",
+      "Email input renders as circle icon instead of bordered text input",
+      "Subscribe button is dark filled instead of outlined as in Figma",
+      "Social icons (Facebook/Instagram/X/LinkedIn/YouTube) not visible \u2014 circles only",
+      "Divider within card shorter than Figma's full-card-width divider",
+      "Desktop and mobile screenshots identical \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0febedbe-0ccc-464e-98fc-ded19326aaec",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-9-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-9-local-mobile.png"
+  },
+  "components/forms/form-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All form input fields (Username, Website, Email, About, Password, Language) implemented as data-lucide='circle' icons (20px circles) instead of actual <input> elements",
+      "No interactive form inputs present \u2014 all fields are icon placeholders",
+      "Photo section uses image placeholder SVG (gray box with mountain/landscape icon) instead of avatar circle + upload UI",
+      "Layout structure (2-column: description left, form right) and label text match Figma conceptually",
+      "Cancel/Save button positioning and styling appear correct"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ee34bc6d-8363-4967-aeb4-5708f6b58913",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-1-local-mobile.png"
+  },
+  "components/forms/form-10.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All form input fields (Name on invoice, Card number, Expiry, CVV, Email, Billing address fields) implemented as data-lucide='circle' icons instead of actual <input> elements",
+      "No interactive form inputs present",
+      "Cancel/Save buttons styled with Cancel as dark filled instead of outlined",
+      "Buttons positioned bottom-left instead of bottom-right as in Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/efd3fc69-bc99-495c-9b34-341e2c6c6499",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-10-local-mobile.png"
+  },
+  "components/forms/form-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All form input fields implemented as data-lucide='circle' icons instead of actual <input> elements",
+      "Plan selection cards (Basic/Business/Enterprise) have icons rendering as loading spinners instead of cube/box icons",
+      "Radio buttons on plan cards render as oversized toggle-style overlapping elements",
+      "Plan card descriptions wrap word-by-word due to insufficient container width",
+      "Cancel button dark filled instead of outlined; buttons positioned bottom-left vs bottom-right",
+      "City/State/ZIP renders as tab-style buttons instead of three separate inputs"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/39702b73-e3b0-47bc-bc58-09c1ce41a12e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-11-local-mobile.png"
+  },
+  "components/forms/form-12.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All form input fields implemented as data-lucide='circle' icons instead of actual <input> elements",
+      "Plan card icons render as loading spinners instead of cube/box icons",
+      "Radio buttons on plan cards overlap with plan text as oversized toggle elements",
+      "Plan descriptions wrap word-by-word",
+      "Cancel button dark filled instead of outlined; buttons bottom-left vs bottom-right",
+      "Country dropdown shows chevron-right (>) instead of chevron-down (v)",
+      "Header/title section positioned at bottom of page instead of top"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/25903e34-5d20-4e59-9b15-894355f07053",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-12-local-mobile.png"
+  },
+  "components/forms/form-13.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Toggle switches render as massively oversized elongated pill shapes instead of compact toggle switches",
+      "Only Email notification toggle visible; Desktop/Mobile push notification toggles are missing switch controls",
+      "Checkboxes render as plain checkmark glyphs without checkbox borders/containers; labels (Marketing, Announcements, Support) missing",
+      "Radio buttons in 'Choose frequency' render as massively oversized oval/pill shapes",
+      "Cancel button dark filled instead of outlined; buttons positioned bottom-left vs Figma bottom-right",
+      "Desktop and mobile screenshots identical \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3d6df7cd-43e0-4816-a726-2e159a5b3004",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-13-local-mobile.png"
+  },
+  "components/forms/form-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Toggle switch for Email notification renders as massively oversized elongated pill shape",
+      "Desktop/Mobile push notification toggles missing switch controls",
+      "Checkboxes render as plain checkmark glyphs without borders; labels missing",
+      "Radio buttons in 'Choose frequency' section render as oversized oval/pill shapes",
+      "Cancel button dark filled instead of outlined; placement differs from Figma",
+      "Section divider lines appear as table-like borders rather than subtle horizontal rules",
+      "Desktop and mobile screenshots identical \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/008022fe-1540-4a3f-a507-7d8280b0bc63",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-14-local-mobile.png"
   }
 }
