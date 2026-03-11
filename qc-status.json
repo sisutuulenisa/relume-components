@@ -256,5 +256,105 @@
     "mobileStatus": "fail",
     "checkedAt": "2026-03-10",
     "note": "Geen testimonials-map gevonden via ls components/ | grep -i test; niet renderbaar in deze repo."
+  },
+  "components/pages/features/layout-79.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Placeholder-tekst aanwezig, Relume-logo overgedimensioneerd/afgesneden, geen knoppen."
+  },
+  "components/navbars/navbar-11.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Volledig leeg scherm - geen content, links of logo gerenderd."
+  },
+  "components/contact-pages/contact-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "note": "Navbar, gestijlde knoppen en tabs renderen correct. Structureel in orde."
+  },
+  "components/features/layout-316.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Broken image-placeholder op grijze achtergrond, geen tekst of knoppen zichtbaar."
+  },
+  "components/pricing/pricing-49.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Heading en toggle renderen goed, pricing-cards/content onder tabs ontbreekt, tagline afgekort."
+  },
+  "components/style-guide/style-guide/icons.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Geen iconen zichtbaar, alleen kale nummers als placeholder. Alle icon-refs broken."
+  },
+  "components/application/topbars/topbar-sits-above-a-level-1-sidebar-includes-a-company-logo-but-does-not-have-nav-links.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Unstyled lijst zonder topbar of sidebar UI. Component rendert niet."
+  },
+  "components/stats-sections/stats-37.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Tagline afgekort, heading en knoppen correct gestyled, lege ruimte onder tabs suggereert ontbrekende content."
+  },
+  "components/features/layout-258.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Donkergrijze achtergrond met nauwelijks leesbare tabs, feature-content ontbreekt volledig, kritiek contrast."
+  },
+  "components/gallery/gallery-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "note": "Nordvik branding, hero-sectie met achtergrond, heading en CTA-knoppen correct gerenderd."
+  },
+  "components/team/team-12.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Header en View-all knop correct, maar content-area onder tabs leeg - teamleden ontbreken."
+  },
+  "components/features/layout-126.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "note": "Schedule-layout netjes: tagline, heading, datum-tabs en tijdslot-rijen correct zichtbaar."
+  },
+  "components/pages/features/layout-258.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Tekst correct, maar oversized Relume-logo domineert viewport als placeholder image."
+  },
+  "components/home-pages/home-8.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Meervoudig broken image-placeholders: hero en logo-rij (11x broken icon). Grotendeels kapot."
+  },
+  "components/pages/features/layout-629.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Zelfde als layout-258: oversized Relume-logo placeholder, geen knoppen of echte feature-content."
+  },
+  "components/pages/hero-headers-new/header-82.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Knoppen ongestijlde links, geen hero-image, content hangt linksboven zonder padding/centering."
+  },
+  "components/product-headers/product-header-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Structuur aanwezig (tabs, prijs, Add-to-cart), maar afbeeldingen broken en star-rating als tekst."
+  },
+  "components/faq/faq-10.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "note": "Twee-koloms layout functioneel, accordions allemaal open (standaard zou er één open zijn), overflow onderaan."
+  },
+  "components/blog-headers/blog-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "note": "Tagline, heading en filter-knop correct gecentreerd en gestyled. Geen layout-issues."
+  },
+  "components/application/forms/form-7.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "note": "Volledig ongestijld: browser-default inputs, geen grid/layout, submit als kale link, geen container."
   }
 }
