@@ -7524,7 +7524,7 @@
     },
     {
       "id": "vqc-081",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/sign-up-and-log-in-pages/sign-up-7.html",
@@ -7606,7 +7606,36 @@
           "path": "components/stat-cards/stat-card-7.html",
           "nodeId": "4174:138564"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 4,
+        "fail": 16,
+        "warnComponents": [
+          "components/stacked-lists/stacked-list-6.html",
+          "components/stacked-lists/stacked-list-7.html",
+          "components/stacked-lists/stacked-list-8.html",
+          "components/stat-cards/stat-card-1.html"
+        ],
+        "failComponents": [
+          "components/sign-up-and-log-in-pages/sign-up-7.html",
+          "components/sign-up-and-log-in-pages/sign-up-8.html",
+          "components/sign-up-and-log-in-pages/sign-up-9.html",
+          "components/stacked-lists/stacked-list-1.html",
+          "components/stacked-lists/stacked-list-10.html",
+          "components/stacked-lists/stacked-list-2.html",
+          "components/stacked-lists/stacked-list-3.html",
+          "components/stacked-lists/stacked-list-4.html",
+          "components/stacked-lists/stacked-list-5.html",
+          "components/stacked-lists/stacked-list-9.html",
+          "components/stat-cards/stat-card-2.html",
+          "components/stat-cards/stat-card-3.html",
+          "components/stat-cards/stat-card-4.html",
+          "components/stat-cards/stat-card-5.html",
+          "components/stat-cards/stat-card-6.html",
+          "components/stat-cards/stat-card-7.html"
+        ]
+      }
     },
     {
       "id": "vqc-082",
