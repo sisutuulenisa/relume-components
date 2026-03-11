@@ -299,3 +299,8 @@
 - [x] blog-67 ✅
 - [x] blog-68 ✅
 
+
+## components/card-headers/
+- [x] card-header-1 ✅
+- [x] card-header-2 ✅
+
