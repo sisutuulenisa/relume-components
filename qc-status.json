@@ -8890,5 +8890,1405 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "gefixed: article root, max-w-screen-xl container, CSS path ../../../dist/tailwind.css"
+  },
+  "components/pages/links-pages/links-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/links-pages/links-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/loaders/loader-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/loaders/loader-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/loaders/loader-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/loaders/loader-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/loaders/loader-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/logos/logo-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/logos/logo-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/logos/logo-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/logos/logo-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/logos/logo-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/logos/logo-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/long-form-content-sections/content-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-33.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-34.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-35.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-36.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-37.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-38.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-39.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-40.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-41.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-42.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-43.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-44.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-45.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-46.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-013 fixed"
+  },
+  "components/pages/multi-step-forms/multi-form-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/navbars/navbar-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-headers/portfolio-header-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-pages/portfolio-page-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-pages/portfolio-page-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-pages/portfolio-page-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-pages/portfolio-page-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-pages/portfolio-page-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-pages/portfolio-page-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-pages/portfolio-page-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/portfolio-sections/portfolio-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
+  },
+  "components/pages/pricing/pricing-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-014 fixed"
   }
 }
