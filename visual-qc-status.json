@@ -4504,5 +4504,341 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-23-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-23-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-23-local-mobile.png"
+  },
+  "components/cta-new/cta-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: ontbrekende verticale sectie-padding (content plakt aan bovenkant)",
+      "desktop: buttons niet flush-right uitgelijnd (grote lege ruimte rechts)",
+      "desktop: heading breekt over twee regels i.p.v. \u00e9\u00e9n",
+      "desktop: button verticale uitlijning onjuist (top i.p.v. gecentreerd)",
+      "desktop: button border-radius aanwezig i.p.v. scherpe hoeken",
+      "desktop: primary button kleur donker navy i.p.v. puur zwart",
+      "mobiel: geen responsieve layout-aanpassing (layout identiek aan desktop, geen stacking)",
+      "mobiel: buttons niet full-width op smal scherm"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-7-figma.png",
+    "localDesktop": "relume-visual-qc/cta-7-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-7-local-mobile.png"
+  },
+  "components/cta-new/cta-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: e-mail invoerveld ontbreekt/kapot (cirkel-icoon i.p.v. input)",
+      "desktop: geen verticale top-padding sectie",
+      "desktop: heading breekt over 2 regels i.p.v. 1",
+      "desktop: Sign Up-knop heeft border-radius (moet scherp-rechthoekig)",
+      "desktop: \"Terms and Conditions\" mist underline/link-stijl",
+      "desktop: verticale uitlijning rechterkolom incorrect",
+      "mobiel: geen responsief gedrag (kolommen stapelen niet, layout identiek aan desktop)",
+      "mobiel: e-mail invoerveld ontbreekt ook op mobiel"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-8-figma.png",
+    "localDesktop": "relume-visual-qc/cta-8-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-8-local-mobile.png"
+  },
+  "components/cta-new/cta-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading ontbreekt volledig",
+      "desktop: subtext ontbreekt",
+      "desktop: buttons ontbreken volledig",
+      "desktop: achtergrondkleur verkeerd (lichtgrijs i.p.v. donkergrijs)",
+      "desktop: 3-koloms layout ontbreekt; alleen lege lichtgrijze container met broken-image icon",
+      "desktop: alle content-elementen niet gerenderd \u2014 component niet ge\u00efmplementeerd",
+      "mobiel: identiek aan desktop, geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/cta-9-figma.png",
+    "localDesktop": "relume-visual-qc/cta-9-local-desktop.png",
+    "localMobile": "relume-visual-qc/cta-9-local-mobile.png"
+  },
+  "components/description-lists/description-list-1.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: geen verticale gap/margin tussen description-rows (secties plakken op elkaar)",
+      "desktop: container niet gecentreerd / te weinig max-width t.o.v. viewport",
+      "mobiel: geen single-column stacking op smal scherm (layout identiek aan desktop)",
+      "mobiel: geen mobiele font-size of padding aanpassingen"
+    ],
+    "figmaScreenshot": "relume-visual-qc/description-list-1-figma.png",
+    "localDesktop": "relume-visual-qc/description-list-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/description-list-1-local-mobile.png"
+  },
+  "components/description-lists/description-list-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: tabel-borders verwijderen \u2192 vervang door border-bottom hairlines per rij",
+      "desktop: container benut niet de volledige breedte (content stopt bij ~65%)",
+      "desktop: verticale rij-padding ontbreekt (rijen op elkaar geplakt)",
+      "mobiel: geen responsief breakpoint \u2014 twee-koloms paren stapelen niet naar single-column",
+      "mobiel: identiek aan desktop, geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "relume-visual-qc/description-list-2-figma.png",
+    "localDesktop": "relume-visual-qc/description-list-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/description-list-2-local-mobile.png"
+  },
+  "components/description-lists/description-list-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: HTML table met default zwarte borders i.p.v. dl/div met CSS grid (dikke cel-borders)",
+      "desktop: geen verticale padding per rij",
+      "\"Change\"-actielinks niet rechts uitgelijnd (moeten ml-auto / flex-end)",
+      "desktop: dividers moeten dunne lichtgrijze lijnen zijn, niet volledige cel-borders",
+      "mobiel: geen responsief breakpoint \u2014 gestapelde layout ontbreekt volledig"
+    ],
+    "figmaScreenshot": "relume-visual-qc/description-list-3-figma.png",
+    "localDesktop": "relume-visual-qc/description-list-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/description-list-3-local-mobile.png"
+  },
+  "components/description-lists/description-list-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: grid-verdeling incorrect \u2014 use grid-template-columns: 1fr 2fr auto",
+      "desktop: rij-padding ontbreekt (rijen dicht op elkaar)",
+      "desktop: \"Change\"-links niet rechts uitgelijnd",
+      "desktop: tabel benut niet de volledige breedte (content stopt bij ~65%)",
+      "desktop: dividers zijn dikke zwarte tabelranden i.p.v. subtiele border-bottom",
+      "mobiel: geen responsief breakpoint, layout identiek aan desktop"
+    ],
+    "figmaScreenshot": "relume-visual-qc/description-list-4-figma.png",
+    "localDesktop": "relume-visual-qc/description-list-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/description-list-4-local-mobile.png"
+  },
+  "components/event-headers/event-header-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: \"Events\" heading gecentreerd i.p.v. links uitgelijnd",
+      "desktop: datum-badge staat onder afbeelding i.p.v. overlay linksboven",
+      "desktop: \"Save my spot\" button is filled/dark i.p.v. outlined",
+      "desktop: category badge mist border-styling",
+      "desktop: content rechterkolom niet verticaal gecentreerd t.o.v. afbeelding",
+      "mobiel: geen responsief gedrag zichtbaar (layout identiek aan desktop)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-header-1-figma.png",
+    "localDesktop": "relume-visual-qc/event-header-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-header-1-local-mobile.png"
+  },
+  "components/event-headers/event-header-2.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: \"Events\" heading gecentreerd i.p.v. links uitgelijnd",
+      "desktop: category badge ontbreekt op de afbeelding",
+      "desktop: kalender- en locatie-iconen niet geladen (lege cirkels)",
+      "desktop: datum breekt over twee regels i.p.v. \u00e9\u00e9n regel",
+      "desktop: button stijl filled/dark i.p.v. outlined/ghost",
+      "mobiel: geen responsief gedrag (card stapelt niet \u2014 afbeelding boven tekst)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-header-2-figma.png",
+    "localDesktop": "relume-visual-qc/event-header-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-header-2-local-mobile.png"
+  },
+  "components/event-headers/event-header-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: event-lijst loopt buiten container/viewport (titels afgesneden)",
+      "desktop: \"Events\" heading gecentreerd i.p.v. links uitgelijnd",
+      "desktop: category badge niet als overlay op afbeelding",
+      "desktop: \"View event\" als filled dark button i.p.v. text-link met chevron",
+      "desktop: event card borders (zwart outline) niet aanwezig in Figma",
+      "desktop: sold out badge en datum in verkeerde volgorde/stijl",
+      "mobiel: geen responsief gedrag, layout identiek aan desktop"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-header-3-figma.png",
+    "localDesktop": "relume-visual-qc/event-header-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-header-3-local-mobile.png"
+  },
+  "components/event-headers/event-header-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: datum-overlay op featured card staat erbuiten/eronder i.p.v. overlay",
+      "desktop: rechter event-cards gebroken layout (ongewenste placeholder-vierkant, tekst-overflow)",
+      "desktop: \"Events\" heading gecentreerd i.p.v. links uitgelijnd",
+      "desktop: \"View event\" text-link vervangen door filled button",
+      "desktop: slechts 1 rechter event-card zichtbaar i.p.v. 3 gestapelde rijen",
+      "mobiel: geen responsief gedrag, layout identiek aan desktop"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-header-4-figma.png",
+    "localDesktop": "relume-visual-qc/event-header-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-header-4-local-mobile.png"
+  },
+  "components/event-headers/event-header-5.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading \"Webinar\" gecentreerd i.p.v. links uitgelijnd",
+      "desktop: category badge ontbreekt als overlay linksboven op afbeelding",
+      "desktop: play-button ontbreekt op video-thumbnail",
+      "desktop: kalender-icoon is lege cirkel i.p.v. gevuld icoon",
+      "desktop: CTA-button filled/dark i.p.v. outlined/ghost; tekst breekt over twee regels",
+      "mobiel: geen responsief gedrag (twee kolommen blijven naast elkaar, geen stacking)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-header-5-figma.png",
+    "localDesktop": "relume-visual-qc/event-header-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-header-5-local-mobile.png"
+  },
+  "components/event-headers/event-header-6.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: speaker avatars kapot (hoge verticale rechthoeken i.p.v. ronde thumbnails)",
+      "desktop: datum-badge ontbreekt (overlay op afbeelding niet ge\u00efmplementeerd)",
+      "desktop: \"Webinar\" heading gecentreerd i.p.v. links uitgelijnd",
+      "desktop: play-button ontbreekt op video-thumbnail",
+      "desktop: \"Save my spot\" CTA niet zichtbaar (mogelijk afgesneden)",
+      "mobiel: geen responsief gedrag (layout identiek aan desktop, geen stacking)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-header-6-figma.png",
+    "localDesktop": "relume-visual-qc/event-header-6-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-header-6-local-mobile.png"
+  },
+  "components/event-item-headers/event-item-header-1.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: countdown-component kapot (toont \"Tab 2/4/6\" i.p.v. Days/Hours/Min/Secs)",
+      "desktop: e-mail invoerveld ontbreekt (cirkel-icoon i.p.v. tekstveld)",
+      "desktop: \"All events\" breadcrumb is donkere banner-balk i.p.v. tekstlink; chevron verkeerde richting",
+      "desktop: \"Terms and Conditions\" mist underline/link-stijl",
+      "mobiel: geen responsief gedrag (layout identiek aan desktop, geen stacking)"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-item-header-1-figma.png",
+    "localDesktop": "relume-visual-qc/event-item-header-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-item-header-1-local-mobile.png"
+  },
+  "components/event-item-headers/event-item-header-10.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: component rendert geen content \u2014 alleen lege afbeeldingsplaceholder met broken-image icon",
+      "desktop: achtergrondkleur lichtgrijs i.p.v. donkergrijs",
+      "desktop: heading, breadcrumb, beschrijving, buttons en metadata-grid ontbreken volledig",
+      "mobiel: identiek aan desktop, geen content en geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-item-header-10-figma.png",
+    "localDesktop": "relume-visual-qc/event-item-header-10-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-item-header-10-local-mobile.png"
+  },
+  "components/event-item-headers/event-item-header-11.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: inputvelden renderen als cirkels i.p.v. rechthoekige tekstvelden",
+      "desktop: checkbox + label \"I accept the Terms\" ontbreekt volledig (alleen los vinkje-icoon)",
+      "desktop: \"Save my spot\" knop is full-width i.p.v. auto-width/links uitgelijnd",
+      "desktop: dropdown chevron wijst naar rechts (\u203a) i.p.v. naar beneden (\u02c5)",
+      "desktop: meta-rij iconen (kalender, pin, persoon) ontbreken",
+      "mobiel: geen responsief breakpoint \u2014 formulier stapelt niet onder content op smal scherm"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-item-header-11-figma.png",
+    "localDesktop": "relume-visual-qc/event-item-header-11-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-item-header-11-local-mobile.png"
+  },
+  "components/event-item-headers/event-item-header-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: countdown-component kapot (tab-bar i.p.v. timer-blokken, labels \"Tab 2/4/6\")",
+      "desktop: e-mail invoerveld ontbreekt (lege cirkel/spinner i.p.v. tekstveld)",
+      "\"10 Spots left!\" badge mist pill-styling en border",
+      "desktop: geen top-padding, content plakt aan bovenkant viewport",
+      "mobiel: geen responsief gedrag (layout identiek aan desktop)",
+      "mobiel: countdown en e-mail input ook op mobiel kapot"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-item-header-2-figma.png",
+    "localDesktop": "relume-visual-qc/event-item-header-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-item-header-2-local-mobile.png"
+  },
+  "components/event-item-headers/event-item-header-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: component rendert geen content \u2014 alleen lege lichtgrijze container met broken-image icon",
+      "desktop: alle tekstcontent ontbreekt (tagline, heading, beschrijving, datum, countdown, formulier)",
+      "desktop: achtergrondkleur lichtgrijs i.p.v. donkergrijs",
+      "desktop: afbeelding broken (src-pad klopt niet)",
+      "mobiel: identiek aan desktop, geen content en geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-item-header-3-figma.png",
+    "localDesktop": "relume-visual-qc/event-item-header-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-item-header-3-local-mobile.png"
+  },
+  "components/event-item-headers/event-item-header-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: \"All events\" breadcrumb is filled dark button i.p.v. simpele tekstlink; chevron verkeerde richting",
+      "desktop: e-mail invoerveld ontbreekt (lege cirkel i.p.v. tekstveld)",
+      "desktop: countdown timer kapot (toont \"Tab 2/4/6\", labels \"Days/Hours/Min/Secs\" ontbreken)",
+      "desktop: \"10 Spots left!\" badge mist pill-styling en centrering",
+      "mobiel: geen responsief breakpoint, layout identiek aan desktop"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-item-header-4-figma.png",
+    "localDesktop": "relume-visual-qc/event-item-header-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-item-header-4-local-mobile.png"
+  },
+  "components/event-item-headers/event-item-header-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: component rendert geen content \u2014 alleen lege lichtgrijze banner met broken-image icon",
+      "desktop: driekoloms layout ontbreekt volledig (tekst, afbeelding, metadata)",
+      "desktop: achtergrondkleur lichtgrijs i.p.v. donkergrijs",
+      "desktop: alle content-elementen ontbreken (titel, beschrijving, formulier, countdown, badge)",
+      "mobiel: identiek aan desktop, geen content en geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/event-item-header-5-figma.png",
+    "localDesktop": "relume-visual-qc/event-item-header-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/event-item-header-5-local-mobile.png"
   }
 }
