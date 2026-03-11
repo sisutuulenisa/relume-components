@@ -3433,7 +3433,7 @@
         "components/sign-up-and-log-in-pages/sign-up-9.html"
       ],
       "count": 94,
-      "status": "running"
+      "status": "done"
     },
     {
       "id": "batch-036",
@@ -3773,7 +3773,7 @@
         "components/legal-pages/legal-pages-02.html"
       ],
       "count": 26,
-      "status": "pending"
+      "status": "running"
     }
   ]
 }
