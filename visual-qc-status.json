@@ -9620,5 +9620,297 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-35-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-35-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-35-local-mobile.png"
+  },
+  "components/features/layout-356.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: completely blank white page, no content rendered",
+      "Mobile: image overlaps heading text, heading clipped behind image placeholder",
+      "Mobile: two-column layout persists at 390px instead of stacking",
+      "Mobile: button style mismatch \u2014 dark filled vs outline in Figma",
+      "Mobile: 'Tagline' truncated to 'Tagl'"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f2715cbd-52a2-4984-a484-1488dbc549ca",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-356-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-356-local-mobile.png"
+  },
+  "components/features/layout-357.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: completely blank white page, no content rendered",
+      "Mobile: image overlaps heading text, heading clipped behind image placeholder",
+      "Mobile: two-column layout persists at 390px instead of stacking",
+      "Mobile: button style mismatch \u2014 dark filled vs outline in Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a2801954-f236-4fd6-98cd-f4d96bec4e2b",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-357-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-357-local-mobile.png"
+  },
+  "components/features/layout-358.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: tab navigation bar (01-04) missing \u2014 jumps straight to card content",
+      "Mobile: image overlaps heading and body text within card",
+      "Mobile: two-column card layout persists at 390px instead of stacking",
+      "Mobile: button style mismatch \u2014 dark filled vs outline in Figma",
+      "Mobile: tab bar missing"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4c53da66-547e-4a23-b36a-d6706ee8c37d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-358-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-358-local-mobile.png"
+  },
+  "components/features/layout-359.html": {
+    "status": "fail",
+    "desktopStatus": "ok",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile: two-column card layout persists at 390px instead of stacking vertically",
+      "Mobile: heading text truncated \u2014 'Medium leng... section head... here'",
+      "Mobile: button style mismatch \u2014 dark filled primary button vs outline in Figma",
+      "Mobile: 'Button \u2192' text wraps to two lines"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0d5b49fa-9d8e-4b2f-8715-2d91df78b5e7",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-359-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-359-local-mobile.png"
+  },
+  "components/features/layout-36.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: entire right column with feature cards (Subheading one/two/three) missing",
+      "Desktop: buttons ('Button' and 'Button \u2192') missing from left column",
+      "Desktop: heading spans full width instead of left-column only \u2014 two-column layout broken",
+      "Mobile: attempting two-column layout at 390px, cards not stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/321df1d0-f244-4785-8874-2a40a6e08be6",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-36-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-36-local-mobile.png"
+  },
+  "components/features/layout-360.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button style mismatch: filled dark primary button vs all-outline in Figma",
+      "Image placeholder does not span full card width \u2014 visible whitespace between image and card border edges",
+      "Mobile: desktop layout persists at 390px, no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7f91c3f9-7a2f-4c29-8af1-562e0c8a2b7b",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-360-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-360-local-mobile.png"
+  },
+  "components/features/layout-361.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: button style mismatch \u2014 filled dark primary vs outline in Figma",
+      "Desktop: image placeholder does not span full card width",
+      "Mobile: completely blank white page \u2014 component not rendering at 390px"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b9ee5cc1-ba2a-4c2d-82cd-56bb5ba9c59d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-361-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-361-local-mobile.png"
+  },
+  "components/features/layout-362.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: card heading text clipped \u2014 'Medium length section heading g...' truncated with overflow hidden",
+      "Desktop: description text truncated at card edge",
+      "Button style mismatch: filled dark primary button vs outline in Figma",
+      "Mobile: two cards remain side-by-side at 390px instead of stacking \u2014 no responsive behavior"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/73163744-e84b-48bf-a42d-afb321167f15",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-362-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-362-local-mobile.png"
+  },
+  "components/features/layout-363.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: card heading text clipped at right edge with overflow hidden",
+      "Missing second button: Figma shows outline button + text link 'Button >'; local shows only single filled 'Button >'",
+      "Button style mismatch: filled dark button vs outline in Figma",
+      "Mobile: two cards remain side-by-side at 390px \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/99992b6b-83bb-46f5-aa9d-0b2668cff795",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-363-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-363-local-mobile.png"
+  },
+  "components/features/layout-364.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icon mismatch: Figma shows 3D cube/diamond icon; local renders small empty circle outline",
+      "Button style mismatch: filled dark primary button vs outline in Figma",
+      "Mobile: two-column card layout persists at 390px \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c841ceb9-eab7-4dbe-93c5-50c3d1a7704c",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-364-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-364-local-mobile.png"
+  },
+  "components/features/layout-365.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: component renders as empty \u2014 only light gray rounded rect with broken image icon, no text/headings/buttons/cards",
+      "Mobile: image placeholders overlap and clip adjacent text content in left-column cards",
+      "Mobile: button style mismatch \u2014 dark filled button vs text link 'Button >' in Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ee382b69-3b47-46c1-80bb-6ab24f210b5d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-365-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-365-local-mobile.png"
+  },
+  "components/features/layout-366.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Right-column card heading text clipped at right edge ('section heading goes here' \u2192 'goe')",
+      "Button style mismatch: filled dark buttons vs text link 'Button >' style in Figma for right cards",
+      "Mobile: desktop 2-column layout persists at 390px \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7062ebfb-79ed-49a7-81a9-736a1d69b127",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-366-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-366-local-mobile.png"
+  },
+  "components/features/layout-367.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as small empty circles instead of 3D cube/box icons from Figma",
+      "Left column card text (heading + description) is truncated/clipped at container edge",
+      "Button style mismatch: filled dark primary vs outline in Figma",
+      "Mobile: desktop 2-column layout persists at 390px \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/48f6a44e-1b54-42dd-b55d-9ce245fcb9d9",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-367-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-367-local-mobile.png"
+  },
+  "components/features/layout-368.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as small empty circles instead of 3D cube/box icons from Figma",
+      "Right-column card heading and description text truncated/clipped at container edge",
+      "Button style mismatch: filled dark primary vs outline in Figma",
+      "Mobile: desktop 2-column layout persists at 390px \u2014 no responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e1a31a31-48aa-4638-ae50-282f51f90f25",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-368-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-368-local-mobile.png"
+  },
+  "components/features/layout-369.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: tab content panel completely empty \u2014 no cards, images, or text renders below tab navigation",
+      "Mobile: same as desktop \u2014 tab content panel empty",
+      "Header section and tabs render correctly but tab panel content (card grid) is missing entirely"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0640af08-4785-4291-a172-c89dd369ae6e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-369-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-369-local-mobile.png"
+  },
+  "components/features/layout-37.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: entire component content missing \u2014 only light gray rounded rect with broken image icon",
+      "Desktop: no heading, tagline, body text, buttons, or dark background visible",
+      "Desktop: background color wrong \u2014 light gray box instead of dark gray full-bleed background",
+      "Mobile: identical to desktop \u2014 same broken state"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d9c04709-c3d7-4ae7-88e1-ebb29a984f5e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-37-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-37-local-mobile.png"
+  },
+  "components/features/layout-370.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: tab content panel completely empty \u2014 header and tab bar render, entire card content area is blank",
+      "Mobile: same as desktop \u2014 tab panel content missing",
+      "Tab labels show 'Tagline' for all three tabs rather than card headings"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c7382a26-fbf3-4804-ad3f-c8d816ed074d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-370-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-370-local-mobile.png"
+  },
+  "components/features/layout-371.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: tab content panel completely empty \u2014 header and tab bar render, entire card content area is blank",
+      "Mobile: same as desktop \u2014 tab panel content missing",
+      "Tab label text mismatch: first tab shows 'Tagline' instead of card heading 'Medium length section heading goes here'"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a3b92410-acb1-4da6-af95-e060bd26fb11",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-371-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-371-local-mobile.png"
+  },
+  "components/features/layout-372.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: tab content panel completely empty \u2014 header and tab bar render, entire card content area is blank",
+      "Mobile: same as desktop \u2014 tab panel content missing",
+      "Tab label ordering/text mismatched vs Figma card content: third tab shows 'Tagline' instead of heading"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/daee9c19-cc86-4cea-81d4-a565ef7e4ec9",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-372-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-372-local-mobile.png"
+  },
+  "components/features/layout-373.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: tab content panel completely empty \u2014 header and tab bar render, entire card content area is blank",
+      "Mobile: same as desktop \u2014 tab panel content missing",
+      "Tab labels partially match Figma card headings but panel content still doesn't render"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/596f3af3-9394-4e7d-b197-7addb3bb68e9",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-373-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-373-local-mobile.png"
   }
 }
