@@ -5629,7 +5629,7 @@
     },
     {
       "id": "vqc-063",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/hero-headers-new/header-74.html",
@@ -5711,11 +5711,16 @@
           "path": "components/hero-headers-new/header-91.html",
           "nodeId": "4174:3452"
         }
-      ]
+      ],
+      "results": {
+        "ok": 2,
+        "warn": 0,
+        "fail": 18
+      }
     },
     {
       "id": "vqc-064",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/hero-headers-new/header-92.html",
@@ -5801,7 +5806,7 @@
     },
     {
       "id": "vqc-065",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/links-pages/links-11.html",
