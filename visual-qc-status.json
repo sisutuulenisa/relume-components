@@ -8414,5 +8414,314 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-283-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-283-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-283-local-mobile.png"
+  },
+  "components/features/layout-284.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Dark background (#4a4a4a) volledig afwezig \u2014 witte achtergrond",
+      "Top sectie met heading + paragraaf volledig ontbrekend",
+      "3-koloms feature card grid (icons, headings, tekst, buttons) ontbreekt volledig",
+      "Component rendert als tab-navigatiebalk i.p.v. feature-grid",
+      "Mobile: identieke problemen, geen responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-284-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-284-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-284-local-mobile.png"
+  },
+  "components/features/layout-285.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Vrijwel alle content ontbreekt \u2014 alleen lichtgrijze placeholder-afbeelding zichtbaar",
+      "Dark gray achtergrond afwezig \u2014 witte achtergrond",
+      "Linker kolom (Tagline, heading, paragraaf, 2 buttons) volledig ontbrekend",
+      "4 feature cards (2x2 grid) met iconen, headings, tekst ontbreken",
+      "Mobile: zelfde kritieke problemen"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-285-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-285-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-285-local-mobile.png"
+  },
+  "components/features/layout-286.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Achtergrond wit i.p.v. dark gray (#4a4a4a)",
+      "Alle tekst content ontbreekt (Tagline, heading, paragraaf, feature card tekst)",
+      "Icons renderen als lege cirkels i.p.v. cube-iconen",
+      "Buttons aanwezig maar zweven zonder context-tekst erboven",
+      "Mobile: zelfde problemen"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-286-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-286-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-286-local-mobile.png"
+  },
+  "components/features/layout-287.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma: 4-koloms layout met Tagline, heading, paragraaf, button-paar per kolom",
+      "Implementatie: alleen 4 'Tagline' tab-labels in horizontale rij met divider",
+      "Volledige kaart-content onder elke kolom (heading, tekst, buttons) ontbreekt",
+      "Mobile: 4 tab-labels horizontaal \u2014 geen stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-287-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-287-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-287-local-mobile.png"
+  },
+  "components/features/layout-288.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Alleen tab-headings zichtbaar; body-tekst en 'Button >' links ontbreken volledig",
+      "Heading kleur grijs/gedempt i.p.v. zwart zoals Figma",
+      "Eerste heading heeft onbedoelde border/outline",
+      "Mobile: 4 kolommen naast elkaar op 390px, geen responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-288-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-288-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-288-local-mobile.png"
+  },
+  "components/features/layout-289.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Alleen tab-headings zichtbaar; iconen, body-tekst, dubbele buttons ontbreken",
+      "Figma: 4 kolommen met icon, heading, paragraaf, 2 buttons; implementatie: alleen heading-tekstrij",
+      "Heading kleur grijs/gedempt i.p.v. zwart",
+      "Eerste heading heeft onbedoelde border",
+      "Mobile: geen responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-289-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-289-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-289-local-mobile.png"
+  },
+  "components/features/layout-29.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons renderen als lege cirkels/broken images i.p.v. gevulde cube/box iconen",
+      "Primary button heeft dark/filled stijl terwijl Figma outline-only toont",
+      "Tweede button toont pijl (\u2192) i.p.v. chevron (>) zoals Figma",
+      "Sectie top-padding lijkt afwezig \u2014 iconen direct aan viewport-rand",
+      "Mobile: zelfde icon en button stijl issues"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-29-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-29-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-29-local-mobile.png"
+  },
+  "components/features/layout-290.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Alleen 4 'Tagline' tab-labels zichtbaar; afbeeldingen, headings, tekst, buttons volledig ontbrekend",
+      "Figma: 4-koloms layout met image-placeholder, Tagline, heading, paragraaf, 2 buttons per kolom",
+      "Eerste tagline heeft onbedoelde border/outline",
+      "Mobile: 4 tabs horizontaal \u2014 geen stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-290-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-290-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-290-local-mobile.png"
+  },
+  "components/features/layout-291.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Afbeelding-placeholders volledig afwezig \u2014 Figma: 4 grote grijze image placeholders boven elke heading",
+      "Body/description tekst ontbreekt volledig onder elke heading",
+      "'Button >' links ontbreken volledig",
+      "Layout is tab-rij i.p.v. 4 verticale cards (image + heading + tekst + button)",
+      "Mobile: identiek desktop-weergave zonder responsive aanpassing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-291-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-291-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-291-local-mobile.png"
+  },
+  "components/features/layout-292.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma: 4 kolommen met Tagline, heading, tekst, 2 buttons; implementatie: alleen 4 'Tagline' tab-labels",
+      "Headings ('Medium length section heading goes here') volledig ontbrekend",
+      "Body-tekst en button-paren volledig ontbrekend",
+      "Eerste 'Tagline' heeft onbedoelde border",
+      "Mobile: identiek desktop zonder responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-292-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-292-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-292-local-mobile.png"
+  },
+  "components/features/layout-293.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Alleen tab-headings zichtbaar; tekst, buttons, tab-content panel ontbreken",
+      "Figma: 4-koloms layout met heading, paragraaf, 'Button >' per kolom",
+      "Typografie klein/lichtgrijs i.p.v. bold/zwart",
+      "Mobile: 4 tabs horizontaal op 390px \u2014 niet responsive, geen stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-293-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-293-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-293-local-mobile.png"
+  },
+  "components/features/layout-294.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Alleen tab-headings zichtbaar; iconen, tekst, dubbele buttons ontbreken",
+      "Figma: 4-koloms layout met icon, heading, paragraaf, 2 buttons per kolom",
+      "Box-iconen (cube) ontbreken volledig",
+      "Mobile: identiek desktop, geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-294-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-294-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-294-local-mobile.png"
+  },
+  "components/features/layout-295.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Alleen 4 heading-labels als tab-rij; icon, tekst, button-paar per kolom ontbreken",
+      "Figma: 4-koloms feature-grid met icon boven elke kolomkop",
+      "Mobile: horizontale tab-rij van 4 items op 390px \u2014 geen responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-295-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-295-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-295-local-mobile.png"
+  },
+  "components/features/layout-296.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Alleen 4 'Tagline' tab-labels zichtbaar; image-placeholders, headings, tekst, buttons ontbreken",
+      "Figma: 4-koloms layout met afbeelding, Tagline, heading, paragraaf, 2 buttons per kaart",
+      "Mobile: 4 Tagline tabs horizontaal \u2014 geen stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-296-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-296-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-296-local-mobile.png"
+  },
+  "components/features/layout-297.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image-placeholders volledig afwezig \u2014 Figma: 4 grijze placeholders boven elke card",
+      "Body-tekst en 'Button >' links per card ontbreken",
+      "Horizontale tab-rij i.p.v. verticale card-layout (image \u2192 heading \u2192 tekst \u2192 button)",
+      "Desktop en mobile screenshots identiek \u2014 geen responsive aanpassing",
+      "Eerste tab heeft onbedoelde actieve border-state"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-297-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-297-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-297-local-mobile.png"
+  },
+  "components/features/layout-298.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Tagline, heading en description bovenaan correct; maar iconen boven feature-headings ontbreken",
+      "Feature description-tekst per sub-heading ontbreekt",
+      "Features als horizontale tabs i.p.v. cards met icon + heading + tekst",
+      "Button stijl afwijkend: filled dark + outlined i.p.v. text + text-link zoals Figma",
+      "Mobile: identiek desktop \u2014 geen responsive stacking op 390px"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-298-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-298-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-298-local-mobile.png"
+  },
+  "components/features/layout-299.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons (cube) volledig afwezig boven elke kolomkop",
+      "Beschrijvingstekst en 'Button >' links per kolom ontbreken",
+      "Sectie-padding veel te klein \u2014 visueel ingeklapt t.o.v. Figma",
+      "Tab/accordion-patroon i.p.v. 4-koloms feature grid",
+      "Mobile: identiek desktop, geen stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-299-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-299-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-299-local-mobile.png"
+  },
+  "components/features/layout-3.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: structureel correct (tekst links, afbeelding rechts) maar afbeelding-placeholder veel kleiner/platter dan Figma",
+      "Desktop: verticale centering van tekst t.o.v. afbeelding ontbreekt",
+      "Desktop: sectie-padding ontbreekt of sterk verminderd",
+      "Mobile: layout blijft 2-koloms naast elkaar i.p.v. te stacken naar 1 kolom",
+      "Mobile: afbeelding zeer klein door gebrek aan responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-3-local-mobile.png"
+  },
+  "components/features/layout-30.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons niet geladen: Figma gevulde 3D-kubus iconen, implementatie lege cirkel outlines",
+      "Video placeholder mist play-button; vertoont lichtgrijs broken-image vlak i.p.v. donkergrijs vlak met play-button",
+      "Button styling omgekeerd: Figma outline + text-link; implementatie filled dark + outline",
+      "Heading wrapping verschilt: breekt naar 2 regels op desktop/mobile, Figma houdt 1 regel"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-30-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-30-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-30-local-mobile.png"
+  },
+  "components/features/layout-300.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Kaarten met afbeeldingen volledig afwezig: Figma toont 4 kaarten met image-placeholders, headings, beschrijvingen",
+      "Layout verkeerd: horizontale tab-bar met tekst-labels i.p.v. visuele card-grid",
+      "Tab-content/panel leeg \u2014 afbeelding, sub-heading, beschrijving per item nergens zichtbaar",
+      "Button styling afwijkend: filled dark + outline i.p.v. outline + text-link zoals Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-300-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-300-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-300-local-mobile.png"
   }
 }
