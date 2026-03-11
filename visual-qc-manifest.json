@@ -5907,7 +5907,7 @@
     },
     {
       "id": "vqc-066",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/logos/logo-2.html",
@@ -5989,7 +5989,12 @@
           "path": "components/long-form-content-sections/content-22.html",
           "nodeId": "4174:110100"
         }
-      ]
+      ],
+      "results": {
+        "ok": 3,
+        "warn": 5,
+        "fail": 12
+      }
     },
     {
       "id": "vqc-067",
@@ -6079,7 +6084,7 @@
     },
     {
       "id": "vqc-068",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/multi-step-forms/multi-form-12.html",
