@@ -236,3 +236,11 @@
 - [x] blog-8 ✅
 - [x] blog-9 ✅
 
+
+## components/blog-pages/
+- [x] blog-1 ✅
+- [x] blog-2 ✅
+- [x] blog-3 ✅
+- [x] blog-4 ✅
+- [x] blog-5 ✅
+
