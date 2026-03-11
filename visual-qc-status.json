@@ -15741,5 +15741,315 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/58e72423-5fd5-40e6-b5f4-b23a7939c209",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-83-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-83-local-mobile.png"
+  },
+  "components/forms/form-15.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-15-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-15-local-mobile.png",
+    "issues": [
+      "Desktop: volledig verkeerd component gerenderd (Image Gallery ipv Notifications form)",
+      "Desktop: alle form-elementen ontbreken (toggles, checkboxes, radio buttons, Cancel/Save knoppen)",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/forms/form-16.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-16-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-16-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-16-local-mobile.png",
+    "issues": [
+      "Desktop: volledig verkeerd component gerenderd (Image Gallery ipv Notifications form)",
+      "Desktop: alle form-elementen ontbreken (toggles, checkboxes, radio buttons, Cancel/Save knoppen)",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/forms/form-17.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-17-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-17-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-17-local-mobile.png",
+    "issues": [
+      "Desktop: volledig verkeerd component gerenderd (Image Gallery ipv form)",
+      "Desktop: alle formulierelementen ontbreken",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/forms/form-18.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-18-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-18-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-18-local-mobile.png",
+    "issues": [
+      "Desktop: inputvelden tonen radio-button-achtige cirkels ipv text inputs",
+      "Desktop: placeholdertekst ontbreekt in inputvelden",
+      "Desktop: knopkleuren omgekeerd (Cancel=zwart, Get started=wit ipv andersom)",
+      "Desktop: Employment type toont 'Part-time' geselecteerd ipv 'Full-time'",
+      "Desktop: dropdown chevron-right ipv chevron-down",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/forms/form-19.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-19-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-19-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-19-local-mobile.png",
+    "issues": [
+      "Desktop: '501+' chip wraps naar tweede rij ipv single-row zoals in Figma",
+      "Desktop: form-area heeft subtiele card/border niet aanwezig in Figma",
+      "Mobiel: inputvelden tonen loading spinners ipv text inputs",
+      "Mobiel: chips vertonen tekst-wrapping binnenin de pill-elementen",
+      "Mobiel: button volgorde/styling omgekeerd (Back=filled, Get started=outlined)",
+      "Mobiel: layout niet responsive gestapeld - nog steeds side-by-side"
+    ]
+  },
+  "components/forms/form-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-2-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-2-local-mobile.png",
+    "issues": [
+      "Desktop: photo-sectie toont oversized rechthoek ipv ronde avatar-cirkel",
+      "Desktop: Upload photo-knop filled/donker ipv outlined",
+      "Desktop: alle formuliervelden tonen lege rijen met cirkels ipv input-velden",
+      "Desktop: knopkleuren omgekeerd (Cancel=filled, Save=outlined)",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/forms/form-20.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-20-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-20-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-20-local-mobile.png",
+    "issues": [
+      "Desktop: screenshot volledig leeg/wit - component niet gerenderd",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd",
+      "Figma toont footer-layout met logo, kolommen, subscribe-sectie, social icons, copyright - niets zichtbaar"
+    ]
+  },
+  "components/forms/form-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-3-local-mobile.png",
+    "issues": [
+      "Desktop: volledig ander component gerenderd (footer/newsletter sectie ipv Account-formulier)",
+      "Mobiel: volledig ander component gerenderd (Image Gallery ipv Account-formulier)",
+      "Geen enkel formulierveld aanwezig in desktop of mobiel"
+    ]
+  },
+  "components/forms/form-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-4-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-4-local-mobile.png",
+    "issues": [
+      "Desktop: alle inputvelden gerenderd als kleine radio-button-achtige cirkels ipv text inputs",
+      "Desktop: photo-avatar is groot vierkant ipv ronde cirkel",
+      "Desktop: Upload photo-knop filled/donker ipv outlined",
+      "Desktop: Website-veld mist 'http://' prefix-element",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/forms/form-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-5-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-5-local-mobile.png",
+    "issues": [
+      "Desktop: alle inputvelden gerenderd als kleine cirkels ipv bordered text inputs",
+      "Desktop: City/State/ZIP als tab-achtige elementen ipv drie separate input-velden",
+      "Desktop: knopkleuren omgekeerd",
+      "Mobiel: volledig ander component gerenderd (Image Gallery ipv form)"
+    ]
+  },
+  "components/forms/form-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-6-local-mobile.png",
+    "issues": [
+      "Desktop: volledig ander component gerenderd (Image Gallery ipv Personal information form)",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd",
+      "Alle formuliervelden, titel en knoppen ontbreken in beide views"
+    ]
+  },
+  "components/forms/form-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-7-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-7-local-mobile.png",
+    "issues": [
+      "Inputvelden tonen loading spinners ipv bordered text inputs",
+      "Country dropdown: chevron-right ipv chevron-down",
+      "City/State/ZIP als tab-achtige pills ipv drie separate inputs",
+      "Knopkleuren omgekeerd (Cancel=zwart, Save=wit ipv andersom)",
+      "Desktop en mobiel screenshots zijn identiek - geen responsieve aanpassing",
+      "Horizontale scheidingslijnen tussen veldrijen ontbreken",
+      "Bovenste rij Cancel/Save naast titel ontbreekt volledig"
+    ]
+  },
+  "components/forms/form-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-8-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-8-local-mobile.png",
+    "issues": [
+      "Desktop: screenshot volledig leeg/wit - component niet gerenderd",
+      "Mobiel: alle inputvelden als kleine cirkels ipv text inputs",
+      "Mobiel: layout twee-kolom ipv responsive single-column voor mobiel",
+      "Mobiel: knopkleuren omgekeerd (Cancel=filled, Save=outlined)",
+      "Mobiel: City/State/ZIP als tab-labels met underline ipv drie separate inputs"
+    ]
+  },
+  "components/forms/form-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-9-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-9-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/form-9-local-mobile.png",
+    "issues": [
+      "Desktop: alle inputvelden (Name on invoice, Card number, Expiry, CVV, Email, Address) als kleine cirkels ipv bordered inputs",
+      "Desktop: Card number mist credit-card icon en vraagteken-icon",
+      "Desktop: Country dropdown: chevron-right ipv chevron-down",
+      "Desktop: City/State/ZIP als tab-labels ipv drie separate inputs",
+      "Desktop: Plan-selectiekaarten niet zichtbaar in screenshot",
+      "Mobiel: identieke problemen als desktop, geen responsive aanpassing"
+    ]
+  },
+  "components/gallery/gallery-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-1-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-1-local-mobile.png",
+    "issues": [
+      "Desktop: Figma toont \u00e9\u00e9n grote full-width afbeelding; desktop toont 3x2 grid van 6 kleinere afbeeldingen - volledig afwijkende layout",
+      "Desktop: extra 'Load more'-knop aanwezig die niet in Figma staat",
+      "Desktop: beschrijvingstekst langer dan in Figma",
+      "Mobiel: toont footer-component ipv gallery-1 - volledig verkeerd component"
+    ]
+  },
+  "components/gallery/gallery-10.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-10-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-10-local-mobile.png",
+    "issues": [
+      "Desktop: afbeeldingsplaceholders donkerder grijs ipv lichter tint uit Figma",
+      "Desktop: grotere placeholder-iconen in midden, Figma heeft subtielere iconen",
+      "Desktop: afbeeldingen missen border-radius die Figma toont",
+      "Desktop: gap tussen afbeeldingen groter dan in Figma",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/gallery/gallery-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-11-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-11-local-mobile.png",
+    "issues": [
+      "Desktop: volledig ander component gerenderd (Payment method formulier ipv Image Gallery)",
+      "Mobiel: zelfde fout - Payment method formulier ipv Image Gallery",
+      "Vermoedelijk routing- of componentmapping-fout"
+    ]
+  },
+  "components/gallery/gallery-12.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-12-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-12-local-mobile.png",
+    "issues": [
+      "Desktop: 2x2 grid van 4 placeholders ipv 1 groot aaneengesloten blok zoals in Figma",
+      "Desktop: zichtbare gap/scheiding tussen grid-items, Figma toont \u00e9\u00e9n blok",
+      "Desktop: afbeeldingsplaceholders lichter van kleur dan Figma",
+      "Desktop: aspect ratio van blok korter/breder dan in Figma",
+      "Mobiel: zelfde 2x2 grid ipv enkel groot afbeeldingsblok",
+      "Mobiel: totale blok langgerekt - aspect ratio klopt niet"
+    ]
+  },
+  "components/gallery/gallery-13.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-13-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-13-local-mobile.png",
+    "issues": [
+      "Desktop: carousel-afbeelding veel te laag in hoogte - platte strip ipv full-width groot beeld",
+      "Desktop: twee afbeeldingen naast elkaar zichtbaar ipv \u00e9\u00e9n groot full-width carousel-beeld",
+      "Desktop: navigatiepijlen niet correct gepositioneerd (links-onder als '>' tekens ipv cirkelvormige knoppen aan weerszijden)",
+      "Desktop: paginatie-dots links uitgelijnd ipv gecentreerd",
+      "Mobiel: screenshot volledig leeg/wit - component niet gerenderd"
+    ]
+  },
+  "components/gallery/gallery-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-14-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-14-local-mobile.png",
+    "issues": [
+      "Desktop: volledig ander component gerenderd (Notifications settings-formulier ipv Image Gallery carousel)",
+      "Mobiel: carousel-afbeeldingen als drie smalle verticale strips links ipv full-width carousel",
+      "Mobiel: navigatiepijlen als simpele '>' tekens ipv cirkelvormige knoppen",
+      "Mobiel: paginatie-dots niet actief/gevuld - alle outline-only ipv eerste gevuld",
+      "Mobiel: afbeeldingen vullen niet viewport-breedte zoals in Figma"
+    ]
   }
 }
