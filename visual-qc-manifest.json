@@ -7410,7 +7410,7 @@
     },
     {
       "id": "vqc-080",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/sidebars/sidebar-sits-beside-a-level-1-topbar-includes-a-company-logo-but-does-not-have-search-or-a-user-avatar.html",
@@ -7492,7 +7492,35 @@
           "path": "components/sign-up-and-log-in-pages/sign-up-6.html",
           "nodeId": "4174:123625"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 0,
+        "fail": 20,
+        "warnComponents": [],
+        "failComponents": [
+          "components/sidebars/sidebar-sits-beside-a-level-1-topbar-includes-a-company-logo-but-does-not-have-search-or-a-user-avatar.html",
+          "components/sign-up-and-log-in-modals/login-modal-1.html",
+          "components/sign-up-and-log-in-modals/login-modal-2.html",
+          "components/sign-up-and-log-in-modals/sign-up-modal-1.html",
+          "components/sign-up-and-log-in-modals/sign-up-modal-2.html",
+          "components/sign-up-and-log-in-modals/sign-up-modal-3.html",
+          "components/sign-up-and-log-in-pages/login-1.html",
+          "components/sign-up-and-log-in-pages/login-2.html",
+          "components/sign-up-and-log-in-pages/login-3.html",
+          "components/sign-up-and-log-in-pages/login-4.html",
+          "components/sign-up-and-log-in-pages/login-5.html",
+          "components/sign-up-and-log-in-pages/login-6.html",
+          "components/sign-up-and-log-in-pages/login-7.html",
+          "components/sign-up-and-log-in-pages/login-8.html",
+          "components/sign-up-and-log-in-pages/sign-up-1.html",
+          "components/sign-up-and-log-in-pages/sign-up-2.html",
+          "components/sign-up-and-log-in-pages/sign-up-3.html",
+          "components/sign-up-and-log-in-pages/sign-up-4.html",
+          "components/sign-up-and-log-in-pages/sign-up-5.html",
+          "components/sign-up-and-log-in-pages/sign-up-6.html"
+        ]
+      }
     },
     {
       "id": "vqc-081",
