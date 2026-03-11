@@ -14231,5 +14231,287 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-625-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-625-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-625-local-mobile.png"
+  },
+  "components/features/layout-644.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Broken logo images (Webflow/Relume logos not loading)",
+      "Video placeholder not loading (light gray vs dark with play button)",
+      "Button styling: filled dark vs outlined in Figma",
+      "Image panel height much shorter than Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/052a0c2e-7204-4b26-b843-24974f7881ac",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-644-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-644-local-mobile.png"
+  },
+  "components/features/layout-645.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "List icons render as empty circles instead of filled Relume-style icons",
+      "Excessive gap between icon and text in list items",
+      "Image placeholder not loading (light gray vs dark gray)",
+      "Button styling: filled+outlined vs outlined+text link in Figma",
+      "Image height too short"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/59c659ac-7dc5-433b-be68-3dc6a35310ad",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-645-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-645-local-mobile.png"
+  },
+  "components/features/layout-646.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "List icons are empty circles instead of filled Relume icons",
+      "Excessive icon-to-text spacing",
+      "Video placeholder not loading",
+      "Button styling wrong (filled+outlined vs outlined+text link)",
+      "Image height too short"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9124c168-f14c-4d6c-a757-fb38078ceaf1",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-646-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-646-local-mobile.png"
+  },
+  "components/features/layout-647.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Bullet list items missing bullet markers (plain text)",
+      "Image placeholder not loading (light gray vs dark gray)",
+      "Button styling wrong (filled+outlined vs outlined+text link)",
+      "Image height much shorter than Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/efe3a87f-ea7a-456c-a063-572be0baff8e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-647-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-647-local-mobile.png"
+  },
+  "components/features/layout-648.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Bullet list items missing bullet markers",
+      "Video placeholder not loading (light gray vs dark with play button)",
+      "Button styling wrong (filled+outlined vs outlined+text link)",
+      "Image height too short"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/524fa7b0-6c5f-4cc9-a20e-84595e0df1d8",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-648-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-648-local-mobile.png"
+  },
+  "components/features/layout-649.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icon rendered as broken image placeholder rectangle instead of Relume cube icon",
+      "Image placeholder not loading",
+      "Button styling wrong (filled+outlined vs outlined+text link)",
+      "Image height too short",
+      "Missing 'Tagline' text above heading"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5ec4b8af-d111-49a2-9ed6-e4d62f039c7a",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-649-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-649-local-mobile.png"
+  },
+  "components/features/layout-65.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "List icons empty circles instead of filled checkmark icons",
+      "Excessive gap between circle icon and text",
+      "Buttons filled dark + outlined instead of outlined + text link with chevron",
+      "Mobile: two-column layout not stacking to single column",
+      "Tagline text appears truncated on mobile"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f4577008-e682-4950-8150-6e7b8f0f1a9d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-65-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-65-local-mobile.png"
+  },
+  "components/features/layout-650.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icon renders as image placeholder instead of 3D cube icon",
+      "Video placeholder shows as light gray with broken image icon vs dark gray with play button",
+      "Button styling: filled dark primary + outlined secondary vs figma outlined + text-link"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/68735ca9-fda4-4aec-95f6-e5175ba0dfe1",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-650-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-650-local-mobile.png"
+  },
+  "components/features/layout-651.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder rendering difference (light gray vs dark gray)",
+      "Button styling discrepancy (filled+outlined vs outlined+text-link)",
+      "Stats section and layout otherwise correct"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5f6e7d4d-b852-4310-bc11-bea44dce66c8",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-651-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-651-local-mobile.png"
+  },
+  "components/features/layout-652.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image/video placeholder difference",
+      "Button style discrepancy (filled+outlined vs outlined+text-link)",
+      "Stats layout correct, structural match good"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1c107653-4227-4d9f-a05b-2559ef0b6f90",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-652-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-652-local-mobile.png"
+  },
+  "components/features/layout-653.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: icon renders as small empty circle outline instead of filled 3D cube icon",
+      "Button styling discrepancy",
+      "Image placeholder difference",
+      "Mobile: 2x2 feature grid layout correct"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/35d3cacf-b5e5-4cd3-a68d-64c91b1480e2",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-653-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-653-local-mobile.png"
+  },
+  "components/features/layout-654.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as circles instead of 3D cubes from Figma",
+      "Video placeholder vs image placeholder difference",
+      "Button style discrepancy consistent with other components"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e767bd47-bc1f-401c-aec8-75be0deb8f3d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-654-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-654-local-mobile.png"
+  },
+  "components/features/layout-655.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Per-card 'Button >' text links rendered as full-width dark filled buttons \u2014 major visual departure from Figma",
+      "Buttons should be subtle text links per Figma but render as prominent filled CTA bars",
+      "Icon circles vs cubes",
+      "Significantly changes visual hierarchy"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/679909b6-d5dc-4187-92a8-f2c9cab5c225",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-655-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-655-local-mobile.png"
+  },
+  "components/features/layout-656.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing bottom buttons entirely (Button + Button > not rendered)",
+      "Icon appears as empty circle instead of filled cube icon",
+      "Image placeholder light gray vs dark video placeholder in Figma",
+      "Layout structure (left features + right image) is correct otherwise"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/81af88a6-6a7d-4bc6-b20b-d1dfe5aed290",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-656-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-656-local-mobile.png"
+  },
+  "components/features/layout-657.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing 'Button' + 'Button >' CTA pair at bottom of feature list",
+      "Video placeholder not loading (light gray vs dark with play button)",
+      "Icons render as empty circles instead of cube icons"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/23a2db87-1219-487d-b0c2-40e9c88c9437",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-657-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-657-local-mobile.png"
+  },
+  "components/features/layout-658.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Per-row 'Button >' links rendered as dark filled pill/badge buttons instead of text links",
+      "Mobile: text overflow/clipping bug on button text ('utton >' clipped)",
+      "Icon circles vs cube icons"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8bd56d66-c3da-42ea-8f84-d81790ddd782",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-658-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-658-local-mobile.png"
+  },
+  "components/features/layout-659.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/40e4638e-8120-4b30-a445-5ef7ed24dfce",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-659-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-659-local-mobile.png"
+  },
+  "components/features/layout-66.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minor: icons render as empty circles instead of filled globe icons \u2014 acceptable placeholder behavior"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/98cda920-b3e1-42e6-9b90-b5a1df8d0848",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-66-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-66-local-mobile.png"
+  },
+  "components/features/layout-660.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder light gray vs dark video placeholder \u2014 acceptable static rendering vs video embed"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/49d586a3-d6fc-42ed-8200-5fb6f9037b4f",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-660-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-660-local-mobile.png"
+  },
+  "components/features/layout-661.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/97615869-ded1-4a66-ab17-2ddc633ff5e0",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-661-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-661-local-mobile.png"
   }
 }
