@@ -988,7 +988,7 @@
     },
     {
       "id": "vqc-012",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/cta-new/cta-13.html",
