@@ -715,7 +715,7 @@
     },
     {
       "id": "vqc-009",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/comparisons/comparison-14.html",
