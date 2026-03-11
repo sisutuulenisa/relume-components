@@ -4729,7 +4729,7 @@
     },
     {
       "id": "vqc-053",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/footers/footer-12.html",
