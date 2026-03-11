@@ -2176,7 +2176,7 @@
     },
     {
       "id": "vqc-025",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/features/layout-211.html",
@@ -2262,7 +2262,7 @@
     },
     {
       "id": "vqc-026",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/features/layout-23.html",
