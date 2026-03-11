@@ -525,3 +525,11 @@
 - [x] product-list-sections/product-7 ✅
 - [x] product-list-sections/product-8 ✅
 - [x] product-list-sections/product-9 ✅
+
+## components/event-headers/
+- [x] event-header-1 ✅
+- [x] event-header-2 ✅
+- [x] event-header-3 ✅
+- [x] event-header-4 ✅
+- [x] event-header-5 ✅
+- [x] event-header-6 ✅
