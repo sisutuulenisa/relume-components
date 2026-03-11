@@ -5725,7 +5725,7 @@
     },
     {
       "id": "vqc-064",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/hero-headers-new/header-92.html",
@@ -5807,7 +5807,12 @@
           "path": "components/links-pages/links-10.html",
           "nodeId": "4606:7824"
         }
-      ]
+      ],
+      "results": {
+        "ok": 4,
+        "warn": 11,
+        "fail": 5
+      }
     },
     {
       "id": "vqc-065",
