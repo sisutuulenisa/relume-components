@@ -1352,7 +1352,7 @@
     },
     {
       "id": "vqc-016",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/event-item-headers/event-item-header-6.html",
