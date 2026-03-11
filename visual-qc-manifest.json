@@ -6719,7 +6719,7 @@
     },
     {
       "id": "vqc-075",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/pricing/pricing-10.html",
