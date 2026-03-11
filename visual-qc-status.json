@@ -1300,5 +1300,347 @@
     "figmaScreenshot": "relume-visual-qc/blog-68-figma.png",
     "localDesktop": "relume-visual-qc/blog-68-local-desktop.png",
     "localMobile": "relume-visual-qc/blog-68-local-mobile.png"
+  },
+  "components/blog-post-pages/blog-post-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: hero-sectie volledig leeg \u2014 geen titel, category-badge, auteur-info overlay",
+      "desktop: social-share iconen gerenderd als tekst-\"Button\" elementen",
+      "desktop: navigatiestijl afwijkend \u2014 bordered/pill buttons i.p.v. platte tekstlinks",
+      "desktop: dropdown \"Link Four\" ontbreekt",
+      "desktop: hero-afbeelding is lege grijze rechthoek zonder overlay",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag, geen hamburger-menu",
+      "mobiel: geen gestapelde layout voor smal viewport"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-2-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-2-local-mobile.png"
+  },
+  "components/blog-post-pages/blog-post-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: social share icons gerenderd als tekst-\"Button\" i.p.v. iconen",
+      "desktop: breadcrumb \"Category\" afgeknipt tot \"Catego\"",
+      "desktop: auteursnaam \"Full name\" breekt over twee regels",
+      "desktop: datum in bordered/outlined box i.p.v. platte tekst",
+      "desktop: logo is vijf cirkels i.p.v. woordmerk",
+      "desktop: dropdown \"Link Four\" ontbreekt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag, geen hamburger-menu"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-3-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-3-local-mobile.png"
+  },
+  "components/blog-post-pages/blog-post-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: hero-afbeelding neemt slechts ~40% breedte i.p.v. full-width",
+      "desktop: breadcrumb \"Category\" afgeknipt tot \"Categor\"",
+      "desktop: \"5 min read\" breekt over twee regels",
+      "desktop: blog-heading niet full-width",
+      "desktop: \"All Posts\" breadcrumb verkeerd gestyled (donkere achtergrond + foute chevron)",
+      "desktop: dropdown \"Link Four\" ontbreekt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag, geen hamburger-menu"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-4-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-4-local-mobile.png"
+  },
+  "components/blog-post-pages/blog-post-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: dropdown \"Link Four\" ontbreekt",
+      "desktop: navigatiestijl afwijkend \u2014 bordered/pill buttons",
+      "desktop: logo onjuist \u2014 vijf cirkels i.p.v. woordmerk",
+      "desktop: breadcrumb pijl-icoon is cirkel i.p.v. chevron-links",
+      "desktop: \"Category\" afgeknipt",
+      "desktop: volledig article body / sidebar / footer ontbreekt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag, geen hamburger-menu"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-5-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-5-local-mobile.png"
+  },
+  "components/blog-sections/blog-33.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: onbedoelde category-tabs/filters zichtbaar die niet in design staan",
+      "\"View all\"-knop donker/filled i.p.v. outlined; tekst breekt over twee regels",
+      "\"Blog\"-label afgeknipt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-33-figma.png",
+    "localDesktop": "relume-visual-qc/blog-33-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-33-local-mobile.png"
+  },
+  "components/blog-sections/blog-34.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: onbedoelde category-tabs/filters zichtbaar",
+      "\"View all\"-knop donker/filled + niet gecentreerde tekst i.p.v. outlined",
+      "\"Blog\"-label afgeknipt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-34-figma.png",
+    "localDesktop": "relume-visual-qc/blog-34-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-34-local-mobile.png"
+  },
+  "components/blog-sections/blog-35.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten renderen niet",
+      "desktop: onbedoelde category-tabbar zichtbaar",
+      "\"View all\"-knop donker/filled i.p.v. outlined",
+      "\"Blog\"-label afgeknipt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-35-figma.png",
+    "localDesktop": "relume-visual-qc/blog-35-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-35-local-mobile.png"
+  },
+  "components/blog-sections/blog-36.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: onbedoelde category-tabs/filters zichtbaar",
+      "\"View all\"-knop donker/filled i.p.v. outlined",
+      "\"Blog\"-label afgeknipt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-36-figma.png",
+    "localDesktop": "relume-visual-qc/blog-36-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-36-local-mobile.png"
+  },
+  "components/blog-sections/blog-37.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: onbedoelde category-tabs zichtbaar",
+      "\"View all\"-knop zwart filled + rounded i.p.v. outlined + scherpe hoeken",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-37-figma.png",
+    "localDesktop": "relume-visual-qc/blog-37-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-37-local-mobile.png"
+  },
+  "components/blog-sections/blog-38.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: onbedoelde category-filterbar zichtbaar",
+      "desktop: header-tekst gecentreerd i.p.v. links uitgelijnd",
+      "\"View all\"-knop donker/filled i.p.v. outlined + verkeerd gepositioneerd",
+      "\"Blog\"-label afgeknipt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-38-figma.png",
+    "localDesktop": "relume-visual-qc/blog-38-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-38-local-mobile.png"
+  },
+  "components/blog-sections/blog-39.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: onbedoelde category-tabbar zichtbaar",
+      "desktop: heading gecentreerd i.p.v. links",
+      "\"View all\"-knop donker/filled i.p.v. outlined + verkeerd gepositioneerd",
+      "\"Blog\"-label afgeknipt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-39-figma.png",
+    "localDesktop": "relume-visual-qc/blog-39-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-39-local-mobile.png"
+  },
+  "components/blog-sections/blog-40.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: onbedoelde category-tabs zichtbaar",
+      "desktop: header gecentreerd i.p.v. links",
+      "\"View all\"-knop donker/filled i.p.v. outlined",
+      "\"Blog\"-label afgeknipt",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-40-figma.png",
+    "localDesktop": "relume-visual-qc/blog-40-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-40-local-mobile.png"
+  },
+  "components/blog-sections/blog-41.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: \"View all\"-knop donker/filled + verkeerd gepositioneerd (naast description i.p.v. rechts in header)",
+      "desktop: onbedoelde category-tabbar zichtbaar",
+      "\"Blog\"-label afgeknipt tot \"Blo\"",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-41-figma.png",
+    "localDesktop": "relume-visual-qc/blog-41-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-41-local-mobile.png"
+  },
+  "components/blog-sections/blog-42.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: \"View all\"-knop donker/filled + verkeerd gepositioneerd",
+      "desktop: onbedoelde category-tabs zichtbaar",
+      "\"Blog\"-label afgeknipt tot \"Blo\"",
+      "desktop: heading breekt over meerdere regels",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-42-figma.png",
+    "localDesktop": "relume-visual-qc/blog-42-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-42-local-mobile.png"
+  },
+  "components/blog-sections/blog-43.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig",
+      "desktop: \"View all\"-knop donker/filled + verkeerd gepositioneerd",
+      "desktop: onbedoelde category-tabbalk zichtbaar",
+      "\"Blog\"-label afgeknipt tot \"Blo\"",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-43-figma.png",
+    "localDesktop": "relume-visual-qc/blog-43-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-43-local-mobile.png"
+  },
+  "components/blog-sections/blog-44.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: blogkaarten volledig afwezig; alleen category-tabs zichtbaar",
+      "desktop: \"View all\"-knop donker/filled + verkeerd gepositioneerd",
+      "\"Blog\"-label afgeknipt tot \"Blo\"",
+      "mobiel: kaarten tonen alleen afbeeldingen zonder content (category, titel, beschrijving)",
+      "mobiel: 2-kolom layout i.p.v. gestapeld 1-kolom",
+      "mobiel: \"View all\"-knop ontbreekt",
+      "mobiel: heading en description gecentreerd i.p.v. links"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-44-figma.png",
+    "localDesktop": "relume-visual-qc/blog-44-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-44-local-mobile.png"
+  },
+  "components/blog-sections/blog-45.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: card-content ontbreekt \u2014 category, titel, beschrijving, auteur-sectie niet gerenderd",
+      "desktop: \"View all\"-knop ontbreekt",
+      "desktop: kaarten te smal \u2014 vullen niet volledige containerbreedte",
+      "desktop: afbeeldingen hebben rounded corners die niet in design staan",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag; kaarten in 2 kolommen i.p.v. gestapeld"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-45-figma.png",
+    "localDesktop": "relume-visual-qc/blog-45-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-45-local-mobile.png"
+  },
+  "components/blog-sections/blog-46.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: card-content (category, titel, beschrijving, read more) niet zichtbaar \u2014 mogelijk buiten viewport",
+      "desktop: kaarten te smal; te veel witruimte",
+      "desktop: \"View all\"-knop niet zichtbaar",
+      "mobiel: verkeerde card-layout \u2014 horizontaal (afbeelding links, tekst rechts) i.p.v. verticaal gestapeld",
+      "mobiel: 2 kaarten naast elkaar i.p.v. 1 kolom",
+      "mobiel: \"Read more\" gestyled als donkere filled button i.p.v. tekstlink",
+      "mobiel: header-tekst links uitgelijnd i.p.v. gecentreerd",
+      "mobiel: tekst afgebroken door krappe kolombreedte",
+      "mobiel: afbeeldingen hebben border-radius; design toont scherpe hoeken"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-46-figma.png",
+    "localDesktop": "relume-visual-qc/blog-46-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-46-local-mobile.png"
+  },
+  "components/blog-sections/blog-47.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: header links uitgelijnd i.p.v. gecentreerd",
+      "desktop: \"View all\"-knop naast header i.p.v. onderaan gecentreerd",
+      "desktop: \"View all\"-knop donker/filled i.p.v. outlined",
+      "\"Blog\"-label afgeknipt tot \"Blo\"",
+      "desktop: kaarten missen border/outline; content afgeknipt",
+      "desktop: afbeeldingen vullen niet volledige kaardbreedte",
+      "mobiel: 2 kolommen i.p.v. single column",
+      "mobiel: afbeeldingen vullen niet volledige kaardbreedte",
+      "mobiel: card-content grotendeels afgekapt; \"View all\" niet zichtbaar"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-47-figma.png",
+    "localDesktop": "relume-visual-qc/blog-47-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-47-local-mobile.png"
+  },
+  "components/blog-sections/blog-48.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: header links uitgelijnd i.p.v. gecentreerd",
+      "\"Blog\"-label afgeknipt tot \"Blo\"",
+      "desktop: \"View all\"-knop inline naast header i.p.v. gecentreerd onder kaarten",
+      "desktop: \"View all\"-knop donker/filled + rounded i.p.v. outlined",
+      "desktop: blogkaart-content ontbreekt \u2014 alleen afbeelding-placeholder zichtbaar",
+      "mobiel: identiek aan desktop \u2014 geen responsief gedrag; 2-kolom i.p.v. 1-kolom"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-48-figma.png",
+    "localDesktop": "relume-visual-qc/blog-48-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-48-local-mobile.png"
   }
 }
