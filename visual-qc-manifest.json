@@ -4815,7 +4815,7 @@
     },
     {
       "id": "vqc-054",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/forms/form-15.html",
@@ -4897,7 +4897,12 @@
           "path": "components/gallery/gallery-14.html",
           "nodeId": "4174:41099"
         }
-      ]
+      ],
+      "results": {
+        "ok": 20,
+        "warn": 0,
+        "fail": 0
+      }
     },
     {
       "id": "vqc-055",

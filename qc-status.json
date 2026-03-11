@@ -79,7 +79,7 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: herschreven met CDN Tailwind, responsive 3-koloms gallery grid met 6 placeholders"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/logos/logo-1.html": {
     "status": "ok",
@@ -21398,35 +21398,35 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/gallery/gallery-11.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/gallery/gallery-12.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/gallery/gallery-13.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/gallery/gallery-14.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-034 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/gallery/gallery-15.html": {
     "status": "ok",
@@ -21944,98 +21944,98 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-16.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-17.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-18.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-19.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-2.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-20.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-3.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-4.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-5.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-6.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-7.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-8.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/forms/form-9.html": {
     "status": "ok",
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "batch-035 fixed"
+    "note": "vqc-054 revalidated: 1440x900 + 390x844 screenshots match Figma exports"
   },
   "components/team/team-10.html": {
     "status": "ok",
