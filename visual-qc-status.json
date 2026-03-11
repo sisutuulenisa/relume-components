@@ -16051,5 +16051,264 @@
       "Mobiel: paginatie-dots niet actief/gevuld - alle outline-only ipv eerste gevuld",
       "Mobiel: afbeeldingen vullen niet viewport-breedte zoals in Figma"
     ]
+  },
+  "components/gallery/gallery-2.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: placeholder aspect ratio shorter than Figma (square vs 4:3 landscape), lighter bg color (#gray-100 vs Figma #D9D9D9), icon style differs",
+      "mobile: images squished to narrow vertical slivers instead of full-width stacked columns"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-2-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-2-local-mobile.png"
+  },
+  "components/gallery/gallery-3.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: placeholder bg color lighter than Figma (off-white vs medium gray), icon style mismatch",
+      "mobile: images squished to narrow vertical slivers instead of full-width stacked columns"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-3-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-3-local-mobile.png"
+  },
+  "components/gallery/gallery-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 4 images squished to ~20px wide vertical slivers instead of equal-width columns spanning full width; md:w-1/2 on each of 4 items in flex row causes overflow clipping",
+      "mobile: same layout bug, images not responsive"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-4-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-4-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-4-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: all 6 images in 3x2 grid squished to narrow vertical slivers; entire layout clustered left ~25% of viewport",
+      "mobile: same layout bug; viewport not switching"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-5-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-5-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-5-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 4x2 grid images squished to ~20px tall/narrow slivers; layout only occupies ~25% of viewport width",
+      "mobile: viewport not switching; same layout failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-6-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-6-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: correct 2-column asymmetric layout (1 large + 2 stacked); placeholder bg lighter than Figma; unexpected rounded corners; proportional height difference between large/small images",
+      "mobile: viewport not switching (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-7-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-7-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-7-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-8.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 2x2 equal-height grid instead of Figma's masonry/asymmetric heights; placeholder colors lighter; loses height variation",
+      "mobile: viewport not switching (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-8-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-8-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-8-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-15.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: carousel slides squished to narrow vertical slivers; nav arrows replaced by bare '>' chevrons positioned below gallery; dot indicators present but mispositioned",
+      "mobile: viewport not switching (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-15-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-15-local-mobile.png"
+  },
+  "components/gallery/gallery-16.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 2-up carousel slides squished to narrow slivers; circular prev/next arrows missing; bare '>' chevrons shown vertically stacked below gallery; dot indicators hollow",
+      "mobile: viewport not switching (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-16-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-16-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-16-local-mobile.png"
+  },
+  "components/gallery/gallery-17.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: same as gallery-16; carousel slides squished to slivers; nav arrows absent; bare '>' chevrons below; dots hollow",
+      "mobile: viewport not switching (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-17-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-17-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-17-local-mobile.png"
+  },
+  "components/gallery/gallery-18.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 6-slide carousel squished to thin slivers; left/right arrow nav buttons missing; pagination dots hollow/unfilled",
+      "mobile: viewport not switching (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-18-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-18-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-18-local-mobile.png"
+  },
+  "components/gallery/gallery-19.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 4-slide carousel squished to thin slivers; arrow nav missing; ~9 narrow strips vs Figma's 4 visible cards with peek; dots all hollow",
+      "mobile: viewport not switching (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-19-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-19-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-19-local-mobile.png"
+  },
+  "components/gallery/gallery-20.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "mobile: viewport not switching (identical to desktop); responsive breakpoints not verified"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-20-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-20-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-20-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-21.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: carousel slides squished to narrow slivers; arrow buttons inside oversized rectangular container instead of circular buttons; pagination dots hollow; heading centered instead of left-aligned",
+      "mobile: same layout failure as desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-21-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-21-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-21-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-22.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: carousel slides squished to narrow slivers; arrow buttons in oversized rectangular container; pagination dots hollow; heading alignment wrong",
+      "mobile: same layout failure as desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-22-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-22-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-22-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-23.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: 8 carousel slides squished to narrow slivers instead of 4 visible square cards; arrow buttons in rectangular container; 8 empty dot indicators vs Figma's filled active style; heading centered instead of left-aligned",
+      "mobile: same layout failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-23-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-23-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-23-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-24.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: carousel slides squished to narrow slivers; hero-single-card carousel broken (3 slivers vs Figma's 1 large+peek); navigation/pagination missing",
+      "mobile: same layout failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-24-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-24-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-24-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-25.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: carousel slides squished to narrow slivers; both nav arrows show '>' instead of left/right; pagination dots all hollow",
+      "mobile: viewport not switching; same layout failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-25-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-25-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-25-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-26.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: carousel squished to ~8 narrow slivers instead of 2 visible cards; both nav arrows show '>'; dots all hollow with no active state",
+      "mobile: viewport not switching; same layout failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-26-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-26-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-26-local-mobile-v2.png"
+  },
+  "components/gallery/gallery-27.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: right-side carousel slides squished to narrow slivers; left text + right carousel layout structure exists but image rendering broken; arrow buttons in rectangular container; dots hollow",
+      "mobile: viewport not switching; same layout failure"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-27-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-27-local-desktop-v2.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/gallery-27-local-mobile-v2.png"
   }
 }
