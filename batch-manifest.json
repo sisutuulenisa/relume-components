@@ -2782,7 +2782,7 @@
         "components/cta-new/cta-9.html"
       ],
       "count": 65,
-      "status": "running"
+      "status": "done"
     },
     {
       "id": "batch-029",
@@ -2956,7 +2956,7 @@
         "components/multi-step-forms/multi-form-9.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-031",
