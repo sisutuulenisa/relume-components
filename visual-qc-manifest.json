@@ -1908,7 +1908,7 @@
     },
     {
       "id": "vqc-022",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/features/layout-158.html",
@@ -1990,7 +1990,12 @@
           "path": "components/features/layout-175.html",
           "nodeId": "4174:12389"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 16,
+        "fail": 4
+      }
     },
     {
       "id": "vqc-023",
