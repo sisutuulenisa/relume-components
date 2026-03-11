@@ -7936,7 +7936,7 @@
     },
     {
       "id": "vqc-085",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/stats-sections/stats-9.html",
@@ -8018,7 +8018,36 @@
           "path": "components/team/team-1.html",
           "nodeId": "4174:54886"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 14,
+        "fail": 6,
+        "warnComponents": [
+          "components/style-guide/icons.html",
+          "components/style-guide/radius.html",
+          "components/style-guide/typography.html",
+          "components/style-guide/variables.html",
+          "components/tables/table-1.html",
+          "components/tables/table-10.html",
+          "components/tables/table-2.html",
+          "components/tables/table-3.html",
+          "components/tables/table-5.html",
+          "components/tables/table-6.html",
+          "components/tables/table-7.html",
+          "components/tables/table-8.html",
+          "components/tables/table-9.html",
+          "components/team/team-1.html"
+        ],
+        "failComponents": [
+          "components/stats-sections/stats-9.html",
+          "components/style-guide/customizing-the-figma-kit.html",
+          "components/style-guide/logos.html",
+          "components/style-guide/shadows.html",
+          "components/style-guide/ui-elements.html",
+          "components/tables/table-4.html"
+        ]
+      }
     },
     {
       "id": "vqc-086",
