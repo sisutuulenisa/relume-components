@@ -21154,5 +21154,265 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/pricing__pricing-1-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/pricing__pricing-1-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/pricing__pricing-1-local-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-12.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.4556 rms=0.4589; mobile mae=0.4556 rms=0.4589",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-12-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-12-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-12-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-2.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1054 rms=0.1725; mobile mae=0.1054 rms=0.1725",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-2-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-2-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-2-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0914 rms=0.1665; mobile mae=0.0914 rms=0.1665",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-3-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-3-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-3-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.4556 rms=0.4586; mobile mae=0.4556 rms=0.4586",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-4-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-4-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-4-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-5.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0403 rms=0.1865; mobile mae=0.0403 rms=0.1865",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-5-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-5-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-5-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-6.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1052 rms=0.1686; mobile mae=0.1052 rms=0.1686",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-6-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-6-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-6-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0963 rms=0.1752; mobile mae=0.0963 rms=0.1752",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-7-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-7-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-7-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.4553 rms=0.4587; mobile mae=0.4553 rms=0.4587",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-8-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-8-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-8-mobile.png"
+  },
+  "components/portfolio-headers/portfolio-header-9.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0425 rms=0.1905; mobile mae=0.0425 rms=0.1905",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-headers__portfolio-header-9-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-headers__portfolio-header-9-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-headers__portfolio-header-9-mobile.png"
+  },
+  "components/portfolio-pages/portfolio-page-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1006 rms=0.2157; mobile mae=0.1006 rms=0.2157",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-pages__portfolio-page-1-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-pages__portfolio-page-1-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-pages__portfolio-page-1-mobile.png"
+  },
+  "components/portfolio-pages/portfolio-page-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1316 rms=0.2477; mobile mae=0.1316 rms=0.2477",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-pages__portfolio-page-2-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-pages__portfolio-page-2-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-pages__portfolio-page-2-mobile.png"
+  },
+  "components/portfolio-pages/portfolio-page-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1179 rms=0.2244; mobile mae=0.1179 rms=0.2244",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-pages__portfolio-page-3-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-pages__portfolio-page-3-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-pages__portfolio-page-3-mobile.png"
+  },
+  "components/portfolio-pages/portfolio-page-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1128 rms=0.2058; mobile mae=0.1128 rms=0.2058",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-pages__portfolio-page-4-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-pages__portfolio-page-4-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-pages__portfolio-page-4-mobile.png"
+  },
+  "components/portfolio-pages/portfolio-page-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1292 rms=0.2391; mobile mae=0.1292 rms=0.2391",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-pages__portfolio-page-5-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-pages__portfolio-page-5-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-pages__portfolio-page-5-mobile.png"
+  },
+  "components/portfolio-pages/portfolio-page-6.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0944 rms=0.1608; mobile mae=0.0944 rms=0.1608",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-pages__portfolio-page-6-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-pages__portfolio-page-6-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-pages__portfolio-page-6-mobile.png"
+  },
+  "components/portfolio-pages/portfolio-page-7.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1078 rms=0.2372; mobile mae=0.1078 rms=0.2372",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-pages__portfolio-page-7-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-pages__portfolio-page-7-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-pages__portfolio-page-7-mobile.png"
+  },
+  "components/portfolio-sections/portfolio-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.1287 rms=0.2404; mobile mae=0.1287 rms=0.2404",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-sections__portfolio-1-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-sections__portfolio-1-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-sections__portfolio-1-mobile.png"
+  },
+  "components/portfolio-sections/portfolio-10.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0764 rms=0.1719; mobile mae=0.0764 rms=0.1719",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-sections__portfolio-10-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-sections__portfolio-10-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-sections__portfolio-10-mobile.png"
+  },
+  "components/portfolio-sections/portfolio-11.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0558 rms=0.1635; mobile mae=0.0558 rms=0.1635",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-sections__portfolio-11-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-sections__portfolio-11-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-sections__portfolio-11-mobile.png"
+  },
+  "components/portfolio-sections/portfolio-12.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "vqc-073 auto-compare desktop mae=0.0635 rms=0.1579; mobile mae=0.0635 rms=0.1579",
+      "Visual parity differences detected vs Figma render"
+    ],
+    "figmaScreenshot": "relume-visual-qc/components__portfolio-sections__portfolio-12-figma.png",
+    "localDesktop": "relume-visual-qc/components__portfolio-sections__portfolio-12-desktop.png",
+    "localMobile": "relume-visual-qc/components__portfolio-sections__portfolio-12-mobile.png"
   }
 }
