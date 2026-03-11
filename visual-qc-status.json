@@ -4840,5 +4840,367 @@
     "figmaScreenshot": "relume-visual-qc/event-item-header-5-figma.png",
     "localDesktop": "relume-visual-qc/event-item-header-5-local-desktop.png",
     "localMobile": "relume-visual-qc/event-item-header-5-local-mobile.png"
+  },
+  "components/event-sections/event-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Sold out badge shows as plain text, no badge styling",
+      "Date pill has visible border box (not in Figma)",
+      "Save my spot button is dark navy filled instead of outlined",
+      "Event rows use full bordered cards instead of horizontal rule dividers",
+      "Event title heading wraps to two lines on desktop",
+      "Images proportionally larger than Figma thumbnails",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-3-local-mobile.png"
+  },
+  "components/event-sections/event-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Sold out badge renders as bold plain text without background styling",
+      "Date pill has visible border box not present in Figma",
+      "Save my spot button is dark navy filled instead of outlined/ghost",
+      "Images significantly oversized relative to card width",
+      "Content text wraps more narrowly than Figma",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-4-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-4-local-mobile.png"
+  },
+  "components/event-sections/event-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Play button icon missing play triangle \u2014 renders as empty circle outline",
+      "Play button wrapped in full-width dark navy rectangular button (should be small standalone circle)",
+      "Clock SVG icon not rendering \u2014 shows empty circle outline",
+      "Coming soon badge renders as plain bold text without badge styling",
+      "Row separators show full bordered card containers instead of clean horizontal dividers",
+      "Title alignment is centered instead of left-aligned",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-5-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-5-local-mobile.png"
+  },
+  "components/event-sections/event-6.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Play button renders as large dark rectangular button (should be small circular play icon)",
+      "Clock icon shows as empty circle (no hands/details)",
+      "Coming soon badge not styled as badge \u2014 appears as bold text on separate line",
+      "Card layout disrupted by oversized play button element",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-6-local-mobile.png"
+  },
+  "components/event-sections/event-7.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Entire event card grid (3 columns) missing \u2014 only tab selector row renders",
+      "Event card content completely absent (images, titles, descriptions, locations, View event links)",
+      "Tab bar shows Fri/Sat/Sun but no card content below it",
+      "Large empty white space where cards should be",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-7-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-7-local-mobile.png"
+  },
+  "components/event-sections/event-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Entire event card grid (3 columns) missing \u2014 same broken state as event-7",
+      "Event card content completely absent (images, titles, descriptions, locations, View event links)",
+      "Tab bar shows Fri/Sat/Sun but no card content below it",
+      "Large empty white space where cards should be",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-8-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-8-local-mobile.png"
+  },
+  "components/event-sections/event-24.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Category badge positioned below image instead of overlaid top-right corner of image",
+      "Image does not fill card width \u2014 leaves white space on right side",
+      "Calendar icon renders as empty circle (\u25cb) instead of calendar icon",
+      "Location pin icon renders as empty circle",
+      "Events heading center-aligned instead of left-aligned",
+      "View all button oversized/full-width instead of compact outlined button",
+      "Card content cut off \u2014 title, description and View event link not visible",
+      "No mobile responsive layout \u2014 two-column layout persists on mobile (should stack)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-24-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-24-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-24-local-mobile.png"
+  },
+  "components/event-sections/event-25.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All carousel event cards missing \u2014 only header, tabs, dots and arrows visible",
+      "Category filter tab row appears but is not in Figma design",
+      "Pagination dots count wrong (7 instead of 5) and none are filled/active",
+      "Navigation arrows show > > (two right chevrons) instead of \u2190 \u2192 circle buttons",
+      "Events heading center-aligned instead of left-aligned",
+      "View all button oversized/full-width",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-25-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-25-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-25-local-mobile.png"
+  },
+  "components/event-sections/event-26.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All carousel event cards missing \u2014 only header, tabs, dots and arrows visible",
+      "Category filter tab row appears but is not in Figma design",
+      "Pagination dots count wrong (5 instead of 4) and none are filled/active",
+      "Navigation arrows show > > (two right chevrons) instead of \u2190 \u2192 circle buttons",
+      "Events heading center-aligned instead of left-aligned",
+      "View all button oversized/full-width",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-26-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-26-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-26-local-mobile.png"
+  },
+  "components/event-sections/event-27.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing video thumbnail images with play buttons for all 3 cards",
+      "Missing webinar title headings for all 3 cards",
+      "Missing description paragraphs for all 3 cards",
+      "Missing Speakers label and avatar circles for all 3 cards",
+      "Missing View event links for all 3 cards",
+      "Missing clock icons next to 45 minutes",
+      "45 minutes labels display as horizontal tab/pill row instead of card metadata",
+      "3-column card grid layout completely absent",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-27-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-27-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-27-local-mobile.png"
+  },
+  "components/event-sections/event-28.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing video thumbnail images with play buttons for all 3 cards",
+      "Missing card bordered containers",
+      "Missing webinar title headings, descriptions, speakers and View event links",
+      "Missing clock icons \u2014 only 45 minutes text renders",
+      "45 minutes labels display as horizontal tab/pill row instead of card metadata",
+      "3-column card grid layout completely absent",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-28-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-28-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-28-local-mobile.png"
+  },
+  "components/event-sections/event-29.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing video thumbnail images with play buttons for all 3 cards",
+      "Missing webinar title headings, descriptions, speakers and View event links",
+      "Missing clock icons \u2014 only 45 minutes text renders",
+      "45 minutes labels display as horizontal tab/pill row instead of card metadata",
+      "3-column card grid layout completely absent",
+      "View all button on mobile stretches full width (should remain compact right-aligned)",
+      "No mobile responsive layout for card grid (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-29-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-29-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-29-local-mobile.png"
+  },
+  "components/event-sections/event-30.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing video thumbnail images for all 3 webinar cards",
+      "Missing webinar title headings, descriptions, speakers and View event links",
+      "Missing clock icons",
+      "45 minutes text clusters center horizontally instead of within card grid",
+      "3-column card grid layout absent",
+      "Webinars heading center-aligned instead of left-aligned",
+      "View all button oversized (50% viewport width instead of compact)",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-30-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-30-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-30-local-mobile.png"
+  },
+  "components/event-sections/event-31.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Accordion structure broken \u2014 rows collapsed instead of expanded",
+      "Missing In-person/Online badge pills next to event titles",
+      "Missing Speaker column",
+      "Missing Location column",
+      "View details not styled as bordered button \u2014 appears as plain text",
+      "Event rows narrow and centered instead of full-width table-like layout",
+      "Missing horizontal divider lines between event rows",
+      "Only one day section partially visible",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-31-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-31-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-31-local-mobile.png"
+  },
+  "components/event-sections/event-32.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing In-person/Online badge pills next to event titles",
+      "Missing Speaker column",
+      "Missing Location column",
+      "View details not styled as bordered button \u2014 appears as plain text",
+      "Event rows narrow and left-aligned instead of full-width columnar layout",
+      "Row spacing too tight compared to Figma",
+      "Missing horizontal divider lines between events",
+      "Event title heading not bold/large enough",
+      "Time values display inside bordered boxes (should be plain text)",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-32-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-32-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-32-local-mobile.png"
+  },
+  "components/event-sections/event-33.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing event thumbnail images next to each row",
+      "Speaker text replaced by Tab 2 \u2014 incorrect placeholder content",
+      "Missing Location with pin icon",
+      "Layout collapses to flat minimal text row instead of full-width columnar layout",
+      "Missing prominent horizontal divider lines between event rows",
+      "View details not styled as bordered button \u2014 appears as plain text",
+      "Schedule heading center-aligned instead of left-aligned",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-33-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-33-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-33-local-mobile.png"
+  },
+  "components/event-sections/event-34.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing event thumbnail images within cards",
+      "Speaker text replaced by Tab 2 \u2014 incorrect placeholder content",
+      "Missing Location with pin icon",
+      "Card layout broken \u2014 flat minimal text rows instead of full bordered cards",
+      "View details not styled as outlined button \u2014 appears as plain text",
+      "Schedule heading center-aligned instead of left-aligned",
+      "No mobile responsive layout (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-34-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-34-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-34-local-mobile.png"
+  },
+  "components/event-sections/event-35.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Schedule heading center-aligned instead of left-aligned",
+      "Image placeholder lighter gray/broken-image icon instead of darker gray with image icon",
+      "Date column text wraps to two lines (Friday 09 Feb) \u2014 date column too narrow",
+      "Date heading appears bolder/larger than Figma reference",
+      "Content below first card not visible in screenshot \u2014 cannot fully verify",
+      "No mobile responsive layout visible (identical to desktop)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-35-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-35-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-35-local-mobile.png"
+  },
+  "components/event-sections/event-36.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Schedule heading center-aligned instead of left-aligned",
+      "Location badge detached from image (separate third column) instead of overlaid on image corner",
+      "Image too small \u2014 does not fill card height or expected proportion",
+      "View details button is large dark filled/full-width instead of small outlined/ghost",
+      "Horizontal rule added under tabs not present in Figma",
+      "Layout is 3-column (text, image, location) instead of 2-column (text+image, location overlay)",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-36-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-36-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-36-local-mobile.png"
+  },
+  "components/event-sections/event-37.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Schedule heading center-aligned instead of left-aligned",
+      "Location badge detached as separate middle column instead of overlaid on image",
+      "Image undersized (~25% width instead of ~50%)",
+      "View details button is large dark filled/full-width instead of small outlined/ghost",
+      "Horizontal rule under tabs not present in Figma",
+      "Layout 3-column instead of 2-column (image left with overlay, text right)",
+      "Mobile screenshot identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-37-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-37-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-37-local-mobile.png"
   }
 }
