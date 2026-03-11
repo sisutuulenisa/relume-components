@@ -10811,5 +10811,345 @@
     "figmaScreenshot": "layout-409-figma.png",
     "localDesktop": "layout-409-local-desktop.png",
     "localMobile": "layout-409-local-mobile.png"
+  },
+  "components/features/layout-428.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Left image much smaller than Figma (~25% vs ~50% width)",
+      "Desktop: Image size asymmetry (small left, large right) not replicated \u2014 local shows equal-sized images",
+      "Desktop: Heading spans full width in local but constrained to left column in Figma",
+      "Desktop: Image placeholder background colors differ \u2014 Figma darker gray vs local off-white",
+      "Mobile: Tagline text clipped to 'Tagl'",
+      "Mobile: Layout differs significantly \u2014 Figma stacks images with text/small image in left column, local shows two-column heading overlapping images",
+      "Mobile: Button styles differ \u2014 local has filled dark + outlined, Figma shows outlined + text+chevron",
+      "Mobile: Image cards have rounded corners in local, sharp corners in Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-428-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-428-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-428-local-mobile.png"
+  },
+  "components/features/layout-429.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Right image severely clipped \u2014 only thin vertical strip visible, major overflow/sizing bug",
+      "Desktop: Content/description paragraph and buttons pushed out of view or missing",
+      "Desktop: Heading spans full width, should be left-aligned ~40% width per Figma",
+      "Mobile: Heading overlapping with images, two-column layout not stacking properly",
+      "Mobile: Bottom section (Long heading + paragraph in two columns) entirely missing/not visible",
+      "Mobile: Image aspect ratios differ from Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-429-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-429-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-429-local-mobile.png"
+  },
+  "components/features/layout-43.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Figma has dark gray background overlay with content as hero banner; local has white background, no overlay",
+      "Desktop: Figma two-column horizontal layout (heading left, description/buttons right); local stacks everything vertically centered",
+      "Desktop: Background image missing \u2014 Figma shows placeholder image behind content; local shows image below text as separate element",
+      "Desktop: Text is white on dark background in Figma; dark on white background in local",
+      "Desktop: Buttons style inverted \u2014 Figma has white/outline on dark BG; local has dark filled + outline on white BG",
+      "Mobile: Screenshot appears identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-43-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-43-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-43-local-mobile.png"
+  },
+  "components/features/layout-430.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Completely different layout \u2014 Figma has heading/tagline top-left + description/buttons bottom-left + overlapping images right; local has centered header text + two equal side-by-side images",
+      "Desktop: CTA buttons missing in local implementation",
+      "Desktop: Figma images overlap with different sizes and staggered positioning; local shows equal-sized side-by-side images",
+      "Desktop: Figma asymmetric 40/60 text/image split; local is symmetrical centered layout",
+      "Mobile: Screenshot appears identical to desktop \u2014 no mobile responsiveness"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-430-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-430-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-430-local-mobile.png"
+  },
+  "components/features/layout-431.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Primary button filled dark style in local vs outlined/bordered in Figma",
+      "Desktop: Secondary button arrow '\u2192' instead of chevron '>' as in Figma",
+      "Desktop: Image placeholders have rounded corners and lighter background vs Figma's flat gray rectangles",
+      "Desktop: Two image placeholders smaller/less visually prominent; Figma shows larger more overlapping images",
+      "Desktop: Staggered vertical offset between images less pronounced than Figma",
+      "Desktop: Top padding/margin reduced \u2014 content sits closer to viewport edge"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-431-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-431-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-431-local-mobile.png"
+  },
+  "components/features/layout-432.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: 3-image layout present but images have rounded corners and lighter fill vs Figma's flat gray placeholders",
+      "Desktop: Two right-side images staggered in Figma; local shows more uniform vertical positioning",
+      "Desktop: Large left image proportionally shorter/smaller than Figma",
+      "Desktop: Primary button filled/dark vs outlined in Figma",
+      "Desktop: Secondary button arrow '\u2192' vs chevron '>' in Figma",
+      "Desktop: Tagline text truncated to 'Tagl'"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-432-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-432-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-432-local-mobile.png"
+  },
+  "components/features/layout-433.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Primary button solid dark filled vs outlined in Figma",
+      "Desktop: Secondary button '\u2192' vs chevron '>' in Figma",
+      "Desktop: Image placeholders much smaller/lighter than Figma's large prominent gray rectangles",
+      "Desktop: Right image shorter than left image; local shows two similarly-sized small placeholders",
+      "Desktop: Vertical spacing between heading and description significantly reduced",
+      "Desktop: Section padding/top margin missing \u2014 content touches top edge",
+      "Mobile: BROKEN \u2014 only two tiny placeholder icons visible on blank white page; all text content completely missing",
+      "Mobile: Images render as tiny broken-image icons instead of full-width stacked placeholder blocks"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-433-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-433-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-433-local-mobile.png"
+  },
+  "components/features/layout-434.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Figma uses 2\u00d72 grid (heading+image top, image+text bottom); local uses simpler text-left/image-right arrangement",
+      "Desktop: Left-column image below heading missing in local",
+      "Desktop: Primary button filled/dark vs outlined in Figma",
+      "Desktop: Secondary button '\u2192' vs '>' chevron in Figma",
+      "Desktop: Tagline truncated to 'Tagl'",
+      "Desktop: Section top padding missing",
+      "Mobile: Left-column large image missing \u2014 only tiny broken placeholder visible at bottom",
+      "Mobile: Tagline truncated to 'Tagl'"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-434-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-434-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-434-local-mobile.png"
+  },
+  "components/features/layout-435.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl' in local implementation",
+      "Primary button filled/dark style vs outlined in Figma",
+      "Secondary button '\u2192' vs chevron '>' in Figma",
+      "Left image placeholder significantly shorter than in Figma",
+      "Bottom-right secondary image barely visible/cut off in local",
+      "Image placeholders use minimal broken-image icon instead of Figma's filled grey placeholder"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-435-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-435-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-435-local-mobile.png"
+  },
+  "components/features/layout-436.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl' in local implementation",
+      "Primary button filled/dark style vs outlined in Figma",
+      "Secondary button '\u2192' vs chevron '>' in Figma",
+      "Top-right secondary image renders as tiny broken-image icon with excessive whitespace",
+      "Left image placeholder shorter than Figma",
+      "Image placeholders use minimal broken-image icons instead of filled grey blocks",
+      "More empty space above text content area vs Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-436-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-436-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-436-local-mobile.png"
+  },
+  "components/features/layout-437.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Left image pair \u2014 one shorter, one taller/full-height in Figma; local shows two equal-height shorter images",
+      "Desktop: Image placeholders lighter off-white with rounded corners vs Figma's darker gray flat rectangles",
+      "Desktop: Primary button solid dark/filled vs outlined/ghost in Figma",
+      "Desktop: Secondary button chevron '>' replaced by arrow '\u2192'",
+      "Desktop: Top section padding cut off",
+      "Mobile: Layout structure matches broadly but same styling issues carry over"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-437-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-437-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-437-local-mobile.png"
+  },
+  "components/features/layout-438.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minor: Image placeholders lighter off-white with rounded corners vs Figma's darker gray (consistent styling diff across components)",
+      "Minor: Primary button solid dark vs outlined in Figma (global button style difference)",
+      "Minor: Secondary button '\u2192' vs chevron '>' in Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-438-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-438-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-438-local-mobile.png"
+  },
+  "components/features/layout-439.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl' in local implementation",
+      "Primary button filled dark vs outlined/ghost in Figma",
+      "Secondary button '\u2192' with outline box vs text link with chevron '>' in Figma",
+      "Image placeholders have rounded corners in local vs sharp corners in Figma",
+      "Image placeholder background lighter (#f3f4f6) vs Figma's medium gray (#d9d9d9)",
+      "Spacing between image and body text reduced in local",
+      "Top section padding/margin cropped in local"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-439-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-439-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-439-local-mobile.png"
+  },
+  "components/features/layout-44.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading and body text completely missing in local implementation",
+      "Gray background banner with 3-column layout (heading, icon, description) from Figma not rendered",
+      "Layout structure entirely wrong \u2014 Figma shows horizontal banner with heading left, icon center, paragraph right; local shows only a single small image placeholder",
+      "Background color: Figma uses medium gray (#808080) full-width banner; local shows light gray (#f3f4f6) rounded card",
+      "White text on gray background entirely absent",
+      "Large portion of viewport is empty white space",
+      "Component appears fundamentally broken/not implemented"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-44-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-44-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-44-local-mobile.png"
+  },
+  "components/features/layout-440.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl' in local implementation",
+      "Primary button solid dark filled vs outlined/transparent in Figma",
+      "Secondary button '\u2192' with outline box vs text-link with chevron '>' in Figma",
+      "Text color slightly different \u2014 Figma pure black (#000) vs local dark navy",
+      "Top padding/margin reduced in local vs Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-440-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-440-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-440-local-mobile.png"
+  },
+  "components/features/layout-441.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Tagl' in local implementation",
+      "Primary button filled dark vs outlined/transparent in Figma",
+      "Secondary button '\u2192' with visible border vs text-link with chevron '>' in Figma",
+      "Text color: Figma pure black vs local dark navy",
+      "Figma desktop has more vertical spacing between top content row and bottom heading row"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-441-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-441-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-441-local-mobile.png"
+  },
+  "components/features/layout-442.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All text content missing \u2014 tagline, heading, description paragraph, button labels not rendered",
+      "Background image/overlay not rendered \u2014 Figma dark gray with image overlay; local shows plain light gray card",
+      "Two-column layout (left heading + right description/buttons) completely absent",
+      "CTA buttons entirely missing",
+      "Section height significantly shorter than Figma",
+      "Color scheme inverted: Figma dark BG/white text; local light/white BG",
+      "Mobile identical to desktop \u2014 no responsive content adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-442-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-442-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-442-local-mobile.png"
+  },
+  "components/features/layout-443.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All text content missing \u2014 tagline, heading, description paragraph, button labels not rendered",
+      "Background image/overlay not rendered \u2014 Figma dark gray with image overlay; local shows plain light gray card",
+      "CTA buttons entirely missing",
+      "Section height significantly shorter than Figma",
+      "Color scheme inverted: Figma dark BG/white text; local light/white BG",
+      "Mobile identical to desktop \u2014 no responsive content or stacked layout"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-443-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-443-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-443-local-mobile.png"
+  },
+  "components/features/layout-444.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Primary button outlined/bordered in local vs dark/filled in Figma (inverted from other components \u2014 Figma here uses filled)",
+      "Desktop: Secondary button plain text link with chevron vs outlined with arrow in local",
+      "Desktop: Image grid layout differs \u2014 Figma shows two images side-by-side (small left + large right); local shows large image spanning most width with smaller image below-left",
+      "Desktop: Second image ~40% width left-aligned instead of being part of two-column image grid"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-444-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-444-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-444-local-mobile.png"
+  },
+  "components/features/layout-445.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: Primary button outlined/bordered in local vs dark/filled in Figma",
+      "Desktop: Secondary button plain text link with chevron vs outlined with arrow in local",
+      "Desktop: Image proportions differ \u2014 Figma more balanced side-by-side images; local has large left image more dominant",
+      "Desktop: Second image vertical alignment offset from Figma's top-aligned row"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-445-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-445-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-445-local-mobile.png"
   }
 }
