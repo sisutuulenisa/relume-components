@@ -7032,7 +7032,7 @@
     },
     {
       "id": "vqc-077",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/pricing/pricing-47.html",
@@ -7118,7 +7118,7 @@
     },
     {
       "id": "vqc-078",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/pricing-pages/pricing-5.html",
