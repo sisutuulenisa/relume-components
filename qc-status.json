@@ -990,5 +990,705 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+  },
+  "components/pages/event-sections/event-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/event-sections/event-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+  },
+  "components/pages/faq/faq-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+  },
+  "components/pages/faq/faq-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/faq/faq-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-100.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-101.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-102.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-103.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-104.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-105.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-106.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-107.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-108.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-109.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-110.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-111.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-112.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-113.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-114.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-115.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-116.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-117.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-118.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-119.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-120.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-121.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-122.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-123.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-124.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-125.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
+  },
+  "components/pages/features/layout-126.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-127.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-128.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-129.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-130.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-131.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-132.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-133.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-134.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-135.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-136.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-137.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-138.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-139.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-140.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-141.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-142.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-143.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-144.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-145.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-146.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-147.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-148.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-149.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-150.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-151.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-152.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-153.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-154.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-155.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-156.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-157.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-158.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-159.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-160.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-161.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-162.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-163.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-164.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-165.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-166.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-167.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-168.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-169.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-170.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-171.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-172.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl"
+  },
+  "components/pages/features/layout-173.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "gefixed: <div>\u2192<article>, container mx-auto px-6\u2192max-w-screen-xl; screenshot ok"
   }
 }
