@@ -23198,5 +23198,656 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "batch-036 fixed"
+  },
+  "components/banners/banner-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/banners/banner-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/faq/faq-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/portfolio-headers/portfolio-header-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/product-list-sections/product-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/level-badge-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/level-badge-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/level-badge-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/level-badge.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-should-be-used-alone-and-features-company-logo-and-nav-links.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-sits-above-a-level-1-sidebar-includes-a-company-logo-but-does-not-have-nav-links.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-sits-beside-a-level-2-sidebar-does-not-include-company-logo-or-nav-links-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/topbars/topbar-sits-beside-a-level-2-sidebar-does-not-include-company-logo-or-nav-links.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/event-item-headers/event-item-header-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/grid-lists/grid-list-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
+  },
+  "components/stacked-lists/stacked-list-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-037 fixed"
   }
 }
