@@ -1443,7 +1443,7 @@
     },
     {
       "id": "vqc-017",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/event-sections/event-24.html",
