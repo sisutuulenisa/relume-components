@@ -7233,7 +7233,7 @@
     },
     {
       "id": "vqc-079",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/product-list-sections/product-8.html",
