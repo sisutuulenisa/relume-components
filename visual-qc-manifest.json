@@ -6860,7 +6860,7 @@
     },
     {
       "id": "vqc-075",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/pricing/pricing-10.html",
@@ -6942,7 +6942,36 @@
           "path": "components/pricing/pricing-28.html",
           "nodeId": "7663:12766"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 3,
+        "fail": 17,
+        "warnComponents": [
+          "components/pricing/pricing-2.html",
+          "components/pricing/pricing-22.html",
+          "components/pricing/pricing-27.html"
+        ],
+        "failComponents": [
+          "components/pricing/pricing-10.html",
+          "components/pricing/pricing-11.html",
+          "components/pricing/pricing-12.html",
+          "components/pricing/pricing-13.html",
+          "components/pricing/pricing-14.html",
+          "components/pricing/pricing-15.html",
+          "components/pricing/pricing-16.html",
+          "components/pricing/pricing-17.html",
+          "components/pricing/pricing-18.html",
+          "components/pricing/pricing-19.html",
+          "components/pricing/pricing-20.html",
+          "components/pricing/pricing-21.html",
+          "components/pricing/pricing-23.html",
+          "components/pricing/pricing-24.html",
+          "components/pricing/pricing-25.html",
+          "components/pricing/pricing-26.html",
+          "components/pricing/pricing-28.html"
+        ]
+      }
     },
     {
       "id": "vqc-076",
