@@ -21794,5 +21794,382 @@
       "localDesktop": "relume-visual-qc/components__pricing__pricing-46-local-desktop.png",
       "localMobile": "relume-visual-qc/components__pricing__pricing-46-local-mobile.png"
     }
+  },
+  "components/product-list-sections/product-8.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1051, rms=0.1510)",
+      "mobile diff high (mae=0.1051, rms=0.1510)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.1051 rms=0.1510; mobile mae=0.1051 rms=0.1510",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-8-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-8-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-8-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-8-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-8-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-8-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-9.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1053, rms=0.1467)",
+      "mobile diff high (mae=0.1053, rms=0.1467)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.1053 rms=0.1467; mobile mae=0.1053 rms=0.1467",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-9-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-9-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-9-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-9-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-9-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-9-local-mobile.png"
+    }
+  },
+  "components/section-headers/section-header-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0467, rms=0.1980)",
+      "mobile diff high (mae=0.0467, rms=0.1980)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0467 rms=0.1980; mobile mae=0.0467 rms=0.1980",
+    "figmaScreenshot": "relume-visual-qc/components__section-headers__section-header-1-figma.png",
+    "localScreenshot": "relume-visual-qc/components__section-headers__section-header-1-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__section-headers__section-header-1-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__section-headers__section-header-1-figma.png",
+      "localDesktop": "relume-visual-qc/components__section-headers__section-header-1-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__section-headers__section-header-1-local-mobile.png"
+    }
+  },
+  "components/section-headers/section-header-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0333, rms=0.1654)",
+      "mobile diff high (mae=0.0333, rms=0.1654)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0333 rms=0.1654; mobile mae=0.0333 rms=0.1654",
+    "figmaScreenshot": "relume-visual-qc/components__section-headers__section-header-2-figma.png",
+    "localScreenshot": "relume-visual-qc/components__section-headers__section-header-2-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__section-headers__section-header-2-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__section-headers__section-header-2-figma.png",
+      "localDesktop": "relume-visual-qc/components__section-headers__section-header-2-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__section-headers__section-header-2-local-mobile.png"
+    }
+  },
+  "components/section-headers/section-header-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0344, rms=0.1701)",
+      "mobile diff high (mae=0.0344, rms=0.1701)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0344 rms=0.1701; mobile mae=0.0344 rms=0.1701",
+    "figmaScreenshot": "relume-visual-qc/components__section-headers__section-header-3-figma.png",
+    "localScreenshot": "relume-visual-qc/components__section-headers__section-header-3-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__section-headers__section-header-3-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__section-headers__section-header-3-figma.png",
+      "localDesktop": "relume-visual-qc/components__section-headers__section-header-3-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__section-headers__section-header-3-local-mobile.png"
+    }
+  },
+  "components/section-headers/section-header-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0219, rms=0.1335)",
+      "mobile diff high (mae=0.0219, rms=0.1335)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0219 rms=0.1335; mobile mae=0.0219 rms=0.1335",
+    "figmaScreenshot": "relume-visual-qc/components__section-headers__section-header-4-figma.png",
+    "localScreenshot": "relume-visual-qc/components__section-headers__section-header-4-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__section-headers__section-header-4-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__section-headers__section-header-4-figma.png",
+      "localDesktop": "relume-visual-qc/components__section-headers__section-header-4-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__section-headers__section-header-4-local-mobile.png"
+    }
+  },
+  "components/sidebars/level-badge-2.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1214, rms=0.2154)",
+      "mobile diff high (mae=0.1214, rms=0.2154)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.1214 rms=0.2154; mobile mae=0.1214 rms=0.2154",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__level-badge-2-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__level-badge-2-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__level-badge-2-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__level-badge-2-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__level-badge-2-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__level-badge-2-local-mobile.png"
+    }
+  },
+  "components/sidebars/level-badge-3.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1221, rms=0.2137)",
+      "mobile diff high (mae=0.1221, rms=0.2137)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.1221 rms=0.2137; mobile mae=0.1221 rms=0.2137",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__level-badge-3-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__level-badge-3-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__level-badge-3-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__level-badge-3-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__level-badge-3-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__level-badge-3-local-mobile.png"
+    }
+  },
+  "components/sidebars/level-badge.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1267, rms=0.2193)",
+      "mobile diff high (mae=0.1267, rms=0.2193)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.1267 rms=0.2193; mobile mae=0.1267 rms=0.2193",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__level-badge-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__level-badge-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__level-badge-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__level-badge-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__level-badge-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__level-badge-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0315, rms=0.1627)",
+      "mobile diff high (mae=0.0315, rms=0.1627)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0315 rms=0.1627; mobile mae=0.0315 rms=0.1627",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-1-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-1-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-1-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-1-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-1-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-1-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0368, rms=0.1768)",
+      "mobile diff high (mae=0.0368, rms=0.1768)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0368 rms=0.1768; mobile mae=0.0368 rms=0.1768",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-2-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-2-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-2-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-2-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-2-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-2-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0176, rms=0.1266)",
+      "mobile diff high (mae=0.0176, rms=0.1266)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0176 rms=0.1266; mobile mae=0.0176 rms=0.1266",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-3-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-3-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-3-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-3-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-3-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-3-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0183, rms=0.1254)",
+      "mobile diff high (mae=0.0183, rms=0.1254)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0183 rms=0.1254; mobile mae=0.0183 rms=0.1254",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-4-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-4-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-4-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-4-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-4-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-4-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-5.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0323, rms=0.1672)",
+      "mobile diff high (mae=0.0323, rms=0.1672)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0323 rms=0.1672; mobile mae=0.0323 rms=0.1672",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-5-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-5-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-5-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-5-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-5-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-5-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-6.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0172, rms=0.1254)",
+      "mobile diff high (mae=0.0172, rms=0.1254)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0172 rms=0.1254; mobile mae=0.0172 rms=0.1254",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-6-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-6-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-6-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-6-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-6-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-6-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "issues": [],
+    "notes": "vqc-079 auto-compare desktop mae=0.0098 rms=0.0925; mobile mae=0.0098 rms=0.0925",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-7-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-7-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-7-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-7-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-7-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-7-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-8.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0238, rms=0.1440)",
+      "mobile diff high (mae=0.0238, rms=0.1440)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0238 rms=0.1440; mobile mae=0.0238 rms=0.1440",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-8-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-8-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-8-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-8-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-8-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-8-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-9.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "issues": [
+      "desktop diff high (mae=0.0163, rms=0.1220)",
+      "mobile diff high (mae=0.0163, rms=0.1220)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.0163 rms=0.1220; mobile mae=0.0163 rms=0.1220",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-9-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-9-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-9-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-9-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-9-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-9-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.9954, rms=0.9973)",
+      "mobile diff high (mae=0.9954, rms=0.9973)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.9954 rms=0.9973; mobile mae=0.9954 rms=0.9973",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar-local-mobile.png"
+    }
+  },
+  "components/sidebars/sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.9950, rms=0.9971)",
+      "mobile diff high (mae=0.9950, rms=0.9971)"
+    ],
+    "notes": "vqc-079 auto-compare desktop mae=0.9950 rms=0.9971; mobile mae=0.9950 rms=0.9971",
+    "figmaScreenshot": "relume-visual-qc/components__sidebars__sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar-figma.png",
+    "localScreenshot": "relume-visual-qc/components__sidebars__sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__sidebars__sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__sidebars__sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar-figma.png",
+      "localDesktop": "relume-visual-qc/components__sidebars__sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__sidebars__sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar-local-mobile.png"
+    }
   }
 }
