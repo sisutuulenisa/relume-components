@@ -351,7 +351,7 @@
     },
     {
       "id": "vqc-005",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/blog-post-pages/blog-post-2.html",
