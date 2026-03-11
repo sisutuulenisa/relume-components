@@ -18263,5 +18263,232 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-30-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-30-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-30-local-mobile.png"
+  },
+  "components/links-pages/links-11.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-11-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-11-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-11-local-mobile.png"
+  },
+  "components/links-pages/links-12.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-12-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-12-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-12-local-mobile.png"
+  },
+  "components/links-pages/links-13.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-13-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-13-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-13-local-mobile.png"
+  },
+  "components/links-pages/links-14.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-14-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-14-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-14-local-mobile.png"
+  },
+  "components/links-pages/links-15.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-15-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-15-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-15-local-mobile.png"
+  },
+  "components/links-pages/links-16.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-16-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-16-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-16-local-mobile.png"
+  },
+  "components/links-pages/links-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Grote visuele afwijking t.o.v. Figma: layout-hi\u00ebrarchie en card/typografie verhoudingen komen niet overeen.",
+      "Desktop en mobiel tonen beide duidelijke spacing/structuur verschillen in contentblokken."
+    ],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-2-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-2-local-mobile.png"
+  },
+  "components/links-pages/links-3.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-3-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-3-local-mobile.png"
+  },
+  "components/links-pages/links-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Lichte tot matige visuele afwijking in spacing/alignment t.o.v. Figma referentie.",
+      "Afwijking zichtbaar op zowel desktop als mobiel."
+    ],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-4-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-4-local-mobile.png"
+  },
+  "components/links-pages/links-5.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-5-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-5-local-mobile.png"
+  },
+  "components/links-pages/links-6.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-6-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-6-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-6-local-mobile.png"
+  },
+  "components/links-pages/links-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Lichte tot matige visuele afwijking in spacing/alignment t.o.v. Figma referentie.",
+      "Afwijking zichtbaar op zowel desktop als mobiel."
+    ],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-7-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-7-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-7-local-mobile.png"
+  },
+  "components/links-pages/links-8.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-8-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-8-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-8-local-mobile.png"
+  },
+  "components/links-pages/links-9.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "relume-visual-qc/links-pages-links-9-figma.png",
+    "localDesktop": "relume-visual-qc/links-pages-links-9-local-desktop.png",
+    "localMobile": "relume-visual-qc/links-pages-links-9-local-mobile.png"
+  },
+  "components/loaders/loader-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Kleur/thema mismatch: Figma gebruikt donkere loader-sectie, lokale implementatie rendert een lichte achtergrond.",
+      "Loader-animatie/shape wijkt sterk af van Figma referentie in zowel desktop als mobiel."
+    ],
+    "figmaScreenshot": "relume-visual-qc/loaders-loader-1-figma.png",
+    "localDesktop": "relume-visual-qc/loaders-loader-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/loaders-loader-1-local-mobile.png"
+  },
+  "components/loaders/loader-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Kleur/thema mismatch: Figma gebruikt donkere loader-sectie, lokale implementatie rendert een lichte achtergrond.",
+      "Loader-animatie/shape wijkt sterk af van Figma referentie in zowel desktop als mobiel."
+    ],
+    "figmaScreenshot": "relume-visual-qc/loaders-loader-2-figma.png",
+    "localDesktop": "relume-visual-qc/loaders-loader-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/loaders-loader-2-local-mobile.png"
+  },
+  "components/loaders/loader-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Kleur/thema mismatch: Figma gebruikt donkere loader-sectie, lokale implementatie rendert een lichte achtergrond.",
+      "Loader-animatie/shape wijkt sterk af van Figma referentie in zowel desktop als mobiel."
+    ],
+    "figmaScreenshot": "relume-visual-qc/loaders-loader-3-figma.png",
+    "localDesktop": "relume-visual-qc/loaders-loader-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/loaders-loader-3-local-mobile.png"
+  },
+  "components/loaders/loader-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Kleur/thema mismatch: Figma gebruikt donkere loader-sectie, lokale implementatie rendert een lichte achtergrond.",
+      "Loader-animatie/shape wijkt sterk af van Figma referentie in zowel desktop als mobiel."
+    ],
+    "figmaScreenshot": "relume-visual-qc/loaders-loader-4-figma.png",
+    "localDesktop": "relume-visual-qc/loaders-loader-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/loaders-loader-4-local-mobile.png"
+  },
+  "components/loaders/loader-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Kleur/thema mismatch: Figma gebruikt donkere loader-sectie, lokale implementatie rendert een lichte achtergrond.",
+      "Loader-animatie/shape wijkt sterk af van Figma referentie in zowel desktop als mobiel."
+    ],
+    "figmaScreenshot": "relume-visual-qc/loaders-loader-5-figma.png",
+    "localDesktop": "relume-visual-qc/loaders-loader-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/loaders-loader-5-local-mobile.png"
+  },
+  "components/logos/logo-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Lichte tot matige visuele afwijking in spacing/alignment t.o.v. Figma referentie.",
+      "Afwijking vooral zichtbaar op desktop; mobiel ligt dichter bij het ontwerp."
+    ],
+    "figmaScreenshot": "relume-visual-qc/logos-logo-1-figma.png",
+    "localDesktop": "relume-visual-qc/logos-logo-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/logos-logo-1-local-mobile.png"
   }
 }
