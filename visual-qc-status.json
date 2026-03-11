@@ -16952,5 +16952,268 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-118-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-118-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-118-local-mobile.png"
+  },
+  "components/hero-headers-new/header-119.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Mobile screenshot appears identical to desktop \u2014 no responsive breakpoint verified"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-119-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-119-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-119-local-mobile.png"
+  },
+  "components/hero-headers-new/header-12.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Hero video section rendered as two light gray placeholder images instead of a single dark video area",
+      "Email input field broken/collapsed \u2014 shows as tiny circle instead of full-width input",
+      "Heading text is cut off at bottom",
+      "Layout proportions don't match Figma (content too centered/narrow)",
+      "Mobile screenshot identical to desktop \u2014 no responsive behavior"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-12-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-12-local-mobile.png"
+  },
+  "components/hero-headers-new/header-120.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholder is right-aligned/half-width instead of full-width centered as in Figma",
+      "Large empty space on the left below the text section",
+      "Mobile screenshot identical to desktop \u2014 cannot verify responsiveness"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-120-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-120-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-120-local-mobile.png"
+  },
+  "components/hero-headers-new/header-121.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image grid in Figma shows staggered/artistic layout with varying sizes and vertical offsets; local shows cleaner 3-column row (minor)",
+      "Mobile screenshot identical to desktop \u2014 cannot verify responsiveness"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-121-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-121-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-121-local-mobile.png"
+  },
+  "components/hero-headers-new/header-122.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image layout completely wrong: 3 images in flat horizontal row with equal heights; Figma shows dynamic collage with offset positioning and varying sizes",
+      "No staggering/overlapping effect implemented",
+      "Mobile identical to desktop \u2014 no responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-122-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-122-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-122-local-mobile.png"
+  },
+  "components/hero-headers-new/header-123.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-123-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-123-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-123-local-mobile.png"
+  },
+  "components/hero-headers-new/header-124.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-124-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-124-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-124-local-mobile.png"
+  },
+  "components/hero-headers-new/header-125.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image collage lacks the overlapping/staggered positioning shown in Figma \u2014 images aligned in flat row with some size variation but no vertical offsets",
+      "Mobile identical to desktop \u2014 no responsive change"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-125-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-125-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-125-local-mobile.png"
+  },
+  "components/hero-headers-new/header-126.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders lack the overlapping/stacked effect from Figma \u2014 shown as separate non-overlapping cards",
+      "Primary button is dark navy instead of pure black (minor)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-126-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-126-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-126-local-mobile.png"
+  },
+  "components/hero-headers-new/header-127.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Only 2 image placeholders visible instead of 3 from Figma \u2014 missing third card",
+      "Overlap/cascade effect not matching Figma's 3-layer stack",
+      "Third image partially visible at bottom edge on mobile (clipped)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-127-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-127-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-127-local-mobile.png"
+  },
+  "components/hero-headers-new/header-128.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primary button color is dark navy vs pure black from Figma (minor)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-128-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-128-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-128-local-mobile.png"
+  },
+  "components/hero-headers-new/header-129.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Only 2 image placeholders fully visible; third card partially cut off at bottom",
+      "Cascade/overlap positioning doesn't match Figma's 3-card diagonal arrangement",
+      "Button color navy vs black (minor)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-129-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-129-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-129-local-mobile.png"
+  },
+  "components/hero-headers-new/header-13.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Video/image area drastically reduced to a small placeholder thumbnail instead of full-width hero",
+      "Heading is clipped/cut off at bottom",
+      "Layout not matching Figma proportions at all",
+      "No responsive adaptation \u2014 side-by-side layout at narrow viewport"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-13-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-13-local-mobile.png"
+  },
+  "components/hero-headers-new/header-130.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-130-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-130-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-130-local-mobile.png"
+  },
+  "components/hero-headers-new/header-131.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image section shows single flat placeholder instead of two overlapping offset images",
+      "Missing the stacked/overlapping dual-image composition from Figma",
+      "No responsive stacking of text columns"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-131-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-131-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-131-local-mobile.png"
+  },
+  "components/hero-headers-new/header-132.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image area renders as single flat placeholder \u2014 missing overlapping dual-image composition",
+      "Mirrored variant of header-131 with same image issue"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-132-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-132-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-132-local-mobile.png"
+  },
+  "components/hero-headers-new/header-133.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "3-image overlapping collage replaced with single flat placeholder",
+      "Text/button layout is correct",
+      "No visible mobile-specific reflow (desktop and mobile screenshots identical)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-133-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-133-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-133-local-mobile.png"
+  },
+  "components/hero-headers-new/header-134.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "2-image overlapping collage replaced with single small placeholder (left-aligned)",
+      "Text section accurate",
+      "Desktop and mobile renders appear identical \u2014 no responsive differentiation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-134-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-134-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-134-local-mobile.png"
+  },
+  "components/hero-headers-new/header-135.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "3-image collage replaced with single full-width placeholder",
+      "Text/buttons match Figma",
+      "No responsive difference from desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-135-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-135-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-135-local-mobile.png"
+  },
+  "components/hero-headers-new/header-136.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "3-image collage (large center, smaller left/right) replaced with single full-width placeholder",
+      "Center alignment of text/buttons is correct",
+      "Desktop and mobile identical \u2014 no responsive differentiation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-136-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-136-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/header-136-local-mobile.png"
   }
 }
