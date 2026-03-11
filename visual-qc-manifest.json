@@ -7262,7 +7262,7 @@
     },
     {
       "id": "vqc-079",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/product-list-sections/product-8.html",
@@ -7344,7 +7344,35 @@
           "path": "components/sidebars/sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar.html",
           "nodeId": "4174:122397"
         }
-      ]
+      ],
+      "results": {
+        "ok": 1,
+        "warn": 12,
+        "fail": 7,
+        "warnComponents": [
+          "components/section-headers/section-header-1.html",
+          "components/section-headers/section-header-2.html",
+          "components/section-headers/section-header-3.html",
+          "components/section-headers/section-header-4.html",
+          "components/sidebars/sidebar-1.html",
+          "components/sidebars/sidebar-2.html",
+          "components/sidebars/sidebar-3.html",
+          "components/sidebars/sidebar-4.html",
+          "components/sidebars/sidebar-5.html",
+          "components/sidebars/sidebar-6.html",
+          "components/sidebars/sidebar-8.html",
+          "components/sidebars/sidebar-9.html"
+        ],
+        "failComponents": [
+          "components/product-list-sections/product-8.html",
+          "components/product-list-sections/product-9.html",
+          "components/sidebars/level-badge-2.html",
+          "components/sidebars/level-badge-3.html",
+          "components/sidebars/level-badge.html",
+          "components/sidebars/sidebar-should-be-used-on-its-own-features-company-logo-search-and-user-avatar.html",
+          "components/sidebars/sidebar-sits-below-level-2-topbar-does-not-include-a-company-logo-search-or-user-avatar.html"
+        ]
+      }
     },
     {
       "id": "vqc-080",
