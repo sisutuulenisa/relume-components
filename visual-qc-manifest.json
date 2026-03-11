@@ -6446,7 +6446,7 @@
     },
     {
       "id": "vqc-072",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/onboarding-forms/onboarding-form-14.html",
