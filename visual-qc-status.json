@@ -7569,5 +7569,287 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-247-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-247-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-247-local-mobile.png"
+  },
+  "components/features/layout-248.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Feature cards section missing entirely \u2014 3-column card layout replaced by broken tab/accordion pattern",
+      "Icons, card headings, descriptions, and 'Button >' links per card not rendered",
+      "Component structure wrong: shows only horizontal row of headings without body text",
+      "No responsive adaptation \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-248-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-248-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-248-local-mobile.png"
+  },
+  "components/features/layout-249.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile completely blank/white \u2014 no content rendered",
+      "All elements missing: Tagline, heading, description, 3 image placeholders, 3 card headings/descriptions, buttons"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-249-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-249-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-249-local-mobile.png"
+  },
+  "components/features/layout-25.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile completely blank/white \u2014 no content rendered",
+      "All elements missing: Tagline, heading, description, image placeholder, 50% stats, buttons"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-25-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-25-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-25-local-mobile.png"
+  },
+  "components/features/layout-250.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile completely blank/white \u2014 no content rendered",
+      "All elements missing: heading, 3 image placeholders, 3 card headings/descriptions, Button links"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-250-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-250-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-250-local-mobile.png"
+  },
+  "components/features/layout-251.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile completely blank/white \u2014 no content rendered",
+      "All elements missing: Tagline, heading, description, 3 image placeholders, 3 card headings/descriptions, buttons"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-251-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-251-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-251-local-mobile.png"
+  },
+  "components/features/layout-252.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 entire component missing",
+      "Mobile completely blank/white \u2014 entire component missing",
+      "Missing: heading, description, 3 image cards with headings/descriptions/buttons"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-252-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-252-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-252-local-mobile.png"
+  },
+  "components/features/layout-253.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 entire component missing",
+      "Mobile completely blank/white \u2014 entire component missing",
+      "Missing: tagline, heading, description, 2 buttons, 4 icon+heading+description feature blocks in 2x2 grid"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-253-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-253-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-253-local-mobile.png"
+  },
+  "components/features/layout-254.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 entire component missing",
+      "Mobile completely blank/white \u2014 entire component missing",
+      "Missing: centered tagline, heading, description, central image, 4 icon feature blocks flanking image, 2 buttons"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-254-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-254-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-254-local-mobile.png"
+  },
+  "components/features/layout-255.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: 3-column card layout with dark gray background renders, but broken image icon visible in center card \u2014 image asset not loading",
+      "Mobile completely blank/white \u2014 no responsive layout rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-255-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-255-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-255-local-mobile.png"
+  },
+  "components/features/layout-256.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: only 3 tab labels visible at top-left \u2014 all tab content missing (dark background, taglines, headings, descriptions, buttons not rendered)",
+      "Mobile: only small broken image placeholder on gray strip \u2014 entire component content missing, tab navigation absent"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-256-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-256-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-256-local-mobile.png"
+  },
+  "components/features/layout-257.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile: only gray placeholder image block visible \u2014 text content, icons, headings, descriptions, buttons all missing",
+      "Dark charcoal background missing on both viewports",
+      "3-column icon+heading+description+buttons layout not rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-257-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-257-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-257-local-mobile.png"
+  },
+  "components/features/layout-258.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered, dark background missing",
+      "Mobile: only gray placeholder image visible, all other content absent",
+      "3-column tagline+heading+description+buttons layout not rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-258-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-258-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-258-local-mobile.png"
+  },
+  "components/features/layout-259.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 tabbed layout (Tab One/Two/Three) with TAGLINE, heading, description, buttons, image all missing",
+      "Mobile: only gray placeholder image, all tab content absent",
+      "Dark background from Figma missing entirely"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-259-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-259-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-259-local-mobile.png"
+  },
+  "components/features/layout-26.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: tagline text appears truncated ('Tagl' instead of 'Tagline')",
+      "Desktop: video play-button icon missing on image placeholder",
+      "Desktop: broken image icon instead of gray placeholder with play button",
+      "Mobile completely blank/white \u2014 all content missing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-26-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-26-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-26-local-mobile.png"
+  },
+  "components/features/layout-260.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: only tab labels ('Tagline') shown \u2014 all tab content missing (heading, description, buttons, image, dark background)",
+      "Desktop: tab labels show 'Tagline' instead of 'Tab One/Two/Three'",
+      "Mobile completely blank/white \u2014 no content rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-260-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-260-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-260-local-mobile.png"
+  },
+  "components/features/layout-261.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile: only empty gray placeholder with broken image icon \u2014 no text, no 3-column layout, no buttons",
+      "Figma: dark gray section with 3 columns (heading, paragraph, 'Button >' link) \u2014 not rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-261-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-261-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-261-local-mobile.png"
+  },
+  "components/features/layout-262.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile: only headings visible in tiny view with border on first column \u2014 body text, buttons, dark background all missing",
+      "Mobile text centered instead of left-aligned as in Figma",
+      "Dark gray background missing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-262-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-262-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-262-local-mobile.png"
+  },
+  "components/features/layout-263.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile completely blank/white",
+      "Figma: dark gray section with 3 columns (icon, heading, paragraph, filled button, text button) \u2014 not rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-263-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-263-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-263-local-mobile.png"
+  },
+  "components/features/layout-264.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile completely blank/white",
+      "Figma: dark gray section with 3 columns (icon, heading, paragraph, filled button, text button) \u2014 not rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-264-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-264-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-264-local-mobile.png"
+  },
+  "components/features/layout-265.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop completely blank/white \u2014 no content rendered",
+      "Mobile: only empty gray placeholder with broken image icon \u2014 no text, no layout elements",
+      "Figma: dark gray section with 3 columns (icon next to heading, paragraph, filled button, text button) \u2014 not rendered"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-265-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-265-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-265-local-mobile.png"
   }
 }
