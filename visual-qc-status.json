@@ -620,5 +620,265 @@
     "figmaScreenshot": "relume-visual-qc/blog-29-figma.png",
     "localDesktop": "relume-visual-qc/blog-29-local-desktop.png",
     "localMobile": "relume-visual-qc/blog-29-local-mobile.png"
+  },
+  "components/blog-headers/blog-30.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm, component rendert niet",
+      "mobiel: volledig leeg wit scherm, component rendert niet"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-30-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-30-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-30-local-mobile.png"
+  },
+  "components/blog-headers/blog-31.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: header niet gecentreerd, dropdown ontbreekt, card layout broken met overlappende elementen, dividers ontbreken",
+      "mobiel: volledig leeg wit scherm"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-31-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-31-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-31-local-mobile.png"
+  },
+  "components/blog-headers/blog-32.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm",
+      "mobiel: \"Blog\" label afgeknipt, \"Category\" badge afgeknipt, \"5 min read\" breekt over 2 regels, \"Read more\" als filled dark button ipv text-link"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-32-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-32-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-32-local-mobile.png"
+  },
+  "components/blog-headers/blog-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm, component rendert niet",
+      "mobiel: volledig leeg wit scherm"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-4-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-4-local-mobile.png"
+  },
+  "components/blog-headers/blog-5.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: category filter tabs ontbreken, blog grid niet zichtbaar, featured card extra border, auteurinfo vervangen door \"Read more\" button",
+      "mobiel: heading gecentreerd ipv links, featured post broken in 3 images naast elkaar, tekst overflow, extra \"Featured blog posts\" kop niet in Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-5-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-5-local-mobile.png"
+  },
+  "components/blog-headers/blog-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: header gecentreerd ipv links, \"Category\" badge afgeknipt, \"5 min read\" 2 regels, \"Read more\" dark filled button ipv text-link",
+      "mobiel: identiek aan desktop, geen responsive breakpoint actief, zelfde bugs"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-6-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-6-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-6-local-mobile.png"
+  },
+  "components/blog-headers/blog-7.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: header alignment center ipv links, avatar/auteur-blok afgesneden, category tabs en grid niet zichtbaar",
+      "mobiel: geen responsive aanpassingen, identiek aan desktop, featured card moet stacken, heading niet geschaald"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-7-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-7-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-7-local-mobile.png"
+  },
+  "components/blog-headers/blog-8.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: heading gecentreerd ipv links, \"Categ\" badge afgeknipt, \"5 min read\" 2 regels, \"Read more\" dark filled button ipv text-link",
+      "mobiel: geen responsive breakpoint, identiek aan desktop, zelfde bugs"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-8-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-8-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-8-local-mobile.png"
+  },
+  "components/blog-headers/blog-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm",
+      "mobiel: header content gecentreerd ipv links, featured grid 3 kolommen op mobiel ipv gestacked, tekst overflow \"Blog title headi here\""
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-header-9-figma.png",
+    "localDesktop": "relume-visual-qc/blog-header-9-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-header-9-local-mobile.png"
+  },
+  "components/blog-pages/blog-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm, geen enkel element zichtbaar",
+      "mobiel: volledig leeg wit scherm"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-page-1-figma.png",
+    "localDesktop": "relume-visual-qc/blog-page-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-page-1-local-mobile.png"
+  },
+  "components/blog-pages/blog-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm",
+      "mobiel: geen hamburger menu, logo toont 5 cirkels, \"Log in\"/\"Get started\" stijlen omgewisseld, dubbele category-rij met extra pills niet in Figma, \"Link One\" border ongewenst"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-page-2-figma.png",
+    "localDesktop": "relume-visual-qc/blog-page-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-page-2-local-mobile.png"
+  },
+  "components/blog-pages/blog-3.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: \"Link One\" heeft onbedoelde border, logo is placeholder-cirkels, dropdown ontbreekt, tekst-truncatie in featured post titels",
+      "mobiel: geen responsive implementatie, desktop-layout identiek getoond op mobiel, geen hamburger menu"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-page-3-figma.png",
+    "localDesktop": "relume-visual-qc/blog-page-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-page-3-local-mobile.png"
+  },
+  "components/blog-pages/blog-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: alleen tab-bar zichtbaar met \"Relume Library\" placeholder tabs, alle overige content ontbreekt (hero, grid, footer)",
+      "mobiel: alleen tabs \"Tab 1-8\" zichtbaar, geen content"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-page-4-figma.png",
+    "localDesktop": "relume-visual-qc/blog-page-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-page-4-local-mobile.png"
+  },
+  "components/blog-pages/blog-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: alleen lege tab-bar met \"Tab 1-8\", geen content geladen",
+      "mobiel: geen hamburger menu, \"Log in\"/\"Get started\" stijlen omgewisseld, category items dark navy achtergrond niet in Figma, heading te groot voor mobiel, \"Blog\" label afgeknipt"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-page-5-figma.png",
+    "localDesktop": "relume-visual-qc/blog-page-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-page-5-local-mobile.png"
+  },
+  "components/blog-post-headers/blog-post-header-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm",
+      "mobiel: toont blog-overzichtspagina ipv blog-post header (verkeerd component), card-grid overflow, tekst afgeknipt"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-header-1-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-header-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-header-1-local-mobile.png"
+  },
+  "components/blog-post-headers/blog-post-header-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: hero image niet full-width (slechts ~30%), \"All Posts\" link als dark button ipv text-link met \u2190 pijl, meta-sectie (auteur/datum/social) ontbreekt volledig",
+      "mobiel: identiek aan desktop, geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-header-2-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-header-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-header-2-local-mobile.png"
+  },
+  "components/blog-post-headers/blog-post-header-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm",
+      "mobiel: share-iconen vervangen door \"Button\" tekst-labels, breadcrumb \"Catego\" afgeknipt, datum-chip heeft ongewenste border, 2-kolom layout stapelt niet op mobiel"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-header-3-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-header-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-header-3-local-mobile.png"
+  },
+  "components/blog-post-headers/blog-post-header-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: \"All Posts\" link als dark block-button met > chevron ipv text-link met \u2190 pijl, \"Categor\" afgeknipt, \"5 min read\" wraps 2 regels, image te klein met rounded corners/border, achtergrond off-white",
+      "mobiel: identiek aan desktop, geen responsive stacking"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-header-4-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-header-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-header-4-local-mobile.png"
+  },
+  "components/blog-post-headers/blog-post-header-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: volledig leeg wit scherm, component rendert niet",
+      "mobiel: alleen broken-image placeholder balk, alle tekst ontbreekt, verkeerde achtergrondkleur lichtgrijs ipv donkergrijs, balk te laag"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-header-5-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-header-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-header-5-local-mobile.png"
+  },
+  "components/blog-post-pages/blog-post-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: hero image ontbreekt als full-width blok, auteur-rij layout fundamenteel fout (social icons als button-pills), nav-links met border/pill-styling, body content niet zichtbaar",
+      "mobiel: volledig leeg wit scherm"
+    ],
+    "figmaScreenshot": "relume-visual-qc/blog-post-page-1-figma.png",
+    "localDesktop": "relume-visual-qc/blog-post-page-1-local-desktop.png",
+    "localMobile": "relume-visual-qc/blog-post-page-1-local-mobile.png"
   }
 }
