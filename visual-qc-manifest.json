@@ -2,7 +2,7 @@
   "batches": [
     {
       "id": "vqc-001",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/about-pages/about-1.html",
@@ -84,7 +84,12 @@
           "path": "components/application-shells/application-shell-8.html",
           "nodeId": "4174:117470"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 0,
+        "fail": 20
+      }
     },
     {
       "id": "vqc-002",
