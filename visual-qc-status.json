@@ -5202,5 +5202,284 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-37-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-37-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-37-local-mobile.png"
+  },
+  "components/event-sections/event-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Event cards (afbeeldingen, date badges, titels, locatie, beschrijving, 'View event' links) ontbreken volledig \u2014 alleen dag-tabs (Fri/Sat/Sun) zichtbaar",
+      "'View all' button is veel breder dan in Figma (strekt bijna volledige rechterzijde)",
+      "Groot leeg wit vlak waar 3 event-kaarten zouden moeten staan",
+      "Desktop en mobile screenshots identiek \u2014 geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-sections-event-9-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-sections-event-9-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/event-sections-event-9-local-mobile.png"
+  },
+  "components/faq/faq-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon verschilt: Figma = chevron-up (^), implementatie = chevron-right (>)",
+      "Accordion-items hebben zichtbare box-border/outline; Figma gebruikt alleen horizontale dividers",
+      "Spacing tussen vragen en antwoorden compacter dan Figma",
+      "Desktop en mobile identiek \u2014 geen responsive differentiatie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-1-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-1-local-mobile.png"
+  },
+  "components/faq/faq-2.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon verschilt: Figma = chevron-up (^), implementatie = chevron-right (>)",
+      "Accordion-items hebben box-border/outline; Figma toont alleen horizontale scheidingslijnen",
+      "Spacing/padding in accordion-items compacter dan Figma",
+      "Desktop en mobile identiek \u2014 geen responsive differentiatie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-2-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-2-local-mobile.png"
+  },
+  "components/faq/faq-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon bij accordion-items = chevron (>) i.p.v. caret-up (^) zoals Figma",
+      "Contact-button heeft donkere/filled stijl; Figma = outlined/ghost button",
+      "Minder verticale spacing/witruimte tussen accordion-items dan Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-3-local-mobile.png"
+  },
+  "components/faq/faq-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon bij accordion-items = open cirkel (\u25cb) i.p.v. kruis/\u00d7 zoals Figma",
+      "Answer-tekst padding binnen cards iets krapper dan Figma",
+      "Desktop en mobile identiek \u2014 geen responsive differentiatie"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-4-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-4-local-mobile.png"
+  },
+  "components/faq/faq-5.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon bij accordion-items = open cirkel (\u25cb) i.p.v. kruis/\u00d7 zoals Figma",
+      "Kaarten missen subtiele achtergrond-fill/schaduw uit Figma",
+      "Spacing tussen cards iets groter in implementatie dan Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-5-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-5-local-mobile.png"
+  },
+  "components/faq/faq-6.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon = cirkel (\u25cb) i.p.v. \u00d7 (close) zoals Figma",
+      "Contact-button is filled dark i.p.v. outlined/ghost stijl"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-6-local-mobile.png"
+  },
+  "components/faq/faq-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Figma FAQ-items hebben geen scheidingslijnen; implementatie toont subtiele horizontale scheidingslijnen",
+      "Desktop en mobile identiek \u2014 geen responsive gedrag zichtbaar"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-7-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-7-local-mobile.png"
+  },
+  "components/faq/faq-8.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-8-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-8-local-mobile.png"
+  },
+  "components/faq/faq-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Broken image placeholders zichtbaar \u2014 afbeeldingen worden geladen die niet bestaan",
+      "Twee-kolom Q&A layout van Figma niet ge\u00efmplementeerd; structuur geheel anders",
+      "Horizontale scheidingslijnen tussen items ontbreken",
+      "Desktop en mobile identiek \u2014 geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-9-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-9-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-9-local-mobile.png"
+  },
+  "components/faq/faq-10.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Twee-kolom accordion layout van Figma niet ge\u00efmplementeerd",
+      "Icoon = chevron-right (>) i.p.v. chevron-up (^)",
+      "Vragen hebben underline-stijl i.p.v. full-width dividers",
+      "Desktop en mobile identiek \u2014 geen responsive gedrag"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-10-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-10-local-mobile.png"
+  },
+  "components/faq/faq-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon = cirkel (\u25cb) i.p.v. \u00d7 (close) zoals Figma",
+      "Kaarten missen subtiele achtergrondkleur/schaduw uit Figma",
+      "Desktop en mobile identiek \u2014 geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-11-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-11-local-mobile.png"
+  },
+  "components/faq/faq-12.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-12-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-12-local-mobile.png"
+  },
+  "components/faq/faq-13.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "FAQ-grid (3-kolom met Q&A-items) ontbreekt volledig \u2014 horizontale tab-layout getoond i.p.v. grid-cards",
+      "Antwoordteksten (body lorem ipsum) ontbreken volledig",
+      "Contact-button is filled dark i.p.v. outlined/ghost stijl"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-13-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-13-local-mobile.png"
+  },
+  "components/faq/faq-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "FAQ-grid (3-kolom kaarten met icoon + titel + beschrijving) ontbreekt volledig \u2014 zelfde tab-layout als faq-13",
+      "Iconen (3D-kubus/diamond) ontbreken volledig",
+      "Beschrijvingstekst per kaart ontbreekt"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-14-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/faq-faq-14-local-mobile.png"
+  },
+  "components/features/layout-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst afgekapt ('Tagl' i.p.v. 'Tagline')",
+      "Button styling: implementatie = dark/filled; Figma = outline",
+      "Image placeholder kleiner en lichter dan Figma",
+      "Desktop en mobile identiek \u2014 geen responsive aanpassing"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-1-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-1-local-mobile.png"
+  },
+  "components/features/layout-10.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline tekst afgekapt ('Tagl' i.p.v. 'Tagline')",
+      "Iconen = lege cirkels (outline) i.p.v. gevulde 3D-kubus-iconen",
+      "Button styling afwijkend (filled dark vs. outline in Figma)",
+      "Image placeholder kleiner en lichter dan Figma"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-10-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-10-local-mobile.png"
+  },
+  "components/features/layout-100.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen = lege cirkels i.p.v. gevulde diamant/schild-iconen",
+      "Subheading-tekst afgekapt ('Subheac one/two')",
+      "Body-tekst breekt per woord \u2014 kolombreedte te smal, content onleesbaar",
+      "Video-placeholder met play-knop ontbreekt \u2014 enkel licht grijs vlak met broken-image icoon",
+      "Linkerkolom grotendeels leeg \u2014 layout kapot"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-100-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-100-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-100-local-mobile.png"
+  },
+  "components/features/layout-101.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Afbeelding niet full-width \u2014 placeholder is ~1/3 breedte i.p.v. 100% container (structureel layout-probleem)",
+      "Iconen = lege cirkel-outlines i.p.v. gevulde 3D-kubus-iconen",
+      "Tagline tekst afgekapt ('Taglir' i.p.v. 'Tagline')",
+      "Button styling: filled dark i.p.v. ghost/outline"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-101-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-101-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-101-local-mobile.png"
+  },
+  "components/features/layout-102.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Afbeelding niet full-width \u2014 placeholder is ~1/3 breedte i.p.v. 100% container (structureel layout-probleem)",
+      "Iconen = lege cirkel-outlines i.p.v. gevulde 3D-kubus-iconen"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-102-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-102-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/features-layout-102-local-mobile.png"
   }
 }
