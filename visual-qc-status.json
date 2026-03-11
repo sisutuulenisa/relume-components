@@ -19662,7 +19662,7 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1874, mobile=0.1874"
+      "Auto visual diff RMSE: desktop=0.1838, mobile=0.2235"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-30-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-30-local-desktop.png",
@@ -19674,7 +19674,7 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1925, mobile=0.1925"
+      "Auto visual diff RMSE: desktop=0.1886, mobile=0.2249"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-31-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-31-local-desktop.png",
@@ -19686,7 +19686,7 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1794, mobile=0.1794"
+      "Auto visual diff RMSE: desktop=0.1764, mobile=0.1972"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-32-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-32-local-desktop.png",
@@ -19698,31 +19698,31 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1891, mobile=0.1891"
+      "Auto visual diff RMSE: desktop=0.1855, mobile=0.2232"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-33-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-33-local-desktop.png",
     "localMobileScreenshot": "relume-visual-qc/multi-step-forms-multi-form-33-local-mobile.png"
   },
   "components/multi-step-forms/multi-form-34.html": {
-    "status": "warn",
+    "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1912, mobile=0.1912"
+      "Auto visual diff RMSE: desktop=0.1871, mobile=0.2584"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-34-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-34-local-desktop.png",
     "localMobileScreenshot": "relume-visual-qc/multi-step-forms-multi-form-34-local-mobile.png"
   },
   "components/multi-step-forms/multi-form-35.html": {
-    "status": "warn",
+    "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1874, mobile=0.1874"
+      "Auto visual diff RMSE: desktop=0.1828, mobile=0.2505"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-35-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-35-local-desktop.png",
@@ -19734,7 +19734,7 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1864, mobile=0.1864"
+      "Auto visual diff RMSE: desktop=0.1829, mobile=0.2210"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-36-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-36-local-desktop.png",
@@ -19746,31 +19746,31 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1879, mobile=0.1879"
+      "Auto visual diff RMSE: desktop=0.1836, mobile=0.2296"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-37-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-37-local-desktop.png",
     "localMobileScreenshot": "relume-visual-qc/multi-step-forms-multi-form-37-local-mobile.png"
   },
   "components/multi-step-forms/multi-form-38.html": {
-    "status": "warn",
+    "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1925, mobile=0.1925"
+      "Auto visual diff RMSE: desktop=0.1872, mobile=0.2647"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-38-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-38-local-desktop.png",
     "localMobileScreenshot": "relume-visual-qc/multi-step-forms-multi-form-38-local-mobile.png"
   },
   "components/multi-step-forms/multi-form-39.html": {
-    "status": "warn",
+    "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1892, mobile=0.1892"
+      "Auto visual diff RMSE: desktop=0.1860, mobile=0.2656"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-39-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-39-local-desktop.png",
@@ -19782,7 +19782,7 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1775, mobile=0.1775"
+      "Auto visual diff RMSE: desktop=0.1742, mobile=0.2127"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-4-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-4-local-desktop.png",
@@ -19791,10 +19791,10 @@
   "components/multi-step-forms/multi-form-40.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktopStatus": "warn",
+    "desktopStatus": "ok",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1605, mobile=0.1605"
+      "Auto visual diff RMSE: desktop=0.1569, mobile=0.1913"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-40-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-40-local-desktop.png",
@@ -19806,18 +19806,20 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1622, mobile=0.1622"
+      "Auto visual diff RMSE: desktop=0.1608, mobile=0.1903"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-41-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-41-local-desktop.png",
     "localMobileScreenshot": "relume-visual-qc/multi-step-forms-multi-form-41-local-mobile.png"
   },
   "components/multi-step-forms/multi-form-42.html": {
-    "status": "ok",
+    "status": "warn",
     "checkedAt": "2026-03-11",
     "desktopStatus": "ok",
-    "mobileStatus": "ok",
-    "issues": [],
+    "mobileStatus": "warn",
+    "issues": [
+      "Auto visual diff RMSE: desktop=0.1525, mobile=0.1768"
+    ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-42-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-42-local-desktop.png",
     "localMobileScreenshot": "relume-visual-qc/multi-step-forms-multi-form-42-local-mobile.png"
@@ -19825,10 +19827,10 @@
   "components/multi-step-forms/multi-form-43.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
-    "desktopStatus": "warn",
+    "desktopStatus": "ok",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1625, mobile=0.1625"
+      "Auto visual diff RMSE: desktop=0.1593, mobile=0.1936"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-43-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-43-local-desktop.png",
@@ -19840,7 +19842,7 @@
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.2660, mobile=0.2660"
+      "Auto visual diff RMSE: desktop=0.2649, mobile=0.2889"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-44-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-44-local-desktop.png",
@@ -19852,7 +19854,7 @@
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.2632, mobile=0.2632"
+      "Auto visual diff RMSE: desktop=0.2613, mobile=0.2694"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-45-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-45-local-desktop.png",
@@ -19864,19 +19866,19 @@
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.2599, mobile=0.2599"
+      "Auto visual diff RMSE: desktop=0.2580, mobile=0.2796"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-46-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-46-local-desktop.png",
     "localMobileScreenshot": "relume-visual-qc/multi-step-forms-multi-form-46-local-mobile.png"
   },
   "components/multi-step-forms/multi-form-5.html": {
-    "status": "warn",
+    "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
-    "mobileStatus": "warn",
+    "mobileStatus": "fail",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1919, mobile=0.1919"
+      "Auto visual diff RMSE: desktop=0.1887, mobile=0.2440"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-5-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-5-local-desktop.png",
@@ -19888,7 +19890,7 @@
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "Auto visual diff RMSE: desktop=0.1863, mobile=0.1863"
+      "Auto visual diff RMSE: desktop=0.1827, mobile=0.2362"
     ],
     "figmaScreenshot": "relume-visual-qc/multi-step-forms-multi-form-6-figma.png",
     "localScreenshot": "relume-visual-qc/multi-step-forms-multi-form-6-local-desktop.png",

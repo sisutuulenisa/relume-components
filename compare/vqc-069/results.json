@@ -1,0 +1,311 @@
+{
+  "summary": {
+    "ok": 0,
+    "warn": 12,
+    "fail": 8
+  },
+  "warn_fail": [
+    {
+      "path": "components/multi-step-forms/multi-form-30.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1838,
+      "rmseMobile": 0.2235
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-31.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1886,
+      "rmseMobile": 0.2249
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-32.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1764,
+      "rmseMobile": 0.1972
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-33.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1855,
+      "rmseMobile": 0.2232
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-34.html",
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1871,
+      "rmseMobile": 0.2584
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-35.html",
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1828,
+      "rmseMobile": 0.2505
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-36.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1829,
+      "rmseMobile": 0.221
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-37.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1836,
+      "rmseMobile": 0.2296
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-38.html",
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1872,
+      "rmseMobile": 0.2647
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-39.html",
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.186,
+      "rmseMobile": 0.2656
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-4.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1742,
+      "rmseMobile": 0.2127
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-40.html",
+      "status": "warn",
+      "desktopStatus": "ok",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1569,
+      "rmseMobile": 0.1913
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-41.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1608,
+      "rmseMobile": 0.1903
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-42.html",
+      "status": "warn",
+      "desktopStatus": "ok",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1525,
+      "rmseMobile": 0.1768
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-43.html",
+      "status": "warn",
+      "desktopStatus": "ok",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1593,
+      "rmseMobile": 0.1936
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-44.html",
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.2649,
+      "rmseMobile": 0.2889
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-45.html",
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.2613,
+      "rmseMobile": 0.2694
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-46.html",
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.258,
+      "rmseMobile": 0.2796
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-5.html",
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1887,
+      "rmseMobile": 0.244
+    },
+    {
+      "path": "components/multi-step-forms/multi-form-6.html",
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1827,
+      "rmseMobile": 0.2362
+    }
+  ],
+  "results": {
+    "components/multi-step-forms/multi-form-30.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1838,
+      "rmseMobile": 0.2235
+    },
+    "components/multi-step-forms/multi-form-31.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1886,
+      "rmseMobile": 0.2249
+    },
+    "components/multi-step-forms/multi-form-32.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1764,
+      "rmseMobile": 0.1972
+    },
+    "components/multi-step-forms/multi-form-33.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1855,
+      "rmseMobile": 0.2232
+    },
+    "components/multi-step-forms/multi-form-34.html": {
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1871,
+      "rmseMobile": 0.2584
+    },
+    "components/multi-step-forms/multi-form-35.html": {
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1828,
+      "rmseMobile": 0.2505
+    },
+    "components/multi-step-forms/multi-form-36.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1829,
+      "rmseMobile": 0.221
+    },
+    "components/multi-step-forms/multi-form-37.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1836,
+      "rmseMobile": 0.2296
+    },
+    "components/multi-step-forms/multi-form-38.html": {
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1872,
+      "rmseMobile": 0.2647
+    },
+    "components/multi-step-forms/multi-form-39.html": {
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.186,
+      "rmseMobile": 0.2656
+    },
+    "components/multi-step-forms/multi-form-4.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1742,
+      "rmseMobile": 0.2127
+    },
+    "components/multi-step-forms/multi-form-40.html": {
+      "status": "warn",
+      "desktopStatus": "ok",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1569,
+      "rmseMobile": 0.1913
+    },
+    "components/multi-step-forms/multi-form-41.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1608,
+      "rmseMobile": 0.1903
+    },
+    "components/multi-step-forms/multi-form-42.html": {
+      "status": "warn",
+      "desktopStatus": "ok",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1525,
+      "rmseMobile": 0.1768
+    },
+    "components/multi-step-forms/multi-form-43.html": {
+      "status": "warn",
+      "desktopStatus": "ok",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1593,
+      "rmseMobile": 0.1936
+    },
+    "components/multi-step-forms/multi-form-44.html": {
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.2649,
+      "rmseMobile": 0.2889
+    },
+    "components/multi-step-forms/multi-form-45.html": {
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.2613,
+      "rmseMobile": 0.2694
+    },
+    "components/multi-step-forms/multi-form-46.html": {
+      "status": "fail",
+      "desktopStatus": "fail",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.258,
+      "rmseMobile": 0.2796
+    },
+    "components/multi-step-forms/multi-form-5.html": {
+      "status": "fail",
+      "desktopStatus": "warn",
+      "mobileStatus": "fail",
+      "rmseDesktop": 0.1887,
+      "rmseMobile": 0.244
+    },
+    "components/multi-step-forms/multi-form-6.html": {
+      "status": "warn",
+      "desktopStatus": "warn",
+      "mobileStatus": "warn",
+      "rmseDesktop": 0.1827,
+      "rmseMobile": 0.2362
+    }
+  }
+}
