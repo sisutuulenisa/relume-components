@@ -2002,5 +2002,336 @@
     "figmaScreenshot": "relume-visual-qc/career-25-figma.png",
     "localDesktop": "relume-visual-qc/career-25-local-desktop.png",
     "localMobile": "relume-visual-qc/career-25-local-mobile.png"
+  },
+  "components/careers/career-26.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing top colored divider line above job listings",
+      "Department badge not styled as pill/tag \u2014 shown as plain text",
+      "Location and Contract Type icons missing (empty circles instead of pin/clock icons)",
+      "Apply Now button is dark filled instead of outlined as in Figma",
+      "Image placeholder smaller/lighter than Figma reference",
+      "No responsive behavior \u2014 desktop and mobile screenshots identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d3765ccf-fefd-4a62-9275-5736e31c081d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-26-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-26-local-mobile.png"
+  },
+  "components/careers/career-27.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Department badge positioning differs \u2014 should be right-aligned within card",
+      "Location and Contract Type icons missing (empty circles)",
+      "Apply Now button dark filled instead of outlined",
+      "Image placeholder smaller/lighter than Figma reference",
+      "No responsive behavior \u2014 desktop and mobile screenshots identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4fe02386-27a4-4a8d-aada-1cc142889ca0",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-27-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-27-local-mobile.png"
+  },
+  "components/careers/career-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop layout loses two-column (header left / listings right) arrangement from Figma \u2014 replaced by centered header + full-width listings",
+      "Accordion chevron shows '>' (collapsed) instead of '^' (expanded) as in Figma",
+      "Apply Now button dark filled instead of outlined",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/21f4e535-fc3b-43a8-bc68-68b50abb657b",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-3-local-mobile.png"
+  },
+  "components/careers/career-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Accordion chevron shows '>' instead of '^' (expanded state) as in Figma",
+      "Apply Now button dark filled with rounded corners instead of outlined",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/26da7e20-8ffc-445b-8a8b-a46423ce83d1",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-4-local-mobile.png"
+  },
+  "components/careers/career-5.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Accordion chevron shows '>' instead of '^' (expanded state)",
+      "Apply Now button dark filled instead of outlined",
+      "Job title heading is centered instead of left-aligned as in Figma",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b2726e6c-95ff-4805-ac77-6604cb0408a5",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-5-local-mobile.png"
+  },
+  "components/careers/career-6.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Apply Now button dark filled instead of outlined",
+      "Accordion chevron shows '>' instead of '^' (expanded state)",
+      "Job cards lack distinct card backgrounds \u2014 separated by border lines instead",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/dfab014a-76ab-4840-8df5-a80eed527a07",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-6-local-mobile.png"
+  },
+  "components/careers/career-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Apply Now button dark filled instead of outlined",
+      "Accordion toggle shows small circle 'O' instead of '\u00d7' close icon",
+      "Header section centered instead of left-aligned as in Figma",
+      "Separator line under Job Department header appears as accent/colored line",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e052e2a1-9b29-4fa9-a180-d71173f49857",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-7-local-mobile.png"
+  },
+  "components/careers/career-8.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Apply Now button dark filled instead of outlined",
+      "Accordion toggle shows small circle 'O' instead of '\u00d7' close icon",
+      "Header text alignment inconsistent \u2014 Tagline left-aligned but Job Openings title centered",
+      "Job listings lack clear card-style separation \u2014 divider lines instead of cards",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fae2d449-3a55-4b2b-bff7-8bd1936abefa",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-8-local-mobile.png"
+  },
+  "components/careers/career-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Job Department heading text wraps onto two lines ('Job' / 'Department') instead of one line",
+      "Right column with job listings too narrow \u2014 text wraps and layout compresses",
+      "Only one department section visible instead of three as in Figma",
+      "Accordion toggle shows small circle 'O' instead of '\u00d7' close icon",
+      "Apply Now button dark filled instead of outlined",
+      "Missing horizontal separator between Job Department heading and listings",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/773252e5-4d1c-4535-bdb6-44af2e226785",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-9-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/career-9-local-mobile.png"
+  },
+  "components/category-filters/category-filters-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Clear all button dark filled pill instead of plain text link",
+      "Sort by styled as dark filled pill button instead of text dropdown",
+      "Active filter tag shows as text with circle icon instead of pill chip with \u00d7 close button",
+      "Checkboxes completely broken \u2014 only checkmark icons without checkbox squares and option label text missing",
+      "Filter section accordion icons show as circles instead of down chevrons",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9151e219-dc6f-4ea8-9929-197abe0528f1",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-1-local-mobile.png"
+  },
+  "components/category-filters/category-filters-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Clear all button dark filled large button instead of plain text link",
+      "Tag dismiss button shows as circle icon instead of X pill/chip",
+      "Sort by dark filled large button instead of simple text dropdown",
+      "Checkbox options missing labels \u2014 only checkmark icons, no option text",
+      "Filter One header and Clear button overlapping/mispositioned in bordered box",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d5ec5b4a-5cac-438b-a23d-d1d687d7d7d3",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-2-local-mobile.png"
+  },
+  "components/category-filters/category-filters-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Filters button dark filled instead of outlined with filter icon as in Figma",
+      "Sort by dark filled button instead of simple text dropdown with chevron",
+      "Tag chip shows circle icon instead of \u00d7 dismiss icon",
+      "Sort by positioned next to Filters instead of right-aligned",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/54f10a59-d8c0-4552-b3fd-22bd63214ccf",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-3-local-mobile.png"
+  },
+  "components/category-filters/category-filters-4.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Filters button dark filled instead of outlined with filter icon",
+      "Sort by dark filled button instead of simple text dropdown with chevron",
+      "Tag chip displays circle icon instead of \u00d7 dismiss button",
+      "Sort by positioned next to Filters instead of right-aligned",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9ca2cc71-9a22-44b4-8a8e-8c752661eaae",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-4-local-mobile.png"
+  },
+  "components/category-filters/category-filters-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading left-aligned instead of centered as in Figma",
+      "Category tabs (View all, Category one\u2013four) missing \u2014 replaced with different navigation",
+      "Inline filter dropdowns (keyword search + select dropdowns) replaced with tab-style navigation",
+      "Sort by dropdown missing from right side",
+      "Tag chip and Showing count positioned differently",
+      "Overall layout structure completely different from Figma",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a5ff1ded-8c0b-4e6a-a06d-56d056bc2249",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-5-local-mobile.png"
+  },
+  "components/category-filters/category-filters-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Keyword search input field missing entirely",
+      "Filters button shows loading spinner icons instead of filter lines icon; dark filled instead of outlined",
+      "Sort by dark filled large button instead of simple text dropdown",
+      "Search icon shown as orphaned circle to left of Filters button",
+      "Tag chip shows circle icon instead of \u00d7 dismiss styling",
+      "Filter dropdown panel not visible in implementation (Figma shows it open)",
+      "No responsive behavior \u2014 desktop and mobile appear identical"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/02cb965f-3114-4475-b662-07ede445b16d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/category-filters-6-local-mobile.png"
+  },
+  "components/comparisons/comparison-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Product icons/logos missing above product name headers (Figma shows cube icons)",
+      "Product name text headers missing from table header area",
+      "Table structure differs \u2014 Figma uses clean rows with dividers, local uses visible bordered cells",
+      "'X' marks replaced with 'O' (circle) icons for negative features",
+      "Lorem ipsum description under product names missing",
+      "No responsive mobile adaptation \u2014 mobile identical to desktop"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/137fff6a-48a0-4033-bb1e-45b1f0056b34",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-1-local-mobile.png"
+  },
+  "components/comparisons/comparison-10.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo images show as broken/placeholder icons instead of Relume brand logos",
+      "Product name text labels missing under logos in header",
+      "Subtitle text missing under product headers",
+      "First row compressed into header area instead of being a proper table row",
+      "'X' marks replaced with 'O' (circle) icons for negative features",
+      "Horizontal divider lines between rows missing or differently styled",
+      "No mobile-specific layout adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5ebaaafb-c993-4c7e-89d2-678043c9f5aa",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-10-local-mobile.png"
+  },
+  "components/comparisons/comparison-11.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo images show as broken/placeholder icons instead of Relume brand logos",
+      "Table header row has visible cell borders not present in Figma",
+      "First feature row compressed into header area",
+      "'X' marks replaced with 'O' (circle) icons for negative features",
+      "Row divider styling heavier/bordered vs clean subtle lines in Figma",
+      "Buttons at bottom not visible in screenshots",
+      "No mobile-specific responsive layout"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1c5d0411-98b5-48cc-baba-249a588d8653",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-11-local-mobile.png"
+  },
+  "components/comparisons/comparison-12.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo images show as broken/placeholder icons instead of Relume brand logos",
+      "First feature row compressed into header instead of standalone row",
+      "'X' marks replaced with 'O' (circle) icons for negative features",
+      "Table row separator styling differs \u2014 bordered cells vs clean lines in Figma",
+      "Buttons at bottom not visible in screenshot",
+      "No mobile-specific responsive adaptation"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/79bb34b6-fc89-44e9-8298-d8bf9d33727e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-12-local-mobile.png"
+  },
+  "components/comparisons/comparison-13.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Product card icons show as broken placeholder images / small circles instead of cube icons",
+      "'Product name' heading text missing on desktop \u2014 replaced with small circle",
+      "Lorem ipsum description under product name missing on desktop",
+      "Feature comparison rows lack proper spacing and horizontal dividers",
+      "'X' marks replaced with 'O' (circle) icons for negative features",
+      "Internal card layout significantly compressed vs Figma"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f492e500-954d-4d20-892d-f501802fc517",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-13-local-mobile.png"
   }
 }
