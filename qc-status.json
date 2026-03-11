@@ -24528,5 +24528,187 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "batch-038 fixed"
+  },
+  "components/pricing-pages/pricing-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/pricing-pages/pricing-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/pricing-pages/pricing-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/pricing-pages/pricing-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/pricing-pages/pricing-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/sign-up-and-log-in-modals/login-modal-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/sign-up-and-log-in-modals/login-modal-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/sign-up-and-log-in-modals/sign-up-modal-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/sign-up-and-log-in-modals/sign-up-modal-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/sign-up-and-log-in-modals/sign-up-modal-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/contact-pages/contact-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/contact-pages/contact-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/contact-pages/contact-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/contact-pages/contact-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/description-lists/description-list-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/description-lists/description-list-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/description-lists/description-list-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/description-lists/description-list-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/section-headers/section-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/section-headers/section-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/section-headers/section-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/section-headers/section-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/card-headers/card-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/card-headers/card-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/legal-pages/legal-pages-01.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
+  },
+  "components/legal-pages/legal-pages-02.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-039 fixed"
   }
 }
