@@ -2662,5 +2662,324 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-18-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-18-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-18-local-mobile.png"
+  },
+  "components/contact/contact-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Input fields rendered as small circles instead of rectangular text inputs",
+      "Select dropdown shows chevron icon instead of proper dropdown",
+      "Radio buttons rendered as wide pill shapes instead of standard radio circles",
+      "Message textarea not visible (page cut off)",
+      "Checkbox and submit button not visible",
+      "No responsive mobile layout difference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-2-figma.png",
+    "localDesktop": "relume-visual-qc/contact-2-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-2-local-mobile.png"
+  },
+  "components/contact/contact-3.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Input fields rendered as small circles instead of rectangular text inputs",
+      "Checkbox rendered as checkmark icon only, missing box and label text",
+      "Submit button is dark full-width bar instead of small black rectangle",
+      "Message textarea missing, replaced by small circle",
+      "No responsive mobile layout difference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-3-figma.png",
+    "localDesktop": "relume-visual-qc/contact-3-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-3-local-mobile.png"
+  },
+  "components/contact/contact-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Input fields rendered as small circles instead of rectangular bordered inputs",
+      "Select dropdown shows chevron instead of proper down-caret",
+      "Radio buttons rendered as wide pill shapes",
+      "Message textarea, checkbox and submit button not visible",
+      "No responsive mobile layout difference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-4-figma.png",
+    "localDesktop": "relume-visual-qc/contact-4-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-4-local-mobile.png"
+  },
+  "components/contact/contact-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Contact info icons rendered as empty circles instead of mail/phone/pin icons",
+      "Large misalignment between icons and text in contact info section",
+      "Form input fields rendered as small circles instead of rectangular inputs",
+      "Checkbox rendered as checkmark icon only, missing box and label text",
+      "Tagline text clipped ('Tagl' instead of 'Tagline')",
+      "No top padding \u2014 content starts at very top edge of viewport",
+      "No responsive mobile stacking visible"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-5-figma.png",
+    "localDesktop": "relume-visual-qc/contact-5-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-5-local-mobile.png"
+  },
+  "components/contact/contact-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Input fields rendered as small circles instead of rectangular inputs",
+      "Contact info icons rendered as generic circles instead of proper icons",
+      "Tagline text truncated to 'Tagl'",
+      "Radio buttons rendered as wide pill/toggle shapes",
+      "Message textarea replaced by small circle",
+      "Checkbox rendered as checkmark icon only",
+      "Select dropdown shows '>' chevron instead of 'v' down-arrow",
+      "No responsive mobile layout difference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-6-figma.png",
+    "localDesktop": "relume-visual-qc/contact-6-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-6-local-mobile.png"
+  },
+  "components/contact/contact-7.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Input fields rendered as small circles instead of rectangular inputs",
+      "Message textarea replaced by small circle",
+      "Checkbox rendered as standalone checkmark icon",
+      "Tagline text truncated to 'Tagl'",
+      "Image placeholder much smaller and lighter than Figma design",
+      "No responsive mobile layout difference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-7-figma.png",
+    "localDesktop": "relume-visual-qc/contact-7-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-7-local-mobile.png"
+  },
+  "components/contact/contact-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Input fields rendered as small circles instead of rectangular inputs",
+      "Message textarea replaced by small circle",
+      "Checkbox rendered as standalone checkmark icon",
+      "Tagline text truncated to 'Tagl'",
+      "Image placeholder much smaller and lighter than Figma design, map pin icon missing",
+      "No responsive mobile layout difference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-8-figma.png",
+    "localDesktop": "relume-visual-qc/contact-8-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-8-local-mobile.png"
+  },
+  "components/contact/contact-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Input fields rendered as small circles instead of rectangular inputs",
+      "Message textarea replaced by small circle",
+      "Checkbox rendered as standalone checkmark icon",
+      "Tagline text truncated to 'Tagl'",
+      "Image placeholder significantly smaller than tall full-height design in Figma",
+      "No responsive mobile layout difference"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-9-figma.png",
+    "localDesktop": "relume-visual-qc/contact-9-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-9-local-mobile.png"
+  },
+  "components/contact/contact-19.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons (mail, phone, location) completely missing \u2014 should show above Email/Phone/Office titles",
+      "Contact card description texts completely missing",
+      "Contact detail links (email@example.com, +1 (555) 000-0000, 123 Sample St) completely missing",
+      "3-column card grid replaced by empty tab-navigation bar with no content"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-19-figma.png",
+    "localDesktop": "relume-visual-qc/contact-19-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-19-local-mobile.png"
+  },
+  "components/contact/contact-20.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons completely missing",
+      "Contact card description texts completely missing",
+      "Contact detail links completely missing",
+      "3-column centered card layout replaced by empty tab-navigation bar without content"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-20-figma.png",
+    "localDesktop": "relume-visual-qc/contact-20-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-20-local-mobile.png"
+  },
+  "components/contact/contact-21.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 icons (mail, chat-bubble, phone, location) completely missing",
+      "All description texts completely missing",
+      "All contact links completely missing",
+      "4-column card grid replaced by horizontal tab-navigation without any tab content"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-21-figma.png",
+    "localDesktop": "relume-visual-qc/contact-21-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-21-local-mobile.png"
+  },
+  "components/contact/contact-22.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All 4 icons completely missing",
+      "All description texts completely missing",
+      "All contact links completely missing",
+      "4-column left-aligned card layout replaced by horizontal tab-navigation without content"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-22-figma.png",
+    "localDesktop": "relume-visual-qc/contact-22-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-22-local-mobile.png"
+  },
+  "components/contact/contact-23.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons completely missing",
+      "Description texts completely missing",
+      "Contact links completely missing",
+      "4-column card grid replaced by tab-navigation with no content below tabs"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-23-figma.png",
+    "localDesktop": "relume-visual-qc/contact-23-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-23-local-mobile.png"
+  },
+  "components/contact/contact-24.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "All icons completely missing",
+      "All description texts and contact links completely missing",
+      "4-column card grid replaced by left-aligned tab-navigation without content",
+      "'Contact us' heading is centered in implementation but left-aligned in Figma"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-24-figma.png",
+    "localDesktop": "relume-visual-qc/contact-24-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-24-local-mobile.png"
+  },
+  "components/contact/contact-25.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders use broken-image icon instead of location-pin icon from Figma",
+      "Image placeholder background near-white instead of medium gray",
+      "Images have extra side margins vs edge-to-edge in Figma",
+      "'Get Directions' links may be cut off at bottom of viewport"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-25-figma.png",
+    "localDesktop": "relume-visual-qc/contact-25-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-25-local-mobile.png"
+  },
+  "components/contact/contact-26.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Image placeholders use broken-image icon instead of landscape icon from Figma",
+      "Image placeholders have extra side margins, not edge-to-edge",
+      "Image placeholder background near-white instead of medium gray",
+      "'Get Directions' links possibly cut off at bottom of viewport"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-26-figma.png",
+    "localDesktop": "relume-visual-qc/contact-26-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-26-local-mobile.png"
+  },
+  "components/contact/contact-27.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Header 'Locations' and subtitle center-aligned in implementation, but left-aligned in Figma",
+      "Map placeholder uses broken-image icon instead of map pin icon",
+      "Map placeholder background near-white instead of medium gray",
+      "'Get Directions' link cut off / not visible in viewport"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-27-figma.png",
+    "localDesktop": "relume-visual-qc/contact-27-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-27-local-mobile.png"
+  },
+  "components/contact/contact-28.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: Header 'Locations' and subtitle center-aligned, should be left-aligned per Figma",
+      "Map placeholders use broken-image icon instead of map pin icon",
+      "Map placeholder background near-white instead of medium gray",
+      "'Get Directions' link cut off in desktop screenshot"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-28-figma.png",
+    "localDesktop": "relume-visual-qc/contact-28-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-28-local-mobile.png"
+  },
+  "components/contact/contact-29.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Header center-aligned, should be left-aligned per Figma",
+      "Active location uses full rectangular border instead of left vertical border/line indicator",
+      "Map image significantly smaller than full-height right-side map in Figma",
+      "Map placeholder uses broken-image icon instead of map pin",
+      "Map placeholder background near-white instead of medium gray"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-29-figma.png",
+    "localDesktop": "relume-visual-qc/contact-29-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-29-local-mobile.png"
+  },
+  "components/contact/contact-30.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Header center-aligned, should be left-aligned per Figma",
+      "Active location uses full rectangular border outline instead of left vertical line indicator",
+      "Map image significantly smaller than full-height map in Figma",
+      "Map placeholder uses broken-image icon instead of landscape icon",
+      "Map placeholder background near-white instead of medium gray"
+    ],
+    "figmaScreenshot": "relume-visual-qc/contact-30-figma.png",
+    "localDesktop": "relume-visual-qc/contact-30-local-desktop.png",
+    "localMobile": "relume-visual-qc/contact-30-local-mobile.png"
   }
 }
