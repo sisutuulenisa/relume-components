@@ -3990,5 +3990,705 @@
       "max-w-container",
       "py-28-container"
     ]
+  },
+  "components/pages/features/layout-265.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-266.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-267.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-268.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-269.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-270.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-271.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-272.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-273.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-274.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-275.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-276.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-277.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-278.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-279.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-280.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-281.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-282.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-283.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-284.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-285.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-286.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-287.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-288.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-289.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-290.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-291.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-292.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-293.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-294.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-295.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-296.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-297.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-298.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-299.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-300.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-301.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-302.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-303.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-304.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-305.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-306.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-307.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-308.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-309.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-310.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-311.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-312.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-313.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-314.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-315.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-316.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-317.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-318.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-319.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-320.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-321.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-322.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-323.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-324.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-325.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-326.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-327.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-328.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-329.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-33.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-330.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-331.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-332.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-333.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-334.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-335.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-336.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-337.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-338.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-339.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-34.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-340.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-341.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-342.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-343.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-344.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-345.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
+  },
+  "components/pages/features/layout-346.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-347.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-348.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-349.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-35.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-350.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-351.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-352.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-353.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container"
+  },
+  "components/pages/features/layout-354.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: article-root + max-w-screen-xl container (screenshot verified)"
   }
 }
