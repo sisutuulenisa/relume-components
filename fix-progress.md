@@ -343,3 +343,21 @@
 - [x] category-filters-5 ✅
 - [x] category-filters-6 ✅
 
+
+## components/comparisons/
+- [x] comparison-1 ✅
+- [x] comparison-10 ✅
+- [x] comparison-11 ✅
+- [x] comparison-12 ✅
+- [x] comparison-13 ✅
+- [x] comparison-14 ✅
+- [x] comparison-15 ✅
+- [x] comparison-2 ✅
+- [x] comparison-3 ✅
+- [x] comparison-4 ✅
+- [x] comparison-5 ✅
+- [x] comparison-6 ✅
+- [x] comparison-7 ✅
+- [x] comparison-8 ✅
+- [x] comparison-9 ✅
+
