@@ -2565,7 +2565,7 @@
         "components/application/topbars/topbar-sits-beside-a-level-2-sidebar-does-not-include-company-logo-or-nav-links.html"
       ],
       "count": 45,
-      "status": "running"
+      "status": "done"
     },
     {
       "id": "batch-026",
@@ -2709,7 +2709,7 @@
         "components/hero-headers-new/header-99.html"
       ],
       "count": 28,
-      "status": "running"
+      "status": "done"
     },
     {
       "id": "batch-028",
