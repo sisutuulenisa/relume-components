@@ -112,7 +112,7 @@
     "checkedAt": "2026-03-11",
     "desktop": "ok",
     "mobile": "ok",
-    "note": "gefixed: CDN Tailwind, CTA button width fixed (w-1/12 → auto), button text kleur wit"
+    "note": "gefixed: CDN Tailwind, CTA button width fixed (w-1/12 \u2192 auto), button text kleur wit"
   },
   "components/contact/contact-1.html": {
     "status": "warn",
@@ -277,7 +277,7 @@
   "components/faq/faq-10.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
-    "note": "Twee-koloms layout functioneel, accordions allemaal open (standaard zou er één open zijn), overflow onderaan."
+    "note": "Twee-koloms layout functioneel, accordions allemaal open (standaard zou er \u00e9\u00e9n open zijn), overflow onderaan."
   },
   "components/blog-headers/blog-27.html": {
     "status": "ok",
@@ -290,5 +290,705 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "gefixed: CDN Tailwind al aanwezig, layout/inputs correct gestyled"
+  },
+  "components/pages/cta-new/cta-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-33.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-34.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-35.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-36.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-37.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-38.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-39.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-40.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-41.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-42.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-43.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-44.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-45.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-46.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-47.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-48.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-49.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-50.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-51.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-52.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-53.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-54.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-55.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-56.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-57.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-58.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-59.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-60.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-61.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-62.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-63.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-64.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-65.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-66.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-67.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/cta-new/cta-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article, h1->h2 (cta-new)"
+  },
+  "components/pages/event-headers/event-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-headers/event-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-headers/event-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-headers/event-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-headers/event-header-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-headers/event-header-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-item-headers/event-item-header-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-33.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-34.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-35.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-36.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-37.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
+  },
+  "components/pages/event-sections/event-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "fixed: wrapped in article"
   }
 }
