@@ -15445,5 +15445,301 @@
     "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-11-figma.png",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-11-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/footer-11-local-mobile.png"
+  },
+  "components/features/layout-680.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of filled 3D cube icons",
+      "CTA buttons missing entirely",
+      "Image placeholder too short (doesn't span full content height)",
+      "Subheading text columns too narrow"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/bc824c83-aafd-4ce4-97e3-643bfb5e32c7",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-680-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-680-local-mobile.png"
+  },
+  "components/features/layout-681.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of filled 3D cube icons",
+      "Media block broken (tiny placeholder instead of full-height dark block with play button)",
+      "CTA buttons missing entirely",
+      "No mobile responsive reflow"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ca5e4af7-b0f1-421e-a044-c99aa7bc99df",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-681-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-681-local-mobile.png"
+  },
+  "components/features/layout-682.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of filled 3D cube icons",
+      "Button styled as dark filled pill instead of text link",
+      "Button text truncated ('utton' instead of 'Button')",
+      "Body text wraps excessively (narrow column)",
+      "Image placeholder too short"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/34e72a3a-f7ec-490b-be21-272b4672042c",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-682-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-682-local-mobile.png"
+  },
+  "components/features/layout-69.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing dark background (bg-neutral-700 not in CSS build)",
+      "Left column (tagline + heading) completely missing",
+      "Right column text and paragraph missing",
+      "List item text missing (only empty circles shown)",
+      "Color scheme inverted (dark text on white instead of white on dark)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e20aa2a6-0427-4d34-bb53-9f4878b26f7e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-69-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-69-local-mobile.png"
+  },
+  "components/features/layout-7.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline text truncated to 'Tagl'",
+      "Subheading text truncated ('Subheac one/two')",
+      "Feature body text wraps word-by-word (extremely narrow columns)",
+      "CTA buttons missing entirely",
+      "Icons render as empty circles",
+      "Image placeholder too small vertically",
+      "No mobile responsive reflow (mobile identical to desktop)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3af6339d-85dd-49df-b02f-d1732e39e1f2",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-7-local-mobile.png"
+  },
+  "components/features/layout-70.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: component renders blank (only 3 empty circles, no heading/text/background)",
+      "Missing dark background (bg-neutral-700 not in CSS build)",
+      "Heading and paragraph text completely missing on desktop",
+      "Mobile: content mismatches Figma (shows stat blocks instead of bullet list)",
+      "Wrong color scheme on mobile (white bg instead of dark)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0c175763-8871-4c62-894b-e563f62453c3",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-70-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-70-local-mobile.png"
+  },
+  "components/features/layout-71.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: only gray placeholder card with broken image icon, no text content",
+      "Mobile: tagline truncated ('Taglir')",
+      "Mobile: bullet point markers missing",
+      "Mobile: button style wrong (filled dark vs outlined in Figma)",
+      "Mobile: reduced vertical padding"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4aecad97-e814-4e53-8275-12b39a882d61",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-71-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-71-local-mobile.png"
+  },
+  "components/features/layout-72.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: bullet list item markers missing",
+      "Desktop: reduced top/bottom padding vs Figma",
+      "Mobile: completely blank (only gray placeholder card with broken image icon)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/20de4099-8af1-4e50-bcaa-9894157a18d7",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-72-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-72-local-mobile.png"
+  },
+  "components/features/layout-73.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: only buttons render; tagline/heading/paragraph/image/dark background completely missing",
+      "Mobile: only broken image placeholder; all content missing",
+      "Missing dark background (bg-neutral-700 not in CSS build)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/524298dd-8358-4c8a-9a25-763ebdaae624",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-73-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-73-local-mobile.png"
+  },
+  "components/features/layout-74.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Both viewports: only broken image placeholder visible, all text content missing",
+      "Missing dark background",
+      "Heading/paragraph/bullet list all absent"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/823eb96f-4628-4d4f-97b4-0bc42640fee3",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-74-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-74-local-mobile.png"
+  },
+  "components/features/layout-75.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Both viewports completely blank/white",
+      "bg-neutral-700 not present in tailwind CSS build (white text on white background)",
+      "Zero content rendered"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7b69af50-8bfe-4176-8965-8ba629d0244d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-75-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-75-local-mobile.png"
+  },
+  "components/features/layout-76.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: wrong layout rendered (shows different component structure with image placeholder and subheadings, not matching Figma two-column text layout)",
+      "Mobile: completely blank/white",
+      "Background color mismatch (white instead of dark gray)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ec3023f1-c7a6-4b45-ac7e-99efc0d26bad",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-76-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-76-local-mobile.png"
+  },
+  "components/features/layout-77.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icon renders as empty circle instead of 3D cube icon",
+      "Button style mismatch (filled dark primary vs outlined in Figma)",
+      "Secondary button uses arrow vs chevron style",
+      "Missing top padding/margin vs Figma",
+      "No mobile reflow visible"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/75ccfec1-b6b5-49af-adff-31919057c15d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-77-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-77-local-mobile.png"
+  },
+  "components/features/layout-78.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: completely blank/white (w-1/2 and other classes missing from CSS build)",
+      "Mobile: icon missing (should show cube icon)",
+      "Mobile: extra image placeholder section not in Figma reference"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f670f2d5-b7e5-409e-8eaa-4a9d6eed18ba",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-78-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-78-local-mobile.png"
+  },
+  "components/features/layout-79.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Both viewports: empty gray card with broken image icon only",
+      "No heading/text/background/buttons rendered",
+      "Complete rendering failure"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8cf5bf25-debd-4b80-849c-0b78a1dd3558",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-79-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-79-local-mobile.png"
+  },
+  "components/features/layout-8.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline truncated to 'Taggl'",
+      "Subheading text truncated ('Subheac one/two')",
+      "Subheading body text wraps word-by-word (extremely narrow columns)",
+      "Icons render as empty circles instead of filled icons",
+      "CTA buttons missing entirely",
+      "Image placeholder lacks play button icon",
+      "No mobile reflow (identical to desktop)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/067350a6-4a35-4cb9-9d1c-1230afc3775b",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-8-local-mobile.png"
+  },
+  "components/features/layout-80.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Both viewports: only gray bar with broken image icon visible",
+      "No heading/description text/dark background rendered",
+      "Complete content rendering failure"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0603f9aa-2f3d-42df-adf8-350f283a6914",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-80-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-80-local-mobile.png"
+  },
+  "components/features/layout-81.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: mostly blank (only tiny circle icon and buttons, missing heading/paragraph/dark background)",
+      "Mobile: renders wrong component entirely (shows different layout with subheadings and image placeholder not matching layout-81 Figma)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1e08eedb-098f-45eb-a417-c124a7d9a098",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-81-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-81-local-mobile.png"
+  },
+  "components/features/layout-82.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Both viewports: renders completely wrong component (shows a white-background layout with tagline/subheadings/image, not the dark-background two-column text layout from Figma)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6574fb20-f18f-47be-94e4-8a3b03e85290",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-82-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-82-local-mobile.png"
+  },
+  "components/features/layout-83.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minor: tagline text slightly truncated ('Taglir')",
+      "Minor: button styling differs (filled dark primary vs outlined in Figma)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/58e72423-5fd5-40e6-b5f4-b23a7939c209",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-83-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-83-local-mobile.png"
   }
 }
