@@ -8166,7 +8166,7 @@
     },
     {
       "id": "vqc-087",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/team/team-9.html",
@@ -8248,7 +8248,12 @@
           "path": "components/timelines/timeline-7.html",
           "nodeId": "4174:59873"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 14,
+        "fail": 6
+      }
     },
     {
       "id": "vqc-088",
