@@ -109,7 +109,7 @@
         "components/pages/careers/career-1.html"
       ],
       "count": 100,
-      "status": "running"
+      "status": "done"
     },
     {
       "id": "batch-002",
@@ -757,7 +757,7 @@
         "components/pages/features/layout-444.html"
       ],
       "count": 100,
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "batch-008",

@@ -2390,5 +2390,705 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "article+h2 fixed; CDN Tailwind"
+  },
+  "components/pages/banners/banner-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-10.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-11.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-12.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-13.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-14.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-15.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-16.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-5.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-6.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-7.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-8.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/banners/banner-9.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-10.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-11.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-12.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-13.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-14.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-15.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-16.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-17.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-18.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-19.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-20.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-21.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-22.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-23.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-24.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-25.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-26.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-27.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-28.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-29.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-30.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-31.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-32.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-5.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-6.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-7.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-8.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-headers/blog-9.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-pages/blog-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-pages/blog-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-pages/blog-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-pages/blog-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-pages/blog-5.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-headers/blog-post-header-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-headers/blog-post-header-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-headers/blog-post-header-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-headers/blog-post-header-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-headers/blog-post-header-5.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-pages/blog-post-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-pages/blog-post-2.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-pages/blog-post-3.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-pages/blog-post-4.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-post-pages/blog-post-5.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-33.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-34.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-35.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-36.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-37.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-38.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-39.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-40.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-41.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-42.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-43.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-44.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-45.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-46.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-47.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-48.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-49.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-50.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-51.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-52.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-53.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-54.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-55.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-56.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-57.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-58.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-59.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-60.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-61.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-62.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-63.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-64.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-65.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-66.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-67.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/blog-sections/blog-68.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
+  },
+  "components/pages/careers/career-1.html": {
+    "status": "warn",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "CSS path fixed (../../dist/ \u2192 ../../../dist/); container uses `container mx-auto px-6` instead of project-std `w-full max-w-screen-xl mx-auto px-5 md:px-20 py-28`; root is <div> not <article>"
   }
 }
