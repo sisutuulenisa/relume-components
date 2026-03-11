@@ -18490,5 +18490,266 @@
     "figmaScreenshot": "relume-visual-qc/logos-logo-1-figma.png",
     "localDesktop": "relume-visual-qc/logos-logo-1-local-desktop.png",
     "localMobile": "relume-visual-qc/logos-logo-1-local-mobile.png"
+  },
+  "components/hero-headers-new/header-92.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 20.4)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 33.8)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3475-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-92-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-92-local-mobile.png"
+  },
+  "components/hero-headers-new/header-93.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 22.0)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 34.1)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3498-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-93-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-93-local-mobile.png"
+  },
+  "components/hero-headers-new/header-94.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: grote visuele afwijking t.o.v. Figma (diff 47.7)",
+      "desktop: layout/beeldverhouding wijkt duidelijk af",
+      "mobile: grote visuele afwijking t.o.v. Figma (diff 57.9)",
+      "mobile: layout/beeldverhouding wijkt duidelijk af"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3525-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-94-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-94-local-mobile.png"
+  },
+  "components/hero-headers-new/header-95.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: grote visuele afwijking t.o.v. Figma (diff 49.3)",
+      "desktop: layout/beeldverhouding wijkt duidelijk af",
+      "mobile: grote visuele afwijking t.o.v. Figma (diff 58.7)",
+      "mobile: layout/beeldverhouding wijkt duidelijk af"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3556-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-95-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-95-local-mobile.png"
+  },
+  "components/hero-headers-new/header-96.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 29.9)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3591-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-96-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-96-local-mobile.png"
+  },
+  "components/hero-headers-new/header-97.html": {
+    "status": "warn",
+    "desktopStatus": "ok",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 37.1)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3610-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-97-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-97-local-mobile.png"
+  },
+  "components/hero-headers-new/header-98.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: grote visuele afwijking t.o.v. Figma (diff 71.6)",
+      "desktop: layout/beeldverhouding wijkt duidelijk af",
+      "mobile: grote visuele afwijking t.o.v. Figma (diff 83.1)",
+      "mobile: layout/beeldverhouding wijkt duidelijk af"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3633-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-98-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-98-local-mobile.png"
+  },
+  "components/hero-headers-new/header-99.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: grote visuele afwijking t.o.v. Figma (diff 71.4)",
+      "desktop: layout/beeldverhouding wijkt duidelijk af",
+      "mobile: grote visuele afwijking t.o.v. Figma (diff 82.9)",
+      "mobile: layout/beeldverhouding wijkt duidelijk af"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-3652-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-99-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/hero-headers-new-header-99-local-mobile.png"
+  },
+  "components/home-pages/home-1.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 22.9)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 32.1)",
+      "mobile: vergelijking gebaseerd op geschaalde desktop Figma-frame (indicatief)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-146548-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-1-local-mobile.png"
+  },
+  "components/home-pages/home-2.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 22.8)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 35.8)",
+      "mobile: vergelijking gebaseerd op geschaalde desktop Figma-frame (indicatief)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-146629-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-2-local-mobile.png"
+  },
+  "components/home-pages/home-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 22.5)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 40.3)",
+      "mobile: vergelijking gebaseerd op geschaalde desktop Figma-frame (indicatief)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-146824-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-3-local-mobile.png"
+  },
+  "components/home-pages/home-4.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-146890-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-4-local-mobile.png"
+  },
+  "components/home-pages/home-5.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 19.8)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 30.4)",
+      "mobile: vergelijking gebaseerd op geschaalde desktop Figma-frame (indicatief)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-146953-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-5-local-mobile.png"
+  },
+  "components/home-pages/home-6.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 28.6)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 32.4)",
+      "mobile: vergelijking gebaseerd op geschaalde desktop Figma-frame (indicatief)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-147016-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-6-local-mobile.png"
+  },
+  "components/home-pages/home-7.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 36.1)",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 33.8)",
+      "mobile: vergelijking gebaseerd op geschaalde desktop Figma-frame (indicatief)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-147039-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-7-local-mobile.png"
+  },
+  "components/home-pages/home-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: grote visuele afwijking t.o.v. Figma (diff 88.5)",
+      "desktop: layout/beeldverhouding wijkt duidelijk af",
+      "mobile: merkbare styling/spacing verschillen t.o.v. Figma (diff 37.2)",
+      "mobile: vergelijking gebaseerd op geschaalde desktop Figma-frame (indicatief)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4174-147096-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/home-pages-home-8-local-mobile.png"
+  },
+  "components/legal-pages/legal-pages-01.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4175-16532-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/legal-pages-legal-pages-01-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/legal-pages-legal-pages-01-local-mobile.png"
+  },
+  "components/legal-pages/legal-pages-02.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "desktop: merkbare styling/spacing verschillen t.o.v. Figma (diff 25.5)"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4175-16543-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/legal-pages-legal-pages-02-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/legal-pages-legal-pages-02-local-mobile.png"
+  },
+  "components/links-pages/links-1.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4606-7296-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/links-pages-links-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/links-pages-links-1-local-mobile.png"
+  },
+  "components/links-pages/links-10.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/4606-7824-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/links-pages-links-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/links-pages-links-10-local-mobile.png"
   }
 }
