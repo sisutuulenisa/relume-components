@@ -2808,7 +2808,7 @@
     },
     {
       "id": "vqc-032",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/features/layout-338.html",
