@@ -25,3 +25,10 @@
 - [x] banner-14 ✅
 - [x] banner-15 ✅
 - [x] banner-16 ✅
+
+## components/about-pages/
+- [x] about-1 ✅
+- [x] about-2 ✅
+- [x] about-3 ✅
+- [x] about-4 ✅
+- [x] about-5 ✅
