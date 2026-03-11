@@ -6063,5 +6063,316 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b289abd4-14a5-4e07-a77a-0c44d92b002e",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-157-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-157-local-mobile.png"
+  },
+  "components/features/layout-121.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Iconen ontbreken: outline cirkels i.p.v. gevulde 3D-kubus iconen",
+      "Tagline afgekapt tot 'Tagl' (text-overflow bug)",
+      "Button styling: filled dark i.p.v. outline/ghost primaire button",
+      "Secundaire button: pijl (\u2192) i.p.v. chevron (>)",
+      "Top padding ontbreekt",
+      "Mobile: volledig leeg wit scherm \u2014 component rendert niet"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/04a51856-0193-4d01-a561-da90a55ccbbd",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-121-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-121-local-mobile.png"
+  },
+  "components/features/layout-122.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt tot 'Tagl'",
+      "Button styling: filled dark i.p.v. outline/ghost primaire button",
+      "Heading breekt over meer regels dan Figma",
+      "Top padding ontbreekt",
+      "Mobile: volledig leeg wit scherm \u2014 component rendert niet"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3012e051-0fb4-455d-95e0-b7080f854fde",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-122-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-122-local-mobile.png"
+  },
+  "components/features/layout-123.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Achtergrondkleur ontbreekt (donkergrijs \u2192 wit)",
+      "Tekstkleur omgekeerd (wit op donker \u2192 zwart op wit)",
+      "Layout structuur afwijkend: twee kolommen niet correct gerenderd",
+      "Tagline afgekapt ('Taglir')",
+      "Image placeholder verkeerd gepositioneerd (niet centraal overlappend)",
+      "Body text structuur afwijkend (bullets i.p.v. paragraphs)",
+      "Button styling: filled i.p.v. ghost/outline wit",
+      "Mobile: body text gedupliceerd, tagline als cirkel/icoon i.p.v. tekst"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9e8d507b-f94e-40ce-9a6a-7a487bce6e7f",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-123-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-123-local-mobile.png"
+  },
+  "components/features/layout-124.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: volledig leeg/wit \u2014 component rendert niet",
+      "Mobile: volledig leeg/wit \u2014 component rendert niet"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1d757e63-90f4-41de-9a50-cac6cdcd124e",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-124-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-124-local-mobile.png"
+  },
+  "components/features/layout-125.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: volledig leeg/wit \u2014 component rendert niet",
+      "Mobile: button styling incorrect (filled i.p.v. text-link)",
+      "Mobile: geen top-padding",
+      "Geen responsive stacking op mobile"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5d9c902f-2ad0-4392-88a9-d1294fd87f5c",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-125-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-125-local-mobile.png"
+  },
+  "components/features/layout-126.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tekst-content volledig afwezig (headings, body, buttons)",
+      "Achtergrondafbeelding niet geladen \u2014 broken image icoon",
+      "Layout volledig gebroken: lichtgrijs vlak met border-radius i.p.v. full-bleed dark sectie",
+      "Kleurschema incorrect: lichtgrijs i.p.v. donkergrijs"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b326439f-ec36-4661-812e-d587f484ed7d",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-126-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-126-local-mobile.png"
+  },
+  "components/features/layout-127.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Achtergrondkleur ontbreekt: donkergrijs \u2192 wit",
+      "Headings volledig onzichtbaar (witte tekst op witte achtergrond)",
+      "Body text volledig onzichtbaar",
+      "Button styling: grote outlined rectangle buttons i.p.v. tekst-links",
+      "Mobile: twee kolommen niet gestapeld op 390px (geen responsive breakpoint)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/00b3c701-a30f-44c6-a8c1-5cf96a2da79c",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-127-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-127-local-mobile.png"
+  },
+  "components/features/layout-128.html": {
+    "status": "fail",
+    "desktopStatus": "warn",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon incorrect: lege cirkel/outline ring i.p.v. 3D-kubus icoon",
+      "Secundaire button: pijl (\u2192) i.p.v. chevron (>)",
+      "Top spacing: icoon bijna tegen bovenkant viewport",
+      "Mobile: twee kolommen niet gestapeld op 390px (geen responsive breakpoint)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/da1a8f97-271a-46dd-a8db-3e280f89ae59",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-128-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-128-local-mobile.png"
+  },
+  "components/features/layout-129.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: content volledig afwezig \u2014 broken image placeholder, geen tekst of buttons",
+      "Achtergrondkleur verkeerd: lichtgrijs i.p.v. donkergrijs/antraciet",
+      "Twee-koloms layout niet gerenderd",
+      "Mobile: identiek gebroken staat als desktop"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1aff1ecf-1c77-44b9-add8-a21005354ca0",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-129-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-129-local-mobile.png"
+  },
+  "components/features/layout-13.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt tot 'Tagl'",
+      "Logo's niet geladen: broken image placeholders i.p.v. Webflow/Relume logo's",
+      "Secundaire button: outline border met pijl i.p.v. tekst-link",
+      "Top padding ontbreekt",
+      "Mobile: geen responsive stacking (twee kolommen blijven naast elkaar)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7f2ab72a-b735-4248-a07a-c848841d6f74",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-13-local-mobile.png"
+  },
+  "components/features/layout-130.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Achtergrondkleur ontbreekt: donkergrijs \u2192 wit",
+      "Heading en body tekst ontbreken/onzichtbaar (witte tekst op witte achtergrond)",
+      "Iconen: lege cirkels i.p.v. 3D-kubus",
+      "Button stijl afwijkend",
+      "Mobile: geen responsive stacking"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/369907b9-d462-4c5c-86fe-6b8aa46211c6",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-130-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-130-local-mobile.png"
+  },
+  "components/features/layout-131.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Tagline afgekapt tot 'Tagl'",
+      "Heading breekt over 3 regels i.p.v. 2",
+      "Image placeholder kleur te licht vergeleken met Figma",
+      "Buttons afgesneden aan onderzijde viewport",
+      "Mobile: geen responsive stacking (identiek aan desktop)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3b6257a7-9182-467d-9f0c-26d40890e122",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-131-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-131-local-mobile.png"
+  },
+  "components/features/layout-132.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Button stijl: filled dark button i.p.v. text-link ('Button >')",
+      "Placeholder kleur afwijkend (lichter/rounded corners)",
+      "Heading breekt over 3 regels i.p.v. 2",
+      "Top padding ontbreekt",
+      "Mobile: twee kolommen niet gestapeld"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/2645ab30-2926-4e8f-9790-c6179e471fbd",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-132-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-132-local-mobile.png"
+  },
+  "components/features/layout-133.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Heading afgekapt met ellipsis ('Medium lenght secti...')",
+      "Button stijl: filled dark button i.p.v. text-link",
+      "Button deels buiten viewport afgesneden",
+      "Verticale spacing sterk gereduceerd",
+      "Mobile: geen responsive stacking, content buiten viewport, grote lege ruimte onder content"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/78c60a22-2f49-4de4-b2b5-b5992b997fe2",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-133-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-133-local-mobile.png"
+  },
+  "components/features/layout-134.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Primaire button: filled dark i.p.v. outlined/ghost",
+      "Secundaire button: pijl (\u2192) i.p.v. chevron (>)",
+      "Top padding ontbreekt",
+      "Mobile: identiek aan desktop (geen responsive aanpassingen)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/73b7d805-bd1f-49e4-a845-9ad465b14051",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-134-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-134-local-mobile.png"
+  },
+  "components/features/layout-135.html": {
+    "status": "ok",
+    "desktopStatus": "ok",
+    "mobileStatus": "ok",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Minimale top-padding afwijking (cosmetisch)",
+      "Tekstkleur subtiel verschil (near-black vs puur zwart)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0499724b-99de-4e49-9fd4-b00f09957d38",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-135-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-135-local-mobile.png"
+  },
+  "components/features/layout-136.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon niet geladen: broken image placeholder i.p.v. 3D-kubus",
+      "Primaire button: filled dark i.p.v. outlined",
+      "Secundaire button: outline border met pijl i.p.v. tekst-link met chevron",
+      "Top padding ontbreekt",
+      "Mobile: identiek aan desktop (geen responsive aanpassingen)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8645bb34-47b3-45ae-b701-5c44205f8a24",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-136-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-136-local-mobile.png"
+  },
+  "components/features/layout-137.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icoon incorrect: lege cirkel/outline ring i.p.v. 3D-kubus icoon",
+      "Top padding ontbreekt",
+      "Verticale spacing icoon \u2192 heading te klein",
+      "Mobile: identiek aan desktop (geen responsive aanpassingen)"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f6d4fb95-1296-4e09-9d01-e5be3ad0bfe5",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-137-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-137-local-mobile.png"
+  },
+  "components/features/layout-138.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo's niet geladen: kleine broken image placeholders i.p.v. Webflow/Relume logo's",
+      "Primaire button: filled dark i.p.v. outlined/ghost",
+      "Secundaire button: outline border i.p.v. tekst-link",
+      "Top padding ontbreekt",
+      "Logo afmetingen incorrect: ~30x30px i.p.v. ~120-150px breed"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f70d9b9b-f1d5-4c88-a6f1-873f4a179c7b",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-138-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-138-local-mobile.png"
+  },
+  "components/features/layout-139.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Desktop: logo's volledig afwezig (geen placeholders, geen content)",
+      "Mobile: logo's als broken image placeholders",
+      "Top padding ontbreekt",
+      "Excessieve lege ruimte onder content"
+    ],
+    "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/81171e6e-cd6d-424f-b5c6-191504390c14",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-139-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/layout-139-local-mobile.png"
   }
 }
