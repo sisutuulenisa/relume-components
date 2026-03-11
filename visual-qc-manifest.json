@@ -7931,7 +7931,7 @@
     },
     {
       "id": "vqc-085",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/stats-sections/stats-9.html",
@@ -8017,7 +8017,7 @@
     },
     {
       "id": "vqc-086",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/team/team-10.html",
@@ -8103,7 +8103,7 @@
     },
     {
       "id": "vqc-087",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/team/team-9.html",
