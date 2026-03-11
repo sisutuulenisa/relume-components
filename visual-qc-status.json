@@ -21795,384 +21795,384 @@
       "localMobile": "relume-visual-qc/components__pricing__pricing-46-local-mobile.png"
     }
   },
-  "components/pricing/pricing-47.html": {
+  "components/pricing-pages/pricing-5.html": {
     "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "desktop diff high (mae=0.0828, rms=0.2712)",
-      "mobile diff high (mae=0.0828, rms=0.2712)"
+      "desktop diff high (mae=0.0722, rms=0.2464)",
+      "mobile diff high (mae=0.0722, rms=0.2464)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0828 rms=0.2712; mobile mae=0.0828 rms=0.2712",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-47-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-47-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-47-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0722 rms=0.2464; mobile mae=0.0722 rms=0.2464",
+    "figmaScreenshot": "relume-visual-qc/components__pricing-pages__pricing-5-figma.png",
+    "localScreenshot": "relume-visual-qc/components__pricing-pages__pricing-5-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__pricing-pages__pricing-5-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-47-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-47-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-47-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__pricing-pages__pricing-5-figma.png",
+      "localDesktop": "relume-visual-qc/components__pricing-pages__pricing-5-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__pricing-pages__pricing-5-local-mobile.png"
     }
   },
-  "components/pricing/pricing-48.html": {
+  "components/product-headers/product-header-1.html": {
     "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "desktop diff high (mae=0.0827, rms=0.2691)",
-      "mobile diff high (mae=0.0827, rms=0.2691)"
+      "desktop diff high (mae=0.0832, rms=0.2244)",
+      "mobile diff high (mae=0.0832, rms=0.2244)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0827 rms=0.2691; mobile mae=0.0827 rms=0.2691",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-48-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-48-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-48-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0832 rms=0.2244; mobile mae=0.0832 rms=0.2244",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-1-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-1-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-1-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-48-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-48-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-48-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-1-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-1-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-1-local-mobile.png"
     }
   },
-  "components/pricing/pricing-49.html": {
+  "components/product-headers/product-header-2.html": {
     "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "desktop diff high (mae=0.0849, rms=0.2723)",
-      "mobile diff high (mae=0.0849, rms=0.2723)"
+      "desktop diff high (mae=0.1031, rms=0.2243)",
+      "mobile diff high (mae=0.1031, rms=0.2243)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0849 rms=0.2723; mobile mae=0.0849 rms=0.2723",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-49-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-49-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-49-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.1031 rms=0.2243; mobile mae=0.1031 rms=0.2243",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-2-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-2-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-2-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-49-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-49-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-49-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-2-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-2-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-2-local-mobile.png"
     }
   },
-  "components/pricing/pricing-5.html": {
+  "components/product-headers/product-header-3.html": {
     "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "desktop diff high (mae=0.0822, rms=0.2660)",
-      "mobile diff high (mae=0.0822, rms=0.2660)"
+      "desktop diff high (mae=0.0925, rms=0.2408)",
+      "mobile diff high (mae=0.0925, rms=0.2408)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0822 rms=0.2660; mobile mae=0.0822 rms=0.2660",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-5-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-5-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-5-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0925 rms=0.2408; mobile mae=0.0925 rms=0.2408",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-3-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-3-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-3-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-5-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-5-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-5-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-3-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-3-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-3-local-mobile.png"
     }
   },
-  "components/pricing/pricing-50.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0710, rms=0.2469)",
-      "mobile diff high (mae=0.0710, rms=0.2469)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0710 rms=0.2469; mobile mae=0.0710 rms=0.2469",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-50-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-50-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-50-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-50-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-50-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-50-local-mobile.png"
-    }
-  },
-  "components/pricing/pricing-51.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0750, rms=0.2638)",
-      "mobile diff high (mae=0.0750, rms=0.2638)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0750 rms=0.2638; mobile mae=0.0750 rms=0.2638",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-51-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-51-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-51-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-51-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-51-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-51-local-mobile.png"
-    }
-  },
-  "components/pricing/pricing-52.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0671, rms=0.2396)",
-      "mobile diff high (mae=0.0671, rms=0.2396)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0671 rms=0.2396; mobile mae=0.0671 rms=0.2396",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-52-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-52-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-52-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-52-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-52-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-52-local-mobile.png"
-    }
-  },
-  "components/pricing/pricing-53.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0732, rms=0.2604)",
-      "mobile diff high (mae=0.0732, rms=0.2604)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0732 rms=0.2604; mobile mae=0.0732 rms=0.2604",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-53-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-53-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-53-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-53-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-53-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-53-local-mobile.png"
-    }
-  },
-  "components/pricing/pricing-54.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0951, rms=0.2891)",
-      "mobile diff high (mae=0.0951, rms=0.2891)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0951 rms=0.2891; mobile mae=0.0951 rms=0.2891",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-54-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-54-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-54-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-54-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-54-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-54-local-mobile.png"
-    }
-  },
-  "components/pricing/pricing-55.html": {
+  "components/product-headers/product-header-4.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "desktop diff high (mae=0.0494, rms=0.2104)",
-      "mobile diff high (mae=0.0494, rms=0.2104)"
+      "desktop diff high (mae=0.0640, rms=0.1398)",
+      "mobile diff high (mae=0.0640, rms=0.1398)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0494 rms=0.2104; mobile mae=0.0494 rms=0.2104",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-55-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-55-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-55-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0640 rms=0.1398; mobile mae=0.0640 rms=0.1398",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-4-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-4-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-4-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-55-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-55-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-55-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-4-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-4-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-4-local-mobile.png"
     }
   },
-  "components/pricing/pricing-56.html": {
+  "components/product-headers/product-header-5.html": {
     "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "desktop diff high (mae=0.0920, rms=0.2841)",
-      "mobile diff high (mae=0.0920, rms=0.2841)"
+      "desktop diff high (mae=0.1058, rms=0.2280)",
+      "mobile diff high (mae=0.1058, rms=0.2280)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0920 rms=0.2841; mobile mae=0.0920 rms=0.2841",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-56-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-56-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-56-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.1058 rms=0.2280; mobile mae=0.1058 rms=0.2280",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-5-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-5-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-5-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-56-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-56-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-56-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-5-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-5-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-5-local-mobile.png"
     }
   },
-  "components/pricing/pricing-57.html": {
+  "components/product-headers/product-header-6.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "desktop diff high (mae=0.0488, rms=0.2085)",
-      "mobile diff high (mae=0.0488, rms=0.2085)"
+      "desktop diff high (mae=0.0783, rms=0.1516)",
+      "mobile diff high (mae=0.0783, rms=0.1516)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0488 rms=0.2085; mobile mae=0.0488 rms=0.2085",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-57-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-57-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-57-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0783 rms=0.1516; mobile mae=0.0783 rms=0.1516",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-6-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-6-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-6-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-57-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-57-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-57-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-6-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-6-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-6-local-mobile.png"
     }
   },
-  "components/pricing/pricing-6.html": {
+  "components/product-headers/product-header-7.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "desktop diff high (mae=0.0538, rms=0.2180)",
-      "mobile diff high (mae=0.0538, rms=0.2180)"
+      "desktop diff high (mae=0.0788, rms=0.2109)",
+      "mobile diff high (mae=0.0788, rms=0.2109)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0538 rms=0.2180; mobile mae=0.0538 rms=0.2180",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-6-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-6-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-6-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0788 rms=0.2109; mobile mae=0.0788 rms=0.2109",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-7-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-7-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-7-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-6-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-6-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-6-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-7-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-7-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-7-local-mobile.png"
     }
   },
-  "components/pricing/pricing-7.html": {
+  "components/product-headers/product-header-8.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1033, rms=0.2570)",
+      "mobile diff high (mae=0.1033, rms=0.2570)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.1033 rms=0.2570; mobile mae=0.1033 rms=0.2570",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-8-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-8-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-8-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-8-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-8-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-8-local-mobile.png"
+    }
+  },
+  "components/product-headers/product-header-9.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1039, rms=0.2810)",
+      "mobile diff high (mae=0.1039, rms=0.2810)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.1039 rms=0.2810; mobile mae=0.1039 rms=0.2810",
+    "figmaScreenshot": "relume-visual-qc/components__product-headers__product-header-9-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-headers__product-header-9-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-headers__product-header-9-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-headers__product-header-9-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-headers__product-header-9-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-headers__product-header-9-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-1.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1028, rms=0.1469)",
+      "mobile diff high (mae=0.1028, rms=0.1469)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.1028 rms=0.1469; mobile mae=0.1028 rms=0.1469",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-1-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-1-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-1-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-1-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-1-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-1-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-10.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1013, rms=0.1482)",
+      "mobile diff high (mae=0.1013, rms=0.1482)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.1013 rms=0.1482; mobile mae=0.1013 rms=0.1482",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-10-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-10-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-10-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-10-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-10-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-10-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-11.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.0879, rms=0.1503)",
+      "mobile diff high (mae=0.0879, rms=0.1503)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.0879 rms=0.1503; mobile mae=0.0879 rms=0.1503",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-11-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-11-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-11-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-11-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-11-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-11-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-12.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.0908, rms=0.1556)",
+      "mobile diff high (mae=0.0908, rms=0.1556)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.0908 rms=0.1556; mobile mae=0.0908 rms=0.1556",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-12-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-12-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-12-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-12-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-12-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-12-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-2.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1051, rms=0.1524)",
+      "mobile diff high (mae=0.1051, rms=0.1524)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.1051 rms=0.1524; mobile mae=0.1051 rms=0.1524",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-2-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-2-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-2-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-2-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-2-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-2-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-3.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1045, rms=0.1473)",
+      "mobile diff high (mae=0.1045, rms=0.1473)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.1045 rms=0.1473; mobile mae=0.1045 rms=0.1473",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-3-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-3-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-3-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-3-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-3-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-3-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-4.html": {
+    "status": "fail",
+    "checkedAt": "2026-03-11",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "issues": [
+      "desktop diff high (mae=0.1013, rms=0.1497)",
+      "mobile diff high (mae=0.1013, rms=0.1497)"
+    ],
+    "notes": "vqc-078 auto-compare desktop mae=0.1013 rms=0.1497; mobile mae=0.1013 rms=0.1497",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-4-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-4-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-4-local-mobile.png",
+    "paths": {
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-4-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-4-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-4-local-mobile.png"
+    }
+  },
+  "components/product-list-sections/product-5.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "desktop diff high (mae=0.0497, rms=0.2087)",
-      "mobile diff high (mae=0.0497, rms=0.2087)"
+      "desktop diff high (mae=0.0734, rms=0.1477)",
+      "mobile diff high (mae=0.0734, rms=0.1477)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0497 rms=0.2087; mobile mae=0.0497 rms=0.2087",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-7-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-7-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-7-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0734 rms=0.1477; mobile mae=0.0734 rms=0.1477",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-5-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-5-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-5-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-7-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-7-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-7-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-5-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-5-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-5-local-mobile.png"
     }
   },
-  "components/pricing/pricing-8.html": {
+  "components/product-list-sections/product-6.html": {
     "status": "warn",
     "checkedAt": "2026-03-11",
     "desktopStatus": "warn",
     "mobileStatus": "warn",
     "issues": [
-      "desktop diff high (mae=0.0462, rms=0.2008)",
-      "mobile diff high (mae=0.0462, rms=0.2008)"
+      "desktop diff high (mae=0.0773, rms=0.1554)",
+      "mobile diff high (mae=0.0773, rms=0.1554)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0462 rms=0.2008; mobile mae=0.0462 rms=0.2008",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-8-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-8-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-8-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.0773 rms=0.1554; mobile mae=0.0773 rms=0.1554",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-6-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-6-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-6-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-8-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-8-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-8-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-6-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-6-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-6-local-mobile.png"
     }
   },
-  "components/pricing/pricing-9.html": {
+  "components/product-list-sections/product-7.html": {
     "status": "fail",
     "checkedAt": "2026-03-11",
     "desktopStatus": "fail",
     "mobileStatus": "fail",
     "issues": [
-      "desktop diff high (mae=0.0630, rms=0.2326)",
-      "mobile diff high (mae=0.0630, rms=0.2326)"
+      "desktop diff high (mae=0.1046, rms=0.1461)",
+      "mobile diff high (mae=0.1046, rms=0.1461)"
     ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0630 rms=0.2326; mobile mae=0.0630 rms=0.2326",
-    "figmaScreenshot": "relume-visual-qc/components__pricing__pricing-9-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing__pricing-9-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing__pricing-9-local-mobile.png",
+    "notes": "vqc-078 auto-compare desktop mae=0.1046 rms=0.1461; mobile mae=0.1046 rms=0.1461",
+    "figmaScreenshot": "relume-visual-qc/components__product-list-sections__product-7-figma.png",
+    "localScreenshot": "relume-visual-qc/components__product-list-sections__product-7-local-desktop.png",
+    "localMobileScreenshot": "relume-visual-qc/components__product-list-sections__product-7-local-mobile.png",
     "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing__pricing-9-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing__pricing-9-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing__pricing-9-local-mobile.png"
-    }
-  },
-  "components/pricing-pages/pricing-1.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0714, rms=0.2444)",
-      "mobile diff high (mae=0.0714, rms=0.2444)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0714 rms=0.2444; mobile mae=0.0714 rms=0.2444",
-    "figmaScreenshot": "relume-visual-qc/components__pricing-pages__pricing-1-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing-pages__pricing-1-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing-pages__pricing-1-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing-pages__pricing-1-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing-pages__pricing-1-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing-pages__pricing-1-local-mobile.png"
-    }
-  },
-  "components/pricing-pages/pricing-2.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0654, rms=0.2330)",
-      "mobile diff high (mae=0.0654, rms=0.2330)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0654 rms=0.2330; mobile mae=0.0654 rms=0.2330",
-    "figmaScreenshot": "relume-visual-qc/components__pricing-pages__pricing-2-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing-pages__pricing-2-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing-pages__pricing-2-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing-pages__pricing-2-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing-pages__pricing-2-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing-pages__pricing-2-local-mobile.png"
-    }
-  },
-  "components/pricing-pages/pricing-3.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0830, rms=0.2574)",
-      "mobile diff high (mae=0.0830, rms=0.2574)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0830 rms=0.2574; mobile mae=0.0830 rms=0.2574",
-    "figmaScreenshot": "relume-visual-qc/components__pricing-pages__pricing-3-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing-pages__pricing-3-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing-pages__pricing-3-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing-pages__pricing-3-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing-pages__pricing-3-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing-pages__pricing-3-local-mobile.png"
-    }
-  },
-  "components/pricing-pages/pricing-4.html": {
-    "status": "fail",
-    "checkedAt": "2026-03-11",
-    "desktopStatus": "fail",
-    "mobileStatus": "fail",
-    "issues": [
-      "desktop diff high (mae=0.0710, rms=0.2441)",
-      "mobile diff high (mae=0.0710, rms=0.2441)"
-    ],
-    "notes": "vqc-077 auto-compare desktop mae=0.0710 rms=0.2441; mobile mae=0.0710 rms=0.2441",
-    "figmaScreenshot": "relume-visual-qc/components__pricing-pages__pricing-4-figma.png",
-    "localScreenshot": "relume-visual-qc/components__pricing-pages__pricing-4-local-desktop.png",
-    "localMobileScreenshot": "relume-visual-qc/components__pricing-pages__pricing-4-local-mobile.png",
-    "paths": {
-      "figmaDesktop": "relume-visual-qc/components__pricing-pages__pricing-4-figma.png",
-      "localDesktop": "relume-visual-qc/components__pricing-pages__pricing-4-local-desktop.png",
-      "localMobile": "relume-visual-qc/components__pricing-pages__pricing-4-local-mobile.png"
+      "figmaDesktop": "relume-visual-qc/components__product-list-sections__product-7-figma.png",
+      "localDesktop": "relume-visual-qc/components__product-list-sections__product-7-local-desktop.png",
+      "localMobile": "relume-visual-qc/components__product-list-sections__product-7-local-mobile.png"
     }
   }
 }
