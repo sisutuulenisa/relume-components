@@ -543,7 +543,7 @@
     },
     {
       "id": "vqc-007",
-      "status": "running",
+      "status": "done",
       "components": [
         {
           "path": "components/card-headers/card-header-1.html",
@@ -625,7 +625,12 @@
           "path": "components/careers/career-25.html",
           "nodeId": "4174:39865"
         }
-      ]
+      ],
+      "results": {
+        "ok": 0,
+        "warn": 5,
+        "fail": 15
+      }
     },
     {
       "id": "vqc-008",
