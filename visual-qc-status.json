@@ -2333,5 +2333,334 @@
     "figmaScreenshot": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f492e500-954d-4d20-892d-f501802fc517",
     "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-13-local-desktop.png",
     "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-13-local-mobile.png"
+  },
+  "components/comparisons/comparison-14.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Wrong component layout: shows horizontal comparison table instead of two product cards",
+      "Missing large product images",
+      "Missing product name headings and subtitles",
+      "3 columns instead of 2 product cards",
+      "X icons replaced with empty circles",
+      "No responsive adaptation between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-14-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-14-local-mobile.png"
+  },
+  "components/comparisons/comparison-15.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Logo/image placeholder too small instead of proper Relume logo treatment",
+      "Feature row spacing compressed with tight vertical padding",
+      "X icons rendered as empty circles instead of bold X marks",
+      "Card internal padding insufficient"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-15-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-15-local-mobile.png"
+  },
+  "components/comparisons/comparison-2.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Wrong layout: shows two card panels instead of horizontal comparison table",
+      "Missing comparison table structure with product column headers",
+      "Wrong data content (pricing vs unlimited/10 values)",
+      "Missing CTA buttons at bottom",
+      "X marks replaced with empty circles on mobile",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-2-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-2-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-2-local-mobile.png"
+  },
+  "components/comparisons/comparison-3.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Header row collapsed/compressed: product name headers cramped into small horizontal strip",
+      "Missing product icons above each column",
+      "Missing product descriptions (lorem ipsum)",
+      "X marks replaced with empty circles",
+      "Bordered cells instead of clean horizontal dividers"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-3-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-3-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-3-local-mobile.png"
+  },
+  "components/comparisons/comparison-4.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing product column icons/images above headers",
+      "Missing product descriptions under each product name",
+      "Header collapsed into single inline row instead of proper table headers",
+      "First data row crammed next to header instead of separate table row",
+      "X marks replaced with empty circles",
+      "Missing CTA buttons",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-4-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-4-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-4-local-mobile.png"
+  },
+  "components/comparisons/comparison-5.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing product images above column headers",
+      "Missing product descriptions",
+      "Header flattened into single inline row",
+      "First data row inline with header instead of proper table row",
+      "X marks replaced with empty circles",
+      "Thick black cell borders instead of clean dividers",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-5-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-5-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-5-local-mobile.png"
+  },
+  "components/comparisons/comparison-6.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing product images above table headers",
+      "Missing product names and descriptions in header",
+      "Table layout completely different from Figma",
+      "X icons replaced with empty circles",
+      "First data row crammed into header area",
+      "Missing CTA buttons",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-6-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-6-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-6-local-mobile.png"
+  },
+  "components/comparisons/comparison-7.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing product images for all 3 columns",
+      "Missing product descriptions",
+      "3-column layout broken: compressed into tight HTML table with visible grid borders",
+      "X marks replaced with empty circles",
+      "Thick bordered cells instead of clean horizontal dividers",
+      "Missing CTA buttons",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-7-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-7-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-7-local-mobile.png"
+  },
+  "components/comparisons/comparison-8.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Missing 3 product images above column headers",
+      "Missing product descriptions",
+      "Header cramped into flat row instead of proper stacked headers",
+      "First feature row collapsed into header",
+      "X marks replaced with empty circles",
+      "Missing CTA buttons",
+      "Bordered cells instead of clean dividers",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-8-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-8-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-8-local-mobile.png"
+  },
+  "components/comparisons/comparison-9.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Company logos (Relume) render as broken/tiny image placeholders",
+      "Header row broken with bordered boxes instead of clean branded headers",
+      "First feature row collapsed into header area",
+      "X marks replaced with empty circles",
+      "Heavy black cell borders instead of clean horizontal dividers",
+      "Missing CTA buttons",
+      "No responsive adaptation"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-9-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-9-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/comparison-9-local-mobile.png"
+  },
+  "components/contact/contact-1.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Form inputs render as small circles instead of full-width text inputs/textareas",
+      "Checkbox renders as checkmark icon without checkbox square, missing Terms label",
+      "Tagline text truncated/clipped",
+      "No responsive adaptation between desktop and mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-1-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-1-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-1-local-mobile.png"
+  },
+  "components/contact/contact-10.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Map/image placeholder much shorter than Figma, broken image icon",
+      "Form inputs render as small circles instead of full-width text inputs",
+      "Checkbox renders as checkmark without box, missing Terms label",
+      "Tagline text truncated to 'Tagl'",
+      "No responsive stacking: mobile shows same two-column layout as desktop"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-10-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-10-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-10-local-mobile.png"
+  },
+  "components/contact/contact-11.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of mail/phone/location icons",
+      "Form inputs missing: only labels with circles, no input fields visible",
+      "Checkbox renders as checkmark without box, missing Terms label",
+      "Get Directions rendered as dark button instead of inline text link",
+      "Phone description text truncated",
+      "No responsive stacking on mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-11-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-11-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-11-local-mobile.png"
+  },
+  "components/contact/contact-12.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of mail/phone/location icons",
+      "Form inputs missing: only labels with circles, no input fields visible",
+      "Select dropdown rendered incorrectly (chevron > instead of \u2228)",
+      "Radio buttons rendered as pill/toggle shapes instead of circles with labels",
+      "Get Directions rendered as dark filled button instead of text link",
+      "No responsive stacking on mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-12-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-12-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-12-local-mobile.png"
+  },
+  "components/contact/contact-13.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of mail/phone/location icons",
+      "Image placeholder much shorter/smaller than Figma with rounded corners vs full-height rectangle",
+      "Office section and Get Directions link cut off/not visible",
+      "No responsive stacking visible on mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-13-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-13-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-13-local-mobile.png"
+  },
+  "components/contact/contact-14.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of mail/phone/location icons",
+      "Image/map placeholder much shorter/smaller than Figma with rounded corners",
+      "Broken image icon instead of map pin placeholder",
+      "Office section and Get Directions link cut off",
+      "No responsive stacking visible on mobile"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-14-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-14-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-14-local-mobile.png"
+  },
+  "components/contact/contact-15.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of mail/phone/location icons",
+      "Image placeholder only ~1/3 width left-aligned instead of full-width",
+      "Desktop and mobile renders identical, no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-15-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-15-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-15-local-mobile.png"
+  },
+  "components/contact/contact-16.html": {
+    "status": "warn",
+    "desktopStatus": "warn",
+    "mobileStatus": "warn",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "Icons render as empty circles instead of mail/phone/location icons",
+      "Image placeholder only ~1/3 width left-aligned instead of full-width",
+      "Wrong placeholder icon type (landscape vs map pin)",
+      "Desktop and mobile renders identical, no responsive stacking"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-16-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-16-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-16-local-mobile.png"
+  },
+  "components/contact/contact-17.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "CRITICAL: Component renders only tab navigation (Email|Phone|Office) with no content below",
+      "Wrong implementation: contact info rendered as tabs instead of static 3-column cards",
+      "Tab content area is empty \u2014 all headings, body text, icons, and links missing",
+      "Should show 3 simultaneous visible contact card columns, not a tabbed interface"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-17-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-17-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-17-local-mobile.png"
+  },
+  "components/contact/contact-18.html": {
+    "status": "fail",
+    "desktopStatus": "fail",
+    "mobileStatus": "fail",
+    "checkedAt": "2026-03-11",
+    "issues": [
+      "CRITICAL: Component renders only tab navigation (Email|Phone|Office) with no content below",
+      "Wrong implementation: center-aligned 3-column layout replaced by empty tabbed interface",
+      "All icons, headings, body copy, and contact links missing",
+      "Tab content panel is empty"
+    ],
+    "figmaScreenshot": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-18-figma.png",
+    "localDesktop": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-18-local-desktop.png",
+    "localMobile": "/home/sisu/.openclaw/workspace/local/screenshots/relume-visual-qc/contact-18-local-mobile.png"
   }
 }
