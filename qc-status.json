@@ -18795,5 +18795,705 @@
     "desktop": "ok",
     "mobile": "ok",
     "note": "batch-029 fixed"
+  },
+  "components/pricing/pricing-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-33.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-34.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-35.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-36.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-37.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-38.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-39.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-40.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-41.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-42.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-43.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-44.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-45.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-46.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-47.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-48.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-50.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-51.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-52.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-53.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-54.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-55.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-56.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-57.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/pricing/pricing-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-1.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-10.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-11.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-12.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-13.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-14.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-15.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-16.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-17.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-18.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-19.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-2.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-20.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-21.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-22.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-23.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-24.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-25.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-26.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-27.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-28.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-29.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-3.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-30.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-31.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-32.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-33.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-34.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-35.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-36.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-37.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-38.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-39.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-4.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-40.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-41.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-42.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-43.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-44.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-45.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-46.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-5.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-6.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-7.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-8.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
+  },
+  "components/multi-step-forms/multi-form-9.html": {
+    "status": "ok",
+    "checkedAt": "2026-03-11",
+    "desktop": "ok",
+    "mobile": "ok",
+    "note": "batch-030 fixed"
   }
 }
