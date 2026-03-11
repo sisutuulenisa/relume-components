@@ -88,7 +88,7 @@
     },
     {
       "id": "vqc-002",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/application-shells/application-shell-9.html",
@@ -174,7 +174,7 @@
     },
     {
       "id": "vqc-003",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/blog-headers/blog-12.html",
@@ -260,7 +260,7 @@
     },
     {
       "id": "vqc-004",
-      "status": "pending",
+      "status": "running",
       "components": [
         {
           "path": "components/blog-headers/blog-30.html",
